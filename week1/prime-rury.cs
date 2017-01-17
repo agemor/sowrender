@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine("Input a number you would like to test for primality: ");
-            int number = Convert.ToInt32(Console.ReadLine());
+            int number = Convert.ToInt32(Console.ReadLine()); //convert user input (string) to int
             bool isPrime = true;
 
             if (number == 0 || number == 1)
