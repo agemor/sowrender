@@ -1,0 +1,6 @@
+D:\workplace\c#\sowrender\shortcut-selena\shortcut-selena\bin\Debug\shortcut-selena.exe.config
+D:\workplace\c#\sowrender\shortcut-selena\shortcut-selena\bin\Debug\shortcut-selena.exe
+D:\workplace\c#\sowrender\shortcut-selena\shortcut-selena\bin\Debug\shortcut-selena.pdb
+D:\workplace\c#\sowrender\shortcut-selena\shortcut-selena\obj\Debug\shortcut-selena.csprojResolveAssemblyReference.cache
+D:\workplace\c#\sowrender\shortcut-selena\shortcut-selena\obj\Debug\shortcut-selena.exe
+D:\workplace\c#\sowrender\shortcut-selena\shortcut-selena\obj\Debug\shortcut-selena.pdb
