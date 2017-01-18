@@ -14,10 +14,10 @@ namespace CsvParser
         {
             string text = File.ReadAllText(@"C:\Users\yangd\Documents\Sowrender\sample_revenue.csv", Encoding.UTF8);
             List<SalesRowData> salesRowDataList = new List<SalesRowData>();
+            int count = 0;
 
             string[] lines = text.Split('\n');
 
-            int count = 0;
             foreach (string line in lines)
             {
                 string[] chucks = line.Split(',');
@@ -28,7 +28,7 @@ namespace CsvParser
                     chucks[5] = chucks[5] + "," + chucks[6];
                     for (int i = 6; i < chucks.Length - 1; i++)
                     {
-                        chucks[i] = chucks[i - 1];
+                        chucks[i] = chucks[i + 1];
                     }
                     chucks[chucks.Length - 1] = null;
                     chucks[5] = chucks[5].Substring(1, chucks[5].Length - 2);
@@ -36,10 +36,10 @@ namespace CsvParser
 
                 SalesRowData salesRowData = new SalesRowData();
 
-                if(count != 0)
+                if (count != 0)
                 {
                     salesRowData.rowId = StringToUnsignedInt(chucks[0]);
-                    salesRowData.amoutUntaxed = StringToUnsignedInt(chucks[1]);
+                    salesRowData.amoutUntaxed = StringToDouble(chucks[1]);
                     salesRowData.amountUsd = StringToDouble(chucks[2]);
                     salesRowData.company = chucks[3];
                     salesRowData.country = chucks[4];
@@ -51,15 +51,16 @@ namespace CsvParser
                     salesRowData.exchange = StringToUnsignedInt(chucks[10]);
                     salesRowData.model = chucks[11];
                     salesRowData.orderNumber = chucks[12];
-                    salesRowData.priceUnit = StringToUnsignedInt(chucks[13]);
+                    salesRowData.priceUnit = StringToDouble(chucks[13]);
                     salesRowData.productId = StringToUnsignedInt(chucks[14]);
                     salesRowData.productName = chucks[15];
                     salesRowData.quantity = StringToUnsignedInt(chucks[16]);
                     salesRowData.status = chucks[17];
                     salesRowData.zip = chucks[18];
+
+                    salesRowDataList.Add(salesRowData);
+                    Console.WriteLine(salesRowData.rowId + " / " + salesRowData.productName);
                 }
-                salesRowDataList.Add(salesRowData);
-                Console.WriteLine(salesRowDataList[count].rowId);
                 count++;
             }
         }
@@ -93,7 +94,7 @@ namespace CsvParser
         public static double StringToDouble(string value)
         {
             double result;
-            if (double.TryParse(value, out result) && result >= 0)
+            if (double.TryParse(value, out result))
                 return result;
             else
             {
@@ -107,7 +108,7 @@ namespace CsvParser
     class SalesRowData
     {
         public uint rowId;
-        public uint amoutUntaxed;
+        public double amoutUntaxed;
         public double amountUsd;
         public string company;
         public string country;
@@ -119,7 +120,7 @@ namespace CsvParser
         public uint exchange;
         public string model;
         public string orderNumber;
-        public uint priceUnit;
+        public double priceUnit;
         public uint productId;
         public string productName;
         public uint quantity;
