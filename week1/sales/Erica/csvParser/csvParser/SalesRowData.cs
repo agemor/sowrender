@@ -23,7 +23,7 @@ namespace csvParser
         public string customerName;
 
         public int dateMonth;
-        public DateTime dateOrder; //Toddo
+        public DateTime dateOrder;
         public DateTime dateShipped;
 
         public uint discount;
@@ -71,7 +71,7 @@ namespace csvParser
                 qty = int.Parse(input[16]);
                 status = input[17];
                 zip = input[18];
-                
+
                 return true;
             }
             catch /* Data가 잘못들어간 경우는 처리x */
@@ -87,13 +87,13 @@ namespace csvParser
         //    result = CsvSort(sale)
 
         //}
+
         /* List<SalesRowData>를 정렬해주는 함수 
            desCendingOrder은 내림차순이면 true, 오름차순이면 false */
-
-        public List<SalesRowData> CsvSort(List<SalesRowData> salesRowData , bool desCendingOrder = true)
+        public List<SalesRowData> CsvSort(List<SalesRowData> salesRowData, bool desCendingOrder = true)
         {
             int deCendingOrderCheck = 1;
-            if(desCendingOrder)
+            if (desCendingOrder)
             {
                 deCendingOrderCheck = -1;
             }
@@ -106,17 +106,19 @@ namespace csvParser
             return salesRowData;
         }
 
+
         static public bool YearCheck(int year, SalesRowData s)
         {
             return s.dateOrder.Year == year;
         }
-        
-        static public Dictionary<String ,double> bind(List<SalesRowData> s, int year=-1)
+
+        /* 모델별 통계 */
+        static public Dictionary<String, double> Bind(List<SalesRowData> s, int year = -1)
         {
             var map = new Dictionary<String, double>();
-            for(int i=0; i<s.Count; i++)
+            for (int i = 0; i < s.Count; i++)
             {
-                if(year==-1 || year == s[i].dateShipped.Year)
+                if (year == -1 || year == s[i].dateShipped.Year)
                 {
                     if (!map.ContainsKey(s[i].model))
                     {
@@ -124,12 +126,13 @@ namespace csvParser
                     }
                     map[s[i].model] += s[i].amountUsd;
                 }
-               
+
             }
             return map;
         }
 
-        static public string addCommas(double number)
+        /* 숫자사이에 ','를 추가 */
+        static public string AddCommas(double number)
         {
             string rawNum = number.ToString();
             string[] division;
@@ -138,23 +141,23 @@ namespace csvParser
 
             division = rawNum.Split('.');
             sInteger = division[0];
-            if(division.Length == 2)
+            if (division.Length == 2)
             {
                 sDecimal = "." + division[1];
             }
 
-            int n = sInteger.Length  ;
-            while( n > 3 )
+            int n = sInteger.Length;
+            while (n > 3)
             {
                 n -= 3;
-                sInteger = sInteger.Insert(n,",");
+                sInteger = sInteger.Insert(n, ",");
             }
 
             return sInteger + sDecimal;
 
 
         }
-      
+
 
     }
 }
