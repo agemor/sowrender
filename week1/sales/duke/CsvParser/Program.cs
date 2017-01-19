@@ -13,100 +13,12 @@ namespace CsvParser
         static void Main(string[] args)
         {
             string text = File.ReadAllText(@"C:\Users\yangd\Documents\Sowrender\sample_revenue.csv", Encoding.UTF8);
-            List<SalesRowData> salesRowDataList = SplitReadText(text);
+            DataProcessing DP = new DataProcessing();
+            List<SalesRowData> salesRowDataList = DP.SplitReadText(text);
+            var statisticalDataMap = DP.StatisticsData(salesRowDataList);
+            DP.PrintStatisticalDataMap(statisticalDataMap);
 
-        }
-
-        private static DateTime ConvertToDateTime(string value)
-        {
-            DateTime convertedDate = new DateTime();
-            try
-            {
-                convertedDate = Convert.ToDateTime(value);
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("'{0}' is not in the proper format.", value);
-                Environment.Exit(0);
-            }
-            return convertedDate;
-        }
-        public static uint StringToUnsignedInt(string value)
-        {
-            uint result;
-            if (uint.TryParse(value, out result) && result >= 0)
-                return result;
-            else
-            {
-                Console.WriteLine("Unsignedint Error : Wrong Value : "+ value);
-                Environment.Exit(0);
-                return 0;
-            }
-        }
-        public static double StringToDouble(string value)
-        {
-            double result;
-            if (double.TryParse(value, out result))
-                return result;
-            else
-            {
-                Console.WriteLine("Double Error : Wrong Value : " + value);
-                Environment.Exit(0);
-                return 0;
-            }
-        }
-        public static List<SalesRowData> SplitReadText(string text)
-        {
-            List<SalesRowData> salesRowDataList = new List<SalesRowData>();
-            int count = 0;
-
-            string[] lines = text.Split('\n');
-
-            foreach (string line in lines)
-            {
-                string[] chucks = line.Split(',');
-
-
-                if (chucks.Length > 19)
-                {
-                    chucks[5] = chucks[5] + "," + chucks[6];
-                    for (int i = 6; i<chucks.Length - 1; i++)
-                    {
-                        chucks[i] = chucks[i + 1];
-                    }
-                    chucks[chucks.Length - 1] = null;
-                    chucks[5] = chucks[5].Substring(1, chucks[5].Length - 2);
-                }
-
-                SalesRowData salesRowData = new SalesRowData();
-
-                if (count != 0)
-                {
-                    salesRowData.rowId = StringToUnsignedInt(chucks[0]);
-                    salesRowData.amoutUntaxed = StringToDouble(chucks[1]);
-                    salesRowData.amountUsd = StringToDouble(chucks[2]);
-                    salesRowData.company = chucks[3];
-                    salesRowData.country = chucks[4];
-                    salesRowData.customer = chucks[5];
-                    salesRowData.dateMonth = StringToUnsignedInt(chucks[6]);
-                    salesRowData.dateOrder = ConvertToDateTime(chucks[7]);
-                    salesRowData.dateShipped = ConvertToDateTime(chucks[8]);
-                    salesRowData.discount = StringToUnsignedInt(chucks[9]);
-                    salesRowData.exchange = StringToUnsignedInt(chucks[10]);
-                    salesRowData.model = chucks[11];
-                    salesRowData.orderNumber = chucks[12];
-                    salesRowData.priceUnit = StringToDouble(chucks[13]);
-                    salesRowData.productId = StringToUnsignedInt(chucks[14]);
-                    salesRowData.productName = chucks[15];
-                    salesRowData.quantity = StringToUnsignedInt(chucks[16]);
-                    salesRowData.status = chucks[17];
-                    salesRowData.zip = chucks[18];
-
-                    salesRowDataList.Add(salesRowData);
-                }
-                count++;
-            }
-            return salesRowDataList;
+            
         }
     }
 
@@ -132,4 +44,215 @@ namespace CsvParser
         public string status;
         public string zip;
     }
+    class StatisticalData
+    {
+        public double amountUsd;
+        public uint quantity;
+    }
+
+    interface Read
+    {
+        uint StringToUnsignedInt(string value);
+        double StringToDouble(string value);
+        DateTime ConvertToDateTime(string value);
+        List<SalesRowData> SplitReadText(string text);
+    }
+    interface Statistics
+    {
+        Dictionary<uint, Dictionary<string, StatisticalData>> StatisticsData(List<SalesRowData> salesRowDataList);
+        Dictionary<int, Dictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList);
+        void PrintStatisticalDataMap(Dictionary<uint, Dictionary<string, StatisticalData>> statisticalDataMap);
+    }
+
+    class DataProcessing : Read, Statistics
+    {
+        public uint StringToUnsignedInt(string value)
+        {
+            uint result;
+            if (uint.TryParse(value, out result) && result >= 0)
+                return result;
+            else
+            {
+                Console.WriteLine("Unsignedint Error : Wrong Value : " + value);
+                Environment.Exit(0);
+                return 0;
+            }
+        }
+        public double StringToDouble(string value)
+        {
+            double result;
+            if (double.TryParse(value, out result))
+                return result;
+            else
+            {
+                Console.WriteLine("Double Error : Wrong Value : " + value);
+                Environment.Exit(0);
+                return 0;
+            }
+        }
+        public DateTime ConvertToDateTime(string value)
+        {
+            DateTime convertedDate = new DateTime();
+            try
+            {
+                convertedDate = Convert.ToDateTime(value);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("'{0}' is not in the proper format.", value);
+                Environment.Exit(0);
+            }
+            return convertedDate;
+        }
+        public List<SalesRowData> SplitReadText(string text)
+        {
+            List<SalesRowData> salesRowDataList = new List<SalesRowData>();
+
+            string[] lines = text.Split('\n');
+
+            for(int i = 1; i < lines.Length; i++)
+            {
+                string[] chucks = lines[i].Split(',');
+
+
+                if (chucks.Length > 19)
+                {
+                    chucks[5] = chucks[5] + "," + chucks[6];
+                    for (int j = 6; j < chucks.Length - 1; j++)
+                    {
+                        chucks[j] = chucks[j + 1];
+                    }
+                    chucks[chucks.Length - 1] = null;
+                    chucks[5] = chucks[5].Substring(1, chucks[5].Length - 2);
+                }
+
+                SalesRowData salesRowData = new SalesRowData();
+
+                salesRowData.rowId = StringToUnsignedInt(chucks[0]);
+                salesRowData.amoutUntaxed = StringToDouble(chucks[1]);
+                salesRowData.amountUsd = StringToDouble(chucks[2]);
+                salesRowData.company = chucks[3];
+                salesRowData.country = chucks[4];
+                salesRowData.customer = chucks[5];
+                salesRowData.dateMonth = StringToUnsignedInt(chucks[6]);
+                salesRowData.dateOrder = ConvertToDateTime(chucks[7]);
+                salesRowData.dateShipped = ConvertToDateTime(chucks[8]);
+                salesRowData.discount = StringToUnsignedInt(chucks[9]);
+                salesRowData.exchange = StringToUnsignedInt(chucks[10]);
+                salesRowData.model = chucks[11];
+                salesRowData.orderNumber = chucks[12];
+                salesRowData.priceUnit = StringToDouble(chucks[13]);
+                salesRowData.productId = StringToUnsignedInt(chucks[14]);
+                salesRowData.productName = chucks[15];
+                salesRowData.quantity = StringToUnsignedInt(chucks[16]);
+                salesRowData.status = chucks[17];
+                salesRowData.zip = chucks[18];
+
+                salesRowDataList.Add(salesRowData);
+            }
+            return salesRowDataList;
+        }
+        public Dictionary<uint,Dictionary<string,StatisticalData>> StatisticsData(List<SalesRowData> salesRowDataList)
+        {
+            var statisticalDataMap = new Dictionary<uint, Dictionary<string, StatisticalData>>();
+            var fourteen = new Dictionary<string, StatisticalData>();
+            var fifteen = new Dictionary<string, StatisticalData>();
+
+            for (int i = 0; i < salesRowDataList.Count; i++)
+            {
+                SalesRowData rowData = salesRowDataList[i];
+                if(rowData.dateShipped.Year == 2014)
+                {
+                    if (!fourteen.ContainsKey(rowData.model))
+                    {
+                        StatisticalData data = new StatisticalData();
+                        fourteen.Add(rowData.model, data);
+                    }
+                    fourteen[rowData.model].amountUsd += rowData.amountUsd;
+                    fourteen[rowData.model].quantity += rowData.quantity;
+                }
+                else if(rowData.dateShipped.Year == 2015)
+                {
+                    if (!fifteen.ContainsKey(rowData.model))
+                    {
+                        StatisticalData data = new StatisticalData();
+                        fifteen.Add(rowData.model, data);
+                    }
+                    fifteen[rowData.model].amountUsd += rowData.amountUsd;
+                    fifteen[rowData.model].quantity += rowData.quantity;
+                }
+            }
+            statisticalDataMap.Add(2014, fourteen);
+            statisticalDataMap.Add(2015, fifteen);
+
+            return statisticalDataMap;
+        }
+        public Dictionary<int, Dictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList)
+        {
+            var statisticalDataMap = new Dictionary<int, Dictionary<string, StatisticalData>>();
+            var data = new Dictionary<string, StatisticalData>();
+
+            for (int i = 0; i < salesRowDataList.Count; i++)
+            {
+                SalesRowData rowData = salesRowDataList[i];
+                if (!statisticalDataMap.ContainsKey(rowData.dateShipped.Year))
+                {
+                    statisticalDataMap.Add(rowData.dateShipped.Year, data);
+                }
+            }
+            foreach (var year in statisticalDataMap)
+            {
+                for (int i = 0; i < salesRowDataList.Count; i++)
+                {
+                    SalesRowData rowData = salesRowDataList[i];
+                    if (rowData.dateShipped.Year == year.Key)
+                    {
+                        if (!year.Value.ContainsKey(rowData.model))
+                        {
+                            StatisticalData valueData = new StatisticalData();
+                            year.Value.Add(rowData.model, valueData);
+                        }
+                        year.Value[rowData.model].amountUsd += rowData.amountUsd;
+                        year.Value[rowData.model].quantity += rowData.quantity;
+                    }
+                }
+            }
+
+            return statisticalDataMap;
+        }
+        public void PrintStatisticalDataMap(Dictionary<uint, Dictionary<string, StatisticalData>> statisticalDataMap)
+        {
+            foreach (var year in statisticalDataMap)
+            {
+                Console.WriteLine(year.Key);
+                foreach (var data in year.Value)
+                {
+                    Console.WriteLine(data.Key + " : " + data.Value.quantity + " / " + AddCommas(data.Value.amountUsd));
+                }
+                Console.WriteLine("\n-----------------\n");
+            }
+        }
+        public string AddCommas(double number)
+        {
+            string rawNumber = number.ToString();
+            string[] splitedByDot = rawNumber.Split('.');
+            string result = splitedByDot[0];
+            int commaPlace = splitedByDot[0].Length % 3;
+
+            for (int i = 0; i < splitedByDot[0].Length / 3; i++)
+            {
+                if(commaPlace != 0)
+                {
+                    result = result.Insert(commaPlace, ",");
+                    commaPlace++;
+                }
+                commaPlace += 3;
+            }
+            if(splitedByDot.Length != 1)
+                result = result.Insert(result.Length, "." + splitedByDot[1]);
+
+            return result;
+        }
+    }
+
 }
