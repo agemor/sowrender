@@ -17,7 +17,6 @@ namespace CSVParser
 
             string[] lines = text.Split('\n');
 
-
             for (int index = 1; index < lines.Length; index++)
             {
                 string[] chunks = lines[index].Split(',');
@@ -48,7 +47,7 @@ namespace CSVParser
                 salesRowData.dateOrder = new CSVParser.Date(chunks[7]);
                 salesRowData.dateShipped = new CSVParser.Date(chunks[8]);
                 salesRowData.discount = uint.Parse(chunks[9]);
-                salesRowData.exchangeRate = uint.Parse(chunks[10]);
+                salesRowData.exchange_rate = uint.Parse(chunks[10]);
                 salesRowData.model = chunks[11];
                 salesRowData.orderNumber = chunks[12];
                 salesRowData.priceUnit = double.Parse(chunks[13]);
@@ -62,91 +61,9 @@ namespace CSVParser
                 } catch {
                     Console.WriteLine(index + " error");
                 }
-                
+               
             }
-
-            var map = new Dictionary<string, double>();
-            for (int index = 0; index < salesRowDataList.Count; index++)
-            {
-                SalesRowData rowData = salesRowDataList[index];
-
-                if (!map.ContainsKey(rowData.model))
-                {
-                    map.Add(rowData.model, 0);
-                }
-
-                map[rowData.model] += rowData.amountUsd;
-            }
-            foreach (KeyValuePair<string, double> entry in map)
-            {
-                Console.WriteLine(entry);
-            }
-
-            Console.WriteLine("\n\n --------------------------------------------------------- \n");
-
-            var map1 = new Dictionary<string, double>();
-            
-            for (int index = 0; index < salesRowDataList.Count; index++)
-            {
-                if (!map1.ContainsKey(salesRowDataList[index].model + " - 14"))
-                {
-                    map1.Add(salesRowDataList[index].model + " - 14", 0);
-                }
-                if (!map1.ContainsKey(salesRowDataList[index].model + " - 15"))
-                {
-                    map1.Add(salesRowDataList[index].model + " - 15", 0);
-                }
-
-                if (salesRowDataList[index].dateShipped.getYear() == 14)
-                {
-                    map1[salesRowDataList[index].model + " - 14"] += salesRowDataList[index].amountUsd;
-                }
-                else if (salesRowDataList[index].dateShipped.getYear() == 15)
-                {
-                    map1[salesRowDataList[index].model + " - 15"] += salesRowDataList[index].amountUsd;
-                }
-
-            }
-
-            foreach (KeyValuePair<string, double> entry in map1)
-            {
-                Console.WriteLine(entry);
-            }
-
-            Console.WriteLine("\n------------------------------------------------\n");
-
-            addCommas(123456789.789);
-        }
-
-        private static void addCommas(double data)
-        {
-            string temp = data.ToString();
-
-            /* [0]은 정수, [1]은 소수 */
-            string[] numberToString = temp.Split('.'); 
-
-            string result = "";
-
-            temp = "";
-            string num1ToString = numberToString[0];
-
-            for(int index1 = num1ToString.Length-1, index2 = 0; index1 >= 0; index1--)
-            {
-                temp += num1ToString[index1];
-
-                index2++;
-                if (index2 % 3 == 0 && index2 != num1ToString.Length)
-                    temp += ",";
-            }
-
-            for(int index1 = temp.Length-1; index1 >= 0; index1--)
-            {
-                result += temp[index1];
-            }
-
-            result += "." + numberToString[1];
-            
-            Console.WriteLine(result);
+            Console.ReadKey();
         }
     }
 }
