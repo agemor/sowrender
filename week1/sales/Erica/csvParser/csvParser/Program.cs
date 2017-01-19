@@ -39,19 +39,43 @@ namespace csvParser
                 SalesRowData newRowData = new SalesRowData();
 
                 /* setData가 성공할 때만 추가*/
-                if (newRowData.setData(tmp))
+                if (newRowData.SetData(tmp))
                 {
                     salesRowData.Add(newRowData);
                 }
             }
 
-            for (int i = 0; i < salesRowData.Count; i++)
+
+            var mapAllYear = new Dictionary<string, double>();
+            mapAllYear = SalesRowData.bind(salesRowData);
+            Console.WriteLine("All------------------------------ ");
+            for(int i=0; i< mapAllYear.Count; i++)
             {
-                Console.WriteLine(salesRowData[i].rowId);
+                Console.WriteLine(mapAllYear.ElementAt(i).Key + " : "+ mapAllYear.ElementAt(i).Value );
             }
 
-            Console.ReadKey();
+            //for (int i = 0; i < salesRowData.Count; i++)
+            //{
+            //    Console.WriteLine(salesRowData[i].amountUntaxed);
+            //}
 
+            var map2014 = new Dictionary<string, double>();
+            var map2015 = new Dictionary<string, double>();
+            map2014 = SalesRowData.bind(salesRowData,2014);
+            map2015 = SalesRowData.bind(salesRowData, 2015);
+
+            Console.WriteLine("2014----------------------------------- ");
+            for (int i = 0; i < map2014.Count; i++)
+            {
+                Console.WriteLine(map2014.ElementAt(i).Key + " : " + map2014.ElementAt(i).Value);
+            }
+            Console.WriteLine("2015---------------------------------- ");
+            for (int i = 0; i < map2015.Count; i++)
+            {
+                Console.WriteLine(map2015.ElementAt(i).Key + " : " + map2015.ElementAt(i).Value);
+            }
+            Console.WriteLine(SalesRowData.addCommas(4556256.5256));
+            Console.ReadKey();
         }
 
     }
