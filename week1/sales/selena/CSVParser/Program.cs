@@ -121,7 +121,9 @@ namespace CSVParser
         private static void addCommas(double data)
         {
             string temp = data.ToString();
-            string[] numberToString = temp.Split('.');
+
+            /* [0]은 정수, [1]은 소수 */
+            string[] numberToString = temp.Split('.'); 
 
             string result = "";
 
@@ -140,11 +142,6 @@ namespace CSVParser
             for(int index1 = temp.Length-1; index1 >= 0; index1--)
             {
                 result += temp[index1];
-            }
-
-            if (result[0].Equals(','))
-            {
-
             }
 
             result += "." + numberToString[1];
