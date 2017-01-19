@@ -1,0 +1,13 @@
+diff a/week1/sales/camille/CsvParser-Camille/Program.cs b/week1/sales/camille/CsvParser-Camille/Program.cs	(rejected hunks)
+@@ -188,10 +188,7 @@
+             {
+                 convertedDate = Convert.ToDateTime(value);
+             }
+-            catch (FormatException)
+-            {
+-                Console.WriteLine("'{0}' is not in the proper format.", value);
+-            }
++            catch (FormatException){}
+             return convertedDate;
+         }
+     }
