@@ -11,12 +11,12 @@ namespace CsvParser_Camille
     {
         static void Main(string[] args)
         {
-            CollectTypeOfData Collect = new CollectTypeOfData();
+            TypeOfDataCollector Collect = new TypeOfDataCollector();
             List<SalesRowData> salesRowData = new List<SalesRowData>(200);
-            ExtractStatistics yearOfDate = new ExtractStatistics();
+            StatisticsExtractor yearOfDate = new StatisticsExtractor();
 
             string text = File.ReadAllText(@"C:\Users\dsm\Downloads\sample_revenue.csv", Encoding.UTF8);
-            
+
             salesRowData = Collect.ReadFromCsv(text);
             Console.WriteLine("연도별 분류");
             yearOfDate.YearSaperated(salesRowData);
@@ -31,12 +31,12 @@ namespace CsvParser_Camille
      * @author  WonJung Jeong
      * @date    2017/01/19
      */
-    class ExtractStatistics
+    class StatisticsExtractor
     {
         public void YearSaperated(List<SalesRowData> salesRowData)
         {
             List<string> yearList = new List<string>(); //임시
-            bool counting=false;       //임시
+            bool counting = false;       //임시
             for (int i = 1; i < salesRowData.Count; i++)
             {
                 for (int j = 0; j < yearList.Count; j++)
@@ -81,9 +81,9 @@ namespace CsvParser_Camille
         {
             string rawNumber = number.ToString();
             string[] decimalNum = rawNumber.Split('.');
-            for (int i = 1; i < (decimalNum[0].Length+1) / 3; i++)
+            for (int i = 1; i < (decimalNum[0].Length + 1) / 3; i++)
             {
-                decimalNum[0] = decimalNum[0].Insert(decimalNum[0].Length - (3 * i),",");
+                decimalNum[0] = decimalNum[0].Insert(decimalNum[0].Length - (3 * i), ",");
             }
             rawNumber = decimalNum[0] + ".";
             if (decimalNum.Length == 2)
@@ -124,7 +124,7 @@ namespace CsvParser_Camille
         public string country;
         public string productName;
         public string status;
-        public string zip;    
+        public string zip;
     }
 
     /**
@@ -133,7 +133,7 @@ namespace CsvParser_Camille
      * @author  WonJung Jeong
      * @date    2017/01/19
      */
-    class CollectTypeOfData
+    class TypeOfDataCollector
     {
         /* reading csv file and save data */
         public List<SalesRowData> ReadFromCsv(string text)
@@ -188,7 +188,7 @@ namespace CsvParser_Camille
             {
                 convertedDate = Convert.ToDateTime(value);
             }
-            catch (FormatException){}
+            catch (FormatException) { }
             return convertedDate;
         }
     }
