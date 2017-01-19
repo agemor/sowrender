@@ -76,19 +76,18 @@ namespace CsvParser_Camille
                 Console.WriteLine(year + " " + entry.Key + " : " + AddThousandCommas(entry.Value));//string.Format("{0:n0}",entry.Value));
             }
         }
-        /* add commas */
+        
         public string AddThousandCommas(double number)
         {
             string rawNumber = number.ToString();
-            string[] decimalNum = rawNumber.Split('.');
-            for (int i = 1; i < (decimalNum[0].Length+1) / 3; i++)
+            string decimalNum = rawNumber.Substring(rawNumber.IndexOf("."));
+            //rawNumber = rawNumber.Substring(0, rawNumber.IndexOf(".") - 1);
+
+            for (int i = 1; i < rawNumber.Length / 3; i++)
             {
-                decimalNum[0] = decimalNum[0].Insert(decimalNum[0].Length - (3 * i),",");
+                rawNumber = rawNumber.Insert(rawNumber.Length - (3 * i),",");
             }
-            rawNumber = decimalNum[0] + ".";
-            if (decimalNum.Length == 2)
-                rawNumber += decimalNum[1];
-            return rawNumber;
+            return rawNumber;// +decimalNum;
         }
     }
 
