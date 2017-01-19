@@ -13,12 +13,10 @@ namespace CsvParser
         static void Main(string[] args)
         {
             string text = File.ReadAllText(@"C:\Users\yangd\Documents\Sowrender\sample_revenue.csv", Encoding.UTF8);
-            DataProcessing DP = new DataProcessing();
-            List<SalesRowData> salesRowDataList = DP.SplitReadText(text);
-            var statisticalDataMap = DP.StatisticsData(salesRowDataList);
-            DP.PrintStatisticalDataMap(statisticalDataMap);
-
-            
+            SowrenderCSVParser parser = new SowrenderCSVParser();
+            List<SalesRowData> salesRowDataList = parser.SplitReadText(text);
+            var statisticalDataMap = parser.StatisticsData(salesRowDataList);
+            parser.PrintStatisticalDataMap(statisticalDataMap);
         }
     }
 
@@ -50,21 +48,20 @@ namespace CsvParser
         public uint quantity;
     }
 
-    interface Read
+    interface Readable
     {
         uint StringToUnsignedInt(string value);
         double StringToDouble(string value);
         DateTime ConvertToDateTime(string value);
         List<SalesRowData> SplitReadText(string text);
     }
-    interface Statistics
+    interface Calculatable
     {
         Dictionary<uint, Dictionary<string, StatisticalData>> StatisticsData(List<SalesRowData> salesRowDataList);
         Dictionary<int, Dictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList);
         void PrintStatisticalDataMap(Dictionary<uint, Dictionary<string, StatisticalData>> statisticalDataMap);
     }
-
-    class DataProcessing : Read, Statistics
+    class SowrenderCSVParser : Readable, Calculatable
     {
         public uint StringToUnsignedInt(string value)
         {
@@ -254,5 +251,4 @@ namespace CsvParser
             return result;
         }
     }
-
 }
