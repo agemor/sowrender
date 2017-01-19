@@ -11,14 +11,97 @@ namespace CsvParser_Camille
     {
         static void Main(string[] args)
         {
-            string text = File.ReadAllText(@"C:\Users\dsm\Downloads\sample_revenue.csv", Encoding.UTF8);
+            CollectTypeOfData Collect = new CollectTypeOfData();
+            List<SalesRowData> salesRowData = new List<SalesRowData>(200);
 
-            List<SalesRowData> salesRpwDataList = new List<SalesRowData>(200);
+            string text = File.ReadAllText(@"C:\Users\dsm\Downloads\sample_revenue.csv", Encoding.UTF8);
+            salesRowData = Collect.ReadFromCsv(text);
+
+
+        }
+    }
+
+    /**
+     * This class extrac data and make statistics
+     * 
+     * @author  WonJung Jeong
+     * @date    2017/01/19
+     */
+    class ExtractStatistics //map으로 바꾸기
+    {
+        public void MapExtract(List<SalesRowData> salesRowDataList)
+        {
+            var map = new Dictionary<string, double>();
+
+            for (int i = 1; i < salesRowDataList.Count; i++)
+            {
+                SalesRowData rowData = salesRowDataList[i];
+
+                if (!map.ContainsKey(rowData.model))
+                {
+                    map.Add(rowData.model, 0);
+                }
+                map[rowData.model] += rowData.amountUsd;
+            }
+            foreach (KeyValuePair<string, double> entry in map)
+            {
+                Console.WriteLine(entry.Key + " : " + entry.Value);
+            }
+        }
+    }
+
+    /**
+     * This class descirbes how we handle row data
+     * 
+     * @author WonJung Jeong    
+     * @date   2017/01/18       
+     */
+    class SalesRowData
+    {
+        /* sales data */
+        public uint rowId;
+        public string model;
+        public string orderNumber;
+        public uint productId;
+        public uint quantity;
+
+        /* sales day */
+        public uint dateMonth;
+        public DateTime dateOrder;
+        public DateTime dateShipped;
+
+        /* price */
+        public double amountUsd;
+        public double priceUnit;
+        public int exchangeRate;
+        public int discount;
+
+        /* product state */
+        public string company;
+        public string customer;
+        public string country;
+        public string productName;
+        public string status;
+        public string zip;    
+    }
+
+    /**
+     * This class read csv file and collect data with each type
+     * 
+     * @author  WonJung Jeong
+     * @date    2017/01/19
+     */
+    class CollectTypeOfData
+    {
+        /* reading csv file and save data */
+        public List<SalesRowData> ReadFromCsv(string text)
+        {
+            List<SalesRowData> salesRowDataList = new List<SalesRowData>(200);
             List<string> chucks = new List<string>(200);
 
-            String[] lines = text.Split('\n'); //개행으로 구분하여 한 줄씩 나눠서 얻기
+            String[] lines = text.Split('\n'); //collect line which divided with '\n'
 
-            foreach(string line in lines)
+            foreach (string line in lines)
             {
                 chucks = line.Split(',').ToList();
 
@@ -26,12 +109,14 @@ namespace CsvParser_Camille
                 {
                     chucks[5] = chucks[5] + ',' + chucks[6];
                     chucks[5] = chucks[5].Replace('"', ' ');
+                    chucks[5] = chucks[5].Trim();
                     chucks.Remove(chucks[6]);
                 }
                 SalesRowData salesRowData = new SalesRowData();
 
-                uint.TryParse(chucks[0], out salesRowData.rowId);   // salesRowData.rowId = uint.Parse(chucks[0]);
-                double.TryParse(chucks[1],out salesRowData.amountUntaxed);  //double.Parse(chucks[1]);    //Convert.ToDouble(chucks[1]);
+                /* save salesRomData with each type of data */
+                uint.TryParse(chucks[0], out salesRowData.rowId);
+                double.TryParse(chucks[2], out salesRowData.amountUsd);
                 salesRowData.company = chucks[3];
                 salesRowData.country = chucks[4];
                 salesRowData.customer = chucks[5];
@@ -49,18 +134,19 @@ namespace CsvParser_Camille
                 salesRowData.status = chucks[17];
                 salesRowData.zip = chucks[18];
 
-                salesRpwDataList.Add(salesRowData);
-                
-                Console.WriteLine(salesRowData.country);
-            }
+                salesRowDataList.Add(salesRowData);
 
+                Console.WriteLine(salesRowData.customer);
+            }
+            return salesRowDataList;
         }
+        /* string to DateTime funtion */
         public static DateTime ConvertToDateTime(string value)
         {
             DateTime convertedDate = new DateTime();
             try
             {
-                convertedDate = Convert.ToDateTime(value);               
+                convertedDate = Convert.ToDateTime(value);
             }
             catch (FormatException)
             {
@@ -69,39 +155,4 @@ namespace CsvParser_Camille
             return convertedDate;
         }
     }
-    /**         //class 주석 다는법
-     * This class descirbes how we handle row data  //설명
-     * 
-     * @author WonJung Jeong    //제작자
-     * @date                    //날짜
-     */
-    class SalesRowData
-    {
-        /* 세일즈 데이터 */
-        public uint rowId;
-        public int discount;
-        public int exchangeRate;
-        public string model;
-        public string orderNumber;
-        public double priceUnit;
-        public uint productId;
-        public uint quantity;
-
-        /* 세일즈 날짜 */
-        public uint dateMonth;
-        public DateTime dateOrder;
-        public DateTime dateShipped;
-
-        /* 가격 */
-        public double amountUntaxed;
-
-        /* 판매 회사 */
-        public string company;
-        public string customer;
-        public string country;
-        public string productName;
-        public string status;
-        public string zip;    
-    }
-
 }

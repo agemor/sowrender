@@ -4,3 +4,9 @@ c:\users\dsm\documents\visual studio 2015\Projects\CsvParser-Camille\CsvParser-C
 c:\users\dsm\documents\visual studio 2015\Projects\CsvParser-Camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.csprojResolveAssemblyReference.cache
 c:\users\dsm\documents\visual studio 2015\Projects\CsvParser-Camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.exe
 c:\users\dsm\documents\visual studio 2015\Projects\CsvParser-Camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.pdb
+C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\bin\Debug\CsvParser-Camille.exe.config
+C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.exe
+C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.pdb
+C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\bin\Debug\CsvParser-Camille.exe
+C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\bin\Debug\CsvParser-Camille.pdb
+C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.csprojResolveAssemblyReference.cache
