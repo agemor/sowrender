@@ -1,0 +1,6 @@
+D:\C# Project\csvParser\csvParser\bin\Debug\csvParser.exe.config
+D:\C# Project\csvParser\csvParser\bin\Debug\csvParser.exe
+D:\C# Project\csvParser\csvParser\bin\Debug\csvParser.pdb
+D:\C# Project\csvParser\csvParser\obj\Debug\csvParser.csprojResolveAssemblyReference.cache
+D:\C# Project\csvParser\csvParser\obj\Debug\csvParser.exe
+D:\C# Project\csvParser\csvParser\obj\Debug\csvParser.pdb
