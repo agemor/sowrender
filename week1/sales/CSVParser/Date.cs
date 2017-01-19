@@ -16,9 +16,14 @@ namespace CSVParser
         {
             string[] temp = date.Split('/');
 
-            this.year = int.Parse(temp[0]);
+            this.year = int.Parse(temp[2]);
             this.month = int.Parse(temp[1]);
-            this.day = int.Parse(temp[2]);
+            this.day = int.Parse(temp[0]);
+        }
+
+        public int getYear()
+        {
+            return year;
         }
     }
 }

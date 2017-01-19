@@ -4,3 +4,9 @@ D:\workplace\c#\sowrender\CSVParser\CSVParser\bin\Debug\CSVParser.pdb
 D:\workplace\c#\sowrender\CSVParser\CSVParser\obj\Debug\CSVParser.csprojResolveAssemblyReference.cache
 D:\workplace\c#\sowrender\CSVParser\CSVParser\obj\Debug\CSVParser.exe
 D:\workplace\c#\sowrender\CSVParser\CSVParser\obj\Debug\CSVParser.pdb
+C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\bin\Debug\CSVParser.exe.config
+C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\obj\Debug\CSVParser.exe
+C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\obj\Debug\CSVParser.pdb
+C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\bin\Debug\CSVParser.exe
+C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\bin\Debug\CSVParser.pdb
+C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\obj\Debug\CSVParser.csprojResolveAssemblyReference.cache
