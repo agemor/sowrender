@@ -1,0 +1,6 @@
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\CsvParser\CsvParser\bin\Debug\CsvParser.exe.config
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\CsvParser\CsvParser\bin\Debug\CsvParser.exe
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\CsvParser\CsvParser\bin\Debug\CsvParser.pdb
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\CsvParser\CsvParser\obj\Debug\CsvParser.csprojResolveAssemblyReference.cache
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\CsvParser\CsvParser\obj\Debug\CsvParser.exe
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\CsvParser\CsvParser\obj\Debug\CsvParser.pdb

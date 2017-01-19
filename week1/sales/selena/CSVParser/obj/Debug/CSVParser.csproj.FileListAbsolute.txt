@@ -10,3 +10,6 @@ C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\obj\Debug\CSVParser
 C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\bin\Debug\CSVParser.exe
 C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\bin\Debug\CSVParser.pdb
 C:\Users\이서현\Documents\sowrender\week1\sales\CSVParser\obj\Debug\CSVParser.csprojResolveAssemblyReference.cache
+C:\Users\이서현\Documents\sowrender\week1\sales\selena\CSVParser\bin\Debug\CSVParser.exe.config
+C:\Users\이서현\Documents\sowrender\week1\sales\selena\CSVParser\obj\Debug\CSVParser.exe
+C:\Users\이서현\Documents\sowrender\week1\sales\selena\CSVParser\obj\Debug\CSVParser.pdb
