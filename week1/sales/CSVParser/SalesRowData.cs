@@ -20,27 +20,27 @@ namespace CSVParser
         public string company;
 
         /* 고객 정보 */
-        public string country_name;
-        public string customer_name;
+        public string countryName;
+        public string customerName;
 
-        public uint date_month;
+        public uint dateMonth;
 
-        public Date date_order;
-        public Date date_shipped;
+        public Date dateOrder;
+        public Date dateShipped;
 
         public uint discount;
 
-        public uint exchange_rate;
+        public uint exchangeRate;
 
         public string model;
 
-        public string order_number;
+        public string orderNumber;
 
-        public double price_unit;
+        public double priceUnit;
 
-        public uint product_id;
+        public uint productId;
 
-        public string product_name;
+        public string productName;
 
         /* 물품 수량 */
         public uint qty;
