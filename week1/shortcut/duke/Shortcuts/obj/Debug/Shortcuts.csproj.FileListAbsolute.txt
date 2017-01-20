@@ -1,0 +1,6 @@
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\Shortcuts\Shortcuts\bin\Debug\Shortcuts.exe.config
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\Shortcuts\Shortcuts\obj\Debug\Shortcuts.csprojResolveAssemblyReference.cache
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\Shortcuts\Shortcuts\bin\Debug\Shortcuts.exe
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\Shortcuts\Shortcuts\bin\Debug\Shortcuts.pdb
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\Shortcuts\Shortcuts\obj\Debug\Shortcuts.exe
+C:\Users\yangd\Documents\Visual Studio 2015\Projects\Shortcuts\Shortcuts\obj\Debug\Shortcuts.pdb
