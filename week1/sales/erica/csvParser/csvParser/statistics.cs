@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace csvParser
 {
-    class statistics
+    class Statistics
     {
+        public int qty;
+        public int amountUsd;
     }
 }

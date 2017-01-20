@@ -1,0 +1,5 @@
+D:\C# Project\ShortCutTest\ShortCutTest\bin\Debug\ShortCutTest.exe.config
+D:\C# Project\ShortCutTest\ShortCutTest\bin\Debug\ShortCutTest.exe
+D:\C# Project\ShortCutTest\ShortCutTest\bin\Debug\ShortCutTest.pdb
+D:\C# Project\ShortCutTest\ShortCutTest\obj\Debug\ShortCutTest.exe
+D:\C# Project\ShortCutTest\ShortCutTest\obj\Debug\ShortCutTest.pdb
