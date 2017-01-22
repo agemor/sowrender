@@ -15,7 +15,7 @@ namespace CsvParser
             string text = File.ReadAllText(@"C:\Users\yangd\Documents\Sowrender\sample_revenue.csv", Encoding.UTF8);
             SowrenderCSVParser parser = new SowrenderCSVParser();
             List<SalesRowData> salesRowDataList = parser.SplitReadText(text);
-            var statisticalDataMap = parser.StatisticsData(salesRowDataList);
+            var statisticalDataMap = parser.StatisticsDataByYear(salesRowDataList);
             parser.PrintStatisticalDataMap(statisticalDataMap);
         }
     }
@@ -57,9 +57,8 @@ namespace CsvParser
     }
     interface Calculatable
     {
-        Dictionary<uint, Dictionary<string, StatisticalData>> StatisticsData(List<SalesRowData> salesRowDataList);
-        Dictionary<int, Dictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList);
-        void PrintStatisticalDataMap(Dictionary<uint, Dictionary<string, StatisticalData>> statisticalDataMap);
+        SortedDictionary<int, SortedDictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList);
+        void PrintStatisticalDataMap(SortedDictionary<int, SortedDictionary<string, StatisticalData>> statisticalDataMap);
     }
     class SowrenderCSVParser : Readable, Calculatable
     {
@@ -149,51 +148,16 @@ namespace CsvParser
             }
             return salesRowDataList;
         }
-        public Dictionary<uint,Dictionary<string,StatisticalData>> StatisticsData(List<SalesRowData> salesRowDataList)
+        public SortedDictionary<int, SortedDictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList)
         {
-            var statisticalDataMap = new Dictionary<uint, Dictionary<string, StatisticalData>>();
-            var fourteen = new Dictionary<string, StatisticalData>();
-            var fifteen = new Dictionary<string, StatisticalData>();
-
-            for (int i = 0; i < salesRowDataList.Count; i++)
-            {
-                SalesRowData rowData = salesRowDataList[i];
-                if(rowData.dateShipped.Year == 2014)
-                {
-                    if (!fourteen.ContainsKey(rowData.model))
-                    {
-                        StatisticalData data = new StatisticalData();
-                        fourteen.Add(rowData.model, data);
-                    }
-                    fourteen[rowData.model].amountUsd += rowData.amountUsd;
-                    fourteen[rowData.model].quantity += rowData.quantity;
-                }
-                else if(rowData.dateShipped.Year == 2015)
-                {
-                    if (!fifteen.ContainsKey(rowData.model))
-                    {
-                        StatisticalData data = new StatisticalData();
-                        fifteen.Add(rowData.model, data);
-                    }
-                    fifteen[rowData.model].amountUsd += rowData.amountUsd;
-                    fifteen[rowData.model].quantity += rowData.quantity;
-                }
-            }
-            statisticalDataMap.Add(2014, fourteen);
-            statisticalDataMap.Add(2015, fifteen);
-
-            return statisticalDataMap;
-        }
-        public Dictionary<int, Dictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList)
-        {
-            var statisticalDataMap = new Dictionary<int, Dictionary<string, StatisticalData>>();
-            var data = new Dictionary<string, StatisticalData>();
+            var statisticalDataMap = new SortedDictionary<int, SortedDictionary<string, StatisticalData>>();
 
             for (int i = 0; i < salesRowDataList.Count; i++)
             {
                 SalesRowData rowData = salesRowDataList[i];
                 if (!statisticalDataMap.ContainsKey(rowData.dateShipped.Year))
                 {
+                    var data = new SortedDictionary<string, StatisticalData>();
                     statisticalDataMap.Add(rowData.dateShipped.Year, data);
                 }
             }
@@ -217,15 +181,20 @@ namespace CsvParser
 
             return statisticalDataMap;
         }
-        public void PrintStatisticalDataMap(Dictionary<uint, Dictionary<string, StatisticalData>> statisticalDataMap)
+        public void PrintStatisticalDataMap(SortedDictionary<int, SortedDictionary<string, StatisticalData>> statisticalDataMap)
         {
+            string etcHandler = "";
             foreach (var year in statisticalDataMap)
             {
                 Console.WriteLine(year.Key);
                 foreach (var data in year.Value)
                 {
-                    Console.WriteLine(data.Key + " : " + data.Value.quantity + " / " + AddCommas(data.Value.amountUsd));
+                    if(data.Key == "Etc")
+                        etcHandler = data.Key + " : " + data.Value.quantity + " / " + AddCommas(data.Value.amountUsd) + " => " + AddCommas(data.Value.amountUsd / data.Value.quantity);
+                    else
+                        Console.WriteLine(data.Key + " : " + data.Value.quantity + " / " + AddCommas(data.Value.amountUsd) + " => " + AddCommas(data.Value.amountUsd/data.Value.quantity));
                 }
+                Console.WriteLine(etcHandler);
                 Console.WriteLine("\n-----------------\n");
             }
         }
