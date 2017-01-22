@@ -18,11 +18,19 @@ namespace CsvParser_Camille
             string text = File.ReadAllText(@"C:\Users\dsm\Downloads\sample_revenue.csv", Encoding.UTF8);
 
             salesRowData = Collect.ReadFromCsv(text);
-            Console.WriteLine("연도별 분류");
-            yearOfDate.YearSaperated(salesRowData);
+            Console.WriteLine("Model : Prise : Account : Average");
             Console.WriteLine("--------------------------------");
+            yearOfDate.YearSaperated(salesRowData);
 
         }
+    }
+    /**
+     * This class is article of Dictionary
+     */
+    class PriseAccount
+    {
+        public double prise;
+        public double account;
     }
 
     /**
@@ -33,10 +41,11 @@ namespace CsvParser_Camille
      */
     class StatisticsExtractor
     {
+        /* extract year */
         public void YearSaperated(List<SalesRowData> salesRowData)
         {
-            List<string> yearList = new List<string>(); //임시
-            bool counting = false;       //임시
+            List<string> yearList = new List<string>();
+            bool counting = false;
             for (int i = 1; i < salesRowData.Count; i++)
             {
                 for (int j = 0; j < yearList.Count; j++)
@@ -53,28 +62,31 @@ namespace CsvParser_Camille
                 counting = false;
             }
         }
+        /* make statistics */
         public void MapExtract(List<SalesRowData> salesRowDataList, string year)
         {
-            var map = new Dictionary<string, double>();
+            var map = new Dictionary<string, PriseAccount>();
 
             for (int i = 1; i < salesRowDataList.Count; i++)
             {
                 if (year == salesRowDataList[i].dateShipped.ToString("yyyy"))
                 {
                     SalesRowData rowData = salesRowDataList[i];
-
                     if (!map.ContainsKey(rowData.model))
                     {
-                        map.Add(rowData.model, 0);
+                        map.Add(rowData.model, new PriseAccount());
                     }
-                    map[rowData.model] += rowData.amountUsd;
+                    map[rowData.model].prise += rowData.amountUsd;
+                    map[rowData.model].account += rowData.quantity;
                 }
             }
-
-            foreach (KeyValuePair<string, double> entry in map)
+            Console.WriteLine(year);
+            foreach (KeyValuePair<string, PriseAccount> entry in map)
             {
-                Console.WriteLine(year + " " + entry.Key + " : " + AddThousandCommas(entry.Value));//string.Format("{0:n0}",entry.Value));
+                Console.WriteLine(entry.Key + " : " + AddThousandCommas(entry.Value.prise)+" : "+ AddThousandCommas(entry.Value.account)+" : "+ 
+                                 (entry.Value.prise/entry.Value.account));//string.Format("{0:n0}",entry.Value));
             }
+            Console.WriteLine("--------------------------------");
         }
         /* add commas */
         public string AddThousandCommas(double number)
@@ -85,9 +97,9 @@ namespace CsvParser_Camille
             {
                 decimalNum[0] = decimalNum[0].Insert(decimalNum[0].Length - (3 * i), ",");
             }
-            rawNumber = decimalNum[0] + ".";
+            rawNumber = decimalNum[0];
             if (decimalNum.Length == 2)
-                rawNumber += decimalNum[1];
+                rawNumber += "."+decimalNum[1];
             return rawNumber;
         }
     }
