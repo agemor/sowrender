@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 #pragma warning(disable:4996)
 
 typedef enum { false, true } bool;
