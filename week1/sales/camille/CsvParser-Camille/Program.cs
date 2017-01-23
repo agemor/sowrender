@@ -65,7 +65,7 @@ namespace CsvParser_Camille
         /* make statistics */
         public void MapExtract(List<SalesRowData> salesRowDataList, string year)
         {
-            var map = new Dictionary<string, PriseAccount>();
+            var map = new SortedDictionary<string, PriseAccount>();
 
             for (int i = 1; i < salesRowDataList.Count; i++)
             {
@@ -83,8 +83,8 @@ namespace CsvParser_Camille
             Console.WriteLine(year);
             foreach (KeyValuePair<string, PriseAccount> entry in map)
             {
-                Console.WriteLine(entry.Key + " : " + AddThousandCommas(entry.Value.prise)+" : "+ AddThousandCommas(entry.Value.account)+" : "+ 
-                                 (entry.Value.prise/entry.Value.account));//string.Format("{0:n0}",entry.Value));
+                Console.WriteLine("{0,-10} : {1,-10} : {2,-10} : {3,-10}", 
+               entry.Key, AddThousandCommas(Math.Round(entry.Value.prise,3)), AddThousandCommas(entry.Value.account), Math.Round((entry.Value.prise / entry.Value.account),3));//string.Format("{0:n0}",entry.Value));
             }
             Console.WriteLine("--------------------------------");
         }
