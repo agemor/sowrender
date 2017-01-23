@@ -8,10 +8,11 @@ namespace CSVParser
 {
     class Date
     {
-        int year;
-        int month;
-        int day;
+        private int year;
+        private int month;
+        private int day;
 
+        /* input data : dd/mm/yy */
         public Date(string date)
         {
             string[] temp = date.Split('/');
