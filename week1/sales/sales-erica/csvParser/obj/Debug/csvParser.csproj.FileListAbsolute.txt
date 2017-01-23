@@ -4,3 +4,9 @@ D:\C# Project\csvParser\csvParser\bin\Debug\csvParser.pdb
 D:\C# Project\csvParser\csvParser\obj\Debug\csvParser.csprojResolveAssemblyReference.cache
 D:\C# Project\csvParser\csvParser\obj\Debug\csvParser.exe
 D:\C# Project\csvParser\csvParser\obj\Debug\csvParser.pdb
+C:\Users\dsm2015\Desktop\소렌더\sowrender\week1\sales\sales-erica\csvParser\bin\Debug\csvParser.exe.config
+C:\Users\dsm2015\Desktop\소렌더\sowrender\week1\sales\sales-erica\csvParser\obj\Debug\csvParser.exe
+C:\Users\dsm2015\Desktop\소렌더\sowrender\week1\sales\sales-erica\csvParser\obj\Debug\csvParser.pdb
+C:\Users\dsm2015\Desktop\소렌더\sowrender\week1\sales\sales-erica\csvParser\bin\Debug\csvParser.exe
+C:\Users\dsm2015\Desktop\소렌더\sowrender\week1\sales\sales-erica\csvParser\bin\Debug\csvParser.pdb
+C:\Users\dsm2015\Desktop\소렌더\sowrender\week1\sales\sales-erica\csvParser\obj\Debug\csvParser.csprojResolveAssemblyReference.cache

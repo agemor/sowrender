@@ -16,61 +16,49 @@ namespace csvParser
 
             /* csv모든 데이터를 저장하는 변수 */
             List<SalesRowData> salesRowData = new List<SalesRowData>();
-
-            /* csv파일을 정리하여 salesRowData에 저장 */
-            for (int i = 1; i < lines.Length; i++)
-            {
-                string[] tmp = lines[i].Split(',');
-                if (tmp.Length > 19)
-                {
-                    tmp[5] = tmp[5] + ',' + tmp[6];
-                    for (int j = 6; j < tmp.Length - 1; j++)
-                    {
-                        tmp[j] = tmp[j + 1];
-                    }
-                    tmp[tmp.Length - 1] = null;
-                    tmp[5] = tmp[5].Substring(1, tmp[5].Length - 2);
-                }
-
-                SalesRowData newRowData = new SalesRowData();
-
-                /* setData가 성공할 때만 추가*/
-                if (newRowData.SetData(tmp))
-                {
-                    salesRowData.Add(newRowData);
-                }
-            }
+            salesRowData = SalesRowData.SaveCSVData(lines);
 
             /* 모델별 통계 */
-            var mapAllYear = new Dictionary<string, double>();
-            var map2014 = new Dictionary<string, double>();
-            var map2015 = new Dictionary<string, double>();
+            var mapAllYear = new Dictionary<string, Statistics>();
+            var map2014 = new Dictionary<string, Statistics>();
+            var map2015 = new Dictionary<string, Statistics>();
 
             mapAllYear = SalesRowData.Bind(salesRowData);
             map2014 = SalesRowData.Bind(salesRowData, 2014);
             map2015 = SalesRowData.Bind(salesRowData, 2015);
 
-            Console.WriteLine("All------------------------------ ");
-            for (int i = 0; i < mapAllYear.Count; i++)
+            String input;
+            int key = 0;
+            do
             {
-                Console.WriteLine(mapAllYear.ElementAt(i).Key + " : " + mapAllYear.ElementAt(i).Value);
-            }
+                Console.WriteLine("보고 싶은 것의 인덱스를 입력해주세요");
+                Console.WriteLine("1. 제품별 데이터");
+                Console.WriteLine("2. 2014년 제품별 데이터");
+                Console.WriteLine("3. 2015년 제품별 데이터");
+                Console.WriteLine("0. 종료");
 
-            Console.WriteLine("2014----------------------------------- ");
-            for (int i = 0; i < map2014.Count; i++)
-            {
-                Console.WriteLine(map2014.ElementAt(i).Key + " : " + map2014.ElementAt(i).Value);
-            }
+                input = Console.ReadLine();
+                int.TryParse(input, out key);
+                Console.Clear();
 
-            Console.WriteLine("2015---------------------------------- ");
-            for (int i = 0; i < map2015.Count; i++)
-            {
-                Console.WriteLine(map2015.ElementAt(i).Key + " : " + map2015.ElementAt(i).Value);
-            }
+                if (key == 1)
+                {
+                    SalesRowData.PrintMap(mapAllYear, "제품별 데이터");
+                }
+                else if (key == 2)
+                {
+                    SalesRowData.PrintMap(map2014, "2014년 제품별 데이터");
 
-            Console.WriteLine(SalesRowData.AddCommas(4556256.5256));
-            Console.ReadKey();
+                }
+                else if (key == 3)
+                {
+                    SalesRowData.PrintMap(map2015, "2015년 제품별 데이터");
+                }
+
+                Console.ReadLine();
+                Console.Clear();
+
+            } while (0 != key);
         }
-
     }
 }

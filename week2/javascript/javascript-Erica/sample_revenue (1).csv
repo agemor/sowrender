@@ -1,0 +1,1464 @@
+Column1,amount_untaxed,amount_usd,company,country_name,customer_name,date_month,date_order,date_shipped,discount,exchange_rate,model,order_number,price_unit,product_id,product_name,qty,status,zip
+0,1500,1500,Aurender Inc.,United States,Essential Audio,3,3/6/15,3/6/15,20,1,N100,SO349,1500,92,Aurender N100,1,shipped,60010
+1,2700,2700,Aurender Inc.,Canada,Sonore Filtronique,2,2/23/15,2/23/15,0,1,X100,SO333,2700,43,Aurender X100L,1,shipped,H2M 1SS
+2,9500,9500,Aurender Inc.,Netherlands,More Music b.v.,2,2/13/15,2/13/15,0,1,X100,SO334,1900,41,Aurender X100L,5,shipped,
+3,7920,7920,Aurender Inc.,Philippines,Audio Visual Driver International,3,3/10/15,3/10/15,0,1,W20,SO371,7920,102,Aurender W20,1,shipped,364-7573
+4,13000,13000,Aurender Inc.,Netherlands,More Music b.v.,2,2/13/15,2/13/15,0,1,N100,SO334,1300,91,Aurender N100,10,shipped,
+5,7000,7000,Aurender Inc.,Netherlands,More Music b.v.,2,2/13/15,2/13/15,0,1,W20,SO334,7000,105,Aurender W20,1,shipped,
+6,50,50,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",8,8/28/15,8/28/15,0,1,Etc,SO696,50,46,dCS Dongle,1,shipped,
+7,5625,5625,Aurender Inc.,Netherlands,More Music b.v.,2,2/13/15,2/13/15,0,1,X725,SO334,1125,49,Aurender X725,5,shipped,
+8,50,50,Aurender Inc.,Netherlands,More Music b.v.,2,2/13/15,2/13/15,0,1,Etc,SO334,50,46,dCS Dongle,1,shipped,
+9,8820000,8018.181818,Aurender Inc.,South Korea,____,4,4/10/15,4/10/15,0,1100,X100,SO417,2205000,41,Aurender X100L,4,shipped,
+10,1170000,1063.636364,Aurender Inc.,South Korea,(_)______,3,3/5/15,3/5/15,0,1100,FLOW,SO350,1170000,40,Aurender FLOW,1,shipped,
+11,7500,7500,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,3,3/6/15,3/6/15,0,1,N100,SO370,1500,91,Aurender N100,5,shipped,3134
+12,1287000,1170,Aurender Inc.,South Korea,___,3,3/16/15,3/16/15,0,1100,FLOW,SO359,1287000,40,Aurender FLOW,1,shipped,
+13,1500,1500,Aurender Inc.,United States,"Acoustic Frontiers, LLC",2,2/24/15,2/24/15,20,1,N100,SO306,1500,92,Aurender N100,1,shipped,94930
+14,7200,7200,Aurender Inc.,United States,"PureAudio, LLC",12,12/1/14,12/1/14,0,1,X100,SO252,2400,43,Aurender X100L,3,shipped,95066
+15,1250,1250,Aurender Inc.,United States,Sight + Sound Gallery,12,12/2/14,12/2/14,0,1,X725,SO245,1250,48,Aurender X725,1,shipped,30312
+16,1500,1500,Aurender Inc.,United States,"Acoustic Frontiers, LLC",2,2/24/15,2/24/15,0,1,N100,SO306,1500,92,Aurender N100,1,shipped,94930
+17,7740,7740,Aurender Inc.,Hong Kong,Square Wave Ltd.,1,1/15/15,1/15/15,0,1,W20,SO322,7740,104,Aurender W20,1,shipped,
+18,4140000,3763.636364,Aurender Inc.,South Korea,HMG,4,4/22/15,4/22/15,0,1100,N100,SO419,1380000,91,Aurender N100,3,shipped,
+19,4200,4200,Aurender Inc.,Philippines,Audio Visual Driver International,3,3/11/15,3/11/15,0,1,X100,SO372,2100,41,Aurender X100L,2,shipped,364-7573
+20,7920,7920,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",3,3/20/15,3/20/15,0,1,W20,SO382,7920,102,Aurender W20,1,shipped,
+21,4680000,4254.545455,Aurender Inc.,South Korea,HMG,4,4/22/15,4/22/15,0,1100,N100,SO419,1560000,91,Aurender N100,3,shipped,
+22,6000,6000,Aurender Inc.,Hong Kong,Square Wave Ltd.,1,1/15/15,1/15/15,0,1,X100,SO322,2000,42,Aurender X100L,3,shipped,
+23,50,50,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",3,3/20/15,3/20/15,0,1,Etc,SO382,50,46,dCS Dongle,1,shipped,
+24,4000,4000,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",8,8/28/15,8/28/15,0,1,N10,SO696,4000,210,Aurender N10,1,shipped,
+25,160,160,Aurender Inc.,Hong Kong,Square Wave Ltd.,1,1/15/15,1/15/15,0,1,Etc,SO322,160,45,Shipping & Other Charges,1,shipped,
+26,4700,4700,Aurender Inc.,Canada,Sonore Filtronique,3,3/25/15,3/25/15,0,1,X100,SO773,2350,43,Aurender X100L,2,shipped,H2M1S5
+27,550,550,Aurender Inc.,Israel,Dafna Erez,2,2/17/15,2/17/15,0,1,Etc,SO335,550,85,Service Charges,1,shipped,
+28,7920,7920,Aurender Inc.,Serbia,BM,3,3/11/15,3/11/15,0,1,W20,SO373,7920,102,Aurender W20,1,shipped,24000
+29,240,240,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/22/14,11/22/14,0,1,Etc,SO748,240,45,Shipping & Other Charges,1,shipped,364-7573
+30,6500,6500,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,2,2/12/15,2/12/15,0,1,N100,SO769,1300,167,Aurender N100,5,shipped,CB24 4UQ
+31,5600,5600,Aurender Inc.,Netherlands,More Music b.v.,6,6/11/15,6/11/15,0,1,W20,SO704,5600,225,Aurender W20,1,shipped,
+32,3200000,2909.090909,Aurender Inc.,South Korea,___,3,3/20/15,3/20/15,0,1100,X100,SO352,3200000,41,Aurender X100L,1,shipped,
+33,100,100,Aurender Inc.,Netherlands,More Music b.v.,6,6/11/15,6/11/15,0,1,Etc,SO704,50,46,dCS Dongle,2,shipped,
+34,6000,6000,Aurender Inc.,United States,David Michael Audio,2,2/25/15,2/25/15,0,1,N100,SO338,1500,92,Aurender N100,4,shipped,48073
+35,4200,4200,Aurender Inc.,Romania,High-End Expert SRL,3,3/11/15,3/11/15,0,1,X100,SO374,2100,41,Aurender X100L,2,shipped,
+36,2100,2100,Aurender Inc.,United States,Stephens and Associates,4,4/2/15,4/2/15,0,1,X100,SO394,2100,41,Aurender X100L,1,shipped,32561
+37,648,648,Aurender Inc.,United States,The Voice That Is,1,1/7/15,1/7/15,0,1,FLOW,SO752,648,40,Aurender FLOW,1,shipped,19073
+38,300,300,Aurender Inc.,Netherlands,More Music b.v.,8,8/18/15,8/18/15,0,1,Etc,SO700,300,222,Front Panel,1,shipped,
+39,6336,6336,Aurender Inc.,Italy,Audio Natali S.r.l,1,1/28/15,1/28/15,0,1,W20,SO761,6336,224,Aurender W20,1,shipped,51016
+40,1000,1000,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",2,2/14/15,2/14/15,0,1,X725,SO311,1000,49,Aurender X725,1,shipped,
+41,6500,6500,Aurender Inc.,Switzerland,AudioSphere GmbH,3,3/10/15,3/10/15,0,1,N100,SO339,1300,91,Aurender N100,5,shipped,CH-8048
+42,700,700,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",2,2/14/15,2/14/15,0,1,FLOW,SO311,700,40,Aurender FLOW,1,shipped,
+43,1000,1000,Aurender Inc.,Switzerland,AudioSphere GmbH,3,3/10/15,3/10/15,0,1,X725,SO339,1000,49,Aurender X725,1,shipped,CH-8048
+44,14240,14240,Aurender Inc.,Netherlands,More Music b.v.,3,3/12/15,3/12/15,0,1,FLOW,SO375,712,40,Aurender FLOW,20,shipped,
+45,240,240,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",2,2/14/15,2/14/15,0,1,Cast-Fi 7,SO311,240,50,Aurender Cast-Fi 7,1,shipped,
+46,9500,9500,Aurender Inc.,Netherlands,More Music b.v.,3,3/12/15,3/12/15,0,1,X100,SO375,1900,41,Aurender X100L,5,shipped,
+47,600000,545.4545455,Aurender Inc.,South Korea,____ __,4,4/6/15,4/6/15,0,1100,FLOW,SO413,600000,40,Aurender FLOW,1,shipped,
+48,100,100,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,2,2/22/14,2/22/14,0,1,Etc,SO079,50,46,dCS Dongle,2,shipped,CB24 4UQ
+49,0,0,Aurender Inc.,Netherlands,More Music b.v.,3,3/12/15,3/12/15,0,1,N100,SO375,0,91,Aurender N100,1,shipped,
+50,6500,6500,Aurender Inc.,Netherlands,More Music b.v.,3,3/12/15,3/12/15,0,1,N100,SO375,1300,91,Aurender N100,5,shipped,
+51,3899,3899,Aurender Inc.,Canada,Krzysztof Kotecki,11,11/24/14,11/24/14,0,1,X100,SO749,3899,43,Aurender X100L,1,shipped,
+52,7120,7120,Aurender Inc.,Japan,Emilai Inc.,3,3/17/15,3/17/15,0,1,W20,SO340,7120,102,Aurender W20,1,shipped,141-0032
+53,2700,2700,Aurender Inc.,United States,The Voice That Is,1,1/7/15,1/7/15,0,1,X100,SO752,2700,43,Aurender X100L,1,shipped,19073
+54,1295,1295,Aurender Inc.,Italy,Audio Natali S.r.l,3,3/12/15,3/12/15,50,1,FLOW,SO376,1295,40,Aurender FLOW,1,shipped,51016
+55,2160000,1963.636364,Aurender Inc.,South Korea,______,4,4/10/15,4/10/15,0,1100,X100,SO415,2160000,43,Aurender X100L,1,shipped,
+56,2160000,1963.636364,Aurender Inc.,South Korea,AV_ ___(_),4,4/10/15,4/10/15,0,1100,X100,SO414,2160000,43,Aurender X100L,1,shipped,
+57,990000,900,Aurender Inc.,South Korea,___,3,3/16/15,3/16/15,0,1100,FLOW,SO360,990000,40,Aurender FLOW,1,shipped,
+58,900000,818.1818182,Aurender Inc.,South Korea,___,3,3/27/15,3/27/15,0,1100,FLOW,SO356,900000,40,Aurender FLOW,1,shipped,
+59,6900,6900,Aurender Inc.,Italy,Audio Natali S.r.l,3,3/12/15,3/12/15,0,1,X100,SO376,2300,43,Aurender X100L,3,shipped,51016
+60,2500,2500,Aurender Inc.,Italy,Audio Natali S.r.l,3,3/12/15,3/12/15,0,1,X725,SO376,1250,49,Aurender X725,2,shipped,51016
+61,675000,613.6363636,Aurender Inc.,South Korea,______,4,4/10/15,4/10/15,0,1100,X725,SO415,675000,49,Aurender X725,1,shipped,
+62,399,399,Aurender Inc.,Italy,Audio Natali S.r.l,3,3/12/15,3/12/15,50,1,Cast-Fi 7,SO376,399,50,Aurender Cast-Fi 7,1,shipped,51016
+63,819000,744.5454545,Aurender Inc.,South Korea,______,4,4/10/15,4/10/15,0,1100,FLOW,SO415,819000,40,Aurender FLOW,1,shipped,
+64,4680,4680,Aurender Inc.,Canada,Sonore Filtronique,7,7/14/15,7/14/15,0,1,X100,SO740,2340,43,Aurender X100L,2,shipped,H2M 1SS
+65,6940,6940,Aurender Inc.,United Kingdom,David J. Steven,3,3/12/15,3/12/15,0,1,W20,SO377,6940,102,Aurender W20,1,shipped,CB24 4UQ
+66,936000,850.9090909,Aurender Inc.,South Korea,_____,4,4/10/15,4/10/15,0,1100,FLOW,SO416,936000,40,Aurender FLOW,1,shipped,
+67,4400,4400,Aurender Inc.,United Kingdom,David J. Steven,3,3/12/15,3/12/15,0,1,X100,SO377,2200,43,Aurender X100L,2,shipped,CB24 4UQ
+68,1554,1554,Aurender Inc.,United Kingdom,David J. Steven,3,3/12/15,3/12/15,0,1,FLOW,SO377,777,40,Aurender FLOW,2,shipped,CB24 4UQ
+69,6300,6300,Aurender Inc.,United Kingdom,David J. Steven,3,3/12/15,3/12/15,0,1,X100,SO377,2100,41,Aurender X100L,3,shipped,CB24 4UQ
+70,3150000,2863.636364,Aurender Inc.,South Korea,____ __,11,11/13/14,11/13/14,30,1100,X100,SO316,3150000,41,Aurender X100L,1,shipped,
+71,1250,1250,Aurender Inc.,Chile,Comercial Highend Ltda.,7,7/10/15,7/10/15,0,1,X725,SO692,1250,49,Aurender X725,1,shipped,
+72,1500,1500,Aurender Inc.,United States,Essential Audio,3,3/6/15,3/6/15,0,1,N100,SO349,1500,92,Aurender N100,1,shipped,60010
+73,2200,2200,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",7,7/10/14,7/10/14,0,1,X100,SO143,2200,42,Aurender X100L,1,shipped,
+74,200,200,Aurender Inc.,Hong Kong,Square Wave Ltd.,5,5/27/14,5/27/14,0,1,Etc,SO146,200,45,Shipping & Other Charges,1,shipped,
+75,2955,2955,Aurender Inc.,Israel,Sabo Audio,1,1/16/15,1/16/15,0,1,S10,SO750,2955,147,S10,1,shipped,46733
+76,50,50,Aurender Inc.,Netherlands,More Music b.v.,11,11/2/15,11/2/15,0,1,Etc,SO917,50,46,dCS Dongle,1,shipped,
+77,1554,1554,Aurender Inc.,France,Audio Focus,3,3/17/15,3/17/15,20,1,FLOW,SO379,777,40,Aurender FLOW,2,shipped,95350
+78,50,50,Aurender Inc.,Japan,Emilai Inc.,6,6/19/15,6/19/15,0,1,Etc,SO698,50,46,dCS Dongle,1,shipped,141-0032
+79,2205000,2004.545455,Aurender Inc.,South Korea, ____,4,4/22/15,4/22/15,0,1100,X100,SO420,2205000,41,Aurender X100L,1,shipped,
+80,10400,10400,Aurender Inc.,France,Audio Focus,3,3/17/15,3/17/15,0,1,N100,SO379,1300,91,Aurender N100,8,shipped,95350
+81,4700,4700,Aurender Inc.,Canada,Sonore Filtronique,3,3/2/15,3/2/15,0,1,X100,SO366,2350,43,Aurender X100L,2,shipped,H2M 1SS
+82,7600,7600,Aurender Inc.,France,Audio Focus,3,3/17/15,3/17/15,0,1,X100,SO379,1900,41,Aurender X100L,4,shipped,95350
+83,12000000,10909.09091,Aurender Inc.,South Korea,AV_ ___(_),4,4/17/15,4/17/15,0,1100,X100,SO418,2400000,43,Aurender X100L,5,shipped,
+84,1575000,1431.818182,Aurender Inc.,South Korea,___,1,1/7/15,1/7/15,0,1100,X100,SO267,1575000,41,Aurender X100L,1,shipped,
+85,2205000,2004.545455,Aurender Inc.,South Korea,AV_ ___(_),1,1/19/15,1/19/15,0,1100,X100,SO268,2205000,41,Aurender X100L,1,shipped,
+86,2205000,2004.545455,Aurender Inc.,South Korea, ____,2,2/2/15,2/2/15,0,1100,X100,SO341,2205000,42,Aurender X100L,1,shipped,
+87,1287000,1170,Aurender Inc.,South Korea,___,3,3/16/15,3/16/15,0,1100,FLOW,SO358,1287000,40,Aurender FLOW,1,shipped,
+89,7000,7000,Aurender Inc.,France,Audio Focus,3,3/17/15,3/17/15,0,1,W20,SO379,7000,105,Aurender W20,1,shipped,95350
+90,3000,3000,Aurender Inc.,United States,Galen Carol Audio,3,3/2/15,3/2/15,0,1,N100,SO367,1500,92,Aurender N100,2,shipped,78217-0562
+91,4200,4200,Aurender Inc.,United States,Galen Carol Audio,3,3/2/15,3/2/15,0,1,X100,SO367,2100,41,Aurender X100L,2,shipped,78217-0562
+92,6800,6800,Aurender Inc.,Netherlands,More Music b.v.,12,12/22/14,12/22/14,0,1,W20,SO264,6800,60,Aurender W20,1,shipped,
+93,700,700,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",12,12/29/14,12/29/14,0,1,FLOW,SO265,700,40,Aurender FLOW,1,shipped,
+94,15840,15840,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",12,12/29/14,12/29/14,0,1,W20,SO265,7920,62,Aurender W20,2,shipped,
+95,2331,2331,Aurender Inc.,China,Xuening,1,1/19/15,1/19/15,0,1,FLOW,SO274,777,40,Aurender FLOW,3,shipped,200092
+96,1560000,1418.181818,Aurender Inc.,South Korea, ____,5,5/1/15,5/1/15,0,1100,N100,SO421,1560000,91,Aurender N100,1,shipped,
+97,1500,1500,Aurender Inc.,United States,Galen Carol Audio,3,3/2/15,3/2/15,20,1,N100,SO367,1500,92,Aurender N100,1,shipped,78217-0562
+98,3000,3000,Aurender Inc.,United States,Boca Theater & Automation,3,3/20/15,3/20/15,50,1,X100,SO380,3000,44,Aurender X100S,1,shipped,33434
+99,7920,7920,Aurender Inc.,Serbia,BM,3,3/21/15,3/21/15,10,1,W20,SO385,7920,102,Aurender W20,1,shipped,24000
+100,4500,4500,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,3,3/1/15,3/1/15,0,1,N100,SO347,1500,91,Aurender N100,3,shipped,3134
+101,3000,3000,Aurender Inc.,United States,Moon Audio,3,3/20/15,3/20/15,0,1,N100,SO381,1500,92,Aurender N100,2,shipped,27511
+102,6500,6500,Aurender Inc.,Thailand,Discovery Hifi,3,3/4/15,3/4/15,0,1,N100,SO369,1300,91,Aurender N100,5,shipped,10260
+103,2500,2500,Aurender Inc.,Thailand,Discovery Hifi,3,3/4/15,3/4/15,0,1,X725,SO369,1250,49,Aurender X725,2,shipped,10260
+104,160,160,Aurender Inc.,Thailand,Discovery Hifi,3,3/4/15,3/4/15,0,1,Etc,SO369,160,45,Shipping & Other Charges,1,shipped,10260
+105,320,320,Aurender Inc.,Thailand,Discovery Hifi,3,3/4/15,3/4/15,0,1,Etc,SO369,320,45,Shipping & Other Charges,1,shipped,10260
+106,700,700,Aurender Inc.,Hong Kong,Wong Heung Chi,10,10/31/14,10/31/14,0,1,FLOW,SO003,700,40,Aurender FLOW,1,shipped,
+107,11250,11250,Aurender Inc.,Netherlands,More Music b.v.,10,10/28/14,10/28/14,0,1,X725,SO008,1125,49,Aurender X725,10,shipped,
+108,2500,2500,Aurender Inc.,Canada,Westside Music & Cinema,3,3/25/15,3/25/15,50,1,N100,SO383,2500,92,Aurender N100,1,shipped,AB T3Z 3J8
+109,700,700,Aurender Inc.,Japan,Amos Barnett,10,10/26/14,10/26/14,0,1,FLOW,SO009,700,40,Aurender FLOW,1,shipped,
+110,140,140,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/14/14,11/14/14,0,1,Etc,SO012,140,45,Shipping & Other Charges,1,shipped,364-7573
+111,800000,727.2727273,Aurender Inc.,South Korea,AV_ ___(_),11,11/3/14,11/3/14,0,1100,X725,SO169,800000,49,Aurender X725,1,shipped,
+112,3300000,3000,Aurender Inc.,South Korea,____ ____,11,11/7/14,11/7/14,30,1100,X100,SO171,3300000,42,Aurender X100L,1,shipped,
+113,3510000,3190.909091,Aurender Inc.,South Korea,HMG,11,11/11/14,11/11/14,50,1100,FLOW,SO172,1170000,40,Aurender FLOW,3,shipped,
+114,3000,3000,Aurender Inc.,United States,Galen Carol Audio,3,3/18/15,3/18/15,0,1,N100,SO774,1500,169,Aurender N100,2,shipped,78217-0562
+115,2300,2300,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,11,11/26/14,11/26/14,0,1,X100,SO188,2300,42,Aurender X100L,1,shipped,22290-250
+116,200,200,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,11,11/26/14,11/26/14,0,1,Etc,SO188,200,45,Shipping & Other Charges,1,shipped,22290-250
+117,15000000,13636.36364,Aurender Inc.,South Korea,HMG,7,7/5/14,7/5/14,0,1100,W20,SO196,7500000,58,Aurender W20,2,shipped,
+118,4410000,4009.090909,Aurender Inc.,South Korea,_____,6,6/13/14,6/13/14,0,1100,X100,SO198,2205000,41,Aurender X100L,2,shipped,
+119,4200,4200,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,3,3/20/15,3/20/15,0,1,X100,SO384,2100,41,Aurender X100L,2,shipped,3134
+120,100,100,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,11,11/19/14,11/19/14,0,1,Etc,SO006,50,46,dCS Dongle,2,shipped,91-174
+121,2500,2500,Aurender Inc.,United States,Rhapsody Music and Cinema,3,3/21/15,3/21/15,50,1,N100,SO386,2500,92,Aurender N100,1,shipped,10010
+122,2500,2500,Aurender Inc.,United States,Rhapsody Music and Cinema,3,3/21/15,3/21/15,50,1,X725,SO386,2500,48,Aurender X725,1,shipped,10010
+123,17600,17600,Aurender Inc.,United States,Rhapsody Music and Cinema,3,3/21/15,3/21/15,50,1,W20,SO386,17600,102,Aurender W20,1,shipped,10010
+124,3900,3900,Aurender Inc.,Canada,Audio by Mark Jones,3,3/21/15,3/21/15,50,1,X100,SO387,3900,43,Aurender X100L,1,shipped,
+125,2340,2340,Aurender Inc.,Canada,Audio by Mark Jones,3,3/21/15,3/21/15,0,1,X100,SO387,2340,43,Aurender X100L,1,shipped,
+126,1500,1500,Aurender Inc.,United States,Marutani Consulting,3,3/25/15,3/25/15,0,1,N100,SO389,1500,92,Aurender N100,1,shipped,94608
+127,900000,818.1818182,Aurender Inc.,South Korea,___,12,12/3/14,12/3/14,0,1100,FLOW,SO221,900000,40,Aurender FLOW,1,shipped,
+128,9500,9500,Aurender Inc.,Netherlands,More Music b.v.,10,10/28/14,10/28/14,0,1,X100,SO008,1900,41,Aurender X100L,5,shipped,
+129,2000,2000,Aurender Inc.,Portugal,Sons de Requinte,10,10/24/14,10/24/14,0,1,X725,SO013,1000,48,Aurender X725,2,shipped,
+130,9680,9680,Aurender Inc.,United States,David Michael Audio,10,10/20/14,10/20/14,0,1,W20,SO017,9680,30,Aurender W20,1,shipped,48073
+131,4200,4200,Aurender Inc.,United States,"Command Performance AV, LLC",11,11/5/14,11/5/14,0,1,X100,SO037,2100,44,Aurender X100S,2,shipped,22046
+132,3300000,3000,Aurender Inc.,South Korea,____ __,10,10/23/14,10/23/14,50,1100,X100,SO041,3300000,42,Aurender X100L,1,shipped,
+133,13200000,12000,Aurender Inc.,South Korea,____ __,10,10/23/14,10/23/14,30,1100,X100,SO041,3300000,42,Aurender X100L,4,shipped,
+134,3150000,2863.636364,Aurender Inc.,South Korea,___,10,10/15/14,10/15/14,0,1100,X100,SO045,3150000,42,Aurender X100L,1,shipped,
+135,7770,7770,Aurender Inc.,Japan,Emilai Inc.,11,11/26/14,11/26/14,0,1,FLOW,SO187,777,40,Aurender FLOW,10,shipped,141-0032
+136,7760,7760,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,11,11/19/14,11/19/14,0,1,W20,SO006,7760,33,Aurender W20,1,shipped,91-174
+137,350,350,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,11,11/19/14,11/19/14,0,1,Etc,SO006,350,45,Shipping & Other Charges,1,shipped,91-174
+138,2331,2331,Aurender Inc.,Chile,Comercial Highend Ltda.,11,11/15/14,11/15/14,10,1,FLOW,SO010,777,40,Aurender FLOW,3,shipped,
+139,840,840,Aurender Inc.,Chile,Comercial Highend Ltda.,11,11/15/14,11/15/14,10,1,Cast-Fi 7,SO010,280,50,Aurender Cast-Fi 7,3,shipped,
+140,7760,7760,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/14/14,11/14/14,0,1,W20,SO012,7760,33,Aurender W20,1,shipped,364-7573
+141,200,200,Aurender Inc.,Portugal,Sons de Requinte,10,10/24/14,10/24/14,0,1,Etc,SO013,200,45,Shipping & Other Charges,1,shipped,
+142,8600,8600,Aurender Inc.,South Africa,Tweak Technologies,10,10/21/14,10/21/14,0,1,W20,SO014,8600,35,Aurender W20,1,shipped,6625
+143,4800,4800,Aurender Inc.,South Africa,Tweak Technologies,10,10/21/14,10/21/14,0,1,X100,SO014,2400,41,Aurender X100L,2,shipped,6625
+144,650,650,Aurender Inc.,South Africa,Tweak Technologies,10,10/21/14,10/21/14,0,1,Etc,SO014,650,45,Shipping & Other Charges,1,shipped,6625
+145,750,750,Aurender Inc.,South Africa,Tweak Technologies,10,10/21/14,10/21/14,0,1,Etc,SO014,750,51,ETC,1,shipped,6625
+146,3750,3750,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,10,10/21/14,10/21/14,0,1,X725,SO015,1250,49,Aurender X725,3,shipped,
+147,4200,4200,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,10,10/21/14,10/21/14,0,1,X100,SO015,2100,41,Aurender X100L,2,shipped,
+148,1800,1800,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,10,10/21/14,10/21/14,0,1,X100,SO015,1800,44,Aurender X100S,1,shipped,
+149,500,500,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,10,10/21/14,10/21/14,0,1,Etc,SO015,500,45,Shipping & Other Charges,1,shipped,
+150,8865,8865,Aurender Inc.,Hong Kong,Square Wave Ltd.,10,10/20/14,10/20/14,0,1,S10,SO016,2955,15,Aurender S10,3,shipped,
+151,300,300,Aurender Inc.,Hong Kong,Square Wave Ltd.,10,10/20/14,10/20/14,0,1,Etc,SO016,300,45,Shipping & Other Charges,1,shipped,
+152,3400,3400,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",10,10/16/14,10/16/14,0,1,S10,SO018,3400,15,Aurender S10,1,shipped,
+153,27768,27768,Aurender Inc.,Singapore,Jaben Pte Ltd,11,11/13/14,11/13/14,0,1,FLOW,SO019,712,40,Aurender FLOW,39,shipped,179803
+154,7128,7128,Aurender Inc.,Singapore,Jaben Pte Ltd,11,11/13/14,11/13/14,0,1,FLOW,SO019,648,40,Aurender FLOW,11,shipped,179803
+155,3400,3400,Aurender Inc.,Philippines,Audio Visual Driver International,10,10/15/14,10/15/14,0,1,S10,SO020,3400,21,Aurender S10,1,shipped,364-7573
+156,3400,3400,Aurender Inc.,Philippines,Audio Visual Driver International,10,10/15/14,10/15/14,0,1,S10,SO020,3400,19,Aurender S10,1,shipped,364-7573
+157,4800,4800,Aurender Inc.,Philippines,Audio Visual Driver International,10,10/15/14,10/15/14,0,1,X100,SO020,2400,42,Aurender X100L,2,shipped,364-7573
+158,280,280,Aurender Inc.,Philippines,Audio Visual Driver International,10,10/15/14,10/15/14,0,1,Etc,SO020,280,45,Shipping & Other Charges,1,shipped,364-7573
+159,6600,6600,Aurender Inc.,United States,Galen Carol Audio,10,10/14/14,10/14/14,0,1,X100,SO021,2200,41,Aurender X100L,3,shipped,78217-0562
+160,4600,4600,Aurender Inc.,United States,Galen Carol Audio,10,10/14/14,10/14/14,0,1,X100,SO021,2300,42,Aurender X100L,2,shipped,78217-0562
+161,2400,2400,Aurender Inc.,United States,Galen Carol Audio,10,10/14/14,10/14/14,0,1,X100,SO021,2400,43,Aurender X100L,1,shipped,78217-0562
+162,9680,9680,Aurender Inc.,United States,Galen Carol Audio,10,10/14/14,10/14/14,0,1,W20,SO021,9680,36,Aurender W20,1,shipped,78217-0562
+163,7760,7760,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,10,10/14/14,10/14/14,0,1,W20,SO022,7760,35,Aurender W20,1,shipped,91-174
+164,350,350,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,10,10/14/14,10/14/14,0,1,Etc,SO022,350,45,Shipping & Other Charges,1,shipped,91-174
+165,7560,7560,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,10,10/14/14,10/14/14,0,1,W20,SO023,7560,59,Aurender W20,1,shipped,22290-250
+166,325,325,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,10,10/14/14,10/14/14,0,1,Etc,SO023,325,45,Shipping & Other Charges,1,shipped,22290-250
+167,9200,9200,Aurender Inc.,Greece,Audiosoul,10,10/13/14,10/13/14,0,1,X100,SO024,2300,43,Aurender X100L,4,shipped,11743
+168,1800,1800,Aurender Inc.,Greece,Audiosoul,10,10/13/14,10/13/14,0,1,X100,SO024,1800,44,Aurender X100S,1,shipped,11743
+169,10920,10920,Aurender Inc.,Singapore,Jaben Pte Ltd,11,11/13/14,11/13/14,0,1,Cast-Fi 7,SO025,280,50,Aurender Cast-Fi 7,39,shipped,179803
+170,2640,2640,Aurender Inc.,Singapore,Jaben Pte Ltd,11,11/13/14,11/13/14,0,1,Cast-Fi 7,SO025,240,50,Aurender Cast-Fi 7,11,shipped,179803
+171,2100,2100,Aurender Inc.,United States,Galen Carol Audio,11,11/12/14,11/12/14,0,1,X100,SO026,2100,44,Aurender X100S,1,shipped,78217-0562
+172,5200,5200,Aurender Inc.,United States,The Voice That Is,10,10/13/14,10/13/14,0,1,X100,SO027,2600,42,Aurender X100L,2,shipped,19073
+173,9440,9440,Aurender Inc.,United States,The Voice That Is,10,10/13/14,10/13/14,0,1,W20,SO027,9440,66,Aurender W20,1,shipped,19073
+174,10000,10000,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",10,10/11/14,10/11/14,0,1,X100,SO028,2000,41,Aurender X100L,5,shipped,
+175,5400,5400,Aurender Inc.,United Kingdom,AV10 Limited.,10,10/11/14,10/11/14,0,1,Cast-Fi 7,SO029,270,50,Aurender Cast-Fi 7,20,shipped,KT3 3ST
+176,2955,2955,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/11/14,11/11/14,0,1,S10,SO030,2955,72,Aurender S10,1,shipped,
+177,100,100,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/11/14,11/11/14,0,1,Etc,SO030,100,45,Shipping & Other Charges,1,shipped,
+178,3800,3800,Aurender Inc.,Pakistan,HI FI TRADERS,10,10/10/14,10/10/14,0,1,X100,SO031,1900,44,Aurender X100S,2,shipped,
+179,5400,5400,Aurender Inc.,United States,David Michael Audio,10,10/9/14,10/9/14,0,1,X100,SO032,2700,43,Aurender X100L,2,shipped,48073
+180,75,75,Aurender Inc.,United States,David Michael Audio,10,10/9/14,10/9/14,0,1,Etc,SO032,75,51,ETC,1,shipped,48073
+181,1296,1296,Aurender Inc.,United Arab Emirates,Dubai Audio,11,11/10/14,11/10/14,0,1,FLOW,SO033,648,40,Aurender FLOW,2,shipped,
+182,480,480,Aurender Inc.,United Arab Emirates,Dubai Audio,11,11/10/14,11/10/14,0,1,Cast-Fi 7,SO033,240,50,Aurender Cast-Fi 7,2,shipped,
+183,1554,1554,Aurender Inc.,United Arab Emirates,Dubai Audio,11,11/10/14,11/10/14,0,1,FLOW,SO033,777,40,Aurender FLOW,2,shipped,
+184,200,200,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,10,10/9/14,10/9/14,0,1,Etc,SO034,200,78,Motherboard/Cables,1,shipped,CB24 4UQ
+185,250,250,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,10,10/9/14,10/9/14,0,1,Etc,SO034,250,45,Shipping & Other Charges,1,shipped,CB24 4UQ
+186,1500,1500,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/5/14,11/5/14,0,1,X725,SO035,1500,49,Aurender X725,1,shipped,364-7573
+187,80,80,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/5/14,11/5/14,0,1,Etc,SO035,80,45,Shipping & Other Charges,1,shipped,364-7573
+188,7760,7760,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,10,10/2/14,10/2/14,0,1,W20,SO036,7760,58,Aurender W20,1,shipped,91-174
+189,350,350,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,10,10/2/14,10/2/14,0,1,Etc,SO036,350,45,Shipping & Other Charges,1,shipped,91-174
+190,5400,5400,Aurender Inc.,United States,David Michael Audio,11,11/4/14,11/4/14,0,1,X100,SO038,2700,43,Aurender X100L,2,shipped,48073
+191,5200,5200,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/1/14,11/1/14,65,1,FLOW,SO039,1300,40,Aurender FLOW,4,shipped,
+192,15540,15540,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/1/14,11/1/14,0,1,FLOW,SO039,777,40,Aurender FLOW,20,shipped,
+193,1600,1600,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/1/14,11/1/14,50,1,Cast-Fi 7,SO039,400,50,Aurender Cast-Fi 7,4,shipped,
+194,12880,12880,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/1/14,11/1/14,0,1,Cast-Fi 7,SO039,280,50,Aurender Cast-Fi 7,46,shipped,
+195,2500,2500,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/1/14,11/1/14,50,1,X725,SO039,2500,49,Aurender X725,1,shipped,
+196,100000,90.90909091,Aurender Inc.,South Korea,___,10,10/23/14,10/23/14,0,1100,X725,SO042,100000,49,Aurender X725,1,shipped,
+197,800000,727.2727273,Aurender Inc.,South Korea,____,10,10/23/14,10/23/14,0,1100,X725,SO043,800000,49,Aurender X725,1,shipped,
+198,600000,545.4545455,Aurender Inc.,South Korea,AV_ ___(_),10,10/17/14,10/17/14,0,1100,X725,SO044,600000,49,Aurender X725,1,shipped,
+199,1650000,1500,Aurender Inc.,South Korea,AV_ ___(_),10,10/17/14,10/17/14,0,1100,X100,SO044,1650000,42,Aurender X100L,1,shipped,
+200,14070000,12790.90909,Aurender Inc.,South Korea,AV_ ___(_),10,10/17/14,10/17/14,0,1100,X100,SO044,2010000,42,Aurender X100L,7,shipped,
+201,3810000,3463.636364,Aurender Inc.,South Korea,AV_ ___(_),10,10/17/14,10/17/14,0,1100,X100,SO044,1905000,41,Aurender X100L,2,shipped,
+202,450000,409.0909091,Aurender Inc.,South Korea,___,10,10/15/14,10/15/14,0,1100,X725,SO045,450000,49,Aurender X725,1,shipped,
+203,1000000,909.0909091,Aurender Inc.,South Korea,______,10,10/14/14,10/14/14,0,1100,X725,SO046,1000000,49,Aurender X725,1,shipped,
+204,11025000,10022.72727,Aurender Inc.,South Korea,HMG,10,10/7/14,10/7/14,0,1100,X100,SO047,2205000,41,Aurender X100L,5,shipped,
+205,2250000,2045.454545,Aurender Inc.,South Korea,HMG,10,10/7/14,10/7/14,0,1100,X725,SO047,450000,49,Aurender X725,5,shipped,
+206,15435000,14031.81818,Aurender Inc.,South Korea,_____,10,10/7/14,10/7/14,0,1100,X100,SO048,2205000,41,Aurender X100L,7,shipped,
+207,3150000,2863.636364,Aurender Inc.,South Korea,_____,10,10/7/14,10/7/14,0,1100,X725,SO048,450000,49,Aurender X725,7,shipped,
+208,2310000,2100,Aurender Inc.,South Korea,____,10,10/2/14,10/2/14,0,1100,X100,SO049,2310000,42,Aurender X100L,1,shipped,
+209,13230000,12027.27273,Aurender Inc.,South Korea,____,10,10/2/14,10/2/14,0,1100,X100,SO049,2205000,41,Aurender X100L,6,shipped,
+210,3150000,2863.636364,Aurender Inc.,South Korea,____,10,10/2/14,10/2/14,0,1100,X725,SO049,450000,49,Aurender X725,7,shipped,
+211,9240,9240,Aurender Inc.,United States,David Michael Audio,1,1/2/14,1/2/14,0,1,W20,SO051,9240,64,Aurender W20,1,shipped,48073
+212,6720,6720,Aurender Inc.,United States,MAGICO LLC,1,1/2/14,1/2/14,0,1,W20,SO052,6720,64,Aurender W20,1,shipped,94545
+213,2760,2760,Aurender Inc.,South Africa,Tweak Technologies,1,1/15/14,1/15/14,0,1,S10,SO053,2760,70,Aurender S10,1,shipped,6625
+214,260,260,Aurender Inc.,South Africa,Tweak Technologies,1,1/15/14,1/15/14,0,1,Etc,SO053,260,45,Shipping & Other Charges,1,shipped,6625
+215,7560,7560,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,1,1/16/14,1/16/14,0,1,W20,SO054,7560,58,Aurender W20,1,shipped,34728
+216,0,0,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,1,1/16/14,1/16/14,0,1,Etc,SO054,0,46,dCS Dongle,1,shipped,34728
+217,6050,6050,Aurender Inc.,Portugal,Sons de Requinte,1,1/19/14,1/19/14,0,1,W20,SO055,6050,59,Aurender W20,1,shipped,
+218,2100,2100,Aurender Inc.,Portugal,Sons de Requinte,1,1/19/14,1/19/14,0,1,X100,SO055,2100,41,Aurender X100L,1,shipped,
+219,500,500,Aurender Inc.,Portugal,Sons de Requinte,1,1/19/14,1/19/14,0,1,Etc,SO055,500,45,Shipping & Other Charges,1,shipped,
+220,6600,6600,Aurender Inc.,Japan,Emilai Inc.,1,1/19/14,1/19/14,0,1,W20,SO056,6600,65,Aurender W20,1,shipped,141-0032
+221,150,150,Aurender Inc.,Japan,Emilai Inc.,1,1/19/14,1/19/14,0,1,Etc,SO056,150,45,Shipping & Other Charges,1,shipped,141-0032
+222,2885,2885,Aurender Inc.,Romania,High-End Expert SRL,1,1/20/14,1/20/14,0,1,S10,SO057,2885,71,Aurender S10,1,shipped,
+223,3850,3850,Aurender Inc.,Philippines,Audio Visual Driver International,7,7/10/15,7/10/15,0,1,X100,SO737,1925,41,Aurender X100L,2,shipped,364-7573
+224,5130,5130,Aurender Inc.,Netherlands,More Music b.v.,1,1/20/14,1/20/14,0,1,S10,SO059,2565,70,Aurender S10,2,shipped,
+225,2565,2565,Aurender Inc.,Netherlands,More Music b.v.,1,1/20/14,1/20/14,0,1,S10,SO059,2565,71,Aurender S10,1,shipped,
+226,50,50,Aurender Inc.,Netherlands,More Music b.v.,1,1/20/14,1/20/14,0,1,Etc,SO059,50,46,dCS Dongle,1,shipped,
+227,660,660,Aurender Inc.,Netherlands,More Music b.v.,1,1/20/14,1/20/14,0,1,Etc,SO059,660,45,Shipping & Other Charges,1,shipped,
+228,5310,5310,Aurender Inc.,Hong Kong,Square Wave Ltd.,1,1/23/14,1/23/14,0,1,S10,SO060,2655,70,Aurender S10,2,shipped,
+229,2100,2100,Aurender Inc.,Singapore,X Audio Pte Ltd,1,1/24/14,1/24/14,0,1,X100,SO061,2100,41,Aurender X100L,1,shipped,588996
+230,1800,1800,Aurender Inc.,Singapore,X Audio Pte Ltd,1,1/24/14,1/24/14,0,1,X100,SO061,1800,44,Aurender X100S,1,shipped,588996
+231,200,200,Aurender Inc.,Singapore,X Audio Pte Ltd,1,1/24/14,1/24/14,0,1,Etc,SO061,200,45,Shipping & Other Charges,1,shipped,588996
+232,4200,4200,Aurender Inc.,Denmark,AVA Group A/S,1,1/24/14,1/24/14,0,1,X100,SO062,2100,41,Aurender X100L,2,shipped,7400
+233,3600,3600,Aurender Inc.,Denmark,AVA Group A/S,1,1/24/14,1/24/14,0,1,X100,SO062,1800,44,Aurender X100S,2,shipped,7400
+234,1900,1900,Aurender Inc.,Philippines,Audio Visual Driver International,1,1/24/14,1/24/14,0,1,X100,SO063,1900,41,Aurender X100L,1,shipped,364-7573
+235,1650,1650,Aurender Inc.,Philippines,Audio Visual Driver International,1,1/24/14,1/24/14,0,1,X100,SO063,1650,44,Aurender X100S,1,shipped,364-7573
+236,2100,2100,Aurender Inc.,Chile,Comercial Highend Ltda.,1,1/24/14,1/24/14,0,1,X100,SO064,2100,41,Aurender X100L,1,shipped,
+237,1800,1800,Aurender Inc.,Chile,Comercial Highend Ltda.,1,1/24/14,1/24/14,0,1,X100,SO064,1800,44,Aurender X100S,1,shipped,
+238,2100,2100,Aurender Inc.,United States,Sight + Sound Gallery,1,1/25/14,1/25/14,0,1,X100,SO065,2100,44,Aurender X100S,1,shipped,30312
+239,8800,8800,Aurender Inc.,United States,Galen Carol Audio,1,1/25/14,1/25/14,0,1,X100,SO066,2200,41,Aurender X100L,4,shipped,78217-0562
+240,3800,3800,Aurender Inc.,United States,Galen Carol Audio,1,1/25/14,1/25/14,0,1,X100,SO066,1900,44,Aurender X100S,2,shipped,78217-0562
+241,100,100,Aurender Inc.,United States,Galen Carol Audio,1,1/25/14,1/25/14,0,1,Etc,SO066,100,46,dCS Dongle,1,shipped,78217-0562
+242,7390,7390,Aurender Inc.,United States,Essential Audio,1,1/27/14,1/27/14,0,1,W20,SO067,7390,59,Aurender W20,1,shipped,60010
+243,2500,2500,Aurender Inc.,United States,Essential Audio,1,1/27/14,1/27/14,0,1,X100,SO067,2500,41,Aurender X100L,1,shipped,60010
+244,2100,2100,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,1,1/29/14,1/29/14,0,1,X100,SO068,2100,41,Aurender X100L,1,shipped,91-174
+245,1800,1800,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,1,1/29/14,1/29/14,0,1,X100,SO068,1800,44,Aurender X100S,1,shipped,91-174
+246,2100,2100,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,2,2/3/14,2/3/14,0,1,X100,SO069,2100,41,Aurender X100L,1,shipped,
+247,7200,7200,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,2,2/3/14,2/3/14,0,1,X100,SO069,1800,44,Aurender X100S,4,shipped,
+248,350,350,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,2,2/3/14,2/3/14,0,1,Etc,SO069,350,45,Shipping & Other Charges,1,shipped,
+249,22800,22800,Aurender Inc.,Netherlands,More Music b.v.,2,2/3/14,2/3/14,0,1,X100,SO070,1900,41,Aurender X100L,12,shipped,
+250,4800,4800,Aurender Inc.,Netherlands,More Music b.v.,2,2/3/14,2/3/14,0,1,X100,SO070,1600,44,Aurender X100S,3,shipped,
+251,50,50,Aurender Inc.,Netherlands,More Music b.v.,2,2/3/14,2/3/14,0,1,Etc,SO070,50,46,dCS Dongle,1,shipped,
+252,2565,2565,Aurender Inc.,France,Audio Focus,2,2/3/14,2/3/14,0,1,S10,SO071,2565,70,Aurender S10,1,shipped,95350
+253,6600,6600,Aurender Inc.,France,Audio Focus,2,2/3/14,2/3/14,0,1,W20,SO071,6600,58,Aurender W20,1,shipped,95350
+254,6300,6300,Aurender Inc.,France,Audio Focus,2,2/3/14,2/3/14,0,1,X100,SO071,2100,41,Aurender X100L,3,shipped,95350
+255,1800,1800,Aurender Inc.,France,Audio Focus,2,2/3/14,2/3/14,0,1,X100,SO071,1800,44,Aurender X100S,1,shipped,95350
+256,7560,7560,Aurender Inc.,Philippines,Audio Visual Driver International,2,2/3/14,2/3/14,0,1,W20,SO072,7560,59,Aurender W20,1,shipped,364-7573
+257,600,600,Aurender Inc.,United States,Glenn Fink,2,2/6/14,2/6/14,0,1,Etc,SO073,600,79,Repair Charge,1,shipped,
+258,300,300,Aurender Inc.,United States,Glenn Fink,2,2/6/14,2/6/14,0,1,Etc,SO073,300,80,HDD,1,shipped,
+259,2500,2500,Aurender Inc.,United States,"Valentino Home Entertainment, LLC",2,2/8/14,2/8/14,0,1,X100,SO074,2500,41,Aurender X100L,1,shipped,
+260,7560,7560,Aurender Inc.,Philippines,Audio Visual Driver International,2,2/10/14,2/10/14,0,1,W20,SO075,7560,58,Aurender W20,1,shipped,364-7573
+261,430,430,Aurender Inc.,Philippines,Audio Visual Driver International,2,2/10/14,2/10/14,0,1,Etc,SO075,430,45,Shipping & Other Charges,1,shipped,364-7573
+262,6600,6600,Aurender Inc.,Netherlands,More Music b.v.,2,2/12/14,2/12/14,0,1,W20,SO076,6600,58,Aurender W20,1,shipped,
+263,320,320,Aurender Inc.,Netherlands,More Music b.v.,2,2/12/14,2/12/14,0,1,Etc,SO076,320,45,Shipping & Other Charges,1,shipped,
+264,6600,6600,Aurender Inc.,Denmark,AVA Group A/S,2,2/14/14,2/14/14,0,1,W20,SO077,6600,59,Aurender W20,1,shipped,7400
+265,15120,15120,Aurender Inc.,Russian Federation,New Ambience,2,2/20/14,2/20/14,0,1,W20,SO078,7560,59,Aurender W20,2,shipped,
+266,7560,7560,Aurender Inc.,Russian Federation,New Ambience,2,2/20/14,2/20/14,0,1,W20,SO078,7560,58,Aurender W20,1,shipped,
+267,2100,2100,Aurender Inc.,Russian Federation,New Ambience,2,2/20/14,2/20/14,0,1,X100,SO078,2100,41,Aurender X100L,1,shipped,
+268,1800,1800,Aurender Inc.,Russian Federation,New Ambience,2,2/20/14,2/20/14,0,1,X100,SO078,1800,44,Aurender X100S,1,shipped,
+269,6600,6600,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,2,2/22/14,2/22/14,0,1,W20,SO079,6600,59,Aurender W20,1,shipped,CB24 4UQ
+270,250,250,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,2,2/22/14,2/22/14,0,1,Etc,SO079,250,45,Shipping & Other Charges,1,shipped,CB24 4UQ
+271,5310,5310,Aurender Inc.,Hong Kong,Square Wave Ltd.,2,2/24/14,2/24/14,0,1,S10,SO080,2655,70,Aurender S10,2,shipped,
+272,200,200,Aurender Inc.,Hong Kong,Square Wave Ltd.,2,2/24/14,2/24/14,0,1,Etc,SO080,200,45,Shipping & Other Charges,1,shipped,
+273,20,20,Aurender Inc.,Chile,Comercial Highend Ltda.,3,3/10/14,3/10/14,0,1,Etc,SO081,20,78,Motherboard/Cables,1,shipped,
+274,2795,2795,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,3,3/11/14,3/11/14,0,1,S10,SO082,2795,71,Aurender S10,1,shipped,34728
+275,6600,6600,Aurender Inc.,Japan,Emilai Inc.,3,3/11/14,3/11/14,0,1,W20,SO083,6600,64,Aurender W20,1,shipped,141-0032
+276,6600,6600,Aurender Inc.,Japan,Emilai Inc.,3,3/11/14,3/11/14,0,1,W20,SO083,6600,65,Aurender W20,1,shipped,141-0032
+277,300,300,Aurender Inc.,Japan,Emilai Inc.,3,3/11/14,3/11/14,0,1,Etc,SO083,150,45,Shipping & Other Charges,2,shipped,141-0032
+278,19000,19000,Aurender Inc.,Hong Kong,Square Wave Ltd.,3,3/13/14,3/13/14,0,1,X100,SO084,1900,41,Aurender X100L,10,shipped,
+279,2565,2565,Aurender Inc.,France,Audio Focus,3,3/13/14,3/13/14,0,1,S10,SO085,2565,71,Aurender S10,1,shipped,95350
+280,2565,2565,Aurender Inc.,France,Audio Focus,3,3/13/14,3/13/14,0,1,S10,SO085,2565,70,Aurender S10,1,shipped,95350
+281,3800,3800,Aurender Inc.,France,Audio Focus,3,3/13/14,3/13/14,0,1,X100,SO085,1900,41,Aurender X100L,2,shipped,95350
+282,5400,5400,Aurender Inc.,United States,Essential Audio,3,3/17/14,3/17/14,0,1,X100,SO086,2700,41,Aurender X100L,2,shipped,60010
+283,5000,5000,Aurender Inc.,United States,David Michael Audio,3,3/18/14,3/18/14,0,1,X100,SO087,2500,41,Aurender X100L,2,shipped,48073
+284,3845,3845,Aurender Inc.,Sweden,Perfect Sense,2,2/9/14,2/9/14,0,1,S10,SO088,3845,70,Aurender S10,1,shipped,113 46
+285,2100,2100,Aurender Inc.,Sweden,Perfect Sense,2,2/9/14,2/9/14,0,1,X100,SO088,2100,44,Aurender X100S,1,shipped,113 46
+286,6600,6600,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,3,3/26/14,3/26/14,0,1,W20,SO089,6600,58,Aurender W20,1,shipped,
+287,250,250,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,3,3/26/14,3/26/14,0,1,Etc,SO089,250,45,Shipping & Other Charges,1,shipped,
+288,13300,13300,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,4,4/1/14,4/1/14,0,1,X100,SO090,1900,41,Aurender X100L,7,shipped,91-174
+289,4800,4800,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,4,4/1/14,4/1/14,0,1,X100,SO090,1600,44,Aurender X100S,3,shipped,91-174
+290,7760,7760,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,9,9/1/14,9/1/14,0,1,W20,SO091,7760,60,Aurender W20,1,shipped,91-174
+291,350,350,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,9,9/1/14,9/1/14,0,1,Etc,SO091,350,45,Shipping & Other Charges,1,shipped,91-174
+292,11500,11500,Aurender Inc.,Portugal,Sons de Requinte,4,4/2/14,4/2/14,0,1,X100,SO092,2300,42,Aurender X100L,5,shipped,
+293,7760,7760,Aurender Inc.,Portugal,Sons de Requinte,4,4/2/14,4/2/14,0,1,W20,SO092,7760,61,Aurender W20,1,shipped,
+294,2400,2400,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,9,9/3/14,9/3/14,0,1,X100,SO093,2400,42,Aurender X100L,1,shipped,22290-250
+295,200,200,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,9,9/3/14,9/3/14,0,1,Etc,SO093,200,45,Shipping & Other Charges,1,shipped,22290-250
+296,11000,11000,Aurender Inc.,Japan,Emilai Inc.,9,9/4/14,9/4/14,0,1,X100,SO094,2200,42,Aurender X100L,5,shipped,141-0032
+297,0,0,Aurender Inc.,Japan,Emilai Inc.,9,9/4/14,9/4/14,0,1,X725,SO094,0,48,Aurender X725,1,shipped,141-0032
+298,4200,4200,Aurender Inc.,Singapore,X Audio Pte Ltd,4,4/4/14,4/4/14,0,1,X100,SO095,2100,41,Aurender X100L,2,shipped,588996
+299,6900,6900,Aurender Inc.,Singapore,X Audio Pte Ltd,4,4/4/14,4/4/14,0,1,X100,SO095,2300,42,Aurender X100L,3,shipped,588996
+300,7760,7760,Aurender Inc.,Portugal,Sons de Requinte,9,9/5/14,9/5/14,0,1,W20,SO096,7760,60,Aurender W20,1,shipped,
+301,2700,2700,Aurender Inc.,United States,Marutani Consulting,4,4/8/14,4/8/14,0,1,X100,SO097,2700,42,Aurender X100L,1,shipped,94608
+302,20000,20000,Aurender Inc.,Hong Kong,Square Wave Ltd.,9,9/5/14,9/5/14,0,1,X100,SO098,2000,42,Aurender X100L,10,shipped,
+303,550,550,Aurender Inc.,Hong Kong,Square Wave Ltd.,9,9/5/14,9/5/14,0,1,Etc,SO098,550,45,Shipping & Other Charges,1,shipped,
+304,19000,19000,Aurender Inc.,Hong Kong,Square Wave Ltd.,4,4/8/14,4/8/14,0,1,X100,SO099,1900,41,Aurender X100L,10,shipped,
+305,550,550,Aurender Inc.,Hong Kong,Square Wave Ltd.,4,4/8/14,4/8/14,0,1,Etc,SO099,55,45,Shipping & Other Charges,10,shipped,
+306,9800,9800,Aurender Inc.,Sweden,HiFi Excellence,4,4/8/14,4/8/14,0,1,W20,SO100,9800,59,Aurender W20,1,shipped,113 25
+307,2100,2100,Aurender Inc.,United States,Galen Carol Audio,4,4/9/14,4/9/14,0,1,X100,SO101,2100,44,Aurender X100S,1,shipped,78217-0562
+308,2500,2500,Aurender Inc.,United States,Galen Carol Audio,4,4/9/14,4/9/14,0,1,X100,SO101,2500,41,Aurender X100L,1,shipped,78217-0562
+309,10260,10260,Aurender Inc.,France,Audio Focus,4,4/14/14,4/14/14,0,1,S10,SO102,2565,70,Aurender S10,4,shipped,95350
+310,6600,6600,Aurender Inc.,France,Audio Focus,4,4/14/14,4/14/14,0,1,W20,SO102,6600,58,Aurender W20,1,shipped,95350
+311,2565,2565,Aurender Inc.,France,Audio Focus,4,4/14/14,4/14/14,0,1,S10,SO102,2565,70,Aurender S10,1,shipped,95350
+312,9500,9500,Aurender Inc.,France,Audio Focus,4,4/14/14,4/14/14,0,1,X100,SO102,1900,41,Aurender X100L,5,shipped,95350
+313,6600,6600,Aurender Inc.,France,Audio Focus,4,4/14/14,4/14/14,0,1,W20,SO102,6600,59,Aurender W20,1,shipped,95350
+314,1900,1900,Aurender Inc.,United States,Galen Carol Audio,9,9/11/14,9/11/14,0,1,X100,SO103,1900,44,Aurender X100S,1,shipped,78217-0562
+315,6600,6600,Aurender Inc.,United States,Galen Carol Audio,9,9/11/14,9/11/14,0,1,X100,SO103,2200,41,Aurender X100L,3,shipped,78217-0562
+316,2300,2300,Aurender Inc.,United States,Galen Carol Audio,9,9/11/14,9/11/14,0,1,X100,SO103,2300,42,Aurender X100L,1,shipped,78217-0562
+317,2400,2400,Aurender Inc.,United States,Galen Carol Audio,9,9/11/14,9/11/14,0,1,X100,SO103,2400,43,Aurender X100L,1,shipped,78217-0562
+318,2650,2650,Aurender Inc.,Sweden,Marten AB,4,4/16/14,4/16/14,0,1,X100,SO104,2650,44,Aurender X100S,1,shipped,SE-41135
+319,7600,7600,Aurender Inc.,Hong Kong,Square Wave Ltd.,9,9/11/14,9/11/14,0,1,W20,SO105,7600,58,Aurender W20,1,shipped,
+320,160,160,Aurender Inc.,Hong Kong,Square Wave Ltd.,9,9/11/14,9/11/14,0,1,Etc,SO105,160,45,Shipping & Other Charges,1,shipped,
+321,5000,5000,Aurender Inc.,United States,"Valentino Home Entertainment, LLC",4,4/21/14,4/21/14,0,1,X100,SO106,2500,41,Aurender X100L,2,shipped,
+322,2500,2500,Aurender Inc.,South Africa,Tweak Technologies,4,4/24/14,4/24/14,0,1,X100,SO107,2500,41,Aurender X100L,1,shipped,6625
+323,2700,2700,Aurender Inc.,South Africa,Tweak Technologies,4,4/24/14,4/24/14,0,1,X100,SO107,2700,42,Aurender X100L,1,shipped,6625
+324,6880,6880,Aurender Inc.,Japan,Emilai Inc.,9,9/18/14,9/18/14,0,1,W20,SO108,6880,66,Aurender W20,1,shipped,141-0032
+325,150,150,Aurender Inc.,Japan,Emilai Inc.,9,9/18/14,9/18/14,0,1,Etc,SO108,150,45,Shipping & Other Charges,1,shipped,141-0032
+326,2500,2500,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,4,4/25/14,4/25/14,0,1,X100,SO109,2500,41,Aurender X100L,1,shipped,34728
+327,50,50,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,4,4/25/14,4/25/14,0,1,Etc,SO109,50,45,Shipping & Other Charges,1,shipped,34728
+328,9460,9460,Aurender Inc.,United States,Karbon Consulting,4,4/30/14,4/30/14,20,1,W20,SO111,9460,60,Aurender W20,1,shipped,
+329,5200,5200,Aurender Inc.,Sweden,Perfect Sense,9,9/22/14,9/22/14,0,1,X100,SO112,2600,42,Aurender X100L,2,shipped,113 46
+330,5000,5000,Aurender Inc.,United States,"Command Performance AV, LLC",4,4/30/14,4/30/14,0,1,X100,SO113,2500,41,Aurender X100L,2,shipped,22046
+331,5000,5000,Aurender Inc.,United States,Sonare Coeli,4,4/30/14,4/30/14,0,1,X100,SO115,2500,41,Aurender X100L,2,shipped,54981
+332,5700,5700,Aurender Inc.,Netherlands,More Music b.v.,9,9/24/14,9/24/14,0,1,X100,SO116,1900,41,Aurender X100L,3,shipped,
+333,1600,1600,Aurender Inc.,Netherlands,More Music b.v.,9,9/24/14,9/24/14,0,1,X100,SO116,1600,44,Aurender X100S,1,shipped,
+334,6800,6800,Aurender Inc.,Netherlands,More Music b.v.,9,9/24/14,9/24/14,0,1,W20,SO116,6800,60,Aurender W20,1,shipped,
+335,6880,6880,Aurender Inc.,Japan,Emilai Inc.,9,9/24/14,9/24/14,0,1,W20,SO117,6880,66,Aurender W20,1,shipped,141-0032
+336,150,150,Aurender Inc.,Japan,Emilai Inc.,9,9/24/14,9/24/14,0,1,Etc,SO117,150,45,Shipping & Other Charges,1,shipped,141-0032
+337,7760,7760,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",9,9/25/14,9/25/14,0,1,W20,SO118,7760,60,Aurender W20,1,shipped,
+338,100,100,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",9,9/25/14,9/25/14,0,1,Etc,SO118,50,46,dCS Dongle,2,shipped,
+339,5000,5000,Aurender Inc.,United States,Sight + Sound Gallery,9,9/27/14,9/27/14,0,1,X100,SO119,2500,41,Aurender X100L,2,shipped,30312
+340,7560,7560,Aurender Inc.,Hong Kong,Square Wave Ltd.,4,4/30/14,4/30/14,0,1,W20,SO120,7560,58,Aurender W20,1,shipped,
+341,160,160,Aurender Inc.,Hong Kong,Square Wave Ltd.,4,4/30/14,4/30/14,0,1,Etc,SO120,160,45,Shipping & Other Charges,1,shipped,
+342,5200,5200,Aurender Inc.,United States,Essential Audio,9,9/27/14,9/27/14,0,1,X100,SO121,2600,42,Aurender X100L,2,shipped,60010
+343,15520,15520,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",8,8/5/14,8/5/14,0,1,W20,SO122,7760,60,Aurender W20,2,shipped,
+344,4600,4600,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",8,8/5/14,8/5/14,0,1,X100,SO122,2300,42,Aurender X100L,2,shipped,
+345,6300,6300,Aurender Inc.,Thailand,Discovery Hifi,5,5/1/14,5/1/14,0,1,X100,SO123,2100,41,Aurender X100L,3,shipped,10260
+346,3600,3600,Aurender Inc.,Thailand,Discovery Hifi,5,5/1/14,5/1/14,0,1,X100,SO123,1800,44,Aurender X100S,2,shipped,10260
+347,300,300,Aurender Inc.,Thailand,Discovery Hifi,5,5/1/14,5/1/14,0,1,Etc,SO123,300,45,Shipping & Other Charges,1,shipped,10260
+348,6600,6600,Aurender Inc.,Japan,Emilai Inc.,8,8/11/14,8/11/14,0,1,W20,SO124,6600,64,Aurender W20,1,shipped,141-0032
+349,150,150,Aurender Inc.,Japan,Emilai Inc.,8,8/11/14,8/11/14,0,1,Etc,SO124,150,45,Shipping & Other Charges,1,shipped,141-0032
+350,20000,20000,Aurender Inc.,Hong Kong,Square Wave Ltd.,8,8/12/14,8/12/14,0,1,X100,SO125,2000,42,Aurender X100L,10,shipped,
+351,150,150,Aurender Inc.,Hong Kong,Square Wave Ltd.,8,8/12/14,8/12/14,0,1,Etc,SO125,150,45,Shipping & Other Charges,1,shipped,
+352,7760,7760,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,5,5/8/14,5/8/14,0,1,W20,SO126,7760,61,Aurender W20,1,shipped,3134
+353,7760,7760,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,5,5/8/14,5/8/14,0,1,W20,SO126,7760,60,Aurender W20,1,shipped,3134
+354,11500,11500,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,5,5/8/14,5/8/14,0,1,X100,SO126,2300,42,Aurender X100L,5,shipped,3134
+355,3800,3800,Aurender Inc.,Netherlands,More Music b.v.,8,8/14/14,8/14/14,0,1,X100,SO127,1900,41,Aurender X100L,2,shipped,
+356,-1600,-1600,Aurender Inc.,Netherlands,More Music b.v.,8,8/14/14,8/14/14,0,1,X100,SO127,-1600,44,Aurender X100S,1,shipped,
+357,1900,1900,Aurender Inc.,Netherlands,More Music b.v.,8,8/14/14,8/14/14,0,1,X100,SO127,1900,41,Aurender X100L,1,shipped,
+358,4800,4800,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,8,8/15/14,8/15/14,0,1,X100,SO128,2400,42,Aurender X100L,2,shipped,34728
+359,9000,9000,Aurender Inc.,Singapore,X Audio Pte Ltd,5,5/8/14,5/8/14,0,1,X100,SO129,1800,44,Aurender X100S,5,shipped,588996
+360,11000,11000,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,8,8/19/14,8/19/14,0,1,X100,SO130,2200,42,Aurender X100L,5,shipped,22290-250
+361,7568,7568,Aurender Inc.,United States,"PureAudio, LLC",5,5/16/14,5/16/14,0,1,W20,SO131,7568,61,Aurender W20,1,shipped,95066
+362,2655,2655,Aurender Inc.,Hong Kong,Square Wave Ltd.,9,9/25/14,9/25/14,0,1,S10,SO132,2655,70,Aurender S10,1,shipped,
+363,7560,7560,Aurender Inc.,Hong Kong,Square Wave Ltd.,9,9/25/14,9/25/14,0,1,W20,SO132,7560,64,Aurender W20,1,shipped,
+364,260,260,Aurender Inc.,Hong Kong,Square Wave Ltd.,9,9/25/14,9/25/14,0,1,Etc,SO132,260,45,Shipping & Other Charges,1,shipped,
+365,11000,11000,Aurender Inc.,Singapore,X Audio Pte Ltd,8,8/25/14,8/25/14,0,1,X100,SO133,2200,42,Aurender X100L,5,shipped,588996
+366,10500,10500,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,5,5/20/14,5/20/14,0,1,X100,SO134,2100,41,Aurender X100L,5,shipped,CB24 4UQ
+367,7560,7560,Aurender Inc.,Serbia,BM,7,7/1/14,7/1/14,0,1,W20,SO135,7560,58,Aurender W20,1,shipped,24000
+368,350,350,Aurender Inc.,Serbia,BM,7,7/1/14,7/1/14,0,1,Etc,SO135,350,45,Shipping & Other Charges,1,shipped,24000
+369,19000,19000,Aurender Inc.,Netherlands,More Music b.v.,5,5/22/14,5/22/14,0,1,X100,SO136,1900,41,Aurender X100L,10,shipped,
+370,2765,2765,Aurender Inc.,Netherlands,More Music b.v.,5,5/22/14,5/22/14,0,1,S10,SO136,2765,71,Aurender S10,1,shipped,
+371,7760,7760,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,7,7/2/14,7/2/14,0,1,W20,SO137,7760,61,Aurender W20,1,shipped,91-174
+372,350,350,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,7,7/2/14,7/2/14,0,1,Etc,SO137,350,45,Shipping & Other Charges,1,shipped,91-174
+373,7000,7000,Aurender Inc.,Denmark,Zen Sati Cables,5,5/22/14,5/22/14,0,1,W20,SO138,7000,58,Aurender W20,1,shipped,
+374,2899,2899,Aurender Inc.,South Korea,Mr. Matthew Yu,7,7/2/14,7/2/14,0,1,X100,SO139,2899,44,Aurender X100S,1,shipped,
+375,4600,4600,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,5,5/22/14,5/22/14,0,1,X100,SO140,2300,42,Aurender X100L,2,shipped,34728
+376,2200,2200,Aurender Inc.,United Arab Emirates,Dubai Audio,7,7/9/14,7/9/14,0,1,X100,SO141,2200,42,Aurender X100L,1,shipped,
+377,1800,1800,Aurender Inc.,United Arab Emirates,Dubai Audio,7,7/9/14,7/9/14,0,1,X100,SO141,1800,44,Aurender X100S,1,shipped,
+378,6300,6300,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,5,5/22/14,5/22/14,0,1,X100,SO142,2100,41,Aurender X100L,3,shipped,
+379,3600,3600,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,5,5/22/14,5/22/14,0,1,X100,SO142,1800,44,Aurender X100S,2,shipped,
+380,400,400,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,5,5/22/14,5/22/14,0,1,Etc,SO142,400,45,Shipping & Other Charges,1,shipped,
+381,7760,7760,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",7,7/10/14,7/10/14,20,1,W20,SO143,7760,60,Aurender W20,1,shipped,
+382,2995,2995,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",7,7/10/14,7/10/14,20,1,S10,SO143,2995,70,Aurender S10,1,shipped,
+383,1800,1800,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",7,7/10/14,7/10/14,0,1,X100,SO143,1800,44,Aurender X100S,1,shipped,
+384,9240,9240,Aurender Inc.,United States,"Command Performance AV, LLC",5,5/23/14,5/23/14,0,1,W20,SO144,9240,64,Aurender W20,1,shipped,22046
+385,7760,7760,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",7,7/11/14,7/11/14,20,1,W20,SO145,7760,60,Aurender W20,1,shipped,
+386,5310,5310,Aurender Inc.,Hong Kong,Square Wave Ltd.,5,5/27/14,5/27/14,0,1,S10,SO146,2655,70,Aurender S10,2,shipped,
+387,8400,8400,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",5,5/30/14,5/30/14,0,1,X100,SO147,2100,41,Aurender X100L,4,shipped,
+388,1800,1800,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",5,5/30/14,5/30/14,0,1,X100,SO147,1800,44,Aurender X100S,1,shipped,
+389,2500,2500,Aurender Inc.,United States,Sight + Sound Gallery,6,6/5/14,6/5/14,0,1,X100,SO148,2500,41,Aurender X100L,1,shipped,30312
+390,20000,20000,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/9/14,6/9/14,0,1,X100,SO149,2000,42,Aurender X100L,10,shipped,
+391,550,550,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/9/14,6/9/14,0,1,Etc,SO149,550,45,Shipping & Other Charges,1,shipped,
+392,2975,2975,Aurender Inc.,Japan,Emilai Inc.,7,7/17/14,7/17/14,0,1,S10,SO150,2975,74,Aurender S10,1,shipped,141-0032
+393,100,100,Aurender Inc.,Japan,Emilai Inc.,7,7/17/14,7/17/14,0,1,Etc,SO150,100,45,Shipping & Other Charges,1,shipped,141-0032
+394,11500,11500,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,7,7/17/14,7/17/14,0,1,X100,SO151,2300,42,Aurender X100L,5,shipped,3134
+395,8400,8400,Aurender Inc.,Singapore,X Audio Pte Ltd,6,6/18/14,6/18/14,0,1,X100,SO152,2100,41,Aurender X100L,4,shipped,588996
+396,2200,2200,Aurender Inc.,Singapore,X Audio Pte Ltd,6,6/18/14,6/18/14,0,1,X100,SO152,2200,42,Aurender X100L,1,shipped,588996
+397,11500,11500,Aurender Inc.,United States,Essential Audio,7,7/17/14,7/17/14,0,1,X100,SO153,2300,42,Aurender X100L,5,shipped,60010
+398,3499,3499,Aurender Inc.,Cyprus,Bryan Perrin,7,7/21/14,7/21/14,0,1,X100,SO154,3499,41,Aurender X100L,1,shipped,
+399,4009,4009,Aurender Inc.,United States,David Michael Audio,6,6/20/14,6/20/14,0,1,S10,SO155,4009,75,Aurender S10,1,shipped,48073
+400,5000,5000,Aurender Inc.,United States,David Michael Audio,7,7/24/14,7/24/14,0,1,X100,SO156,2500,41,Aurender X100L,2,shipped,48073
+401,4600,4600,Aurender Inc.,Israel,Sabo Audio,6,6/23/14,6/23/14,0,1,X100,SO157,2300,41,Aurender X100L,2,shipped,46733
+402,9500,9500,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,7,7/29/14,7/29/14,0,1,X100,SO158,1900,41,Aurender X100L,5,shipped,CB24 4UQ
+403,10000,10000,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,7,7/29/14,7/29/14,0,1,X100,SO158,2000,42,Aurender X100L,5,shipped,CB24 4UQ
+404,9440,9440,Aurender Inc.,United States,Galen Carol Audio,6,6/26/14,6/26/14,0,1,W20,SO159,9440,60,Aurender W20,1,shipped,78217-0562
+405,2200,2200,Aurender Inc.,United States,Galen Carol Audio,6,6/26/14,6/26/14,0,1,X100,SO159,2200,41,Aurender X100L,1,shipped,78217-0562
+406,2300,2300,Aurender Inc.,United States,Galen Carol Audio,6,6/26/14,6/26/14,0,1,X100,SO159,2300,42,Aurender X100L,1,shipped,78217-0562
+407,4700,4700,Aurender Inc.,Philippines,Audio Visual Driver International,7,7/31/14,7/31/14,0,1,X100,SO165,2350,42,Aurender X100L,2,shipped,364-7573
+408,120,120,Aurender Inc.,Philippines,Audio Visual Driver International,7,7/31/14,7/31/14,0,1,Etc,SO165,120,45,Shipping & Other Charges,1,shipped,364-7573
+409,2205000,2004.545455,Aurender Inc.,South Korea,___,11,11/5/14,11/5/14,0,1100,X100,SO170,2205000,41,Aurender X100L,1,shipped,
+410,450000,409.0909091,Aurender Inc.,South Korea,___,11,11/5/14,11/5/14,0,1100,X725,SO170,450000,49,Aurender X725,1,shipped,
+411,45000000,40909.09091,Aurender Inc.,South Korea,HMG,11,11/11/14,11/11/14,25,1100,FLOW,SO172,900000,40,Aurender FLOW,50,shipped,
+412,1600000,1454.545455,Aurender Inc.,South Korea,AV_ ___(_),11,11/14/14,11/14/14,0,1100,X725,SO174,800000,49,Aurender X725,2,shipped,
+413,900000,818.1818182,Aurender Inc.,South Korea,______,11,11/17/14,11/17/14,0,1100,FLOW,SO175,900000,40,Aurender FLOW,1,shipped,
+414,900000,818.1818182,Aurender Inc.,South Korea,___,11,11/17/14,11/17/14,0,1100,FLOW,SO176,900000,40,Aurender FLOW,1,shipped,
+415,1600000,1454.545455,Aurender Inc.,South Korea,____,11,11/17/14,11/17/14,0,1100,X725,SO177,800000,49,Aurender X725,2,shipped,
+416,900000,818.1818182,Aurender Inc.,South Korea,___,11,11/24/14,11/24/14,0,1100,FLOW,SO178,900000,40,Aurender FLOW,1,shipped,
+417,900000,818.1818182,Aurender Inc.,South Korea,___,11,11/25/14,11/25/14,0,1100,FLOW,SO179,900000,40,Aurender FLOW,1,shipped,
+418,900000,818.1818182,Aurender Inc.,South Korea,___,11,11/25/14,11/25/14,0,1100,FLOW,SO180,900000,40,Aurender FLOW,1,shipped,
+419,7560,7560,Aurender Inc.,Chile,Comercial Highend Ltda.,11,11/15/14,11/15/14,0,1,W20,SO010,7560,59,Aurender W20,1,shipped,
+420,8400,8400,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/21/14,11/21/14,0,1,X100,SO181,2100,41,Aurender X100L,4,shipped,364-7573
+421,240,240,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/21/14,11/21/14,0,1,Etc,SO181,240,45,Shipping & Other Charges,1,shipped,364-7573
+422,1749.5,1749.5,Aurender Inc.,United States,"PureAudio, LLC",11,11/24/14,11/24/14,0,1,X100,SO183,1749.5,41,Aurender X100L,1,shipped,95066
+423,1250,1250,Aurender Inc.,United States,"PureAudio, LLC",11,11/24/14,11/24/14,0,1,X725,SO183,1250,49,Aurender X725,1,shipped,95066
+424,1554,1554,Aurender Inc.,China,Xuening,11,11/24/14,11/24/14,0,1,FLOW,SO184,777,40,Aurender FLOW,2,shipped,200092
+425,150,150,Aurender Inc.,China,Xuening,11,11/24/14,11/24/14,0,1,Etc,SO184,150,45,Shipping & Other Charges,1,shipped,200092
+426,1500,1500,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",11,11/25/14,11/25/14,20,1,X725,SO185,1500,49,Aurender X725,1,shipped,
+427,2300,2300,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",11,11/25/14,11/25/14,0,1,X100,SO185,2300,42,Aurender X100L,1,shipped,
+428,13600,13600,Aurender Inc.,Netherlands,More Music b.v.,11,11/26/14,11/26/14,0,1,W20,SO186,6800,60,Aurender W20,2,shipped,
+429,0,0,Aurender Inc.,Japan,Emilai Inc.,11,11/26/14,11/26/14,0,1,Cast-Fi 7,SO187,0,50,Aurender Cast-Fi 7,1,shipped,141-0032
+430,1000000,909.0909091,Aurender Inc.,South Korea,___,10,10/14/14,10/14/14,0,1100,X725,SO189,1000000,49,Aurender X725,1,shipped,
+431,8100000,7363.636364,Aurender Inc.,South Korea,______,10,10/28/14,10/28/14,50,1100,X100,SO190,2700000,44,Aurender X100S,3,shipped,
+432,11410000,10372.72727,Aurender Inc.,South Korea,______,10,10/28/14,10/28/14,0,1100,X100,SO190,1630000,44,Aurender X100S,7,shipped,
+433,13200000,12000,Aurender Inc.,South Korea,______,9,9/23/14,9/23/14,50,1100,X100,SO191,3300000,42,Aurender X100L,4,shipped,
+434,3300000,3000,Aurender Inc.,South Korea,______,9,9/23/14,9/23/14,30,1100,X100,SO191,3300000,42,Aurender X100L,1,shipped,
+435,2205000,2004.545455,Aurender Inc.,South Korea,AV_ ___(_),9,9/16/14,9/16/14,0,1100,X100,SO192,2205000,42,Aurender X100L,1,shipped,
+436,4620000,4200,Aurender Inc.,South Korea,HMG,9,9/11/14,9/11/14,0,1100,X100,SO193,2310000,42,Aurender X100L,2,shipped,
+437,2310000,2100,Aurender Inc.,South Korea,___,8,8/28/14,8/28/14,0,1100,X100,SO194,2310000,42,Aurender X100L,1,shipped,
+438,11550000,10500,Aurender Inc.,South Korea,____,8,8/27/14,8/27/14,0,1100,X100,SO195,2310000,42,Aurender X100L,5,shipped,
+439,4200000,3818.181818,Aurender Inc.,South Korea,_____,7,7/1/14,7/1/14,0,1100,S10,SO197,4200000,73,Aurender S10,1,shipped,
+440,3150000,2863.636364,Aurender Inc.,South Korea,_____,6,6/13/14,6/13/14,0,1100,X100,SO198,1575000,41,Aurender X100L,2,shipped,
+441,1890000,1718.181818,Aurender Inc.,South Korea,_____,6,6/13/14,6/13/14,0,1100,X100,SO198,1890000,44,Aurender X100S,1,shipped,
+442,2520000,2290.909091,Aurender Inc.,South Korea,_____,6,6/13/14,6/13/14,0,1100,X100,SO199,2520000,41,Aurender X100L,1,shipped,
+443,3300000,3000,Aurender Inc.,South Korea,____ __,5,5/30/14,5/30/14,40,1100,X100,SO200,3300000,42,Aurender X100L,1,shipped,
+444,3300000,3000,Aurender Inc.,South Korea,____ __,5,5/30/14,5/30/14,30,1100,X100,SO200,3300000,42,Aurender X100L,1,shipped,
+445,9900000,9000,Aurender Inc.,South Korea,_____,5,5/29/14,5/29/14,50,1100,X100,SO201,3300000,42,Aurender X100L,3,shipped,
+446,6300000,5727.272727,Aurender Inc.,South Korea,_____,5,5/29/14,5/29/14,30,1100,X100,SO201,3150000,41,Aurender X100L,2,shipped,
+447,9900000,9000,Aurender Inc.,South Korea,HMG,5,5/28/14,5/28/14,50,1100,X100,SO202,3300000,42,Aurender X100L,3,shipped,
+448,6600000,6000,Aurender Inc.,South Korea,HMG,5,5/28/14,5/28/14,30,1100,X100,SO202,3300000,42,Aurender X100L,2,shipped,
+449,3150000,2863.636364,Aurender Inc.,South Korea,___,5,5/20/14,5/20/14,0,1100,X100,SO203,3150000,42,Aurender X100L,1,shipped,
+450,3150000,2863.636364,Aurender Inc.,South Korea,___,5,5/13/14,5/13/14,0,1100,X100,SO204,3150000,42,Aurender X100L,1,shipped,
+451,1800000,1636.363636,Aurender Inc.,South Korea,_____,5,5/10/14,5/10/14,0,1100,X100,SO205,1800000,41,Aurender X100L,1,shipped,
+452,3200000,2909.090909,Aurender Inc.,South Korea,_______,5,5/10/14,5/10/14,0,1100,X100,SO206,1600000,41,Aurender X100L,2,shipped,
+453,2100000,1909.090909,Aurender Inc.,South Korea,AV_ ___(_),4,4/25/14,4/25/14,0,1100,X100,SO207,2100000,41,Aurender X100L,1,shipped,
+454,1890000,1718.181818,Aurender Inc.,South Korea,HMG,4,4/25/14,4/25/14,0,1100,X100,SO208,1890000,44,Aurender X100S,1,shipped,
+455,9000000,8181.818182,Aurender Inc.,South Korea,HMG,3,3/19/14,3/19/14,0,1100,W20,SO209,9000000,58,Aurender W20,1,shipped,
+456,15000000,13636.36364,Aurender Inc.,South Korea,___,3,3/19/14,3/19/14,0,1100,W20,SO210,15000000,60,Aurender W20,1,shipped,
+457,4500000,4090.909091,Aurender Inc.,South Korea,HMG,3,3/18/14,3/18/14,0,1100,W20,SO211,4500000,58,Aurender W20,1,shipped,
+458,6000000,5454.545455,Aurender Inc.,South Korea,AV_ ___(_),2,2/24/14,2/24/14,0,1100,X100,SO212,2000000,41,Aurender X100L,3,shipped,
+459,3163637,2876.033636,Aurender Inc.,South Korea,__ ___,1,1/28/14,1/28/14,0,1100,X100,SO213,3163637,41,Aurender X100L,1,shipped,
+460,6960000,6327.272727,Aurender Inc.,South Korea,HMG,1,1/23/14,1/23/14,30,1100,X100,SO214,3480000,41,Aurender X100L,2,shipped,
+461,1080000,981.8181818,Aurender Inc.,South Korea,___,1,1/20/14,1/20/14,0,1100,X100,SO215,1080000,44,Aurender X100S,1,shipped,
+462,3480000,3163.636364,Aurender Inc.,South Korea,Mr. ___,1,1/16/14,1/16/14,10,1100,X100,SO216,3480000,41,Aurender X100L,1,shipped,
+463,2300,2300,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/27/14,11/27/14,0,1,X100,SO217,2300,43,Aurender X100L,1,shipped,364-7573
+464,11000,11000,Aurender Inc.,Singapore,X Audio Pte Ltd,11,11/7/14,11/7/14,0,1,X100,SO218,2200,42,Aurender X100L,5,shipped,588996
+465,2000,2000,Aurender Inc.,Singapore,X Audio Pte Ltd,11,11/7/14,11/7/14,0,1,X725,SO218,1000,49,Aurender X725,2,shipped,588996
+466,2600,2600,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,11,11/7/14,11/7/14,0,1,X100,SO219,2600,43,Aurender X100L,1,shipped,CB24 4UQ
+467,900000,818.1818182,Aurender Inc.,South Korea,___,12,12/8/14,12/8/14,0,1100,FLOW,SO222,900000,40,Aurender FLOW,1,shipped,
+468,2490000,2263.636364,Aurender Inc.,South Korea,___,12,12/9/14,12/9/14,0,1100,X100,SO223,2490000,43,Aurender X100L,1,shipped,
+469,2310000,2100,Aurender Inc.,South Korea,___,12,12/9/14,12/9/14,0,1100,X100,SO224,2310000,42,Aurender X100L,1,shipped,
+470,2520000,2290.909091,Aurender Inc.,South Korea,___,12,12/9/14,12/9/14,0,1100,X100,SO225,2520000,41,Aurender X100L,1,shipped,
+471,1200000,1090.909091,Aurender Inc.,South Korea,HMG,12,12/10/14,12/10/14,0,1100,X725,SO226,600000,49,Aurender X725,2,shipped,
+472,900000,818.1818182,Aurender Inc.,South Korea,___,12,12/13/14,12/13/14,0,1100,FLOW,SO227,900000,40,Aurender FLOW,1,shipped,
+473,3150000,2863.636364,Aurender Inc.,South Korea,(_)____,12,12/13/14,12/13/14,15,1100,X100,SO228,3150000,41,Aurender X100L,1,shipped,
+474,7500000,6818.181818,Aurender Inc.,South Korea,HMG,12,12/15/14,12/15/14,0,1100,W20,SO229,7500000,58,Aurender W20,1,shipped,
+475,1350000,1227.272727,Aurender Inc.,South Korea,HMG,12,12/15/14,12/15/14,0,1100,X100,SO229,1350000,44,Aurender X100S,1,shipped,
+476,2520000,2290.909091,Aurender Inc.,South Korea,_____,12,12/22/14,12/22/14,0,1100,X100,SO230,2520000,41,Aurender X100L,1,shipped,
+477,5000,5000,Aurender Inc.,United States,Essential Audio,12,12/1/14,12/1/14,0,1,X100,SO231,2500,41,Aurender X100L,2,shipped,60010
+478,1800000,1636.363636,Aurender Inc.,South Korea,___,12,12/22/14,12/22/14,0,1100,X100,SO234,1800000,41,Aurender X100L,1,shipped,
+479,1800000,1636.363636,Aurender Inc.,South Korea,___,12,12/22/14,12/22/14,0,1100,X725,SO234,1800000,49,Aurender X725,1,shipped,
+480,1554,1554,Aurender Inc.,China,Xuening,12,12/23/14,12/23/14,0,1,FLOW,SO235,777,40,Aurender FLOW,2,shipped,200092
+481,2310000,2100,Aurender Inc.,South Korea,___,12,12/23/14,12/23/14,0,1100,X100,SO236,2310000,42,Aurender X100L,1,shipped,
+482,2640000,2400,Aurender Inc.,South Korea,___,1,1/7/15,1/7/15,0,1100,X100,SO237,2640000,42,Aurender X100L,1,shipped,
+483,2400,2400,Aurender Inc.,Lithuania,Audio Video Dizainas,12,12/1/14,12/1/14,0,1,X100,SO238,2400,41,Aurender X100L,1,shipped,9200
+484,200,200,Aurender Inc.,Lithuania,Audio Video Dizainas,12,12/1/14,12/1/14,0,1,Etc,SO238,200,45,Shipping & Other Charges,1,shipped,9200
+485,1554,1554,Aurender Inc.,China,Xuening,12,12/29/14,12/29/14,0,1,FLOW,SO239,777,40,Aurender FLOW,2,shipped,200092
+486,1170000,1063.636364,Aurender Inc.,South Korea,___,12,12/31/14,12/31/14,0,1100,FLOW,SO240,1170000,40,Aurender FLOW,1,shipped,
+487,10500,10500,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,12,12/1/14,12/1/14,0,1,X100,SO241,2100,41,Aurender X100L,5,shipped,3134
+488,2331,2331,Aurender Inc.,Thailand,Discovery Hifi,12,12/2/14,12/2/14,10,1,FLOW,SO242,777,40,Aurender FLOW,3,shipped,10260
+489,10101,10101,Aurender Inc.,Thailand,Discovery Hifi,12,12/2/14,12/2/14,0,1,FLOW,SO242,777,40,Aurender FLOW,13,shipped,10260
+490,1554,1554,Aurender Inc.,Chile,Comercial Highend Ltda.,12,12/1/14,12/1/14,10,1,FLOW,SO243,777,40,Aurender FLOW,2,shipped,
+491,840,840,Aurender Inc.,Chile,Comercial Highend Ltda.,12,12/1/14,12/1/14,10,1,Cast-Fi 7,SO243,280,50,Aurender Cast-Fi 7,3,shipped,
+492,1500,1500,Aurender Inc.,Chile,Comercial Highend Ltda.,12,12/1/14,12/1/14,10,1,X725,SO243,1500,49,Aurender X725,1,shipped,
+493,2600,2600,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,12,12/3/14,12/3/14,0,1,X100,SO246,2600,43,Aurender X100L,1,shipped,CB24 4UQ
+494,450,450,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,12,12/3/14,12/3/14,0,1,Etc,SO246,450,85,Service Charges,1,shipped,CB24 4UQ
+495,6300,6300,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,12,12/3/14,12/3/14,0,1,X100,SO247,2100,41,Aurender X100L,3,shipped,
+496,1000,1000,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,12,12/3/14,12/3/14,0,1,X725,SO247,1000,49,Aurender X725,1,shipped,
+497,1300,1300,Aurender Inc.,China,Xuening,12,12/4/14,12/4/14,0,1,X100,SO248,1300,44,Aurender X100S,1,shipped,200092
+498,0,0,Aurender Inc.,Philippines,Marcus Downey,12,12/5/14,12/5/14,0,1,FLOW,SO250,0,40,Aurender FLOW,1,shipped,
+499,2955,2955,Aurender Inc.,Hong Kong,Andrew Poon,12,12/8/14,12/8/14,0,1,S10,SO253,2955,72,Aurender S10,1,shipped,
+500,100,100,Aurender Inc.,Hong Kong,Andrew Poon,12,12/8/14,12/8/14,0,1,Etc,SO253,100,45,Shipping & Other Charges,1,shipped,
+501,9440,9440,Aurender Inc.,United States,The Voice That Is,12,12/10/14,12/10/14,0,1,W20,SO254,9440,61,Aurender W20,1,shipped,19073
+502,2600,2600,Aurender Inc.,United States,The Voice That Is,12,12/10/14,12/10/14,0,1,X100,SO254,2600,42,Aurender X100L,1,shipped,19073
+503,350,350,Aurender Inc.,New Zealand,Soundline,12,12/10/14,12/10/14,0,1,Etc,SO256,350,85,Service Charges,1,shipped,8140
+504,9680,9680,Aurender Inc.,United States,The Voice That Is,11,11/29/14,11/29/14,0,1,W20,SO257,9680,60,Aurender W20,1,shipped,19073
+505,2700,2700,Aurender Inc.,United States,The Voice That Is,11,11/29/14,11/29/14,0,1,X100,SO257,2700,43,Aurender X100L,1,shipped,19073
+506,1250,1250,Aurender Inc.,United States,The Voice That Is,11,11/29/14,11/29/14,0,1,X725,SO257,1250,48,Aurender X725,1,shipped,19073
+507,1554,1554,Aurender Inc.,China,Xuening,12,12/15/14,12/15/14,0,1,FLOW,SO258,777,40,Aurender FLOW,2,shipped,200092
+508,7920,7920,Aurender Inc.,Hong Kong,Square Wave Ltd.,12,12/11/14,12/11/14,0,1,W20,SO260,7920,62,Aurender W20,1,shipped,
+509,160,160,Aurender Inc.,Hong Kong,Square Wave Ltd.,12,12/11/14,12/11/14,0,1,Etc,SO260,160,45,Shipping & Other Charges,1,shipped,
+510,4200,4200,Aurender Inc.,Italy,DP Trade di Brosio Paolo ,12,12/15/14,12/15/14,0,1,X100,SO262,2100,41,Aurender X100L,2,shipped,10124
+511,250,250,Aurender Inc.,Italy,DP Trade di Brosio Paolo ,12,12/15/14,12/15/14,0,1,Etc,SO262,250,45,Shipping & Other Charges,1,shipped,10124
+512,50,50,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",12,12/29/14,12/29/14,0,1,Etc,SO265,50,46,dCS Dongle,1,shipped,
+513,4400,4400,Aurender Inc.,United States,"PureAudio, LLC",12,12/1/14,12/1/14,0,1,X100,SO252,2200,41,Aurender X100L,2,shipped,95066
+514,2700,2700,Aurender Inc.,United States,Sight + Sound Gallery,12,12/2/14,12/2/14,0,1,X100,SO245,2700,43,Aurender X100L,1,shipped,30312
+515,200,200,Aurender Inc.,Philippines,Audio Visual Driver International,7,7/10/15,7/10/15,0,1,Etc,SO737,200,45,Shipping & Other Charges,1,shipped,364-7573
+516,7560,7560,Aurender Inc.,Chile,Comercial Highend Ltda.,12,12/1/14,12/1/14,0,1,W20,SO243,7560,59,Aurender W20,1,shipped,
+517,12500,12500,Aurender Inc.,Hong Kong,Andrew Poon,4,4/7/15,4/7/15,0,1,N100,SO425,1250,91,Aurender N100,10,shipped,
+518,4500,4500,Aurender Inc.,Sweden,Marcus Fordal,4,4/10/15,4/10/15,0,1,N100,SO427,1500,92,Aurender N100,3,shipped,113 46
+519,600,600,Aurender Inc.,Hong Kong,Andrew Poon,4,4/7/15,4/7/15,0,1,Etc,SO425,600,45,Shipping & Other Charges,1,shipped,
+520,3000,3000,Aurender Inc.,Malaysia,Shiuh Yuan Koo,4,4/7/15,4/7/15,0,1,N100,SO426,1500,91,Aurender N100,2,shipped,
+521,9680,9680,Aurender Inc.,United States,Marutani Consulting,4,4/4/15,4/4/15,0,1,W20,SO423,9680,102,Aurender W20,1,shipped,94608
+522,2100,2100,Aurender Inc.,Germany,Joerg Klein,4,4/4/15,4/4/15,0,1,X100,SO424,2100,41,Aurender X100L,1,shipped,
+523,150,150,Aurender Inc.,Malaysia,Shiuh Yuan Koo,4,4/7/15,4/7/15,0,1,Etc,SO426,150,45,Shipping & Other Charges,1,shipped,
+524,200,200,Aurender Inc.,Germany,Joerg Klein,4,4/4/15,4/4/15,0,1,Etc,SO424,200,45,Shipping & Other Charges,1,shipped,
+525,9100,9100,Aurender Inc.,Netherlands,Carla Latupeirissa,4,4/15/15,4/15/15,0,1,N100,SO428,1300,91,Aurender N100,7,shipped,
+526,1600,1600,Aurender Inc.,Netherlands,Carla Latupeirissa,4,4/15/15,4/15/15,0,1,X100,SO428,1600,44,Aurender X100S,1,shipped,
+527,5625,5625,Aurender Inc.,Netherlands,Carla Latupeirissa,4,4/15/15,4/15/15,0,1,X725,SO428,1125,49,Aurender X725,5,shipped,
+528,4200,4200,Aurender Inc.,Sweden,Marcus Fordal,4,4/10/15,4/10/15,0,1,X100,SO427,2100,41,Aurender X100L,2,shipped,113 46
+529,13300,13300,Aurender Inc.,Netherlands,Carla Latupeirissa,4,4/15/15,4/15/15,0,1,X100,SO428,1900,41,Aurender X100L,7,shipped,
+530,7020,7020,Aurender Inc.,Canada,Audio by Mark Jones,4,4/4/15,4/4/15,0,1,X100,SO422,2340,43,Aurender X100L,3,shipped,
+531,7000,7000,Aurender Inc.,Netherlands,Carla Latupeirissa,4,4/15/15,4/15/15,0,1,W20,SO428,7000,102,Aurender W20,1,shipped,
+532,200,200,Aurender Inc.,Hong Kong,Andrew Poon,4,4/25/15,4/25/15,0,1,Etc,SO434,200,45,Shipping & Other Charges,1,shipped,
+533,4600,4600,Aurender Inc.,Philippines,Wilfred Lim,4,4/22/15,4/22/15,0,1,X100,SO432,2300,43,Aurender X100L,2,shipped,364-7573
+534,1500,1500,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,4,4/17/15,4/17/15,0,1,N100,SO429,1500,91,Aurender N100,1,shipped,34728
+535,7920,7920,Aurender Inc.,Hong Kong,Andrew Poon,4,4/18/15,4/18/15,0,1,W20,SO430,7920,102,Aurender W20,1,shipped,
+536,4200,4200,Aurender Inc.,United Arab Emirates,Adil Anwar,4,4/24/15,4/24/15,0,1,X100,SO433,2100,41,Aurender X100L,2,shipped,
+537,160,160,Aurender Inc.,Hong Kong,Andrew Poon,4,4/18/15,4/18/15,0,1,Etc,SO430,160,45,Shipping & Other Charges,1,shipped,
+538,5200,5200,Aurender Inc.,Taiwan,Maxine Tuen,4,4/1/15,4/1/15,0,1,N100,SO437,1300,92,Aurender N100,4,shipped,
+539,2100,2100,Aurender Inc.,United States,Charles Berry,4,4/21/15,4/21/15,0,1,X100,SO431,2100,41,Aurender X100L,1,shipped,30312
+540,15200,15200,Aurender Inc.,United Kingdom,David J. Steven,4,4/1/15,4/1/15,0,1,X100,SO435,1900,41,Aurender X100L,8,shipped,CB24 4UQ
+541,4200,4200,Aurender Inc.,Philippines,Wilfred Lim,4,4/22/15,4/22/15,0,1,X100,SO432,2100,41,Aurender X100L,2,shipped,364-7573
+542,4200,4200,Aurender Inc.,United Kingdom,David J. Steven,4,4/1/15,4/1/15,0,1,X100,SO435,2100,43,Aurender X100L,2,shipped,CB24 4UQ
+543,300,300,Aurender Inc.,Philippines,Wilfred Lim,4,4/22/15,4/22/15,0,1,Etc,SO432,300,45,Shipping & Other Charges,1,shipped,364-7573
+544,6300,6300,Aurender Inc.,Hong Kong,Andrew Poon,4,4/25/15,4/25/15,0,1,X100,SO434,2100,41,Aurender X100L,3,shipped,
+545,9500,9500,Aurender Inc.,Vietnam,Anna Le,4,4/3/15,4/3/15,0,1,X100,SO438,1900,41,Aurender X100L,5,shipped,
+546,2100,2100,Aurender Inc.,Trinidad and Tobago,Simeon Sandiford,4,4/1/15,4/1/15,0,1,X100,SO436,2100,41,Aurender X100L,1,shipped,
+547,2400,2400,Aurender Inc.,Vietnam,Anna Le,4,4/3/15,4/3/15,0,1,N100,SO438,1200,91,Aurender N100,2,shipped,
+548,2205000,2004.545455,Aurender Inc.,South Korea,GLV,5,5/6/15,5/6/15,0,1100,X100,SO452,2205000,41,Aurender X100L,1,shipped,
+549,1820000,1654.545455,Aurender Inc.,South Korea,___,5,5/11/15,5/11/15,0,1100,N100,SO455,1820000,91,Aurender N100,1,shipped,
+550,1610000,1463.636364,Aurender Inc.,South Korea,____ __,5,5/2/15,5/2/15,0,1100,N100,SO450,1610000,91,Aurender N100,1,shipped,
+551,1575000,1431.818182,Aurender Inc.,South Korea,GLV,5,5/6/15,5/6/15,0,1100,X100,SO452,1575000,41,Aurender X100L,1,shipped,
+552,8050000,7318.181818,Aurender Inc.,South Korea,_____,5,5/6/15,5/6/15,0,1100,N100,SO451,1610000,91,Aurender N100,5,shipped,
+553,1610000,1463.636364,Aurender Inc.,South Korea,_____,6,6/2/15,6/2/15,0,1100,N100,SO457,1610000,91,Aurender N100,1,shipped,
+554,2520000,2290.909091,Aurender Inc.,South Korea,__ ___,5,5/7/15,5/7/15,0,1100,X100,SO453,2520000,43,Aurender X100L,1,shipped,
+555,1380000,1254.545455,Aurender Inc.,South Korea,_____,5,5/6/15,5/6/15,0,1100,N100,SO451,1380000,91,Aurender N100,1,shipped,
+556,936000,850.9090909,Aurender Inc.,South Korea,_____,4,4/30/15,4/30/15,0,1100,FLOW,SO449,936000,40,Aurender FLOW,1,shipped,
+557,2000000,1818.181818,Aurender Inc.,South Korea,______,5,5/15/15,5/15/15,0,1100,Cast-Fi 7,SO456,200000,50,Aurender Cast-Fi 7,10,shipped,
+558,2520000,2290.909091,Aurender Inc.,South Korea,______,5,5/7/15,5/7/15,0,1100,X100,SO454,2520000,43,Aurender X100L,1,shipped,
+559,7050000,6409.090909,Aurender Inc.,South Korea,HMG,6,6/2/15,6/2/15,0,1100,N100,SO460,1410000,91,Aurender N100,5,shipped,
+560,2360000,2145.454545,Aurender Inc.,South Korea,___,5,5/28/15,5/28/15,0,1100,X100,SO458,2360000,43,Aurender X100L,1,shipped,
+561,1820000,1654.545455,Aurender Inc.,South Korea,_____,6,6/2/15,6/2/15,0,1100,N100,SO457,1820000,91,Aurender N100,1,shipped,
+562,1820000,1654.545455,Aurender Inc.,South Korea,_____,6,6/2/15,6/2/15,0,1100,N100,SO459,1820000,91,Aurender N100,1,shipped,
+563,700000,636.3636364,Aurender Inc.,South Korea,___,5,5/28/15,5/28/15,0,1100,X725,SO458,700000,49,Aurender X725,1,shipped,
+564,8100000,7363.636364,Aurender Inc.,South Korea,HMG,6,6/2/15,6/2/15,0,1100,N100,SO460,1620000,91,Aurender N100,5,shipped,
+565,1560000,1418.181818,Aurender Inc.,South Korea,_____,6,6/2/15,6/2/15,0,1100,N100,SO457,1560000,91,Aurender N100,1,shipped,
+566,700000,636.3636364,Aurender Inc.,South Korea,_____,6,6/2/15,6/2/15,0,1100,X725,SO457,700000,49,Aurender X725,1,shipped,
+567,6615000,6013.636364,Aurender Inc.,South Korea,_____,6,6/2/15,6/2/15,0,1100,X100,SO457,2205000,41,Aurender X100L,3,shipped,
+568,50,50,Aurender Inc.,Hong Kong,Square Wave Ltd.,5,5/21/15,5/21/15,0,1,Etc,SO472,50,46,dCS Dongle,1,shipped,
+569,8100,8100,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,5,5/5/15,5/5/15,0,1,N100,SO466,1620,110,Aurender N100H,5,shipped,
+570,7920,7920,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,5,5/14/15,5/14/15,0,1,W20,SO470,7920,105,Aurender W20,1,shipped,3134
+571,2300,2300,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,5,5/8/15,5/8/15,0,1,X100,SO468,2300,43,Aurender X100L,1,shipped,
+572,6300,6300,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,5,5/5/15,5/5/15,0,1,X100,SO466,2100,41,Aurender X100L,3,shipped,
+573,1820000,1654.545455,Aurender Inc.,South Korea,___,6,6/5/15,6/5/15,0,1100,N100,SO463,1820000,91,Aurender N100,1,shipped,
+574,6300,6300,Aurender Inc.,Philippines,Audio Visual Driver International,5,5/23/15,5/23/15,0,1,X100,SO473,2100,41,Aurender X100L,3,shipped,364-7573
+575,4860,4860,Aurender Inc.,Canada,Sonore Filtronique,5,5/8/15,5/8/15,0,1,N100,SO469,1620,109,Aurender N100H,3,shipped,H2M 1SS
+576,3000,3000,Aurender Inc.,Israel,Ran Shavit,5,5/5/15,5/5/15,0,1,N100,SO464,1500,91,Aurender N100,2,shipped,46733
+577,7000,7000,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,5,5/5/15,5/5/15,0,1,W20,SO466,7000,102,Aurender W20,1,shipped,
+578,2100,2100,Aurender Inc.,Trinidad and Tobago,Simeon Sandiford,5,5/5/15,5/5/15,0,1,X100,SO465,2100,41,Aurender X100L,1,shipped,
+579,2100,2100,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,5,5/16/15,5/16/15,0,1,X100,SO471,2100,43,Aurender X100L,1,shipped,34728
+580,7920,7920,Aurender Inc.,Chile,Comercial Highend Ltda.,5,5/8/15,5/8/15,0,1,W20,SO467,7920,102,Aurender W20,1,shipped,
+581,1500,1500,Aurender Inc.,Trinidad and Tobago,Simeon Sandiford,5,5/5/15,5/5/15,0,1,X725,SO465,1500,49,Aurender X725,1,shipped,
+582,1500,1500,Aurender Inc.,Trinidad and Tobago,Sanch Electronix Limited,5,5/27/15,5/27/15,0,1,X725,SO474,1500,48,Aurender X725,1,shipped,
+583,4200,4200,Aurender Inc.,Chile,Comercial Highend Ltda.,5,5/8/15,5/8/15,0,1,X100,SO467,2100,41,Aurender X100L,2,shipped,
+584,200,200,Aurender Inc.,Hong Kong,Square Wave Ltd.,5,5/21/15,5/21/15,0,1,Etc,SO472,200,45,Shipping & Other Charges,1,shipped,
+585,2500,2500,Aurender Inc.,Philippines,Audio Visual Driver International,5,5/23/15,5/23/15,0,1,X725,SO473,1250,49,Aurender X725,2,shipped,364-7573
+586,6300,6300,Aurender Inc.,Hong Kong,Square Wave Ltd.,5,5/21/15,5/21/15,0,1,X100,SO472,2100,41,Aurender X100L,3,shipped,
+587,350,350,Aurender Inc.,Philippines,Audio Visual Driver International,5,5/23/15,5/23/15,0,1,Etc,SO473,350,45,Shipping & Other Charges,1,shipped,364-7573
+588,7000,7000,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,7,7/11/15,7/11/15,0,1,W20,SO738,7000,102,Aurender W20,1,shipped,
+589,1350,1350,Aurender Inc.,Canada,Audio by Mark Jones,5,5/27/15,5/27/15,0,1,N100,SO475,1350,109,Aurender N100H,1,shipped,
+590,1620,1620,Aurender Inc.,Canada,Audio by Mark Jones,5,5/27/15,5/27/15,0,1,N100,SO475,1620,109,Aurender N100H,1,shipped,
+591,250,250,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,7,7/11/15,7/11/15,0,1,Etc,SO738,250,45,Shipping & Other Charges,1,shipped,
+592,1750,1750,Aurender Inc.,Hong Kong,Square Wave Ltd.,7,7/8/15,7/8/15,0,1,X100,SO741,1750,41,Aurender X100L,1,shipped,
+593,1400,1400,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/7/15,7/7/15,0,1,X100,SO779,1400,41,Aurender X100L,1,shipped, LT-92211
+594,6500,6500,Aurender Inc.,Greece,Audiosoul,2,2/24/15,2/24/15,0,1,N100,SO771,1300,167,Aurender N100,5,shipped,11743
+595,3850,3850,Aurender Inc.,Israel,Sabo Audio,7,7/8/15,7/8/15,0,1,X100,SO739,1925,41,Aurender X100L,2,shipped,46733
+596,2300,2300,Aurender Inc.,Israel,Sabo Audio,1,1/16/15,1/16/15,0,1,X100,SO750,2300,41,Aurender X100L,1,shipped,46733
+597,1,1,Aurender Inc.,United States,testCustomer,8,8/24/15,8/24/15,0,1,Etc,SO781,1,187,testProduct,1,shipped,91210
+598,2100,2100,Aurender Inc.,United States,Stephens and Associates,4,4/7/15,4/7/15,0,1,X100,SO778,2100,41,Aurender X100L,1,shipped,32561
+599,750,750,Aurender Inc.,Greece,Audiosoul,2,2/24/15,2/24/15,0,1,Etc,SO771,750,45,Shipping & Other Charges,1,shipped,11743
+600,2400,2400,Aurender Inc.,Israel,Sabo Audio,1,1/16/15,1/16/15,0,1,X100,SO750,2400,42,Aurender X100L,1,shipped,46733
+601,2600,2600,Aurender Inc.,Italy,Audio Natali S.r.l,1,1/28/15,1/28/15,0,1,X100,SO761,2600,43,Aurender X100L,1,shipped,51016
+602,1200,1200,Aurender Inc.,United States,Galen Carol Audio,3,3/18/15,3/18/15,0,1,N100,SO774,1200,169,Aurender N100,1,shipped,78217-0562
+603,1500,1500,Aurender Inc.,Italy,Audio Natali S.r.l,1,1/28/15,1/28/15,0,1,X725,SO761,1500,49,Aurender X725,1,shipped,51016
+604,6900,6900,Aurender Inc.,Greece,Audiosoul,2,2/24/15,2/24/15,0,1,X100,SO771,2300,43,Aurender X100L,3,shipped,11743
+605,419964,381.7854545,Aurender Inc.,South Korea,(_)______,3,3/6/15,3/6/15,0,1100,Cast-Fi 7,SO812,419964,50,Aurender Cast-Fi 7,1,shipped,
+606,1080,1080,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/7/15,7/7/15,0,1,N100,SO779,1080,229,Aurender N100H,1,shipped, LT-92211
+607,4200,4200,Aurender Inc.,United States,Galen Carol Audio,3,3/18/15,3/18/15,0,1,X100,SO774,2100,41,Aurender X100L,2,shipped,78217-0562
+608,3,3,Aurender Inc.,United States,testCustomer,8,8/26/15,8/26/15,0,1,Etc,SO785,1,187,testProduct,3,shipped,91210
+609,518,518,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/7/15,7/7/15,0,1,FLOW,SO779,518,40,Aurender FLOW,1,shipped, LT-92211
+610,345600,314.1818182,Aurender Inc.,South Korea,(_)______,1,1/21/15,1/21/15,0,1100,Cast-Fi 7,SO792,345600,50,Aurender Cast-Fi 7,1,shipped,
+611,1000,1000,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/7/15,7/7/15,0,1,X725,SO779,1000,49,Aurender X725,1,shipped, LT-92211
+612,7390,7390,Aurender Inc.,United States,Charles Teng,1,1/3/15,1/3/15,0,1,S10,SO751,7390,151,S10,1,shipped,33496
+613,5000,5000,Aurender Inc.,Hong Kong,Square Wave Ltd.,7,7/8/15,7/8/15,0,1,N100,SO741,1250,167,Aurender N100,4,shipped,
+614,2970,2970,Aurender Inc.,South Africa,Tweak Technologies,7,7/17/15,7/17/15,0,1,N100,SO743,1485,110,Aurender N100H,2,shipped,6625
+615,6750,6750,Aurender Inc.,Hong Kong,Square Wave Ltd.,7,7/8/15,7/8/15,0,1,N100,SO741,1350,110,Aurender N100H,5,shipped,
+616,4972,4972,Aurender Inc.,Australia,BusiSoft,2,2/13/15,2/13/15,0,1,FLOW,SO764,621.5,40,Aurender FLOW,8,shipped,3102
+617,648,648,Aurender Inc.,South Africa,Tweak Technologies,7,7/17/15,7/17/15,0,1,FLOW,SO743,648,40,Aurender FLOW,1,shipped,6625
+618,5625,5625,Aurender Inc.,Switzerland,AudioSphere GmbH,6,6/10/15,6/10/15,0,1,N100,SO524,1125,167,Aurender N100,5,shipped,CH-8048
+619,2970,2970,Aurender Inc.,Croatia,Planet Audio,6,6/6/15,6/6/15,0,1,N100,SO528,1485,110,Aurender N100H,2,shipped,10000
+620,15000,15000,Aurender Inc.,Switzerland,AudioSphere GmbH,6,6/10/15,6/10/15,0,1,X725,SO524,1000,49,Aurender X725,15,shipped,CH-8048
+621,150,150,Aurender Inc.,Australia,BusiSoft,2,2/13/15,2/13/15,0,1,Cast-Fi 7,SO764,150,50,Aurender Cast-Fi 7,1,shipped,3102
+622,1250,1250,Aurender Inc.,Italy,Audio Natali S.r.l,6,6/9/15,6/9/15,0,1,X725,SO532,1250,49,Aurender X725,1,shipped,51016
+623,1485,1485,Aurender Inc.,Croatia,Planet Audio,6,6/12/15,6/12/15,0,1,N100,SO531,1485,110,Aurender N100H,1,shipped,10000
+624,14080,14080,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/8/15,6/8/15,0,1,W20,SO530,7040,102,Aurender W20,2,shipped,
+625,7920,7920,Aurender Inc.,Italy,Audio Natali S.r.l,6,6/9/15,6/9/15,0,1,W20,SO532,7920,102,Aurender W20,1,shipped,51016
+626,12800,12800,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/8/15,6/8/15,0,1,N10,SO530,3200,171,Aurender N10,4,shipped,
+627,50,50,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/8/15,6/8/15,0,1,Etc,SO530,50,46,dCS Dongle,1,shipped,
+628,1250,1250,Aurender Inc.,South Africa,Tweak Technologies,7,7/17/15,7/17/15,0,1,X725,SO743,1250,49,Aurender X725,1,shipped,6625
+629,1360,1360,Aurender Inc.,United States,Moon Audio,2,2/12/15,2/12/15,0,1,N100,SO762,1360,169,Aurender N100,1,shipped,27511
+630,350,350,Aurender Inc.,South Africa,Tweak Technologies,7,7/17/15,7/17/15,0,1,Etc,SO743,350,45,Shipping & Other Charges,1,shipped,6625
+631,1880,1880,Aurender Inc.,United States,Sunny Components Inc.,2,2/28/15,2/28/15,0,1,X100,SO765,1880,43,Aurender X100L,1,shipped,91724
+632,2350,2350,Aurender Inc.,United States,Sunny Components Inc.,2,2/28/15,2/28/15,0,1,X100,SO765,2350,43,Aurender X100L,1,shipped,91724
+633,6435,6435,Aurender Inc.,Italy,Audio Natali S.r.l,6,6/9/15,6/9/15,0,1,X100,SO532,2145,43,Aurender X100L,3,shipped,51016
+634,720,720,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/8/15,6/8/15,0,1,Etc,SO530,720,45,Shipping & Other Charges,1,shipped,
+635,4000,4000,Aurender Inc.,Sweden,Perfect Sense,6,6/11/15,6/11/15,0,1,N10,SO534,4000,171,Aurender N10,1,shipped,113 46
+636,4455,4455,Aurender Inc.,Italy,Audio Natali S.r.l,6,6/9/15,6/9/15,0,1,N100,SO532,1485,110,Aurender N100H,3,shipped,51016
+637,7425,7425,Aurender Inc.,Sweden,Perfect Sense,6,6/11/15,6/11/15,0,1,N100,SO534,1485,110,Aurender N100H,5,shipped,113 46
+638,1375,1375,Aurender Inc.,Italy,Audio Natali S.r.l,6,6/9/15,6/9/15,0,1,N100,SO532,1375,169,Aurender N100,1,shipped,51016
+639,5400,5400,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/12/15,6/12/15,0,1,N100,SO535,1350,110,Aurender N100H,4,shipped,
+640,550,550,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/12/15,6/12/15,0,1,Etc,SO535,550,45,Shipping & Other Charges,1,shipped,
+641,5250,5250,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/12/15,6/12/15,0,1,X100,SO535,1750,41,Aurender X100L,3,shipped,
+642,3750,3750,Aurender Inc.,Hong Kong,Square Wave Ltd.,6,6/12/15,6/12/15,0,1,N100,SO535,1250,169,Aurender N100,3,shipped,
+643,600,600,Aurender Inc.,Hong Kong,Square Wave Ltd.,7,7/8/15,7/8/15,0,1,Etc,SO741,600,45,Shipping & Other Charges,1,shipped,
+644,3000,3000,Aurender Inc.,United States,Sunny Components Inc.,2,2/28/15,2/28/15,0,1,N100,SO765,1500,169,Aurender N100,2,shipped,91724
+645,5752,5752,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,1,1/15/15,1/15/15,0,1,S10,SO754,5752,148,S10,1,shipped,CB24 4UQ
+646,1470,1470,Aurender Inc.,Hong Kong,Square Wave Ltd.,2,2/21/15,2/21/15,0,1,Etc,SO757,1470,45,Shipping & Other Charges,1,shipped,
+647,6600,6600,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,1,1/15/15,1/15/15,0,1,W20,SO754,6600,226,Aurender W20,1,shipped,CB24 4UQ
+648,8000,8000,Aurender Inc.,Chile,Comercial Highend Ltda.,7,7/10/15,7/10/15,0,1,N10,SO692,4000,210,Aurender N10,2,shipped,
+649,1200,1200,Aurender Inc.,United States,Sunny Components Inc.,2,2/28/15,2/28/15,0,1,N100,SO765,1200,169,Aurender N100,1,shipped,91724
+650,9600,9600,Aurender Inc.,Netherlands,More Music b.v.,8,8/26/15,8/26/15,0,1,N10,SO784,3200,210,Aurender N10,3,shipped,
+651,400,400,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/7/15,7/7/15,0,1,Etc,SO779,400,45,Shipping & Other Charges,1,shipped, LT-92211
+652,4200,4200,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,4,4/14/15,4/14/15,0,1,X100,SO775,2100,43,Aurender X100L,2,shipped,CB24 4UQ
+653,290,290,Aurender Inc.,United States,testCustomer2,8,8/26/15,8/26/15,0,1,Etc,SO786,29,187,testProduct,10,shipped,91002
+654,6400,6400,Aurender Inc.,Netherlands,More Music b.v.,8,8/26/15,8/26/15,0,1,N10,SO784,3200,214,Aurender N10,2,shipped,
+655,2970,2970,Aurender Inc.,Turkey,UBAkustik Elektronik Sanayi ve Ticaret LTD. STI.,6,6/20/15,6/20/15,0,1,N100,SO693,1485,110,Aurender N100H,2,shipped,34728
+656,1000,1000,Aurender Inc.,Czech Republic,EXAUDIO,6,6/20/15,6/20/15,0,1,X725,SO694,1000,49,Aurender X725,1,shipped,
+657,7920,7920,Aurender Inc.,Chile,Comercial Highend Ltda.,7,7/10/15,7/10/15,0,1,W20,SO692,7920,102,Aurender W20,1,shipped,
+658,4455,4455,Aurender Inc.,Chile,Comercial Highend Ltda.,7,7/10/15,7/10/15,0,1,N100,SO692,1485,110,Aurender N100H,3,shipped,
+659,1080,1080,Aurender Inc.,Hungary,Ultimate AV Kft.,6,6/20/15,6/20/15,0,1,N100,SO695,1080,110,Aurender N100H,1,shipped,1036
+660,1000,1000,Aurender Inc.,Czech Republic,EXAUDIO,6,6/20/15,6/20/15,0,1,N100,SO694,1000,167,Aurender N100,1,shipped,
+661,1000,1000,Aurender Inc.,Hungary,Ultimate AV Kft.,6,6/20/15,6/20/15,0,1,N100,SO695,1000,167,Aurender N100,1,shipped,1036
+662,1400,1400,Aurender Inc.,Hungary,Ultimate AV Kft.,6,6/20/15,6/20/15,0,1,X100,SO695,1400,41,Aurender X100L,1,shipped,1036
+663,1400,1400,Aurender Inc.,Czech Republic,EXAUDIO,6,6/20/15,6/20/15,0,1,X100,SO694,1400,41,Aurender X100L,1,shipped,
+664,1000,1000,Aurender Inc.,Hungary,Ultimate AV Kft.,6,6/20/15,6/20/15,0,1,X725,SO695,1000,49,Aurender X725,1,shipped,1036
+665,518,518,Aurender Inc.,Czech Republic,EXAUDIO,6,6/20/15,6/20/15,0,1,FLOW,SO694,518,40,Aurender FLOW,1,shipped,
+666,7920,7920,Aurender Inc.,Japan,Emilai Inc.,6,6/19/15,6/19/15,0,1,W20,SO698,7920,105,Aurender W20,1,shipped,141-0032
+667,7425,7425,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",8,8/28/15,8/28/15,0,1,N100,SO696,1485,110,Aurender N100H,5,shipped,
+668,4000,4000,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",6,6/15/15,6/15/15,0,1,N10,SO701,4000,211,Aurender N10,1,shipped,
+669,7920,7920,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,7,7/10/15,7/10/15,0,1,W20,SO697,7920,102,Aurender W20,1,shipped,91-174
+670,5850,5850,Aurender Inc.,France,Audio Focus,7,7/9/15,7/9/15,0,1,X100,SO699,1950,43,Aurender X100L,3,shipped,95350
+671,1485,1485,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,7,7/10/15,7/10/15,0,1,N100,SO697,1485,110,Aurender N100H,1,shipped,91-174
+672,16000,16000,Aurender Inc.,Hong Kong,Square Wave Ltd.,7,7/29/15,7/29/15,0,1,N10,SO742,3200,210,Aurender N10,5,shipped,
+673,5250,5250,Aurender Inc.,France,Audio Focus,7,7/9/15,7/9/15,0,1,X100,SO699,1750,41,Aurender X100L,3,shipped,95350
+674,4000,4000,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,7,7/10/15,7/10/15,0,1,N10,SO697,4000,210,Aurender N10,1,shipped,91-174
+675,2700,2700,Aurender Inc.,France,Audio Focus,7,7/9/15,7/9/15,0,1,N100,SO699,1350,110,Aurender N100H,2,shipped,95350
+676,3200,3200,Aurender Inc.,Netherlands,More Music b.v.,8,8/18/15,8/18/15,0,1,N10,SO700,3200,214,Aurender N10,1,shipped,
+677,7040,7040,Aurender Inc.,Singapore,HIGH END RESEARCH,6,6/13/15,6/13/15,0,1,W20,SO702,7040,102,Aurender W20,1,shipped,169075
+678,2250,2250,Aurender Inc.,France,Audio Focus,7,7/9/15,7/9/15,0,1,X725,SO699,1125,49,Aurender X725,2,shipped,95350
+679,16000,16000,Aurender Inc.,Netherlands,More Music b.v.,8,8/18/15,8/18/15,0,1,N10,SO700,3200,210,Aurender N10,5,shipped,
+680,3200,3200,Aurender Inc.,Singapore,HIGH END RESEARCH,6,6/13/15,6/13/15,0,1,N10,SO702,3200,210,Aurender N10,1,shipped,169075
+681,1080,1080,Aurender Inc.,Singapore,HIGH END RESEARCH,6,6/13/15,6/13/15,0,1,N100,SO702,1080,110,Aurender N100H,1,shipped,169075
+682,1560,1560,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,7,7/7/15,7/7/15,0,1,X100,SO708,1560,43,Aurender X100L,1,shipped,15710
+683,1485,1485,Aurender Inc.,Singapore,HIGH END RESEARCH,6,6/13/15,6/13/15,0,1,N100,SO702,1485,110,Aurender N100H,1,shipped,169075
+684,9720,9720,Aurender Inc.,Netherlands,More Music b.v.,6,6/11/15,6/11/15,0,1,N100,SO704,1215,110,Aurender N100H,8,shipped,
+685,1560,1560,Aurender Inc.,Singapore,HIGH END RESEARCH,6,6/13/15,6/13/15,0,1,X100,SO702,1560,43,Aurender X100L,1,shipped,169075
+686,1400,1400,Aurender Inc.,Singapore,HIGH END RESEARCH,6,6/13/15,6/13/15,0,1,X100,SO702,1400,41,Aurender X100L,1,shipped,169075
+687,400,400,Aurender Inc.,Hong Kong,Square Wave Ltd.,7,7/29/15,7/29/15,0,1,Etc,SO742,400,45,Shipping & Other Charges,1,shipped,
+688,1000,1000,Aurender Inc.,Singapore,HIGH END RESEARCH,6,6/13/15,6/13/15,0,1,X725,SO702,1000,49,Aurender X725,1,shipped,169075
+689,11025,11025,Aurender Inc.,Netherlands,More Music b.v.,6,6/11/15,6/11/15,0,1,X100,SO704,1575,41,Aurender X100L,7,shipped,
+690,3000,3000,Aurender Inc.,United States,Essential Audio,2,2/5/15,2/5/15,0,1,N100,SO755,1500,169,Aurender N100,2,shipped,60010
+691,5625,5625,Aurender Inc.,Netherlands,More Music b.v.,6,6/11/15,6/11/15,0,1,N100,SO704,1125,167,Aurender N100,5,shipped,
+692,7040,7040,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,7,7/7/15,7/7/15,0,1,W20,SO708,7040,102,Aurender W20,1,shipped,15710
+693,1080,1080,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,7,7/7/15,7/7/15,0,1,N100,SO708,1080,110,Aurender N100H,1,shipped,15710
+694,1000,1000,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,7,7/7/15,7/7/15,0,1,X725,SO708,1000,49,Aurender X725,1,shipped,15710
+695,4400,4400,Aurender Inc.,Philippines,Audio Visual Driver International,2,2/3/15,2/3/15,0,1,X100,SO766,2200,42,Aurender X100L,2,shipped,364-7573
+696,3200,3200,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,7,7/7/15,7/7/15,0,1,N10,SO708,3200,210,Aurender N10,1,shipped,15710
+697,25500,25500,Aurender Inc.,Switzerland,AudioSphere GmbH,9,9/24/14,9/24/14,0,1,X100,SO114,1700,155,Aurender X100L,15,shipped,CH-8048
+698,9500,9500,Aurender Inc.,Vietnam,"NGUYEN AUDIO CO., LTD",2,2/14/15,2/14/15,0,1,X100,SO311,1900,41,Aurender X100L,5,shipped,
+699,14850,14850,Aurender Inc.,Singapore,X Audio Pte Ltd,6,6/3/15,6/3/15,0,1,N100,SO716,1485,110,Aurender N100H,10,shipped,588996
+700,2100,2100,Aurender Inc.,Trinidad and Tobago,Sanch Electronix Limited,4,4/23/15,4/23/15,0,1,X100,SO776,2100,41,Aurender X100L,1,shipped,
+701,150,150,Aurender Inc.,Philippines,Audio Visual Driver International,2,2/3/15,2/3/15,0,1,Etc,SO766,150,45,Shipping & Other Charges,1,shipped,364-7573
+702,345600,314.1818182,Aurender Inc.,South Korea,(_)______,1,1/6/15,1/6/15,0,1100,Cast-Fi 7,SO787,345600,50,Aurender Cast-Fi 7,1,shipped,
+703,389145,353.7681818,Aurender Inc.,South Korea,(_)______,1,1/23/15,1/23/15,0,1100,Cast-Fi 7,SO793,389145,50,Aurender Cast-Fi 7,1,shipped,
+704,8910,8910,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,6,6/3/15,6/3/15,0,1,N100,SO715,1485,110,Aurender N100H,6,shipped,
+705,2500,2500,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,6,6/3/15,6/3/15,0,1,X725,SO715,1250,49,Aurender X725,2,shipped,
+706,4860,4860,Aurender Inc.,Canada,Audio by Mark Jones,6,6/4/15,6/4/15,0,1,N100,SO713,1620,109,Aurender N100H,3,shipped,
+707,17000,17000,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,9,9/22/14,9/22/14,0,1,X100,SO110,1700,155,Aurender X100L,10,shipped,91-174
+708,1925,1925,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,6,6/4/15,6/4/15,0,1,X100,SO714,1925,41,Aurender X100L,1,shipped,3134
+709,17000,17000,Aurender Inc.,Switzerland,AudioSphere GmbH,3,3/10/15,3/10/15,0,1,X100,SO339,1700,155,Aurender X100L,10,shipped,CH-8048
+710,1400,1400,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/2/15,7/2/15,0,1,X100,SO744,1400,41,Aurender X100L,1,shipped, LT-92211
+711,1080,1080,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/2/15,7/2/15,0,1,N100,SO744,1080,110,Aurender N100H,1,shipped, LT-92211
+712,6600,6600,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,1,1/17/15,1/17/15,0,1,W20,SO756,6600,223,Aurender W20,1,shipped,CB24 4UQ
+713,1000,1000,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/2/15,7/2/15,0,1,X725,SO744,1000,49,Aurender X725,1,shipped, LT-92211
+714,19200000,17454.54545,Aurender Inc.,South Korea,GLV,7,7/3/15,7/3/15,0,1100,N10,SO724,4800000,210,Aurender N10,4,shipped,
+715,8800000,8000,Aurender Inc.,South Korea,HMG,7,7/3/15,7/3/15,0,1100,N10,SO723,4400000,212,Aurender N10,2,shipped,
+716,1820000,1654.545455,Aurender Inc.,South Korea,GLV,7,7/22/15,7/22/15,0,1100,N100,SO726,1820000,168,Aurender N100,1,shipped,
+717,1820000,1654.545455,Aurender Inc.,South Korea,GLV,7,7/15/15,7/15/15,0,1100,N100,SO725,1820000,168,Aurender N100,1,shipped,
+718,26400000,24000,Aurender Inc.,South Korea,HMG,7,7/3/15,7/3/15,0,1100,N10,SO723,4400000,210,Aurender N10,6,shipped,
+719,4000000,3636.363636,Aurender Inc.,South Korea,GLV,6,6/10/15,6/10/15,0,1100,N10,SO728,4000000,212,Aurender N10,1,shipped,
+720,4800000,4363.636364,Aurender Inc.,South Korea,GLV,7,7/3/15,7/3/15,0,1100,N10,SO724,4800000,212,Aurender N10,1,shipped,
+721,8000000,7272.727273,Aurender Inc.,South Korea,HMG,6,6/10/15,6/10/15,0,1100,N10,SO727,4000000,212,Aurender N10,2,shipped,
+722,2205000,2004.545455,Aurender Inc.,South Korea,GLV,6,6/11/15,6/11/15,0,1100,X100,SO729,2205000,41,Aurender X100L,1,shipped,
+723,3640000,3309.090909,Aurender Inc.,South Korea, ____,7,7/11/15,7/11/15,0,1100,N100,SO731,1820000,168,Aurender N100,2,shipped,
+724,4000000,3636.363636,Aurender Inc.,South Korea,GLV,6,6/10/15,6/10/15,0,1100,N10,SO728,4000000,210,Aurender N10,1,shipped,
+725,8000000,7272.727273,Aurender Inc.,South Korea,HMG,6,6/10/15,6/10/15,0,1100,N10,SO727,4000000,210,Aurender N10,2,shipped,
+726,518,518,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/2/15,7/2/15,0,1,FLOW,SO744,518,40,Aurender FLOW,1,shipped, LT-92211
+727,1380000,1254.545455,Aurender Inc.,South Korea,___,6,6/24/15,6/24/15,0,1100,N100,SO730,1380000,167,Aurender N100,1,shipped,
+728,1820000,1654.545455,Aurender Inc.,South Korea,GLV,7,7/30/15,7/30/15,0,1100,N100,SO732,1820000,110,Aurender N100H,1,shipped,
+729,4830000,4390.909091,Aurender Inc.,South Korea, ____,7,7/11/15,7/11/15,0,1100,N100,SO731,1610000,167,Aurender N100,3,shipped,
+730,18900,18900,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",2,2/3/15,2/3/15,0,1,X100,SO767,2100,43,Aurender X100L,9,shipped,
+731,936000,850.9090909,Aurender Inc.,South Korea,_____,1,1/29/15,1/29/15,0,1100,FLOW,SO272,936000,40,Aurender FLOW,1,shipped,
+732,400,400,Aurender Inc.,Lithuania,Muzikos magijos salonas,7,7/2/15,7/2/15,0,1,Etc,SO744,400,45,Shipping & Other Charges,1,shipped, LT-92211
+733,1600,1600,Aurender Inc.,Netherlands,More Music b.v.,2,2/13/15,2/13/15,0,1,X100,SO334,1600,44,Aurender X100S,1,shipped,
+734,1300,1300,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",2,2/3/15,2/3/15,0,1,N100,SO767,1300,167,Aurender N100,1,shipped,
+735,5200,5200,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",4,4/16/15,4/16/15,0,1,N100,SO777,1300,167,Aurender N100,4,shipped,
+736,2350,2350,Aurender Inc.,United States,Liquid HiFi,1,1/23/15,1/23/15,0,1,X100,SO763,2350,42,Aurender X100L,1,shipped,28277
+737,2750,2750,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,7,7/29/15,7/29/15,0,1,N100,SO745,1375,167,Aurender N100,2,shipped,91-174
+738,2205000,2004.545455,Aurender Inc.,South Korea,______,11,11/14/14,11/14/14,0,1100,X100,SO747,2205000,41,Aurender X100L,1,shipped,
+739,2970,2970,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,7,7/29/15,7/29/15,0,1,N100,SO745,1485,110,Aurender N100H,2,shipped,91-174
+740,450,450,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,7,7/29/15,7/29/15,0,1,Etc,SO745,450,45,Shipping & Other Charges,1,shipped,91-174
+741,6600,6600,Aurender Inc.,France,Audio Focus,10,10/29/14,10/29/14,0,1,W20,SO746,6600,223,Aurender W20,1,shipped,95350
+742,7800,7800,Aurender Inc.,Singapore,X Audio Pte Ltd,2,2/13/15,2/13/15,0,1,N100,SO760,1300,167,Aurender N100,6,shipped,588996
+743,2080,2080,Aurender Inc.,Hong Kong,Square Wave Ltd.,2,2/21/15,2/21/15,0,1,N100,SO757,1040,167,Aurender N100,2,shipped,
+744,15200,15200,Aurender Inc.,France,Audio Focus,10,10/29/14,10/29/14,0,1,X100,SO746,1900,41,Aurender X100L,8,shipped,95350
+745,2600,2600,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",3,3/20/15,3/20/15,0,1,N100,SO382,1300,92,Aurender N100,2,shipped,
+746,4600,4600,Aurender Inc.,South Africa,Tweak Technologies,2,2/4/15,2/4/15,0,1,X100,SO768,2300,43,Aurender X100L,2,shipped,6625
+747,1500,1500,Aurender Inc.,United States,Liquid HiFi,2,2/7/15,2/7/15,0,1,N100,SO759,1500,169,Aurender N100,1,shipped,28277
+748,2600,2600,Aurender Inc.,United States,Liquid HiFi,2,2/7/15,2/7/15,0,1,X100,SO759,2600,43,Aurender X100L,1,shipped,28277
+749,7920,7920,Aurender Inc.,Portugal,Sons de Requinte,2,2/13/15,2/13/15,0,1,W20,SO770,7920,228,Aurender W20,1,shipped,
+750,25000,25000,Aurender Inc.,Hong Kong,Square Wave Ltd.,2,2/21/15,2/21/15,0,1,N100,SO757,1250,167,Aurender N100,20,shipped,
+751,1100,1100,Aurender Inc.,South Africa,Tweak Technologies,2,2/4/15,2/4/15,0,1,X725,SO768,1100,49,Aurender X725,1,shipped,6625
+752,2200,2200,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,1,1/15/15,1/15/15,0,1,X100,SO772,2200,41,Aurender X100L,1,shipped,22290-250
+753,1300,1300,Aurender Inc.,South Africa,Tweak Technologies,2,2/4/15,2/4/15,0,1,N100,SO768,1300,167,Aurender N100,1,shipped,6625
+754,4200,4200,Aurender Inc.,Portugal,Sons de Requinte,2,2/13/15,2/13/15,0,1,X100,SO770,2100,43,Aurender X100L,2,shipped,
+755,2100,2100,Aurender Inc.,United States,Sight + Sound Gallery,3,3/17/15,3/17/15,0,1,X100,SO378,2100,41,Aurender X100L,1,shipped,30312
+756,1820000,1654.545455,Aurender Inc.,South Korea,______,8,8/14/15,8/14/15,0,1100,N100,SO735,1820000,168,Aurender N100,1,shipped,
+757,200,200,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,1,1/15/15,1/15/15,0,1,Etc,SO772,200,45,Shipping & Other Charges,1,shipped,22290-250
+758,400,400,Aurender Inc.,South Africa,Tweak Technologies,2,2/4/15,2/4/15,0,1,Etc,SO768,400,45,Shipping & Other Charges,1,shipped,6625
+759,2600,2600,Aurender Inc.,Hong Kong,Square Wave Ltd.,2,2/21/15,2/21/15,0,1,X100,SO757,2600,43,Aurender X100L,1,shipped,
+760,7800,7800,Aurender Inc.,Portugal,Sons de Requinte,2,2/13/15,2/13/15,0,1,N100,SO770,1300,167,Aurender N100,6,shipped,
+761,15200,15200,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,4,4/14/15,4/14/15,0,1,X100,SO775,1900,41,Aurender X100L,8,shipped,CB24 4UQ
+762,150,150,Aurender Inc.,Philippines,Audio Visual Driver International,3,3/11/15,3/11/15,0,1,Etc,SO372,150,45,Shipping & Other Charges,1,shipped,364-7573
+763,1900,1900,Aurender Inc.,United States,Sight + Sound Gallery,3,3/17/15,3/17/15,0,1,X100,SO378,1900,44,Aurender X100S,1,shipped,30312
+764,28440000,25854.54545,Aurender Inc.,South Korea,GLV,2,2/6/15,2/6/15,0,1100,W20,SO345,9480000,102,Aurender W20,3,shipped,
+765,12000000,10909.09091,Aurender Inc.,South Korea,AV_ ___(_),3,3/20/15,3/20/15,0,1100,X100,SO351,2400000,43,Aurender X100L,5,shipped,
+766,1800000,1636.363636,Aurender Inc.,South Korea,_____,2,2/4/15,2/4/15,0,1100,X100,SO343,1800000,43,Aurender X100L,1,shipped,
+767,6320000,5745.454545,Aurender Inc.,South Korea,______,3,3/11/15,3/11/15,0,1100,N100,SO357,1580000,107,N100S,4,shipped,
+768,4410000,4009.090909,Aurender Inc.,South Korea,GLV,3,3/24/15,3/24/15,0,1100,X100,SO354,2205000,41,Aurender X100L,2,shipped,
+769,6615000,6013.636364,Aurender Inc.,South Korea,_____,2,2/24/15,2/24/15,0,1100,X100,SO346,2205000,41,Aurender X100L,3,shipped,
+770,4000000,3636.363636,Aurender Inc.,South Korea,______,3,3/11/15,3/11/15,0,1100,X725,SO357,800000,49,Aurender X725,5,shipped,
+771,585000,531.8181818,Aurender Inc.,South Korea,_____,2,2/24/15,2/24/15,0,1100,FLOW,SO346,585000,40,Aurender FLOW,1,shipped,
+772,10700000,9727.272727,Aurender Inc.,South Korea,AV_ ___(_),3,3/24/15,3/24/15,0,1100,X100,SO353,2140000,43,Aurender X100L,5,shipped,
+773,9660000,8781.818182,Aurender Inc.,South Korea,AV_ ___(_),6,6/3/15,6/3/15,0,1100,N100,SO461,1380000,91,Aurender N100,7,shipped,
+774,2322727,2111.57,Aurender Inc.,South Korea,______,1,1/27/15,1/27/15,0,1100,X100,SO271,2322727,42,Aurender X100L,1,shipped,
+775,1820000,1654.545455,Aurender Inc.,South Korea,_____,3,3/27/15,3/27/15,0,1100,N100,SO355,1820000,91,Aurender N100,1,shipped,
+776,2520000,2290.909091,Aurender Inc.,South Korea,_____,1,1/19/15,1/19/15,0,1100,X100,SO269,2520000,41,Aurender X100L,1,shipped,
+777,1575000,1431.818182,Aurender Inc.,South Korea,HMG,1,1/23/15,1/23/15,0,1100,X100,SO270,1575000,41,Aurender X100L,1,shipped,
+778,1560000,1418.181818,Aurender Inc.,South Korea,AV_ ___(_),6,6/3/15,6/3/15,0,1100,N100,SO461,1560000,91,Aurender N100,1,shipped,
+779,2520000,2290.909091,Aurender Inc.,South Korea, ____,2,2/4/15,2/4/15,0,1100,X100,SO344,2520000,43,Aurender X100L,1,shipped,
+780,1720000,1563.636364,Aurender Inc.,South Korea,______,3,3/11/15,3/11/15,0,1100,X100,SO357,1720000,41,Aurender X100L,1,shipped,
+781,2520000,2290.909091,Aurender Inc.,South Korea,______,3,3/27/15,3/27/15,0,1100,X100,SO361,2520000,43,Aurender X100L,1,shipped,
+782,585000,531.8181818,Aurender Inc.,South Korea,_______,2,2/2/15,2/2/15,0,1100,FLOW,SO342,585000,40,Aurender FLOW,1,shipped,
+783,15800000,14363.63636,Aurender Inc.,South Korea,GLV,2,2/6/15,2/6/15,0,1100,W20,SO345,7900000,102,Aurender W20,2,shipped,
+784,18720000,17018.18182,Aurender Inc.,South Korea,AV_ ___(_),6,6/3/15,6/3/15,0,1100,N100,SO461,1560000,91,Aurender N100,12,shipped,
+785,7800000,7090.909091,Aurender Inc.,South Korea,AV_ ___(_),6,6/5/15,6/5/15,0,1100,N100,SO462,1560000,91,Aurender N100,5,shipped,
+786,10915800,9923.454545,Aurender Inc.,South Korea,AV_ ___(_),8,8/13/15,8/13/15,0,1100,N100,SO734,1559400,110,Aurender N100H,7,shipped,
+787,1000000,909.0909091,Aurender Inc.,South Korea,___,3,3/20/15,3/20/15,0,1100,X725,SO352,1000000,49,Aurender X725,1,shipped,
+788,2205000,2004.545455,Aurender Inc.,South Korea,Kan (___),1,1/7/15,1/7/15,0,1100,X100,SO266,2205000,41,Aurender X100L,1,shipped,
+789,8800,8800,Aurender Inc.,China,BF International,8,8/13/15,8/13/15,0,1,W20,SO736,8800,102,Aurender W20,1,shipped,
+790,8400,8400,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/22/14,11/22/14,0,1,X100,SO748,2100,41,Aurender X100L,4,shipped,364-7573
+791,3000,3000,Aurender Inc.,China,BF International,7,7/3/15,7/3/15,0,1,S10,SO826,3000,147,S10,1,shipped,
+792,2700,2700,Aurender Inc.,United States,testCustomer,8,8/25/15,8/25/15,0,1,N100,SO783,2700,230,Aurender N100H,1,shipped,91210
+793,6750,6750,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,9,9/8/15,9/8/15,0,1,N100,SO822,1350,229,Aurender N100H,5,shipped,15710
+794,2500,2500,Aurender Inc.,United States,testCustomer,8,8/25/15,8/25/15,0,1,N100,SO783,2500,169,Aurender N100,1,shipped,91210
+795,1350,1350,Aurender Inc.,China,BF International,7,7/17/15,7/17/15,0,1,N100,SO827,1350,168,Aurender N100,1,shipped,
+796,2000,2000,Aurender Inc.,China,BF International,6,6/18/15,6/18/15,0,1,X100,SO824,2000,43,Aurender X100L,1,shipped,
+797,3600,3600,Aurender Inc.,Singapore,X Audio Pte Ltd,9,9/10/15,9/10/15,0,1,N10,SO823,3600,214,Aurender N10,1,shipped,588996
+798,2250,2250,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,9,9/8/15,9/8/15,0,1,X725,SO822,1125,49,Aurender X725,2,shipped,15710
+799,7640,7640,Aurender Inc.,China,BF International,6,6/26/15,6/26/15,0,1,W20,SO825,7640,225,Aurender W20,1,shipped,
+800,500,500,Aurender Inc.,China,BF International,7,7/17/15,7/17/15,0,1,Etc,SO827,500,45,Shipping & Other Charges,1,shipped,
+801,18000,18000,Aurender Inc.,Singapore,X Audio Pte Ltd,9,9/10/15,9/10/15,0,1,N10,SO823,3600,210,Aurender N10,5,shipped,588996
+802,5940,5940,Aurender Inc.,Thailand,Discovery Hifi,8,8/5/15,8/5/15,0,1,N100,SO867,1485,229,Aurender N100H,4,shipped,10260
+803,3850,3850,Aurender Inc.,Singapore,X Audio Pte Ltd,8,8/4/15,8/4/15,0,1,N10,SO866,3850,214,Aurender N10,1,shipped,588996
+804,400,400,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",8,8/4/15,8/4/15,0,1,Cast-Fi 7,SO863,200,50,Aurender Cast-Fi 7,2,shipped,
+805,324000,294.5454545,Aurender Inc.,South Korea,HMG,6,6/8/15,6/8/15,0,1100,Cast-Fi 7,SO854,324000,50,Aurender Cast-Fi 7,1,shipped,
+806,32000,32000,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,8,8/4/15,8/4/15,0,1,N10,SO865,8000,210,Aurender N10,4,shipped,CB24 4UQ
+807,3850,3850,Aurender Inc.,Philippines,Audio Visual Driver International,8,8/4/15,8/4/15,0,1,X100,SO864,1925,41,Aurender X100L,2,shipped,364-7573
+808,3200,3200,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,8,8/4/15,8/4/15,0,1,N10,SO865,3200,214,Aurender N10,1,shipped,CB24 4UQ
+809,200,200,Aurender Inc.,Philippines,Audio Visual Driver International,8,8/4/15,8/4/15,0,1,Etc,SO864,200,45,Shipping & Other Charges,1,shipped,364-7573
+810,7000,7000,Aurender Inc.,Taiwan,"Joint Media System Co., Ltd.",8,8/4/15,8/4/15,0,1,N10,SO863,3500,211,Aurender N10,2,shipped,
+811,7700,7700,Aurender Inc.,Singapore,X Audio Pte Ltd,8,8/4/15,8/4/15,0,1,N10,SO866,3850,210,Aurender N10,2,shipped,588996
+812,8000,8000,Aurender Inc.,Thailand,Discovery Hifi,8,8/5/15,8/5/15,0,1,N10,SO867,4000,210,Aurender N10,2,shipped,10260
+813,3850,3850,Aurender Inc.,Philippines,Audio Visual Driver International,8,8/12/15,8/12/15,0,1,X100,SO868,1925,41,Aurender X100L,2,shipped,364-7573
+814,500,500,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/7/15,11/7/15,0,1,Etc,SO920,500,45,Shipping & Other Charges,1,shipped,
+815,7500,7500,Aurender Inc.,Hong Kong,Square Wave Ltd.,8,8/18/15,8/18/15,0,1,N100,SO870,1250,167,Aurender N100,6,shipped,
+816,4000,4000,Aurender Inc.,Thailand,Discovery Hifi,8,8/5/15,8/5/15,0,1,N10,SO867,4000,214,Aurender N10,1,shipped,10260
+817,518,518,Aurender Inc.,Philippines,Audio Visual Driver International,8,8/12/15,8/12/15,0,1,FLOW,SO868,518,40,Aurender FLOW,1,shipped,364-7573
+818,400,400,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/12/15,11/12/15,0,1,Etc,SO925,400,45,Shipping & Other Charges,1,shipped,
+819,12000,12000,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,11,11/18/15,11/18/15,0,1,N10,SO927,4000,210,Aurender N10,3,shipped,15710
+820,9680,9680,Aurender Inc.,Canada,American Sound of Canada,11,11/23/15,11/23/15,0,1,W20,SO932,9680,228,Aurender W20,1,shipped,L4E 3M7
+821,1750,1750,Aurender Inc.,Italy,Audio Natali S.r.l,12,12/7/15,12/7/15,0,1,Etc,SO943,350,232,UC100,5,shipped,51016
+822,250,250,Aurender Inc.,Philippines,Audio Visual Driver International,8,8/12/15,8/12/15,0,1,Etc,SO868,250,45,Shipping & Other Charges,1,shipped,364-7573
+823,1350,1350,Aurender Inc.,Bangladesh,Cyber Music,8,8/13/15,8/13/15,0,1,N100,SO869,1350,229,Aurender N100H,1,shipped,1230
+824,5400,5400,Aurender Inc.,Hong Kong,Square Wave Ltd.,8,8/18/15,8/18/15,0,1,N100,SO870,1350,229,Aurender N100H,4,shipped,
+825,900,900,Aurender Inc.,Japan,Emilai Inc.,8,8/27/15,8/27/15,0,1,Etc,SO871,900,80,HDD,1,shipped,141-0032
+826,600,600,Aurender Inc.,Hong Kong,Square Wave Ltd.,8,8/18/15,8/18/15,0,1,Etc,SO870,600,45,Shipping & Other Charges,1,shipped,
+827,4000,4000,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,9,9/2/15,9/2/15,0,1,N10,SO873,4000,214,Aurender N10,1,shipped,
+828,3200,3200,Aurender Inc.,Denmark,AVA Group A/S,9,9/2/15,9/2/15,0,1,N10,SO874,3200,214,Aurender N10,1,shipped,7400
+829,1350,1350,Aurender Inc.,Japan,Emilai Inc.,8,8/27/15,8/27/15,0,1,N100,SO871,1350,230,Aurender N100H,1,shipped,141-0032
+830,1296,1296,Aurender Inc.,Lithuania,Muzikos magijos salonas,9,9/6/15,9/6/15,0,1,FLOW,SO876,648,40,Aurender FLOW,2,shipped, LT-92211
+831,3200,3200,Aurender Inc.,Israel,Sabo Audio,9,9/3/15,9/3/15,0,1,N10,SO875,3200,214,Aurender N10,1,shipped,46733
+832,14080,14080,Aurender Inc.,Singapore,HIGH END RESEARCH,8,8/28/15,8/28/15,0,1,W20,SO872,7040,225,Aurender W20,2,shipped,169075
+833,1485,1485,Aurender Inc.,Japan,Emilai Inc.,8,8/27/15,8/27/15,0,1,N100,SO871,1485,230,Aurender N100H,1,shipped,141-0032
+834,2970,2970,Aurender Inc.,Denmark,AVA Group A/S,9,9/2/15,9/2/15,0,1,N100,SO874,1485,229,Aurender N100H,2,shipped,7400
+835,6750,6750,Aurender Inc.,Singapore,HIGH END RESEARCH,8,8/28/15,8/28/15,0,1,N100,SO872,1350,229,Aurender N100H,5,shipped,169075
+836,3600,3600,Aurender Inc.,Japan,Emilai Inc.,8,8/27/15,8/27/15,0,1,N10,SO871,3600,211,Aurender N10,1,shipped,141-0032
+837,5850,5850,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,9,9/8/15,9/8/15,0,1,X100,SO822,1950,43,Aurender X100L,3,shipped,15710
+838,3200,3200,Aurender Inc.,Germany,Hoergenuss fŸr Audiophile,9,9/2/15,9/2/15,0,1,N10,SO873,3200,210,Aurender N10,1,shipped,
+839,7920,7920,Aurender Inc.,Japan,Emilai Inc.,8,8/27/15,8/27/15,0,1,W20,SO871,7920,225,Aurender W20,1,shipped,141-0032
+840,9750,9750,Aurender Inc.,Singapore,HIGH END RESEARCH,8,8/28/15,8/28/15,0,1,X100,SO872,1950,43,Aurender X100L,5,shipped,169075
+841,6400,6400,Aurender Inc.,Singapore,HIGH END RESEARCH,8,8/28/15,8/28/15,0,1,N10,SO872,3200,210,Aurender N10,2,shipped,169075
+842,4000,4000,Aurender Inc.,Denmark,AVA Group A/S,9,9/2/15,9/2/15,0,1,N10,SO874,4000,210,Aurender N10,1,shipped,7400
+843,1485,1485,Aurender Inc.,Lithuania,Muzikos magijos salonas,9,9/6/15,9/6/15,0,1,N100,SO876,1485,229,Aurender N100H,1,shipped, LT-92211
+844,0,0,Aurender Inc.,Netherlands,More Music b.v.,9,9/9/15,9/9/15,0,1,N100,SO877,0,229,Aurender N100H,1,shipped,
+845,16800000,15272.72727,Aurender Inc.,South Korea,AV_ ___(_),9,9/8/15,9/8/15,0,1100,N10,SO878,5600000,212,Aurender N10,3,shipped,
+846,0,0,Aurender Inc.,Netherlands,More Music b.v.,9,9/9/15,9/9/15,0,1,X725,SO877,0,49,Aurender X725,1,shipped,
+847,5600000,5090.909091,Aurender Inc.,South Korea,AV_ ___(_),9,9/8/15,9/8/15,0,1100,N10,SO878,5600000,214,Aurender N10,1,shipped,
+848,16000,16000,Aurender Inc.,Netherlands,More Music b.v.,9,9/16/15,9/16/15,0,1,N10,SO879,3200,210,Aurender N10,5,shipped,
+849,5600000,5090.909091,Aurender Inc.,South Korea,____ __,9,9/11/15,9/11/15,0,1100,N10,SO880,5600000,210,Aurender N10,1,shipped,
+850,2340000,2127.272727,Aurender Inc.,South Korea,AV_ ___(_),9,9/15/15,9/15/15,0,1100,X100,SO881,2340000,43,Aurender X100L,1,shipped,
+851,5600000,5090.909091,Aurender Inc.,South Korea,______,9,9/15/15,9/15/15,0,1100,N10,SO882,5600000,210,Aurender N10,1,shipped,
+852,3240,3240,Aurender Inc.,Canada,Sonore Filtronique,9,9/22/15,9/22/15,0,1,N100,SO889,1620,230,Aurender N100H,2,shipped,H2M 1SS
+854,5600000,5090.909091,Aurender Inc.,South Korea,AV_ ___(_),9,9/28/15,9/28/15,0,1100,N10,SO894,5600000,212,Aurender N10,1,shipped,
+856,7425,7425,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,9,9/17/15,9/17/15,0,1,N100,SO885,1485,229,Aurender N100H,5,shipped,CB24 4UQ
+857,3200,3200,Aurender Inc.,Sweden,Perfect Sense,9,9/24/15,9/24/15,0,1,N10,SO890,3200,214,Aurender N10,1,shipped,113 46
+858,7040,7040,Aurender Inc.,Hong Kong,Square Wave Ltd.,9,9/24/15,9/24/15,0,1,W20,SO891,7040,228,Aurender W20,1,shipped,
+861,7425,7425,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,9,9/18/15,9/18/15,0,1,N100,SO886,1485,229,Aurender N100H,5,shipped,3134
+863,2100,2100,Aurender Inc.,United Arab Emirates,Dubai Audio,9,9/21/15,9/21/15,0,1,X100,SO888,2100,41,Aurender X100L,1,shipped,
+864,240,240,Aurender Inc.,Hong Kong,Square Wave Ltd.,9,9/24/15,9/24/15,0,1,Etc,SO891,240,45,Shipping & Other Charges,1,shipped,
+865,5600000,5090.909091,Aurender Inc.,South Korea,AV_ ___(_),9,9/28/15,9/28/15,0,1100,N10,SO894,5600000,210,Aurender N10,1,shipped,
+867,4000,4000,Aurender Inc.,Sweden,Perfect Sense,9,9/24/15,9/24/15,0,1,N10,SO890,4000,210,Aurender N10,1,shipped,113 46
+869,5600000,5090.909091,Aurender Inc.,South Korea,AV_ ___(_),9,9/20/15,9/20/15,0,1100,N10,SO893,5600000,211,Aurender N10,1,shipped,
+870,690,690,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,11,11/3/15,11/3/15,0,1,Etc,SO918,230,236,HDD,3,shipped,22290-250
+871,3955,3955,Aurender Inc.,Italy,Audio Natali S.r.l,10,10/5/15,10/5/15,0,1,N10,SO895,3955,210,Aurender N10,1,shipped,51016
+872,0,0,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,11,11/3/15,11/3/15,0,1,N100,SO918,0,230,Aurender N100H,1,shipped,22290-250
+873,2520,2520,Aurender Inc.,Netherlands,More Music b.v.,12,12/3/15,12/3/15,0,1,Etc,SO940,315,232,UC100,8,shipped,
+874,3955,3955,Aurender Inc.,Italy,Audio Natali S.r.l,10,10/5/15,10/5/15,0,1,N10,SO895,3955,214,Aurender N10,1,shipped,51016
+875,200,200,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,12,12/16/15,12/16/15,0,1,Etc,SO955,200,45,Shipping & Other Charges,1,shipped,15710
+877,-600,-600,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,12,12/16/15,12/16/15,0,1,Etc,SO955,-600,233,credit,1,shipped,15710
+878,2150,2150,Aurender Inc.,Italy,Audio Natali S.r.l,10,10/5/15,10/5/15,0,1,X100,SO895,2150,43,Aurender X100L,1,shipped,51016
+879,4000,4000,Aurender Inc.,Canada,American Sound of Canada,10,10/16/15,10/16/15,0,1,N10,SO901,4000,211,Aurender N10,1,shipped,L4E 3M7
+880,4455,4455,Aurender Inc.,Sweden,Perfect Sense,9,9/24/15,9/24/15,0,1,N100,SO890,1485,229,Aurender N100H,3,shipped,113 46
+881,1215,1215,Aurender Inc.,Canada,Audio by Mark Jones,10,10/16/15,10/16/15,0,1,N100,SO900,1215,230,Aurender N100H,1,shipped,
+882,7920,7920,Aurender Inc.,Thailand,Kittikun Parinayok,10,10/7/15,10/7/15,0,1,W20,SO896,7920,228,Aurender W20,1,shipped,10260
+883,3200,3200,Aurender Inc.,Portugal,Sons de Requinte,10,10/7/15,10/7/15,0,1,N10,SO897,3200,210,Aurender N10,1,shipped,
+884,9625,9625,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,10,10/15/15,10/15/15,0,1,X100,SO899,1925,41,Aurender X100L,5,shipped,CB24 4UQ
+885,4000,4000,Aurender Inc.,Portugal,Sons de Requinte,10,10/7/15,10/7/15,0,1,N10,SO897,4000,214,Aurender N10,1,shipped,
+886,1750,1750,Aurender Inc.,Canada,American Sound of Canada,10,10/16/15,10/16/15,0,1,X100,SO901,1750,41,Aurender X100L,1,shipped,L4E 3M7
+887,4455,4455,Aurender Inc.,Portugal,Sons de Requinte,10,10/7/15,10/7/15,0,1,N100,SO897,1485,229,Aurender N100H,3,shipped,
+888,3600,3600,Aurender Inc.,Canada,Audio by Mark Jones,10,10/16/15,10/16/15,0,1,N10,SO900,3600,215,Aurender N10,1,shipped,
+889,8800,8800,Aurender Inc.,Canada,American Sound of Canada,10,10/16/15,10/16/15,0,1,W20,SO901,8800,225,Aurender W20,1,shipped,L4E 3M7
+890,13500,13500,Aurender Inc.,Singapore,X Audio Pte Ltd,10,10/22/15,10/22/15,0,1,N100,SO907,1350,229,Aurender N100H,10,shipped,588996
+891,0,0,Aurender Inc.,Canada,American Sound of Canada,10,10/16/15,10/16/15,0,1,Etc,SO901,0,232,UC100,1,shipped,L4E 3M7
+892,648,648,Aurender Inc.,Canada,American Sound of Canada,10,10/16/15,10/16/15,0,1,FLOW,SO901,648,40,Aurender FLOW,1,shipped,L4E 3M7
+893,3200,3200,Aurender Inc.,Netherlands,More Music b.v.,10,10/22/15,10/22/15,0,1,N10,SO908,3200,214,Aurender N10,1,shipped,
+894,200,200,Aurender Inc.,Canada,American Sound of Canada,10,10/16/15,10/16/15,0,1,Cast-Fi 7,SO901,200,50,Aurender Cast-Fi 7,1,shipped,L4E 3M7
+895,4290,4290,Aurender Inc.,Denmark,AVA Group A/S,10,10/19/15,10/19/15,0,1,X100,SO902,2145,43,Aurender X100L,2,shipped,7400
+896,250,250,Aurender Inc.,Philippines,Audio Visual Driver International,10,10/23/15,10/23/15,0,1,Etc,SO909,250,45,Shipping & Other Charges,1,shipped,364-7573
+897,1350,1350,Aurender Inc.,Canada,American Sound of Canada,10,10/16/15,10/16/15,0,1,N100,SO901,1350,230,Aurender N100H,1,shipped,L4E 3M7
+898,-360,-360,Aurender Inc.,Denmark,AVA Group A/S,10,10/19/15,10/19/15,0,1,Etc,SO902,-360,233,credit,1,shipped,7400
+899,5600000,5090.909091,Aurender Inc.,South Korea,AV_ ___(_),10,10/9/15,10/9/15,0,1100,N10,SO905,5600000,212,Aurender N10,1,shipped,
+900,1250,1250,Aurender Inc.,Canada,American Sound of Canada,10,10/16/15,10/16/15,0,1,X725,SO901,1250,48,Aurender X725,1,shipped,L4E 3M7
+901,800000,727.2727273,Aurender Inc.,South Korea,AV_ ___(_),10,10/1/15,10/1/15,0,1100,X725,SO903,800000,49,Aurender X725,1,shipped,
+902,2340,2340,Aurender Inc.,Canada,Audio by Mark Jones,10,10/16/15,10/16/15,0,1,X100,SO900,2340,43,Aurender X100L,1,shipped,
+903,5600000,5090.909091,Aurender Inc.,South Korea,AV_ ___(_),10,10/22/15,10/22/15,0,1100,N10,SO906,5600000,212,Aurender N10,1,shipped,
+904,3900,3900,Aurender Inc.,Philippines,Audio Visual Driver International,10,10/23/15,10/23/15,0,1,X100,SO909,1950,41,Aurender X100L,2,shipped,364-7573
+905,5600000,5090.909091,Aurender Inc.,South Korea,AV_ ___(_),10,10/9/15,10/9/15,0,1100,N10,SO905,5600000,210,Aurender N10,1,shipped,
+906,9600,9600,Aurender Inc.,Netherlands,More Music b.v.,10,10/22/15,10/22/15,0,1,N10,SO908,3200,210,Aurender N10,3,shipped,
+907,7000,7000,Aurender Inc.,Netherlands,More Music b.v.,10,10/22/15,10/22/15,0,1,W20,SO908,7000,228,Aurender W20,1,shipped,
+908,4000,4000,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,10,10/26/15,10/26/15,0,1,N10,SO911,4000,210,Aurender N10,1,shipped,91-174
+909,3900,3900,Aurender Inc.,Singapore,X Audio Pte Ltd,10,10/22/15,10/22/15,0,1,X100,SO907,1950,43,Aurender X100L,2,shipped,588996
+912,4050,4050,Aurender Inc.,Netherlands,More Music b.v.,11,11/2/15,11/2/15,0,1,N100,SO917,1350,229,Aurender N100H,3,shipped,
+914,7920,7920,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,11,11/2/15,11/2/15,0,1,W20,SO916,7920,225,Aurender W20,1,shipped,CB24 4UQ
+917,0,0,Aurender Inc.,Singapore,X Audio Pte Ltd,10,10/22/15,10/22/15,0,1,Etc,SO907,0,232,UC100,1,shipped,588996
+919,800000,727.2727273,Aurender Inc.,South Korea,HMG,10,10/29/15,10/29/15,0,1100,X725,SO914,800000,49,Aurender X725,1,shipped,
+920,0,0,Aurender Inc.,Singapore,X Audio Pte Ltd,10,10/22/15,10/22/15,0,1,N100,SO907,0,229,Aurender N100H,1,shipped,588996
+921,7425,7425,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,11,11/2/15,11/2/15,0,1,N100,SO916,1485,229,Aurender N100H,5,shipped,CB24 4UQ
+922,2145,2145,Aurender Inc.,Netherlands,More Music b.v.,11,11/2/15,11/2/15,0,1,X100,SO917,2145,43,Aurender X100L,1,shipped,
+923,240,240,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,10,10/26/15,10/26/15,0,1,Etc,SO911,240,45,Shipping & Other Charges,1,shipped,91-174
+924,11550,11550,Aurender Inc.,Netherlands,More Music b.v.,11,11/2/15,11/2/15,0,1,X100,SO917,1925,41,Aurender X100L,6,shipped,
+925,5600000,5090.909091,Aurender Inc.,South Korea,AV_ ___(_),11,11/1/15,11/1/15,0,1100,N10,SO922,5600000,210,Aurender N10,1,shipped,
+926,13500,13500,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,11,11/3/15,11/3/15,0,1,N100,SO918,1350,230,Aurender N100H,10,shipped,22290-250
+927,0,0,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,10,10/26/15,10/26/15,0,1,Etc,SO911,0,235,Cables,2,shipped,91-174
+928,7040,7040,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/7/15,11/7/15,0,1,W20,SO920,7040,225,Aurender W20,1,shipped,
+929,2500,2500,Aurender Inc.,Japan,Emilai Inc.,11,11/5/15,11/5/15,0,1,X725,SO919,1250,48,Aurender X725,2,shipped,141-0032
+930,4000,4000,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,11,11/9/15,11/9/15,0,1,N10,SO921,4000,214,Aurender N10,1,shipped,3134
+931,-2660,-2660,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,11,11/3/15,11/3/15,0,1,Etc,SO918,-2660,233,credit,1,shipped,22290-250
+932,7040,7040,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,11,11/3/15,11/3/15,0,1,W20,SO918,7040,225,Aurender W20,1,shipped,22290-250
+933,6400,6400,Aurender Inc.,Brazil,KVS3 Comercio de Audio e Video LTDA,11,11/3/15,11/3/15,0,1,N10,SO918,3200,211,Aurender N10,2,shipped,22290-250
+934,648,648,Aurender Inc.,Japan,Emilai Inc.,11,11/5/15,11/5/15,0,1,FLOW,SO919,648,40,Aurender FLOW,1,shipped,141-0032
+935,4800,4800,Aurender Inc.,Canada,Audio by Mark Jones,11,11/12/15,11/12/15,0,1,N10,SO924,4800,215,Aurender N10,1,shipped,
+936,12800,12800,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/7/15,11/7/15,0,1,N10,SO920,3200,210,Aurender N10,4,shipped,
+937,5600000,5090.909091,Aurender Inc.,South Korea,AV_ ___(_),11,11/6/15,11/6/15,0,1100,N10,SO923,5600000,210,Aurender N10,1,shipped,
+938,9450,9450,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/12/15,11/12/15,0,1,N100,SO925,1350,230,Aurender N100H,7,shipped,
+939,5250,5250,Aurender Inc.,Hong Kong,Square Wave Ltd.,11,11/12/15,11/12/15,0,1,X100,SO925,1750,41,Aurender X100L,3,shipped,
+941,4000,4000,Aurender Inc.,Australia,Reference Audio Visual Pty Ltd,11,11/30/15,11/30/15,0,1,N10,SO936,4000,210,Aurender N10,1,shipped,3134
+942,3200,3200,Aurender Inc.,Netherlands,Christiaan Punter,11,11/18/15,11/18/15,0,1,N10,SO928,3200,210,Aurender N10,1,shipped,1069KD
+944,4000,4000,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/23/15,11/23/15,0,1,N10,SO933,4000,210,Aurender N10,1,shipped,364-7573
+945,1350,1350,Aurender Inc.,Canada,Soundstage Fine Audio,11,11/30/15,11/30/15,0,1,N100,SO938,1350,230,Aurender N100H,1,shipped,ON N2J 3A6
+946,450,450,Aurender Inc.,Netherlands,More Music b.v.,12,12/4/15,12/4/15,0,1,Etc,SO941,450,79,Repair Charge,1,shipped,
+947,1350,1350,Aurender Inc.,Canada,Liquidsound,11,11/30/15,11/30/15,0,1,N100,SO937,1350,230,Aurender N100H,1,shipped,V6R 2H7
+948,120,120,Aurender Inc.,Philippines,Audio Visual Driver International,11,11/23/15,11/23/15,0,1,Etc,SO933,120,45,Shipping & Other Charges,1,shipped,364-7573
+949,7000,7000,Aurender Inc.,Netherlands,More Music b.v.,12,12/3/15,12/3/15,0,1,W20,SO940,7000,225,Aurender W20,1,shipped,
+950,4000,4000,Aurender Inc.,Canada,Soundstage Fine Audio,11,11/30/15,11/30/15,0,1,N10,SO938,4000,215,Aurender N10,1,shipped,ON N2J 3A6
+951,1620,1620,Aurender Inc.,Canada,Liquidsound,11,11/30/15,11/30/15,0,1,N100,SO937,1620,230,Aurender N100H,1,shipped,V6R 2H7
+952,6480,6480,Aurender Inc.,Canada,Sonore Filtronique,11,11/20/15,11/20/15,0,1,N100,SO929,1620,230,Aurender N100H,4,shipped,H2M 1SS
+953,3850,3850,Aurender Inc.,Philippines,Audio Visual Driver International,12,12/7/15,12/7/15,0,1,X100,SO942,1925,41,Aurender X100L,2,shipped,364-7573
+954,50,50,Aurender Inc.,Netherlands,More Music b.v.,12,12/3/15,12/3/15,0,1,Etc,SO940,50,46,dCS Dongle,1,shipped,
+956,4800,4800,Aurender Inc.,Perœ,INVERSIONES F&J S. A.,11,11/27/15,11/27/15,0,1,N10,SO935,4800,210,Aurender N10,1,shipped,
+957,12800,12800,Aurender Inc.,Netherlands,More Music b.v.,12,12/3/15,12/3/15,0,1,N10,SO940,3200,210,Aurender N10,4,shipped,
+958,4000,4000,Aurender Inc.,Japan,Emilai Inc.,12,12/3/15,12/3/15,0,1,N10,SO939,4000,211,Aurender N10,1,shipped,141-0032
+959,240,240,Aurender Inc.,Philippines,Audio Visual Driver International,12,12/7/15,12/7/15,0,1,Etc,SO942,240,45,Shipping & Other Charges,1,shipped,364-7573
+960,1620,1620,Aurender Inc.,Canada,Westside Music & Cinema,12,12/8/15,12/8/15,0,1,N100,SO944,1620,230,Aurender N100H,1,shipped,AB T3Z 3J8
+961,4000,4000,Aurender Inc.,Italy,Audio Natali S.r.l,12,12/7/15,12/7/15,0,1,N10,SO943,4000,210,Aurender N10,1,shipped,51016
+962,50,50,Aurender Inc.,Canada,Westside Music & Cinema,12,12/8/15,12/8/15,0,1,Etc,SO944,50,45,Shipping & Other Charges,1,shipped,AB T3Z 3J8
+964,7425,7425,Aurender Inc.,Italy,Audio Natali S.r.l,12,12/7/15,12/7/15,0,1,N100,SO943,1485,229,Aurender N100H,5,shipped,51016
+965,8100,8100,Aurender Inc.,Netherlands,More Music b.v.,12,12/12/15,12/12/15,0,1,N100,SO948,1350,229,Aurender N100H,6,shipped,
+966,1500,1500,Aurender Inc.,Canada,Audio by Mark Jones,12,12/14/15,12/14/15,0,1,N100,SO951,1500,169,Aurender N100,1,shipped,
+968,3240,3240,Aurender Inc.,Canada,Audio by Mark Jones,12,12/14/15,12/14/15,0,1,N100,SO951,1620,230,Aurender N100H,2,shipped,
+970,8800,8800,Aurender Inc.,Canada,American Sound of Canada,12,12/12/15,12/12/15,0,1,N10,SO949,4400,211,Aurender N10,2,shipped,L4E 3M7
+972,3240,3240,Aurender Inc.,Canada,Liquidsound,12,12/12/15,12/12/15,0,1,N100,SO950,1620,230,Aurender N100H,2,shipped,V6R 2H7
+973,12000,12000,Aurender Inc.,Poland,FAST M.J. Orszanscy sp.j.,12,12/8/15,12/8/15,0,1,N10,SO946,4000,210,Aurender N10,3,shipped,91-174
+974,7920,7920,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,12,12/17/15,12/17/15,0,1,W20,SO956,7920,225,Aurender W20,1,shipped,CB24 4UQ
+976,7700,7700,Aurender Inc.,Netherlands,More Music b.v.,12,12/12/15,12/12/15,0,1,X100,SO948,1925,41,Aurender X100L,4,shipped,
+977,7920,7920,Aurender Inc.,Indonesia,PT TASINDO MANDIRI INDONESIA,12,12/16/15,12/16/15,0,1,W20,SO955,7920,225,Aurender W20,1,shipped,15710
+978,900,900,Aurender Inc.,Hong Kong,Square Wave Ltd.,12,12/15/15,12/15/15,0,1,Etc,SO954,900,45,Shipping & Other Charges,1,shipped,
+979,8000,8000,Aurender Inc.,Thailand,Discovery Hifi,12,12/14/15,12/14/15,0,1,N10,SO952,4000,210,Aurender N10,2,shipped,10260
+980,4860,4860,Aurender Inc.,Canada,Sonore Filtronique,12,12/17/15,12/17/15,0,1,N100,SO957,1620,230,Aurender N100H,3,shipped,H2M 1SS
+981,9680,9680,Aurender Inc.,Canada,American Sound of Canada,12,12/15/15,12/15/15,0,1,W20,SO953,9680,225,Aurender W20,1,shipped,L4E 3M7
+982,7920,7920,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,12,12/17/15,12/17/15,0,1,W20,SO956,7920,228,Aurender W20,1,shipped,CB24 4UQ
+983,7040,7040,Aurender Inc.,Hong Kong,Square Wave Ltd.,12,12/15/15,12/15/15,0,1,W20,SO954,7040,225,Aurender W20,1,shipped,
+985,150,150,Aurender Inc.,United Kingdom,Data Conversion Systems Limited,12,12/17/15,12/17/15,0,1,Etc,SO956,50,46,dCS Dongle,3,shipped,CB24 4UQ
+986,12800,12800,Aurender Inc.,Hong Kong,Square Wave Ltd.,12,12/15/15,12/15/15,0,1,N10,SO954,3200,210,Aurender N10,4,shipped,
+987,400,400,Aurender Inc.,Finland,Oy Scanteknik Ab,12,12/23/15,12/23/15,0,1,Etc,SO958,200,79,Repair Charge,2,shipped,2480
+988,13500,13500,Aurender Inc.,Hong Kong,Square Wave Ltd.,12,12/15/15,12/15/15,0,1,N100,SO954,1350,229,Aurender N100H,10,shipped,
+992,1350,1350,Aurender America Inc.,Mexico,"Hi-Fi Group, S. de R.L.",8,8/3/15,8/3/15,0,1,N100,SO014,1350,76,Aurender N100H,1,shipped,6140
+993,6216,6216,Aurender America Inc.,United States,Moon Audio,11,11/9/14,11/8/14,0,1,FLOW,SO588,777,67,Aurender FLOW,8,shipped,27511
+994,1620,1620,Aurender America Inc.,United States,Eyes & Ears,8,8/5/15,8/5/15,0,1,N100,SO013,1620,76,Aurender N100H,1,shipped,90017
+995,1294,1294,Aurender America Inc.,United States,Moon Audio,11,11/9/14,11/8/14,0,1,FLOW,SO588,647,67,Aurender FLOW,2,shipped,27511
+996,0,0,Aurender America Inc.,United States,"The Audio Salon, Inc.",7,7/5/15,7/5/15,0,1,N10,SO059,0,78,Aurender N10 - Silver,1,shipped,90404
+997,4800,4800,Aurender America Inc.,United States,Music Lovers Audio,8,7/27/15,8/3/15,0,1,N10,SO005,4800,78,Aurender N10 - Silver,1,shipped,94704
+998,4800,4800,Aurender America Inc.,United States,Suncoast Audio,8,8/4/15,8/10/15,0,1,N10,SO011,4800,77,Aurender N10-B,1,shipped,34202
+999,0,0,Aurender America Inc.,United States,Music Lovers Audio,10,10/16/14,10/16/14,0,1,X100,SO623,0,73,Aurender X100L-8T,1,shipped,94704
+1000,150,150,Aurender America Inc.,Mexico,"Hi-Fi Group, S. de R.L.",8,8/3/15,8/3/15,0,1,Etc,SO014,150,88,Shipping & Other Charges,1,shipped,6140
+1001,0,0,Aurender America Inc.,United States,Bryan Stanton,11,11/2/14,11/2/14,0,1,Cast-Fi 7,SO626,0,65,Aurender Cast-Fi 7,1,shipped,6058
+1002,0,0,Aurender America Inc.,United States,Bryan Stanton,11,11/2/14,11/2/14,0,1,X100,SO626,0,73,Aurender X100L-8T,1,shipped,6058
+1003,50,50,Aurender America Inc.,United States,Audio Elegance Inc.,8,8/5/15,8/5/15,0,1,Etc,SO012,50,88,Shipping & Other Charges,1,shipped,33308
+1004,1350,1350,Aurender America Inc.,United States,Audio Elegance Inc.,8,8/5/15,8/5/15,0,1,N100,SO012,1350,76,Aurender N100H,1,shipped,33308
+1005,1350,1350,Aurender America Inc.,United States,Audio Salon,7,7/1/15,7/17/15,0,1,N100,SO722,1350,76,Aurender N100H,1,shipped,33431
+1006,1350,1350,Aurender America Inc.,United States,Quintessence Audio,8,7/27/15,8/11/15,0,1,N100,SO004,1350,76,Aurender N100H,1,shipped,60053
+1007,4860,4860,Aurender America Inc.,United States,Quintessence Audio,8,7/27/15,8/11/15,0,1,N100,SO004,1620,76,Aurender N100H,3,shipped,60053
+1008,1620,1620,Aurender America Inc.,United States,Audio Salon,7,7/1/15,7/17/15,0,1,N100,SO722,1620,76,Aurender N100H,1,shipped,33431
+1009,2340,2340,Aurender America Inc.,United States,David Michael Audio,7,7/1/15,7/6/15,0,1,X100,SO721,2340,72,Aurender X100L-12T,1,shipped,48073
+1010,50,50,Aurender America Inc.,United States,David Michael Audio,7,7/1/15,7/6/15,0,1,Etc,SO721,50,88,Shipping & Other Charges,1,shipped,48073
+1011,100,100,Aurender America Inc.,United States,Alma Audio LLC.,7,7/9/15,7/21/15,0,1,Etc,SO749,100,87,HDD 2T 2.5inch,1,shipped,92037
+1012,4800,4800,Aurender America Inc.,United States,"The Audio Salon, Inc.",8,8/23/15,8/23/15,0,1,N10,SO027,4800,78,Aurender N10 - Silver,1,shipped,90404
+1013,4000,4000,Aurender America Inc.,United States,Aurris LLC,8,8/24/15,8/27/15,0,1,N10,SO031,4000,77,Aurender N10-B,1,shipped,87544
+1014,4800,4800,Aurender America Inc.,United States,"Listen, Inc.",8,8/24/15,8/24/15,0,1,N10,SO032,4800,78,Aurender N10 - Silver,1,shipped,2118
+1015,100,100,Aurender America Inc.,United States,Galen Carol Audio,7,7/7/15,7/8/15,0,1,Etc,SO748,100,87,HDD 2T 2.5inch,1,shipped,78217-0562
+1016,4800,4800,Aurender America Inc.,United States,Music Lovers Audio,8,7/27/15,8/3/15,0,1,N10,SO003,4800,78,Aurender N10 - Silver,1,shipped,94704
+1017,200,200,Aurender America Inc.,United States,Moon Audio,7,7/4/15,7/9/15,0,1,Etc,SO738,100,87,HDD 2T 2.5inch,2,shipped,27511
+1018,100,100,Aurender America Inc.,United States,2020 Evolution Systems LLC,7,7/2/15,7/14/15,0,1,Etc,SO724,100,87,HDD 2T 2.5inch,1,shipped,20854
+1019,100,100,Aurender America Inc.,United States,Take 5 Audio,6,6/21/15,6/26/15,0,1,Etc,SO689,100,87,HDD 2T 2.5inch,1,shipped,6510
+1020,100,100,Aurender America Inc.,United States,"EXOGAL, LLC",6,6/6/15,6/29/15,0,1,Etc,SO542,100,87,HDD 2T 2.5inch,1,shipped,55122
+1021,0,0,Aurender America Inc.,United States,Sunny Components Inc.,7,7/5/15,7/5/15,0,1,N10,SO055,0,78,Aurender N10 - Silver,1,shipped,91724
+1022,1350,1350,Aurender America Inc.,United States,Audible Images,11,11/20/15,11/24/15,0,1,N100,SO166,1350,76,Aurender N100H,1,shipped,32935
+1023,50,50,Aurender America Inc.,United States,Audible Images,11,11/20/15,11/24/15,0,1,Etc,SO166,50,88,Shipping & Other Charges,1,shipped,32935
+1024,300,300,Aurender America Inc.,United States,David Michael Audio,9,9/24/15,9/24/15,0,1,Etc,SO095,300,96,Hdd Upgrade(6TB-12TB),1,shipped,48073
+1025,1750,1750,Aurender America Inc.,United States,2020 Evolution Systems LLC,5,5/20/15,5/19/15,0,1,X100,SO592,1750,70,Aurender X100L,1,shipped,20854
+1026,200,200,Aurender America Inc.,United States,"Command Performance AV, LLC",6,6/18/15,6/23/15,0,1,Etc,SO686,100,87,HDD 2T 2.5inch,2,shipped,22046
+1027,100,100,Aurender America Inc.,United States,Ryan Speakers,6,6/26/15,6/29/15,0,1,Etc,SO667,100,87,HDD 2T 2.5inch,1,shipped,92503
+1028,480,480,Aurender America Inc.,United States,Arctic Audio,6,6/26/15,6/25/15,0,1,Etc,SO666,480,90,SSD Samsung 850 Pro 1 TB 2.5-Inch SATA III Internal,1,shipped,58103
+1029,4800,4800,Aurender America Inc.,Canada,Audio by Mark Jones,7,6/25/15,7/6/15,0,1,N10,SO656,4800,78,Aurender N10 - Silver,1,shipped,
+1030,100,100,Aurender America Inc.,United States,Suncoast Audio,6,6/19/15,6/18/15,0,1,Etc,SO687,100,87,HDD 2T 2.5inch,1,shipped,34202
+1031,1620,1620,Aurender America Inc.,United States,Dynamic Sound Systems INC.,8,7/29/15,8/3/15,0,1,N100,SO008,1620,76,Aurender N100H,1,shipped,92008
+1032,50,50,Aurender America Inc.,United States,Dynamic Sound Systems INC.,8,7/29/15,8/3/15,0,1,Etc,SO008,50,88,Shipping & Other Charges,1,shipped,92008
+1033,100,100,Aurender America Inc.,United States,Audio Revelation,6,6/16/15,6/16/15,0,1,Etc,SO595,100,87,HDD 2T 2.5inch,1,shipped,92010
+1034,1350,1350,Aurender America Inc.,United States,2020 Evolution Systems LLC,5,5/20/15,5/19/15,0,1,N100,SO592,1350,76,Aurender N100H,1,shipped,20854
+1035,4000,4000,Aurender America Inc.,United States,Stephens and Associates,8,7/23/15,8/3/15,0,1,N10,SO023,4000,77,Aurender N10-B,1,shipped,32561
+1036,3240,3240,Aurender America Inc.,United States,Galen Carol Audio,8,8/12/15,8/14/15,0,1,N100,SO016,1620,76,Aurender N100H,2,shipped,78217-0562
+1037,50,50,Aurender America Inc.,United States,"Listen, Inc.",8,8/24/15,8/24/15,0,1,Etc,SO032,50,88,Shipping & Other Charges,1,shipped,2118
+1038,50,50,Aurender America Inc.,United States,Music Lovers Audio,8,8/24/15,8/31/15,0,1,Etc,SO030,50,88,Shipping & Other Charges,1,shipped,94704
+1039,441.2,441.2,Aurender America Inc.,United States,Aurender Direct,1,1/14/15,1/13/15,0,1,Cast-Fi 7,SO732,441.2,65,Aurender Cast-Fi 7,1,shipped,91502
+1040,100,100,Aurender America Inc.,Canada,DIMF'S HI-FI,7,7/4/15,7/7/15,0,1,Etc,SO739,100,87,HDD 2T 2.5inch,1,shipped,76M 275
+1041,1620,1620,Aurender America Inc.,United States,Essential Audio,8,8/12/15,8/14/15,0,1,N100,SO017,1620,76,Aurender N100H,1,shipped,60010
+1042,2100,2100,Aurender America Inc.,United States,Moon Audio,8,8/12/15,8/14/15,0,1,X100,SO018,2100,70,Aurender X100L,1,shipped,27511
+1043,63,63,Aurender America Inc.,United States,Moon Audio,8,8/12/15,8/14/15,0,1,Etc,SO018,63,85,Credit Card Fee,1,shipped,27511
+1044,1620,1620,Aurender America Inc.,United States,Take 5 Audio,8,8/24/15,8/27/15,0,1,N100,SO028,1620,76,Aurender N100H,1,shipped,6510
+1045,50,50,Aurender America Inc.,United States,Take 5 Audio,8,8/24/15,8/27/15,0,1,Etc,SO028,50,88,Shipping & Other Charges,1,shipped,6510
+1046,1620,1620,Aurender America Inc.,United States,Arctic Audio,8,8/24/15,8/24/15,0,1,N100,SO029,1620,76,Aurender N100H,1,shipped,58103
+1047,50,50,Aurender America Inc.,United States,Arctic Audio,8,8/24/15,8/24/15,0,1,Etc,SO029,50,88,Shipping & Other Charges,1,shipped,58103
+1048,648,648,Aurender America Inc.,United States,HeadphoneAudiophile.com,5,5/17/15,5/16/15,0,1,FLOW,SO571,648,67,Aurender FLOW,1,shipped,30097
+1049,1620,1620,Aurender America Inc.,United States,Suncoast Audio,8,8/24/15,8/27/15,0,1,N100,SO033,1620,76,Aurender N100H,1,shipped,34202
+1050,50,50,Aurender America Inc.,United States,Suncoast Audio,8,8/24/15,8/27/15,0,1,Etc,SO033,50,88,Shipping & Other Charges,1,shipped,34202
+1051,777,777,Aurender America Inc.,United States,HeadphoneAudiophile.com,5,5/17/15,5/16/15,0,1,FLOW,SO571,777,67,Aurender FLOW,1,shipped,30097
+1052,30,30,Aurender America Inc.,United States,HeadphoneAudiophile.com,5,5/17/15,5/16/15,0,1,Etc,SO571,30,88,Shipping & Other Charges,1,shipped,30097
+1053,200,200,Aurender America Inc.,United States,Fidelis Av LLC,7,7/3/15,7/2/15,0,1,Etc,SO684,100,87,HDD 2T 2.5inch,2,shipped,3063
+1054,876.28,876.28,Aurender America Inc.,United States,Aurender Direct,12,12/20/14,12/19/14,0,1,Cast-Fi 7,SO731,438.14,65,Aurender Cast-Fi 7,2,shipped,91502
+1055,1620,1620,Aurender America Inc.,Canada,Liquid Sound Inc.,9,9/15/15,9/18/15,0,1,N100,SO074,1620,76,Aurender N100H,1,shipped,V6R2H7
+1056,2100,2100,Aurender America Inc.,United States,Suncoast Audio,6,6/30/15,6/29/15,0,1,X100,SO719,2100,70,Aurender X100L,1,shipped,34202
+1057,50,50,Aurender America Inc.,United States,Suncoast Audio,6,6/30/15,6/29/15,0,1,Etc,SO719,50,88,Shipping & Other Charges,1,shipped,34202
+1058,2771.64,2771.64,Aurender America Inc.,United States,Aurender Direct,12,12/20/14,12/19/14,0,1,FLOW,SO731,1385.82,67,Aurender FLOW,2,shipped,91502
+1059,4000,4000,Aurender America Inc.,United States,Galen Carol Audio,7,6/26/15,7/6/15,0,1,N10,SO740,4000,78,Aurender N10 - Silver,1,shipped,78217-0562
+1060,0,0,Aurender America Inc.,United States,Dynaudio USA,9,9/10/15,9/10/15,0,1,N100,SO052,0,76,Aurender N100H,1,shipped,60026
+1061,4800,4800,Aurender America Inc.,United States,Rhapsody Music and Cinema,9,9/16/15,9/18/15,0,1,N10,SO083,4800,78,Aurender N10 - Silver,1,shipped,10010
+1062,30,30,Aurender America Inc.,United States,Music Lovers Audio,10,9/28/15,10/30/15,0,1,Etc,SO104,30,88,Shipping & Other Charges,1,shipped,94704
+1063,0,0,Aurender America Inc.,United States,Tim Marutani,7,7/5/15,7/5/15,0,1,N10,SO058,0,78,Aurender N10 - Silver,1,shipped,94608
+1064,249.99,249.99,Aurender America Inc.,United States,Lightstone Rentals,7,7/2/15,7/1/15,0,1,Cast-Fi 7,SO068,249.99,65,Aurender Cast-Fi 7,1,shipped,
+1065,120,120,Aurender America Inc.,United States,Galen Carol Audio,7,7/3/15,7/6/15,0,1,Etc,SO728,120,87,HDD 2T 2.5inch,1,shipped,78217-0562
+1066,0,0,Aurender America Inc.,United States,Galen Carol Audio,7,7/3/15,7/6/15,0,1,Etc,SO728,0,88,Shipping & Other Charges,1,shipped,78217-0562
+1067,1620,1620,Aurender America Inc.,United States,Audio Salon,7,7/15/15,7/23/15,0,1,N100,SO753,1620,76,Aurender N100H,1,shipped,33431
+1068,1620,1620,Aurender America Inc.,United States,Galen Carol Audio,7,7/3/15,7/6/15,0,1,N100,SO728,1620,76,Aurender N100H,1,shipped,78217-0562
+1069,4800,4800,Aurender America Inc.,United States,Galen Carol Audio,7,7/16/15,7/17/15,0,1,N10,SO754,4800,78,Aurender N10 - Silver,1,shipped,78217-0562
+1070,4000,4000,Aurender America Inc.,United States,"Sound by Singer, Ltd",7,7/9/15,7/21/15,0,1,N10,SO750,4000,78,Aurender N10 - Silver,1,shipped,10001
+1071,3040,3040,Aurender America Inc.,United States,Moon Audio,7,7/4/15,7/9/15,0,1,N100,SO738,1520,75,Aurender N100,2,shipped,27511
+1072,4800,4800,Aurender America Inc.,United States,Galen Carol Audio,7,7/7/15,7/8/15,0,1,N10,SO748,4800,78,Aurender N10 - Silver,1,shipped,78217-0562
+1073,1520,1520,Aurender America Inc.,United States,Galen Carol Audio,7,7/7/15,7/8/15,0,1,N100,SO748,1520,75,Aurender N100,1,shipped,78217-0562
+1074,1950,1950,Aurender America Inc.,United States,Audio Solutions,5,5/21/15,5/20/15,0,1,X100,SO077,1950,72,Aurender X100L-12T,1,shipped,46229
+1075,50,50,Aurender America Inc.,United States,Audio Solutions,5,5/21/15,5/20/15,0,1,Etc,SO077,50,88,Shipping & Other Charges,1,shipped,46229
+1076,50,50,Aurender America Inc.,United States,2020 Evolution Systems LLC,7,7/2/15,7/14/15,0,1,Etc,SO724,50,88,Shipping & Other Charges,1,shipped,20854
+1077,1520,1520,Aurender America Inc.,United States,2020 Evolution Systems LLC,7,7/2/15,7/14/15,0,1,N100,SO724,1520,75,Aurender N100,1,shipped,20854
+1078,50,50,Aurender America Inc.,United States,Sight + Sound Gallery,9,9/25/15,9/28/15,0,1,Etc,SO097,50,88,Shipping & Other Charges,1,shipped,30312
+1079,0,0,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/17/15,7/16/15,0,1,X100,SO026,0,70,Aurender X100L,1,shipped,49512
+1080,1520,1520,Aurender America Inc.,United States,Fidelis Av LLC,7,7/3/15,7/2/15,0,1,N100,SO684,1520,75,Aurender N100,1,shipped,3063
+1081,89.1,89.1,Aurender America Inc.,United States,Fidelis Av LLC,7,7/3/15,7/2/15,0,1,Etc,SO684,89.1,85,Credit Card Fee,1,shipped,3063
+1082,4000,4000,Aurender America Inc.,United States,Alma Audio LLC.,7,7/9/15,7/21/15,0,1,N10,SO749,4000,78,Aurender N10 - Silver,1,shipped,92037
+1083,1520,1520,Aurender America Inc.,United States,Alma Audio LLC.,7,7/9/15,7/21/15,0,1,N100,SO749,1520,75,Aurender N100,1,shipped,92037
+1084,97.5,97.5,Aurender America Inc.,Canada,DIMF'S HI-FI,7,7/4/15,7/7/15,0,1,Etc,SO739,97.5,85,Credit Card Fee,1,shipped,76M 275
+1085,1250,1250,Aurender America Inc.,Canada,DIMF'S HI-FI,7,7/4/15,7/7/15,0,1,N100,SO739,1250,75,Aurender N100,1,shipped,76M 275
+1086,1250,1250,Aurender America Inc.,Canada,DIMF'S HI-FI,7,7/4/15,7/7/15,0,1,X725,SO739,1250,79,Aurender X725,1,shipped,76M 275
+1087,648,648,Aurender America Inc.,Canada,DIMF'S HI-FI,7,7/4/15,7/7/15,0,1,FLOW,SO739,648,67,Aurender FLOW,1,shipped,76M 275
+1088,1250,1250,Aurender America Inc.,United States,Fidelis Av LLC,7,7/3/15,7/2/15,0,1,N100,SO684,1250,75,Aurender N100,1,shipped,3063
+1089,3240,3240,Aurender America Inc.,United States,Moon Audio,7,7/22/15,7/27/15,0,1,N100,SO093,1620,76,Aurender N100H,2,shipped,27511
+1090,608.65,608.65,Aurender America Inc.,Canada,Headfoneshop,5,5/23/15,5/22/15,0,1,FLOW,SO078,608.65,67,Aurender FLOW,1,shipped,M4N 2M8
+1091,0,0,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/17/15,7/16/15,0,1,Etc,SO026,0,87,HDD 2T 2.5inch,1,shipped,49512
+1092,0,0,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/17/15,7/16/15,0,1,N100,SO026,0,75,Aurender N100,1,shipped,49512
+1093,4000,4000,Aurender America Inc.,United States,Suncoast Audio,6,6/25/15,6/25/15,0,1,N10,SO655,4000,78,Aurender N10 - Silver,1,shipped,34202
+1094,3360,3360,Aurender America Inc.,United States,The Voice That Is,7,6/25/15,7/6/15,0,1,N10,SO744,3360,78,Aurender N10 - Silver,1,shipped,19073
+1095,1250,1250,Aurender America Inc.,United States,Ryan Speakers,6,6/26/15,6/29/15,0,1,N100,SO667,1250,75,Aurender N100,1,shipped,92503
+1096,4000,4000,Aurender America Inc.,United States,2020 Evolution Systems LLC,7,6/25/15,7/14/15,0,1,N10,SO661,4000,78,Aurender N10 - Silver,1,shipped,20854
+1097,4800,4800,Aurender America Inc.,United States,Sight + Sound Gallery,7,6/25/15,7/6/15,0,1,N10,SO745,4800,78,Aurender N10 - Silver,1,shipped,30312
+1098,9680,9680,Aurender America Inc.,United States,Rhapsody Music and Cinema,5,5/20/15,5/19/15,0,1,W20,SO587,9680,69,Aurender W20-B,1,shipped,10010
+1099,1320,1320,Aurender America Inc.,United States,Arctic Audio,6,6/26/15,6/25/15,0,1,N100,SO666,1320,75,Aurender N100,1,shipped,58103
+1100,1350,1350,Aurender America Inc.,United States,Ultra Fidelis,7,6/19/15,7/2/15,0,1,N100,SO688,1350,76,Aurender N100H,1,shipped,53213
+1101,1250,1250,Aurender America Inc.,United States,Audio Revelation,6,6/16/15,6/16/15,0,1,N100,SO595,1250,75,Aurender N100,1,shipped,92010
+1102,4800,4800,Aurender America Inc.,United States,Overture L.L.C,7,6/25/15,7/9/15,0,1,N10,SO653,4800,78,Aurender N10 - Silver,1,shipped,19803
+1103,4000,4000,Aurender America Inc.,United States,Overture L.L.C,7,6/25/15,7/9/15,0,1,N10,SO653,4000,78,Aurender N10 - Silver,1,shipped,19803
+1104,9600,9600,Aurender America Inc.,United States,"Command Performance AV, LLC",7,6/25/15,7/6/15,0,1,N10,SO747,4800,78,Aurender N10 - Silver,2,shipped,22046
+1105,4000,4000,Aurender America Inc.,United States,"Command Performance AV, LLC",7,6/25/15,7/6/15,0,1,N10,SO747,4000,78,Aurender N10 - Silver,1,shipped,22046
+1106,4000,4000,Aurender America Inc.,United States,Essential Audio,6,6/16/15,6/19/15,0,1,N10,SO682,4000,78,Aurender N10 - Silver,1,shipped,60010
+1107,4800,4800,Aurender America Inc.,United States,Rhapsody Music and Cinema,7,6/25/15,7/6/15,0,1,N10,SO743,4800,78,Aurender N10 - Silver,1,shipped,10010
+1108,4000,4000,Aurender America Inc.,United States,Rhapsody Music and Cinema,7,6/25/15,7/6/15,0,1,N10,SO743,4000,78,Aurender N10 - Silver,1,shipped,10010
+1109,1250,1250,Aurender America Inc.,United States,Take 5 Audio,6,6/21/15,6/26/15,0,1,N100,SO689,1250,75,Aurender N100,1,shipped,6510
+1110,9680,9680,Aurender America Inc.,United States,Take 5 Audio,6,6/21/15,6/26/15,0,1,W20,SO689,9680,68,Aurender W20,1,shipped,6510
+1111,1520,1520,Aurender America Inc.,United States,Suncoast Audio,6,6/19/15,6/18/15,0,1,N100,SO687,1520,75,Aurender N100,1,shipped,34202
+1112,50,50,Aurender America Inc.,United States,Suncoast Audio,6,6/19/15,6/18/15,0,1,Etc,SO687,50,88,Shipping & Other Charges,1,shipped,34202
+1113,1520,1520,Aurender America Inc.,United States,"Command Performance AV, LLC",6,6/18/15,6/23/15,0,1,N100,SO686,1520,75,Aurender N100,1,shipped,22046
+1114,1250,1250,Aurender America Inc.,United States,"Command Performance AV, LLC",6,6/18/15,6/23/15,0,1,N100,SO686,1250,75,Aurender N100,1,shipped,22046
+1115,3040,3040,Aurender America Inc.,United States,"The Audio Salon, Inc.",6,6/17/15,6/18/15,0,1,N100,SO619,1520,75,Aurender N100,2,shipped,90404
+1116,200,200,Aurender America Inc.,United States,"The Audio Salon, Inc.",6,6/17/15,6/18/15,0,1,Etc,SO619,100,87,HDD 2T 2.5inch,2,shipped,90404
+1117,50,50,Aurender America Inc.,United States,Audio Artisans,6,6/16/15,6/23/15,0,1,Etc,SO683,50,88,Shipping & Other Charges,1,shipped,59718
+1118,1750,1750,Aurender America Inc.,United States,Audio Artisans,6,6/16/15,6/23/15,0,1,X100,SO683,1750,70,Aurender X100L,1,shipped,59718
+1119,1500,1500,Aurender America Inc.,United States,Moon Audio,6,6/11/15,6/15/15,0,1,N100,SO552,1500,75,Aurender N100,1,shipped,27511
+1120,1620,1620,Aurender America Inc.,United States,Moon Audio,6,6/11/15,6/15/15,0,1,N100,SO552,1620,76,Aurender N100H,1,shipped,27511
+1121,1750,1750,Aurender America Inc.,United States,Dan D'Agostino Master Audio Systems,6,6/11/15,6/10/15,0,1,X100,SO593,1750,70,Aurender X100L,1,shipped,85377
+1122,50,50,Aurender America Inc.,United States,Dan D'Agostino Master Audio Systems,6,6/11/15,6/10/15,0,1,Etc,SO593,50,88,Shipping & Other Charges,1,shipped,85377
+1123,1350,1350,Aurender America Inc.,United States,Dynamic Sound Systems INC.,6,6/10/15,6/15/15,0,1,N100,SO550,1350,76,Aurender N100H,1,shipped,92008
+1124,50,50,Aurender America Inc.,United States,Dynamic Sound Systems INC.,6,6/10/15,6/15/15,0,1,Etc,SO550,50,88,Shipping & Other Charges,1,shipped,92008
+1125,0,0,Aurender America Inc.,United States,Dynaudio USA,9,9/10/15,9/10/15,0,1,Etc,SO052,0,94,UC100-WS,1,shipped,60026
+1126,0,0,Aurender America Inc.,United States,Robert Harley,9,9/15/15,9/16/15,0,1,N100,SO069,0,76,Aurender N100H,1,shipped,92009
+1127,1124.52,1124.52,Aurender America Inc.,United States,Aurender Direct,7,7/28/15,7/27/15,0,1,FLOW,SO063,1124.52,67,Aurender FLOW,1,shipped,91502
+1128,177,177,Aurender America Inc.,United States,Quintessence Audio,11,10/26/15,11/19/15,0,1,Etc,SO128,177,88,Shipping & Other Charges,1,shipped,60053
+1129,149.31,149.31,Aurender America Inc.,United States,Quintessence Audio,11,10/26/15,11/19/15,0,1,Etc,SO128,149.31,85,Credit Card Fee,1,shipped,60053
+1130,2191.14,2191.14,Aurender America Inc.,Canada,Headfoneshop,5,5/23/15,5/22/15,0,1,FLOW,SO078,730.38,67,Aurender FLOW,3,shipped,M4N 2M8
+1131,0,0,Aurender America Inc.,United States,Chris Connaker,6,6/5/15,6/5/15,0,1,N100,SO060,0,76,Aurender N100H,1,shipped,55422
+1132,1250,1250,Aurender America Inc.,United States,"EXOGAL, LLC",6,6/6/15,6/29/15,0,1,N100,SO542,1250,75,Aurender N100,1,shipped,55122
+1133,9680,9680,Aurender America Inc.,United States,Rhapsody Music and Cinema,6,6/6/15,6/6/15,0,1,W20,SO540,9680,68,Aurender W20,1,shipped,10010
+1134,3240,3240,Aurender America Inc.,United States,Essential Audio,6,6/5/15,6/5/15,0,1,N100,SO544,1620,76,Aurender N100H,2,shipped,60010
+1135,3240,3240,Aurender America Inc.,United States,"The Audio Salon, Inc.",6,6/4/15,6/12/15,0,1,N100,SO538,1620,76,Aurender N100H,2,shipped,90404
+1136,1350,1350,Aurender America Inc.,United States,Sonare Coeli,6,6/4/15,6/11/15,0,1,N100,SO537,1350,76,Aurender N100H,1,shipped,54981
+1137,3240,3240,Aurender America Inc.,United States,Suncoast Audio,5,5/30/15,5/29/15,0,1,N100,SO585,1620,76,Aurender N100H,2,shipped,34202
+1138,4680,4680,Aurender America Inc.,United States,David Michael Audio,5,5/30/15,5/29/15,0,1,X100,SO586,2340,72,Aurender X100L-12T,2,shipped,48073
+1139,3240,3240,Aurender America Inc.,United States,"Sound by Singer, Ltd",5,5/21/15,5/20/15,0,1,N100,SO576,1620,76,Aurender N100H,2,shipped,10001
+1140,1620,1620,Aurender America Inc.,United States,Suncoast Audio,6,6/2/15,6/1/15,0,1,N100,SO616,1620,76,Aurender N100H,1,shipped,34202
+1141,3240,3240,Aurender America Inc.,United States,Moon Audio,11,11/24/15,11/30/15,0,1,N100,SO174,1620,76,Aurender N100H,2,shipped,27511
+1142,1350,1350,Aurender America Inc.,United States,Rhapsody Music and Cinema,5,5/28/15,5/29/15,0,1,N100,SO584,1350,76,Aurender N100H,1,shipped,10010
+1143,50,50,Aurender America Inc.,United States,Rhapsody Music and Cinema,5,5/28/15,5/29/15,0,1,Etc,SO584,50,88,Shipping & Other Charges,1,shipped,10010
+1144,2100,2100,Aurender America Inc.,United States,Galen Carol Audio,5,5/27/15,5/26/15,0,1,X100,SO582,2100,70,Aurender X100L,1,shipped,78217-0562
+1145,50,50,Aurender America Inc.,United States,Galen Carol Audio,5,5/27/15,5/26/15,0,1,Etc,SO582,50,88,Shipping & Other Charges,1,shipped,78217-0562
+1146,1250,1250,Aurender America Inc.,United States,Galen Carol Audio,5,5/27/15,5/26/15,0,1,N100,SO581,1250,75,Aurender N100,1,shipped,78217-0562
+1147,100,100,Aurender America Inc.,United States,Galen Carol Audio,5,5/27/15,5/26/15,0,1,Etc,SO581,100,87,HDD 2T 2.5inch,1,shipped,78217-0562
+1148,100,100,Aurender America Inc.,Canada,High End Audio Exchange,5,5/22/15,5/21/15,0,1,Etc,SO579,100,88,Shipping & Other Charges,1,shipped,K7P 3H2
+1149,1350,1350,Aurender America Inc.,Canada,High End Audio Exchange,5,5/22/15,5/21/15,0,1,N100,SO579,1350,76,Aurender N100H,1,shipped,K7P 3H2
+1150,2100,2100,Aurender America Inc.,United States,Suncoast Audio,5,5/21/15,5/20/15,0,1,X100,SO594,2100,70,Aurender X100L,1,shipped,34202
+1151,50,50,Aurender America Inc.,United States,Suncoast Audio,5,5/21/15,5/20/15,0,1,Etc,SO594,50,88,Shipping & Other Charges,1,shipped,34202
+1152,1350,1350,Aurender America Inc.,United States,Rhapsody Music and Cinema,5,5/21/15,5/20/15,0,1,N100,SO578,1350,76,Aurender N100H,1,shipped,10010
+1153,1620,1620,Aurender America Inc.,United States,Rhapsody Music and Cinema,5,5/21/15,5/20/15,0,1,N100,SO578,1620,76,Aurender N100H,1,shipped,10010
+1154,1250,1250,Aurender America Inc.,United States,Arctic Audio,5,5/27/15,5/26/15,0,1,X725,SO583,1250,79,Aurender X725,1,shipped,58103
+1155,1350,1350,Aurender America Inc.,United States,Atlantic Home Entertainment & Stereo,5,5/21/15,5/20/15,0,1,N100,SO577,1350,76,Aurender N100H,1,shipped,92627
+1156,50,50,Aurender America Inc.,United States,Atlantic Home Entertainment & Stereo,5,5/21/15,5/20/15,0,1,Etc,SO577,50,88,Shipping & Other Charges,1,shipped,92627
+1157,1750,1750,Aurender America Inc.,Canada,Alternative Audio,5,5/21/15,5/20/15,0,1,X100,SO573,1750,70,Aurender X100L,1,shipped,L9H 2E8
+1158,50,50,Aurender America Inc.,Canada,Alternative Audio,5,5/21/15,5/20/15,0,1,Etc,SO573,50,88,Shipping & Other Charges,1,shipped,L9H 2E8
+1159,0,0,Aurender America Inc.,United States,Galen Carol Audio,6,6/11/15,6/10/15,0,1,FLOW,SO062,0,67,Aurender FLOW,1,shipped,78217-0562
+1160,427.17,427.17,Aurender America Inc.,United States,Aurender Direct,3,3/15/15,3/15/15,0,1,Cast-Fi 7,SO072,427.17,65,Aurender Cast-Fi 7,1,shipped,91502
+1161,1250,1250,Aurender America Inc.,United States,Eyes & Ears,4,4/15/15,4/14/15,0,1,N100,SO600,1250,75,Aurender N100,1,shipped,90017
+1162,50,50,Aurender America Inc.,United States,"Sound by Singer, Ltd",4,4/21/15,4/20/15,0,1,Etc,SO604,50,88,Shipping & Other Charges,1,shipped,10001
+1163,1650,1650,Aurender America Inc.,United States,"Sound by Singer, Ltd",4,4/21/15,4/20/15,0,1,N100,SO604,1650,75,Aurender N100,1,shipped,10001
+1164,4200,4200,Aurender America Inc.,Canada,High End Audio Exchange,4,4/16/15,4/15/15,0,1,X100,SO601,2100,70,Aurender X100L,2,shipped,K7P 3H2
+1165,2100,2100,Aurender America Inc.,United States,Sight + Sound Gallery,4,4/22/15,4/21/15,0,1,X100,SO605,2100,70,Aurender X100L,1,shipped,30312
+1166,4500,4500,Aurender America Inc.,United States,Sunny Components Inc.,4,4/18/15,4/17/15,0,1,N100,SO602,1500,75,Aurender N100,3,shipped,91724
+1167,1800,1800,Aurender America Inc.,Canada,Westside Music & Cinema,4,4/18/15,4/17/15,0,1,X100,SO603,1800,74,Aurender X100S,1,shipped,T2G 5M8
+1168,100,100,Aurender America Inc.,Canada,Westside Music & Cinema,4,4/18/15,4/17/15,0,1,Etc,SO603,100,88,Shipping & Other Charges,1,shipped,T2G 5M8
+1169,4000,4000,Aurender America Inc.,United States,Ryan Speakers,8,8/20/15,8/19/15,0,1,N10,SO079,4000,78,Aurender N10 - Silver,1,shipped,92503
+1170,1350,1350,Aurender America Inc.,Monaco,Goldmund International,5,5/19/15,5/20/15,0,1,N100,SO717,1350,76,Aurender N100H,1,shipped,98000
+1171,1600,1600,Aurender America Inc.,United States,Amazon Vendor,5,5/12/15,5/30/15,0,1,Cast-Fi 7,SO737,320,65,Aurender Cast-Fi 7,5,shipped,
+1172,4500,4500,Aurender America Inc.,United States,Sunny Components Inc.,5,5/2/15,5/1/15,0,1,N100,SO612,1500,75,Aurender N100,3,shipped,91724
+1173,1500,1500,Aurender America Inc.,United States,Essential Audio,12,11/18/15,12/4/15,0,1,N100,SO162,1500,75,Aurender N100,1,shipped,60010
+1174,2100,2100,Aurender America Inc.,United States,Rhapsody Music and Cinema,5,5/9/15,5/8/15,0,1,X100,SO569,2100,70,Aurender X100L,1,shipped,10010
+1175,50,50,Aurender America Inc.,United States,Rhapsody Music and Cinema,5,5/9/15,5/8/15,0,1,Etc,SO569,50,88,Shipping & Other Charges,1,shipped,10010
+1176,2120,2120,Aurender America Inc.,United States,Sight + Sound Gallery,5,5/8/15,5/7/15,0,1,X100,SO568,2120,73,Aurender X100L-8T,1,shipped,30312
+1177,50,50,Aurender America Inc.,United States,Sight + Sound Gallery,5,5/8/15,5/7/15,0,1,Etc,SO568,50,88,Shipping & Other Charges,1,shipped,30312
+1178,1500,1500,Aurender America Inc.,United States,The Voice That Is,5,5/7/15,5/7/15,0,1,N100,SO567,1500,75,Aurender N100,1,shipped,19073
+1179,50,50,Aurender America Inc.,United States,The Voice That Is,5,5/7/15,5/7/15,0,1,Etc,SO567,50,88,Shipping & Other Charges,1,shipped,19073
+1180,50,50,Aurender America Inc.,United States,Suncoast Audio,5,5/5/15,5/4/15,0,1,Etc,SO596,50,88,Shipping & Other Charges,1,shipped,34202
+1181,1500,1500,Aurender America Inc.,United States,Suncoast Audio,5,5/5/15,5/4/15,0,1,N100,SO596,1500,75,Aurender N100,1,shipped,34202
+1182,8800,8800,Aurender America Inc.,United States,Overture L.L.C,4,4/30/15,4/29/15,0,1,W20,SO610,8800,68,Aurender W20,1,shipped,19803
+1183,640,640,Aurender America Inc.,United States,Amazon Vendor,4,5/1/15,4/30/15,0,1,Cast-Fi 7,SO736,320,65,Aurender Cast-Fi 7,2,shipped,
+1184,3000,3000,Aurender America Inc.,United States,Essential Audio,4,5/1/15,4/30/15,0,1,N100,SO611,1500,75,Aurender N100,2,shipped,60010
+1185,3108,3108,Aurender America Inc.,United States,Moon Audio,4,4/25/15,4/24/15,0,1,FLOW,SO607,777,67,Aurender FLOW,4,shipped,27511
+1186,1500,1500,Aurender America Inc.,United States,Overture L.L.C,4,4/30/15,4/29/15,0,1,X100,SO610,1500,74,Aurender X100S,1,shipped,19803
+1187,0,0,Aurender America Inc.,United States,Scot Hull,2,2/26/15,2/26/15,0,1,Cast-Fi 7,SO621,0,65,Aurender Cast-Fi 7,1,shipped,21704
+1188,1500,1500,Aurender America Inc.,United States,Marutani Consulting,4,4/15/15,4/14/15,0,1,N100,SO599,1500,75,Aurender N100,1,shipped,94608
+1189,1440,1440,Aurender America Inc.,United States,David Michael Audio,3,3/7/15,3/6/15,0,1,Cast-Fi 7,SO591,240,65,Aurender Cast-Fi 7,6,shipped,48073
+1190,1750,1750,Aurender America Inc.,Canada,High End Audio Exchange,4,4/9/15,4/8/15,0,1,X100,SO597,1750,70,Aurender X100L,1,shipped,K7P 3H2
+1191,777,777,Aurender America Inc.,Canada,High End Audio Exchange,4,4/9/15,4/8/15,0,1,FLOW,SO597,777,67,Aurender FLOW,1,shipped,K7P 3H2
+1192,1500,1500,Aurender America Inc.,United States,Audio Research Corporation,4,4/14/15,4/13/15,0,1,N100,SO598,1500,75,Aurender N100,1,shipped,55447
+1193,0,0,Aurender America Inc.,United States,Robert Harley,1,1/16/15,1/16/15,0,1,Cast-Fi 7,SO625,0,65,Aurender Cast-Fi 7,1,shipped,92009
+1194,0,0,Aurender America Inc.,United States,John Atkinson,1,1/16/15,1/16/15,0,1,Cast-Fi 7,SO627,0,65,Aurender Cast-Fi 7,1,shipped,11209
+1195,777,777,Aurender America Inc.,United States,Sunny Components Inc.,1,1/29/15,1/28/15,0,1,FLOW,SO589,777,67,Aurender FLOW,1,shipped,91724
+1196,621.6,621.6,Aurender America Inc.,United States,Sunny Components Inc.,1,1/29/15,1/28/15,0,1,FLOW,SO589,621.6,67,Aurender FLOW,1,shipped,91724
+1197,1620,1620,Aurender America Inc.,United States,Suncoast Audio,6,6/9/15,6/9/15,0,1,N100,SO549,1620,76,Aurender N100H,1,shipped,34202
+1198,50,50,Aurender America Inc.,United States,Suncoast Audio,6,6/9/15,6/9/15,0,1,Etc,SO549,50,88,Shipping & Other Charges,1,shipped,34202
+1199,0,0,Aurender America Inc.,United States,Ethan,7,7/8/15,7/7/15,0,1,FLOW,SO064,0,67,Aurender FLOW,1,shipped,
+1200,1379.28,1379.28,Aurender America Inc.,United States,Aurender Direct,1,1/28/15,1/27/15,0,1,FLOW,SO733,1379.28,67,Aurender FLOW,1,shipped,91502
+1201,1250,1250,Aurender America Inc.,United States,"Sound by Singer, Ltd",5,5/17/15,5/16/15,0,1,N100,SO572,1250,75,Aurender N100,1,shipped,10001
+1202,1350,1350,Aurender America Inc.,Canada,SC Audio,8,8/3/15,8/5/15,0,1,N100,SO010,1350,76,Aurender N100H,1,shipped,T1A 2W3
+1203,50,50,Aurender America Inc.,Canada,SC Audio,8,8/3/15,8/5/15,0,1,Etc,SO010,50,88,Shipping & Other Charges,1,shipped,T1A 2W3
+1204,50,50,Aurender America Inc.,United States,"Sound by Singer, Ltd",5,5/17/15,5/16/15,0,1,Etc,SO572,50,88,Shipping & Other Charges,1,shipped,10001
+1205,1350,1350,Aurender America Inc.,United States,The Sound Lab,8,8/3/15,8/10/15,0,1,N100,SO009,1350,76,Aurender N100H,1,shipped,47905
+1206,1620,1620,Aurender America Inc.,United States,Sight + Sound Gallery,12,12/1/15,12/9/15,0,1,N100,SO181,1620,76,Aurender N100H,1,shipped,30312
+1207,50,50,Aurender America Inc.,United States,Sight + Sound Gallery,12,12/1/15,12/9/15,0,1,Etc,SO181,50,88,Shipping & Other Charges,1,shipped,30312
+1208,50,50,Aurender America Inc.,United States,The Sound Lab,8,8/3/15,8/10/15,0,1,Etc,SO009,50,88,Shipping & Other Charges,1,shipped,47905
+1209,0,0,Aurender America Inc.,United States,Elac America,8,8/26/15,8/26/15,0,1,N100,SO038,0,76,Aurender N100H,1,shipped,90630
+1210,0,0,Aurender America Inc.,United States,Wilson Audio,8,8/26/15,8/26/15,0,1,N10,SO035,0,78,Aurender N10 - Silver,1,shipped,33133
+1211,0,0,Aurender America Inc.,United States,"The Audio Salon, Inc.",8,8/26/15,8/26/15,0,1,X725,SO041,0,79,Aurender X725,1,shipped,90404
+1212,0,0,Aurender America Inc.,United States,John Paul Lizars,8,8/28/15,8/26/15,0,1,N100,SO040,0,76,Aurender N100H,1,shipped,94521
+1213,1620,1620,Aurender America Inc.,United States,Suncoast Audio,8,8/10/15,8/14/15,0,1,N100,SO015,1620,76,Aurender N100H,1,shipped,34202
+1214,50,50,Aurender America Inc.,United States,Suncoast Audio,8,8/10/15,8/14/15,0,1,Etc,SO015,50,88,Shipping & Other Charges,1,shipped,34202
+1215,4800,4800,Aurender America Inc.,United States,"The Audio Salon, Inc.",8,7/29/15,8/12/15,0,1,N10,SO007,4800,78,Aurender N10 - Silver,1,shipped,90404
+1216,4800,4800,Aurender America Inc.,United States,"The Audio Salon, Inc.",8,7/29/15,8/12/15,0,1,N10,SO007,4800,77,Aurender N10-B,1,shipped,90404
+1217,4800,4800,Aurender America Inc.,United States,Endeavor Audio Engineering,8,7/27/15,8/17/15,0,1,N10,SO006,4800,77,Aurender N10-B,1,shipped,92507
+1218,4800,4800,Aurender America Inc.,United States,Essential Audio,8,8/12/15,8/14/15,0,1,N10,SO017,4800,78,Aurender N10 - Silver,1,shipped,60010
+1219,1350,1350,Aurender America Inc.,United States,Theatermax LLC,6,6/8/15,6/10/15,0,1,N100,SO548,1350,76,Aurender N100H,1,shipped,33431
+1220,4860,4860,Aurender America Inc.,United States,Theatermax LLC,6,6/8/15,6/10/15,0,1,N100,SO548,1620,76,Aurender N100H,3,shipped,33431
+1221,2251.08,2251.08,Aurender America Inc.,United States,Aurender Direct,4,4/23/15,4/22/15,0,1,Cast-Fi 7,SO081,375.18,65,Aurender Cast-Fi 7,6,shipped,91502
+1222,1350,1350,Aurender America Inc.,United States,cruzeFIRST Audio,6,6/8/15,6/12/15,0,1,N100,SO547,1350,76,Aurender N100H,1,shipped,33029
+1223,50,50,Aurender America Inc.,United States,cruzeFIRST Audio,6,6/8/15,6/12/15,0,1,Etc,SO547,50,88,Shipping & Other Charges,1,shipped,33029
+1224,100,100,Aurender America Inc.,United States,"Sound by Singer, Ltd",5,5/17/15,5/16/15,0,1,Etc,SO572,100,87,HDD 2T 2.5inch,1,shipped,10001
+1225,0,0,Aurender America Inc.,United States,John Paul Lizars,9,9/11/15,9/11/15,0,1,N10,SO054,0,78,Aurender N10 - Silver,2,shipped,94521
+1226,4800,4800,Aurender America Inc.,United States,Music Lovers Audio,10,9/18/15,10/7/15,0,1,N10,SO087,4800,77,Aurender N10-B,1,shipped,94704
+1227,52.8,52.8,Aurender America Inc.,Canada,High End Audio Exchange,12,12/10/15,12/10/15,0,1,Etc,SO199,52.8,85,Credit Card Fee,1,shipped,K7P 3H2
+1228,2340,2340,Aurender America Inc.,United States,Dynamic Sound Systems INC.,7,7/24/15,7/27/15,0,1,X100,SO085,2340,72,Aurender X100L-12T,1,shipped,92008
+1229,50,50,Aurender America Inc.,United States,Take 5 Audio,11,11/24/15,11/25/15,0,1,Etc,SO173,50,88,Shipping & Other Charges,1,shipped,6510
+1230,4800,4800,Aurender America Inc.,United States,Theatermax LLC,9,9/21/15,9/25/15,0,1,N10,SO091,4800,78,Aurender N10 - Silver,1,shipped,33431
+1231,50,50,Aurender America Inc.,United States,Dynamic Sound Systems INC.,7,7/24/15,7/27/15,0,1,Etc,SO085,50,88,Shipping & Other Charges,1,shipped,92008
+1232,1620,1620,Aurender America Inc.,United States,Take 5 Audio,11,11/24/15,11/25/15,0,1,N100,SO173,1620,76,Aurender N100H,1,shipped,6510
+1233,19360,19360,Aurender America Inc.,United States,Liquid HiFi,12,12/7/15,12/9/15,0,1,W20,SO189,9680,69,Aurender W20-B,2,shipped,28277
+1234,2100,2100,Aurender America Inc.,United States,Moon Audio,11,11/24/15,11/30/15,0,1,X100,SO174,2100,70,Aurender X100L,1,shipped,27511
+1235,1350,1350,Aurender America Inc.,United States,Musical Surroundings,9,9/17/15,9/25/15,0,1,N100,SO086,1350,76,Aurender N100H,1,shipped,94609
+1236,1620,1620,Aurender America Inc.,United States,Ultra Fidelis,12,12/3/15,12/7/15,0,1,N100,SO184,1620,76,Aurender N100H,1,shipped,53213
+1237,50,50,Aurender America Inc.,United States,Ultra Fidelis,12,12/3/15,12/7/15,0,1,Etc,SO184,50,88,Shipping & Other Charges,1,shipped,53213
+1238,1620,1620,Aurender America Inc.,United States,Ultra Fidelis,12,11/19/15,12/1/15,0,1,N100,SO165,1620,76,Aurender N100H,1,shipped,53213
+1239,50,50,Aurender America Inc.,United States,Ultra Fidelis,12,11/19/15,12/1/15,0,1,Etc,SO165,50,88,Shipping & Other Charges,1,shipped,53213
+1240,50,50,Aurender America Inc.,United States,Atlantic Home Entertainment & Stereo,12,11/20/15,12/7/15,0,1,Etc,SO167,50,88,Shipping & Other Charges,1,shipped,92627
+1241,300,300,Aurender America Inc.,United States,Audio Advisor Inc.,12,12/23/15,12/22/15,0,1,Etc,SO213,300,98,UC100,1,shipped,49512
+1242,1350,1350,Aurender America Inc.,United States,Pearl Audio Video,12,12/23/15,12/23/15,0,1,N100,SO215,1350,76,Aurender N100H,1,shipped,97209
+1243,1620,1620,Aurender America Inc.,United States,Suncoast Audio,8,8/19/15,8/20/15,0,1,N100,SO021,1620,76,Aurender N100H,1,shipped,34202
+1244,50,50,Aurender America Inc.,United States,Suncoast Audio,8,8/19/15,8/20/15,0,1,Etc,SO021,50,88,Shipping & Other Charges,1,shipped,34202
+1245,30,30,Aurender America Inc.,United States,"Sound by Singer, Ltd",6,6/2/15,6/2/15,0,1,Etc,SO536,30,88,Shipping & Other Charges,1,shipped,10001
+1246,648,648,Aurender America Inc.,United States,"Sound by Singer, Ltd",6,6/2/15,6/2/15,0,1,FLOW,SO536,648,67,Aurender FLOW,1,shipped,10001
+1247,1296,1296,Aurender America Inc.,United States,Music Lovers Audio,5,5/4/15,5/3/15,0,1,FLOW,SO718,648,67,Aurender FLOW,2,shipped,94704
+1248,1500,1500,Aurender America Inc.,United States,Music Lovers Audio,5,5/4/15,5/3/15,0,1,N100,SO718,1500,75,Aurender N100,1,shipped,94704
+1249,120,120,Aurender America Inc.,United States,Music Lovers Audio,5,5/4/15,5/3/15,0,1,Etc,SO718,120,87,HDD 2T 2.5inch,1,shipped,94704
+1250,1350,1350,Aurender America Inc.,Canada,Liquid Sound Inc.,9,9/15/15,9/18/15,0,1,N100,SO074,1350,76,Aurender N100H,1,shipped,V6R2H7
+1251,4000,4000,Aurender America Inc.,United States,Liquid HiFi,9,9/10/15,9/11/15,0,1,N10,SO051,4000,77,Aurender N10-B,1,shipped,28277
+1252,6.2,6.2,Aurender America Inc.,United States,Aurender Direct,9,9/24/15,9/24/15,0,1,Etc,SO096,6.2,88,Shipping & Other Charges,1,shipped,91502
+1253,1950,1950,Aurender America Inc.,United States,Golden Door,12,11/16/15,12/3/15,0,1,X100,SO153,1950,72,Aurender X100L-12T,1,shipped,11235
+1254,50,50,Aurender America Inc.,United States,Golden Door,12,11/16/15,12/3/15,0,1,Etc,SO153,50,88,Shipping & Other Charges,1,shipped,11235
+1255,1620,1620,Aurender America Inc.,United States,Fidelis Av LLC,8,7/18/15,8/19/15,0,1,N100,SO067,1620,76,Aurender N100H,1,shipped,3063
+1256,50,50,Aurender America Inc.,United States,Fidelis Av LLC,8,7/18/15,8/19/15,0,1,Etc,SO067,50,88,Shipping & Other Charges,1,shipped,3063
+1257,2100,2100,Aurender America Inc.,United States,Moon Audio,6,6/30/15,6/29/15,0,1,X100,SO080,2100,70,Aurender X100L,1,shipped,27511
+1258,1620,1620,Aurender America Inc.,United States,Atlantic Home Entertainment & Stereo,12,11/20/15,12/7/15,0,1,N100,SO167,1620,76,Aurender N100H,1,shipped,92627
+1259,4800,4800,Aurender America Inc.,United States,Rhapsody Music and Cinema,10,10/3/15,10/9/15,0,1,N10,SO108,4800,78,Aurender N10 - Silver,1,shipped,10010
+1260,4800,4800,Aurender America Inc.,United States,Audio Advisor Inc.,10,9/28/15,10/7/15,0,1,N10,SO105,4800,78,Aurender N10 - Silver,1,shipped,49512
+1261,4800,4800,Aurender America Inc.,United States,Audio Advisor Inc.,10,9/28/15,10/7/15,0,1,N10,SO105,4800,77,Aurender N10-B,1,shipped,49512
+1262,50,50,Aurender America Inc.,United States,Musical Surroundings,9,9/17/15,9/25/15,0,1,Etc,SO086,50,88,Shipping & Other Charges,1,shipped,94609
+1263,4000,4000,Aurender America Inc.,United States,David Michael Audio,12,12/3/15,12/8/15,0,1,N10,SO185,4000,77,Aurender N10-B,1,shipped,48073
+1264,3240,3240,Aurender America Inc.,United States,Fidelis Av LLC,11,11/18/15,11/23/15,0,1,N100,SO161,1620,76,Aurender N100H,2,shipped,3063
+1265,50,50,Aurender America Inc.,United States,David Michael Audio,9,9/24/15,9/24/15,0,1,Etc,SO095,50,88,Shipping & Other Charges,1,shipped,48073
+1266,2340,2340,Aurender America Inc.,United States,Audio Artisans,11,11/19/15,11/24/15,0,1,X100,SO164,2340,72,Aurender X100L-12T,1,shipped,59718
+1267,50,50,Aurender America Inc.,United States,Audio Artisans,11,11/19/15,11/24/15,0,1,Etc,SO164,50,88,Shipping & Other Charges,1,shipped,59718
+1268,1620,1620,Aurender America Inc.,United States,"Sound by Singer, Ltd",10,9/25/15,10/7/15,0,1,N100,SO100,1620,76,Aurender N100H,1,shipped,10001
+1269,50,50,Aurender America Inc.,United States,"Sound by Singer, Ltd",10,9/25/15,10/7/15,0,1,Etc,SO100,50,88,Shipping & Other Charges,1,shipped,10001
+1270,270,270,Aurender America Inc.,United States,Music Lovers Audio,12,11/25/15,12/7/15,0,1,Etc,SO169,90,86,dCS Dongle,3,shipped,94704
+1271,50,50,Aurender America Inc.,United States,Suncoast Audio,10,10/1/15,10/7/15,0,1,Etc,SO106,50,88,Shipping & Other Charges,1,shipped,34202
+1272,1620,1620,Aurender America Inc.,United States,Suncoast Audio,10,10/1/15,10/7/15,0,1,N100,SO106,1620,76,Aurender N100H,1,shipped,34202
+1273,1620,1620,Aurender America Inc.,United States,Arctic Audio,12,12/9/15,12/16/15,0,1,N100,SO196,1620,76,Aurender N100H,1,shipped,58103
+1274,1350,1350,Aurender America Inc.,United States,Aurris LLC,8,9/1/15,8/27/15,0,1,N100,SO042,1350,76,Aurender N100H,1,shipped,87544
+1275,50,50,Aurender America Inc.,United States,Aurris LLC,8,9/1/15,8/27/15,0,1,Etc,SO042,50,88,Shipping & Other Charges,1,shipped,87544
+1276,0,0,Aurender America Inc.,United States,ListenUp Inc,8,8/21/15,8/21/15,0,1,N100,SO039,0,76,Aurender N100H,1,shipped,80222
+1277,42,42,Aurender America Inc.,United States,Aurris LLC,8,9/1/15,8/27/15,0,1,Etc,SO042,42,85,Credit Card Fee,1,shipped,87544
+1278,4000,4000,Aurender America Inc.,United States,Music Lovers Audio,7,6/26/15,7/5/15,0,1,N10,SO665,4000,78,Aurender N10 - Silver,1,shipped,94704
+1279,0,0,Aurender America Inc.,United States,Atlantic Home Entertainment & Stereo,8,8/23/15,8/24/15,0,1,FLOW,SO036,0,67,Aurender FLOW,1,shipped,92627
+1280,0,0,Aurender America Inc.,United States,Atlantic Home Entertainment & Stereo,8,8/23/15,8/24/15,0,1,Cast-Fi 7,SO036,0,65,Aurender Cast-Fi 7,1,shipped,92627
+1281,150,150,Aurender America Inc.,United States,Sunny Components Inc.,7,7/21/15,7/27/15,0,1,Cast-Fi 7,SO652,150,65,Aurender Cast-Fi 7,1,shipped,91724
+1282,1350,1350,Aurender America Inc.,United States,Aurris LLC,8,8/24/15,8/27/15,0,1,N100,SO031,1350,76,Aurender N100H,1,shipped,87544
+1283,9680,9680,Aurender America Inc.,United States,Audio Artisans,9,9/1/15,9/8/15,0,1,W20,SO045,9680,69,Aurender W20-B,1,shipped,59718
+1284,0,0,Aurender America Inc.,United States,Audio Alchemy,8,8/24/15,8/24/15,0,1,N100,SO037,0,76,Aurender N100H,1,shipped,93004
+1285,0,0,Aurender America Inc.,United States,Audio Alchemy,8,8/24/15,8/24/15,0,1,X100,SO037,0,70,Aurender X100L,1,shipped,93004
+1286,1620,1620,Aurender America Inc.,United States,David Michael Audio,7,7/24/15,7/24/15,0,1,N100,SO762,1620,76,Aurender N100H,1,shipped,48073
+1287,144,144,Aurender America Inc.,United States,The Sound Lab,8,8/26/15,8/26/15,0,1,Etc,SO034,144,85,Credit Card Fee,1,shipped,47905
+1288,4800,4800,Aurender America Inc.,United States,The Sound Lab,8,8/26/15,8/26/15,0,1,N10,SO034,4800,78,Aurender N10 - Silver,1,shipped,47905
+1289,50,50,Aurender America Inc.,United States,Sonare Coeli,8,8/19/15,8/31/15,0,1,Etc,SO020,50,88,Shipping & Other Charges,1,shipped,54981
+1290,1620,1620,Aurender America Inc.,United States,Sonare Coeli,8,8/19/15,8/31/15,0,1,N100,SO020,1620,76,Aurender N100H,1,shipped,54981
+1291,1350,1350,Aurender America Inc.,United States,Music Lovers Audio,8,8/24/15,8/31/15,0,1,N100,SO030,1350,76,Aurender N100H,1,shipped,94704
+1292,50,50,Aurender America Inc.,United States,David Michael Audio,7,7/24/15,7/24/15,0,1,Etc,SO762,50,88,Shipping & Other Charges,1,shipped,48073
+1293,1620,1620,Aurender America Inc.,United States,Essential Audio,9,9/1/15,9/4/15,0,1,N100,SO043,1620,76,Aurender N100H,1,shipped,60010
+1294,2100,2100,Aurender America Inc.,United States,Liquid HiFi,4,4/24/15,4/23/15,0,1,X100,SO606,2100,70,Aurender X100L,1,shipped,28277
+1295,1620,1620,Aurender America Inc.,United States,Suncoast Audio,9,9/4/15,9/8/15,0,1,N100,SO047,1620,76,Aurender N100H,1,shipped,34202
+1296,30,30,Aurender America Inc.,United States,Liquid HiFi,4,4/24/15,4/23/15,0,1,Etc,SO606,30,88,Shipping & Other Charges,1,shipped,28277
+1297,4800,4800,Aurender America Inc.,United States,Sonare Coeli,8,8/2/15,8/3/15,0,1,N10,SO044,4800,77,Aurender N10-B,1,shipped,54981
+1298,50,50,Aurender America Inc.,United States,Essential Audio,9,9/1/15,9/4/15,0,1,Etc,SO043,50,88,Shipping & Other Charges,1,shipped,60010
+1299,50,50,Aurender America Inc.,United States,Suncoast Audio,9,9/4/15,9/8/15,0,1,Etc,SO047,50,88,Shipping & Other Charges,1,shipped,34202
+1300,4800,4800,Aurender America Inc.,United States,Theatermax LLC,9,9/4/15,9/8/15,0,1,N10,SO048,4800,78,Aurender N10 - Silver,1,shipped,33431
+1301,4000,4000,Aurender America Inc.,United States,Eyes & Ears,7,7/24/15,7/24/15,0,1,N10,SO764,4000,78,Aurender N10 - Silver,1,shipped,90017
+1302,1750,1750,Aurender America Inc.,United States,Audio Solutions,7,7/16/15,7/23/15,0,1,X100,SO756,1750,70,Aurender X100L,1,shipped,46229
+1303,4000,4000,Aurender America Inc.,United States,Sunny Components Inc.,7,7/21/15,7/27/15,0,1,N10,SO652,4000,78,Aurender N10 - Silver,1,shipped,91724
+1304,4800,4800,Aurender America Inc.,United States,Sunny Components Inc.,7,7/21/15,7/27/15,0,1,N10,SO652,4800,78,Aurender N10 - Silver,1,shipped,91724
+1305,2340,2340,Aurender America Inc.,United States,Moon Audio,7,7/17/15,7/17/15,0,1,X100,SO757,2340,72,Aurender X100L-12T,1,shipped,27511
+1306,50,50,Aurender America Inc.,United States,Moon Audio,7,7/17/15,7/17/15,0,1,Etc,SO757,50,88,Shipping & Other Charges,1,shipped,27511
+1307,50,50,Aurender America Inc.,United States,Suncoast Audio,6,6/2/15,6/1/15,0,1,Etc,SO616,50,88,Shipping & Other Charges,1,shipped,34202
+1308,50,50,Aurender America Inc.,United States,Audio Solutions,7,7/16/15,7/23/15,0,1,Etc,SO756,50,88,Shipping & Other Charges,1,shipped,46229
+1309,0,0,Aurender America Inc.,United States,Ethan,7,7/8/15,7/8/15,0,1,N100,SO025,0,75,Aurender N100,1,shipped,
+1310,0,0,Aurender America Inc.,United States,Ethan,7,7/8/15,7/8/15,0,1,Etc,SO025,0,87,HDD 2T 2.5inch,1,shipped,
+1311,9680,9680,Aurender America Inc.,United States,Galen Carol Audio,9,9/8/15,9/9/15,0,1,W20,SO049,9680,69,Aurender W20-B,1,shipped,78217-0562
+1312,1350,1350,Aurender America Inc.,United States,Arctic Audio,5,5/27/15,5/26/15,0,1,N100,SO583,1350,76,Aurender N100H,1,shipped,58103
+1313,1250,1250,Aurender America Inc.,United States,Suncoast Audio,4,4/30/15,4/29/15,0,1,N100,SO076,1250,75,Aurender N100,1,shipped,34202
+1314,100,100,Aurender America Inc.,United States,Suncoast Audio,4,4/30/15,4/29/15,0,1,Etc,SO076,100,87,HDD 2T 2.5inch,1,shipped,34202
+1315,777,777,Aurender America Inc.,United States,Music Lovers Audio,10,9/28/15,10/30/15,0,1,FLOW,SO104,777,67,Aurender FLOW,1,shipped,94704
+1316,120,120,Aurender America Inc.,United States,Galen Carol Audio,10,9/25/15,10/16/15,0,1,Etc,SO099,120,97,Hdd Upgrade_D(0TB-2TB),1,shipped,78217-0562
+1317,50,50,Aurender America Inc.,United States,Galen Carol Audio,10,9/25/15,10/16/15,0,1,Etc,SO099,50,88,Shipping & Other Charges,1,shipped,78217-0562
+1318,50.1,50.1,Aurender America Inc.,United States,Alma Audio LLC.,7,7/9/15,7/21/15,0,1,Etc,SO749,50.1,85,Credit Card Fee,1,shipped,92037
+1319,50,50,Aurender America Inc.,United States,Alma Audio LLC.,7,7/9/15,7/21/15,0,1,Etc,SO749,50,88,Shipping & Other Charges,1,shipped,92037
+1320,777,777,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/16/15,7/20/15,0,1,FLOW,SO755,777,67,Aurender FLOW,1,shipped,49512
+1321,0,0,Aurender America Inc.,United States,Torquil Dewar,9,9/15/15,9/16/15,0,1,W20,SO070,0,68,Aurender W20,1,shipped,78660
+1322,2340,2340,Aurender America Inc.,United States,Suncoast Audio,4,4/30/15,4/29/15,0,1,X100,SO614,2340,72,Aurender X100L-12T,1,shipped,34202
+1323,3240,3240,Aurender America Inc.,United States,"Command Performance AV, LLC",9,9/2/15,9/10/15,0,1,N100,SO046,1620,76,Aurender N100H,2,shipped,22046
+1324,1620,1620,Aurender America Inc.,United States,"The Audio Salon, Inc.",11,11/20/15,11/23/15,0,1,N100,SO168,1620,76,Aurender N100H,1,shipped,90404
+1325,3240,3240,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/16/15,7/20/15,0,1,N100,SO755,1620,76,Aurender N100H,2,shipped,49512
+1326,621.6,621.6,Aurender America Inc.,United States,"The Audio Salon, Inc.",2,2/16/15,2/10/15,0,1,FLOW,SO075,621.6,67,Aurender FLOW,1,shipped,90404
+1327,1350,1350,Aurender America Inc.,Canada,American Hi-Fi,9,9/21/15,9/25/15,0,1,N100,SO090,1350,76,Aurender N100H,1,shipped,R3B 1T2
+1328,1500,1500,Aurender America Inc.,United States,Moon Audio,7,7/3/15,7/2/15,0,1,N100,SO082,1500,75,Aurender N100,1,shipped,27511
+1329,108,108,Aurender America Inc.,United States,Moon Audio,7,7/3/15,7/2/15,0,1,Etc,SO082,108,85,Credit Card Fee,1,shipped,27511
+1330,50,50,Aurender America Inc.,Canada,American Hi-Fi,9,9/21/15,9/25/15,0,1,Etc,SO090,50,88,Shipping & Other Charges,1,shipped,R3B 1T2
+1331,2100,2100,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/16/15,7/20/15,0,1,X100,SO755,2100,70,Aurender X100L,1,shipped,49512
+1332,647.5,647.5,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/16/15,7/20/15,0,1,FLOW,SO755,647.5,67,Aurender FLOW,1,shipped,49512
+1333,1620,1620,Aurender America Inc.,United States,Atlantic Home Entertainment & Stereo,9,9/25/15,9/25/15,0,1,N100,SO098,1620,76,Aurender N100H,1,shipped,92627
+1334,50,50,Aurender America Inc.,United States,Atlantic Home Entertainment & Stereo,9,9/25/15,9/25/15,0,1,Etc,SO098,50,88,Shipping & Other Charges,1,shipped,92627
+1335,1295,1295,Aurender America Inc.,United States,Aurender Direct,9,9/24/15,9/24/15,0,1,FLOW,SO096,1295,67,Aurender FLOW,1,shipped,91502
+1336,4000,4000,Aurender America Inc.,United States,cruzeFIRST Audio,9,9/26/15,9/26/15,0,1,N10,SO101,4000,78,Aurender N10 - Silver,1,shipped,33029
+1337,1349.5,1349.5,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/16/15,7/20/15,0,1,N100,SO755,1349.5,76,Aurender N100H,1,shipped,49512
+1338,2340,2340,Aurender America Inc.,United States,Sight + Sound Gallery,9,9/25/15,9/28/15,0,1,X100,SO097,2340,72,Aurender X100L-12T,1,shipped,30312
+1339,1949.5,1949.5,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/16/15,7/20/15,0,1,X100,SO755,1949.5,72,Aurender X100L-12T,1,shipped,49512
+1340,1249.5,1249.5,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/16/15,7/20/15,0,1,X725,SO755,1249.5,79,Aurender X725,1,shipped,49512
+1341,1749.5,1749.5,Aurender America Inc.,United States,Audio Advisor Inc.,7,7/16/15,7/20/15,0,1,X100,SO755,1749.5,70,Aurender X100L,1,shipped,49512
+1342,1620,1620,Aurender America Inc.,United States,Rhapsody Music and Cinema,10,10/1/15,10/7/15,0,1,N100,SO107,1620,76,Aurender N100H,1,shipped,10010
+1343,240,240,Aurender America Inc.,United States,Rhapsody Music and Cinema,10,10/1/15,10/7/15,0,1,Cast-Fi 7,SO107,240,65,Aurender Cast-Fi 7,1,shipped,10010
+1344,80,80,Aurender America Inc.,United States,Rhapsody Music and Cinema,10,10/1/15,10/7/15,0,1,Etc,SO107,80,88,Shipping & Other Charges,1,shipped,10010
+1345,1500,1500,Aurender America Inc.,Canada,DIMF'S HI-FI,10,10/6/15,10/9/15,0,1,N100,SO109,1500,75,Aurender N100,1,shipped,76M 275
+1346,50,50,Aurender America Inc.,Canada,DIMF'S HI-FI,10,10/6/15,10/9/15,0,1,Etc,SO109,50,88,Shipping & Other Charges,1,shipped,76M 275
+1347,0,0,Aurender America Inc.,United States,Elac America,10,10/23/15,10/17/15,0,1,N100,SO124,0,76,Aurender N100H,1,shipped,90630
+1348,0,0,Aurender America Inc.,United States,"Command Performance AV, LLC",10,10/23/15,10/23/15,0,1,N10,SO123,0,78,Aurender N10 - Silver,1,shipped,22046
+1349,0,0,Aurender America Inc.,United States,Wilson Audio,10,10/9/15,10/11/15,0,1,N10,SO111,0,78,Aurender N10 - Silver,1,shipped,33133
+1350,1350,1350,Aurender America Inc.,United States,A-V Design Studio,10,10/14/15,10/16/15,0,1,N100,SO114,1350,76,Aurender N100H,1,shipped,66212
+1351,4800,4800,Aurender America Inc.,United States,Theatermax LLC,12,11/30/15,12/1/15,0,1,N10,SO179,4800,77,Aurender N10-B,1,shipped,33431
+1352,50,50,Aurender America Inc.,United States,A-V Design Studio,10,10/14/15,10/16/15,0,1,Etc,SO114,50,88,Shipping & Other Charges,1,shipped,66212
+1353,1620,1620,Aurender America Inc.,United States,Take 5 Audio,10,10/7/15,10/16/15,0,1,N100,SO110,1620,76,Aurender N100H,1,shipped,6510
+1354,50,50,Aurender America Inc.,United States,Take 5 Audio,10,10/7/15,10/16/15,0,1,Etc,SO110,50,88,Shipping & Other Charges,1,shipped,6510
+1355,0,0,Aurender America Inc.,United States,Jeff Dorgay,10,10/15/15,10/21/15,0,1,N100,SO116,0,76,Aurender N100H,1,shipped,98665
+1356,1295,1295,Aurender America Inc.,United States,Aurender Direct,10,10/13/15,10/13/15,0,1,FLOW,SO112,1295,67,Aurender FLOW,1,shipped,91502
+1357,6.2,6.2,Aurender America Inc.,United States,Aurender Direct,10,10/13/15,10/13/15,0,1,Etc,SO112,6.2,88,Shipping & Other Charges,1,shipped,91502
+1358,0,0,Aurender America Inc.,United States,Jeff Dorgay,10,10/15/15,10/21/15,0,1,X725,SO116,0,79,Aurender X725,1,shipped,98665
+1359,0,0,Aurender America Inc.,United States,Chris Connaker,10,10/15/15,10/21/15,0,1,N10,SO118,0,77,Aurender N10-B,1,shipped,55422
+1360,2100,2100,Aurender America Inc.,United States,Theatermax LLC,12,11/30/15,12/1/15,0,1,X100,SO176,2100,70,Aurender X100L,1,shipped,33431
+1361,1350,1350,Aurender America Inc.,United States,ListenUp Inc,11,10/27/15,11/3/15,0,1,N100,SO130,1350,76,Aurender N100H,1,shipped,80222
+1362,3240,3240,Aurender America Inc.,United States,Audio Advisor Inc.,10,10/20/15,10/22/15,0,1,N100,SO119,1620,76,Aurender N100H,2,shipped,49512
+1363,0,0,Aurender America Inc.,United States,John Atkinson,10,10/15/15,10/21/15,0,1,N10,SO115,0,78,Aurender N10 - Silver,1,shipped,11209
+1364,42,42,Aurender America Inc.,United States,A-V Design Studio,10,10/14/15,10/16/15,0,1,Etc,SO114,42,85,Credit Card Fee,1,shipped,66212
+1365,1620,1620,Aurender America Inc.,United States,Moon Audio,11,11/30/15,11/30/15,0,1,N100,SO177,1620,76,Aurender N100H,1,shipped,27511
+1366,0,0,Aurender America Inc.,United States,Bryan Stanton,10,10/15/15,10/21/15,0,1,FLOW,SO117,0,67,Aurender FLOW,1,shipped,6058
+1367,1350,1350,Aurender America Inc.,United States,Ryan Speakers,12,11/30/15,12/1/15,0,1,N100,SO178,1350,76,Aurender N100H,1,shipped,92503
+1368,3240,3240,Aurender America Inc.,United States,"Command Performance AV, LLC",10,10/21/15,10/22/15,0,1,N100,SO120,1620,76,Aurender N100H,2,shipped,22046
+1369,100,100,Aurender America Inc.,United States,Ryan Speakers,12,11/30/15,12/1/15,0,1,Etc,SO178,100,88,Shipping & Other Charges,1,shipped,92503
+1370,1620,1620,Aurender America Inc.,United States,Marutani Consulting,12,12/3/15,12/3/15,0,1,N100,SO186,1620,76,Aurender N100H,1,shipped,94608
+1371,4000,4000,Aurender America Inc.,United States,Audio Revelation,10,10/24/15,10/27/15,0,1,N10,SO125,4000,78,Aurender N10 - Silver,1,shipped,92010
+1372,1620,1620,Aurender America Inc.,United States,Arctic Audio,10,10/23/15,10/28/15,0,1,N100,SO122,1620,76,Aurender N100H,1,shipped,58103
+1373,50,50,Aurender America Inc.,United States,Arctic Audio,10,10/23/15,10/28/15,0,1,Etc,SO122,50,88,Shipping & Other Charges,1,shipped,58103
+1374,6480,6480,Aurender America Inc.,United States,Audio Advisor Inc.,11,10/28/15,11/3/15,0,1,N100,SO136,1620,76,Aurender N100H,4,shipped,49512
+1375,29.78,29.78,Aurender America Inc.,United States,Aurender Direct,10,10/26/15,10/26/15,0,1,Etc,SO129,29.78,88,Shipping & Other Charges,1,shipped,91502
+1376,3699,3699,Aurender America Inc.,United States,Aurender Direct,10,10/26/15,10/26/15,0,1,X100,SO129,3699,73,Aurender X100L-8T,1,shipped,91502
+1377,1620,1620,Aurender America Inc.,United States,Fidelis Av LLC,10,10/27/15,10/28/15,0,1,N100,SO132,1620,76,Aurender N100H,1,shipped,3063
+1378,9680,9680,Aurender America Inc.,United States,Music Lovers Audio,10,10/26/15,10/26/15,0,1,W20,SO127,9680,68,Aurender W20,1,shipped,94704
+1379,4800,4800,Aurender America Inc.,United States,Audio Revelation,10,10/24/15,10/27/15,0,1,N10,SO125,4800,78,Aurender N10 - Silver,1,shipped,92010
+1380,50,50,Aurender America Inc.,United States,Fidelis Av LLC,10,10/27/15,10/28/15,0,1,Etc,SO132,50,88,Shipping & Other Charges,1,shipped,3063
+1381,1350,1350,Aurender America Inc.,United States,Hi-End Theater Audio Inc.,11,10/27/15,11/4/15,0,1,N100,SO133,1350,76,Aurender N100H,1,shipped,75024
+1382,1620,1620,Aurender America Inc.,United States,A-V Design Studio,10,10/27/15,10/28/15,0,1,N100,SO131,1620,76,Aurender N100H,1,shipped,66212
+1383,1500,1500,Aurender America Inc.,United States,Audio Advisor Inc.,11,11/2/15,11/5/15,0,1,N100,SO140,1500,75,Aurender N100,1,shipped,49512
+1384,9680,9680,Aurender America Inc.,United States,Overture L.L.C,11,11/3/15,11/3/15,0,1,W20,SO141,9680,68,Aurender W20,1,shipped,19803
+1385,4800,4800,Aurender America Inc.,United States,Quintessence Audio,11,10/26/15,11/19/15,0,1,N10,SO128,4800,78,Aurender N10 - Silver,1,shipped,60053
+1386,4800,4800,Aurender America Inc.,Canada,High End Audio Exchange,11,11/5/15,11/6/15,0,1,N10,SO143,4800,78,Aurender N10 - Silver,1,shipped,K7P 3H2
+1387,4800,4800,Aurender America Inc.,United States,Sonare Coeli,10,10/26/15,10/30/15,0,1,N10,SO126,4800,78,Aurender N10 - Silver,1,shipped,54981
+1388,50,50,Aurender America Inc.,United States,A-V Design Studio,10,10/27/15,10/28/15,0,1,Etc,SO131,50,88,Shipping & Other Charges,1,shipped,66212
+1389,50.1,50.1,Aurender America Inc.,United States,A-V Design Studio,10,10/27/15,10/28/15,0,1,Etc,SO131,50.1,85,Credit Card Fee,1,shipped,66212
+1390,2100,2100,Aurender America Inc.,United States,Sonare Coeli,11,10/28/15,11/4/15,0,1,X100,SO134,2100,70,Aurender X100L,1,shipped,54981
+1391,42,42,Aurender America Inc.,United States,Boca Theater & Automation,11,10/30/15,11/3/15,0,1,Etc,SO137,42,85,Credit Card Fee,1,shipped,33434
+1392,50,50,Aurender America Inc.,United States,Sonare Coeli,11,10/28/15,11/4/15,0,1,Etc,SO134,50,88,Shipping & Other Charges,1,shipped,54981
+1393,4800,4800,Aurender America Inc.,United States,Suncoast Audio,11,10/30/15,11/4/15,0,1,N10,SO138,4800,78,Aurender N10 - Silver,1,shipped,34202
+1394,50,50,Aurender America Inc.,United States,Hi-End Theater Audio Inc.,11,10/27/15,11/4/15,0,1,Etc,SO133,50,88,Shipping & Other Charges,1,shipped,75024
+1395,4800,4800,Aurender America Inc.,United States,Music Lovers Audio,11,11/2/15,11/9/15,0,1,N10,SO139,4800,78,Aurender N10 - Silver,1,shipped,94704
+1396,1350,1350,Aurender America Inc.,United States,Boca Theater & Automation,11,10/30/15,11/3/15,0,1,N100,SO137,1350,76,Aurender N100H,1,shipped,33434
+1397,50,50,Aurender America Inc.,United States,Boca Theater & Automation,11,10/30/15,11/3/15,0,1,Etc,SO137,50,88,Shipping & Other Charges,1,shipped,33434
+1398,0,0,Aurender America Inc.,United States,Ryan Speakers,12,12/1/15,12/1/15,0,1,X725,SO180,0,79,Aurender X725,1,shipped,92503
+1399,1620,1620,Aurender America Inc.,United States,Audio Advisor Inc.,11,11/2/15,11/5/15,0,1,N100,SO140,1620,76,Aurender N100H,1,shipped,49512
+1400,50,50,Aurender America Inc.,United States,Marutani Consulting,12,12/3/15,12/3/15,0,1,Etc,SO186,50,88,Shipping & Other Charges,1,shipped,94608
+1401,1350,1350,Aurender America Inc.,United States,Audio Solutions,11,10/28/15,11/9/15,0,1,N100,SO135,1350,76,Aurender N100H,1,shipped,46229
+1402,50,50,Aurender America Inc.,United States,Audio Solutions,11,10/28/15,11/9/15,0,1,Etc,SO135,50,88,Shipping & Other Charges,1,shipped,46229
+1403,2340,2340,Aurender America Inc.,United States,Audio Advisor Inc.,12,12/3/15,12/10/15,0,1,X100,SO187,2340,72,Aurender X100L-12T,1,shipped,49512
+1404,1620,1620,Aurender America Inc.,United States,Suncoast Audio,11,11/7/15,11/13/15,0,1,N100,SO144,1620,76,Aurender N100H,1,shipped,34202
+1405,50,50,Aurender America Inc.,United States,Suncoast Audio,11,11/7/15,11/13/15,0,1,Etc,SO144,50,88,Shipping & Other Charges,1,shipped,34202
+1406,50.1,50.1,Aurender America Inc.,United States,Fidelis Av LLC,11,11/5/15,11/6/15,0,1,Etc,SO142,50.1,85,Credit Card Fee,1,shipped,3063
+1407,1620,1620,Aurender America Inc.,United States,Fidelis Av LLC,11,11/5/15,11/6/15,0,1,N100,SO142,1620,76,Aurender N100H,1,shipped,3063
+1408,50,50,Aurender America Inc.,United States,Fidelis Av LLC,11,11/5/15,11/6/15,0,1,Etc,SO142,50,88,Shipping & Other Charges,1,shipped,3063
+1409,4800,4800,Aurender America Inc.,United States,Theatermax LLC,11,11/9/15,11/13/15,0,1,N10,SO148,4800,78,Aurender N10 - Silver,1,shipped,33431
+1410,144,144,Aurender America Inc.,Canada,High End Audio Exchange,11,11/5/15,11/6/15,0,1,Etc,SO143,144,85,Credit Card Fee,1,shipped,K7P 3H2
+1411,1620,1620,Aurender America Inc.,United States,Marutani Consulting,11,11/9/15,11/13/15,0,1,N100,SO147,1620,76,Aurender N100H,1,shipped,94608
+1412,1620,1620,Aurender America Inc.,United States,Essential Audio,12,11/18/15,12/4/15,0,1,N100,SO162,1620,76,Aurender N100H,1,shipped,60010
+1413,4800,4800,Aurender America Inc.,United States,Audio Salon,11,11/13/15,11/20/15,0,1,N10,SO150,4800,78,Aurender N10 - Silver,1,shipped,33431
+1414,1350,1350,Aurender America Inc.,United States,Northern Audio LLC,11,10/22/15,11/10/15,0,1,N100,SO121,1350,76,Aurender N100H,1,shipped,15215
+1415,1250,1250,Aurender America Inc.,United States,Northern Audio LLC,11,10/22/15,11/10/15,0,1,X725,SO121,1250,79,Aurender X725,1,shipped,15215
+1416,4800,4800,Aurender America Inc.,United States,Galen Carol Audio,11,11/7/15,11/9/15,0,1,N10,SO145,4800,78,Aurender N10 - Silver,1,shipped,78217-0562
+1417,1620,1620,Aurender America Inc.,United States,Galen Carol Audio,11,11/7/15,11/9/15,0,1,N100,SO145,1620,76,Aurender N100H,1,shipped,78217-0562
+1418,648,648,Aurender America Inc.,United States,Northern Audio LLC,11,10/22/15,11/10/15,0,1,FLOW,SO121,648,67,Aurender FLOW,1,shipped,15215
+1419,4800,4800,Aurender America Inc.,United States,Music Lovers Audio,12,12/10/15,12/11/15,0,1,N10,SO200,4800,77,Aurender N10-B,1,shipped,94704
+1420,4800,4800,Aurender America Inc.,United States,The Voice That Is,11,11/21/15,11/23/15,0,1,N10,SO170,4800,78,Aurender N10 - Silver,1,shipped,19073
+1421,50,50,Aurender America Inc.,United States,Arnis Balgalvis,11,11/19/15,11/23/15,0,1,Etc,SO163,50,88,Shipping & Other Charges,1,shipped,18104
+1422,4800,4800,Aurender America Inc.,United States,Audio Revelation,11,11/16/15,11/17/15,0,1,N10,SO154,4800,78,Aurender N10 - Silver,1,shipped,92010
+1423,50,50,Aurender America Inc.,United States,Marutani Consulting,11,11/9/15,11/13/15,0,1,Etc,SO147,50,88,Shipping & Other Charges,1,shipped,94608
+1424,4800,4800,Aurender America Inc.,United States,Audio Salon,11,11/14/15,11/20/15,0,1,N10,SO151,4800,78,Aurender N10 - Silver,1,shipped,33431
+1425,0,0,Aurender America Inc.,United States,Dave Clark,11,11/16/15,11/17/15,0,1,N100,SO156,0,76,Aurender N100H,1,shipped,90806
+1426,1620,1620,Aurender America Inc.,United States,Arnis Balgalvis,11,11/19/15,11/23/15,0,1,N100,SO163,1620,76,Aurender N100H,1,shipped,18104
+1427,777,777,Aurender America Inc.,Canada,High End Audio Exchange,11,11/12/15,11/13/15,0,1,FLOW,SO149,777,67,Aurender FLOW,1,shipped,K7P 3H2
+1428,30,30,Aurender America Inc.,Canada,High End Audio Exchange,11,11/12/15,11/13/15,0,1,Etc,SO149,30,88,Shipping & Other Charges,1,shipped,K7P 3H2
+1429,24.21,24.21,Aurender America Inc.,Canada,High End Audio Exchange,11,11/12/15,11/13/15,0,1,Etc,SO149,24.21,85,Credit Card Fee,1,shipped,K7P 3H2
+1430,300,300,Aurender America Inc.,United States,Arnis Balgalvis,11,11/19/15,11/23/15,0,1,Etc,SO163,300,98,UC100,1,shipped,18104
+1431,90,90,Aurender America Inc.,United States,The Voice That Is,11,11/16/15,11/17/15,0,1,Etc,SO155,90,86,dCS Dongle,1,shipped,19073
+1432,50,50,Aurender America Inc.,United States,Audio Connection,11,11/7/15,11/25/15,0,1,Etc,SO146,50,88,Shipping & Other Charges,1,shipped,7044
+1433,1350,1350,Aurender America Inc.,United States,Audio Connection,11,11/7/15,11/25/15,0,1,N100,SO146,1350,75,Aurender N100,1,shipped,7044
+1434,4800,4800,Aurender America Inc.,United States,Theatermax LLC,12,12/7/15,12/8/15,0,1,N10,SO191,4800,78,Aurender N10 - Silver,1,shipped,33431
+1435,0,0,Aurender America Inc.,United States,Tom Lyle,11,11/16/15,11/17/15,0,1,N100,SO157,0,76,Aurender N100H,1,shipped,7040
+1436,0,0,Aurender America Inc.,United States,Tom Lyle,11,11/16/15,11/17/15,0,1,X725,SO157,0,79,Aurender X725,1,shipped,7040
+1437,4000,4000,Aurender America Inc.,United States,New York Sound & Vision,12,12/10/15,12/11/15,0,1,N10,SO197,4000,78,Aurender N10 - Silver,1,shipped,11703
+1438,1620,1620,Aurender America Inc.,Canada,High End Audio Exchange,12,12/10/15,12/10/15,0,1,N100,SO199,1620,76,Aurender N100H,1,shipped,K7P 3H2
+1439,3240,3240,Aurender America Inc.,United States,Suncoast Audio,11,11/23/15,11/24/15,0,1,N100,SO171,1620,76,Aurender N100H,2,shipped,34202
+1440,8800,8800,Aurender America Inc.,United States,The Sound Environment,11,11/14/15,11/19/15,0,1,W20,SO152,8800,68,Aurender W20,1,shipped,68144
+1441,1350,1350,Aurender America Inc.,United States,The Sound Environment,11,11/14/15,11/19/15,0,1,N100,SO152,1350,76,Aurender N100H,1,shipped,68144
+1442,4000,4000,Aurender America Inc.,United States,The Sound Environment,11,11/14/15,11/19/15,0,1,N10,SO152,4000,78,Aurender N10 - Silver,1,shipped,68144
+1443,90,90,Aurender America Inc.,United States,The Sound Environment,11,11/14/15,11/19/15,0,1,Etc,SO152,90,86,dCS Dongle,1,shipped,68144
+1444,1350,1350,Aurender America Inc.,United States,Goodwin's High End,11,11/17/15,11/6/15,0,1,N100,SO159,1350,76,Aurender N100H,1,shipped,2451
+1445,1620,1620,Aurender America Inc.,United States,Suncoast Audio,11,11/17/15,11/23/15,0,1,N100,SO158,1620,76,Aurender N100H,1,shipped,34202
+1446,50,50,Aurender America Inc.,United States,Suncoast Audio,11,11/17/15,11/23/15,0,1,Etc,SO158,50,88,Shipping & Other Charges,1,shipped,34202
+1447,4800,4800,Aurender America Inc.,United States,Endeavor Audio Engineering,12,12/4/15,12/9/15,0,1,N10,SO188,4800,78,Aurender N10 - Silver,1,shipped,92507
+1448,0,0,Aurender America Inc.,United States,Paragon Sight and Sound,12,12/2/15,12/2/15,0,1,Etc,SO182,0,86,dCS Dongle,1,shipped,48103
+1449,0,0,Aurender America Inc.,United States,Panasonic Consumer Electronics Company,11,11/17/15,11/18/15,0,1,FLOW,SO160,0,67,Aurender FLOW,1,shipped,07102-5490
+1450,0,0,Aurender America Inc.,United States,Paragon Sight and Sound,12,12/2/15,12/2/15,0,1,W20,SO182,0,68,Aurender W20,1,shipped,48103
+1451,1620,1620,Aurender America Inc.,United States,Sight + Sound Gallery,11,11/24/15,11/25/15,0,1,N100,SO175,1620,76,Aurender N100H,1,shipped,30312
+1452,50,50,Aurender America Inc.,United States,Sight + Sound Gallery,11,11/24/15,11/25/15,0,1,Etc,SO175,50,88,Shipping & Other Charges,1,shipped,30312
+1453,4800,4800,Aurender America Inc.,United States,Audio Revelation,11,11/23/15,11/23/15,0,1,N10,SO172,4800,78,Aurender N10 - Silver,1,shipped,92010
+1454,4800,4800,Aurender America Inc.,United States,Ray of Sound,12,12/9/15,12/11/15,0,1,N10,SO195,4800,78,Aurender N10 - Silver,1,shipped,93065
+1455,4800,4800,Aurender America Inc.,United States,Ray of Sound,12,12/9/15,12/11/15,0,1,N10,SO195,4800,77,Aurender N10-B,1,shipped,93065
+1456,140,140,Aurender America Inc.,Canada,High End Audio Exchange,12,12/10/15,12/10/15,0,1,Etc,SO199,140,88,Shipping & Other Charges,1,shipped,K7P 3H2
+1457,4000,4000,Aurender America Inc.,United States,Departure Audio,12,12/2/15,12/3/15,0,1,N10,SO183,4000,77,Aurender N10-B,1,shipped,80547
+1458,1620,1620,Aurender America Inc.,United States,Northern Audio LLC,12,12/8/15,12/9/15,0,1,N100,SO192,1620,76,Aurender N100H,1,shipped,15215
+1459,3240,3240,Aurender America Inc.,United States,Audio Revelation,12,12/9/15,12/11/15,0,1,N100,SO193,1620,76,Aurender N100H,2,shipped,92010
+1460,3240,3240,Aurender America Inc.,United States,Overture L.L.C,12,12/14/15,12/30/15,0,1,N100,SO203,1620,76,Aurender N100H,2,shipped,19803
+1461,4800,4800,Aurender America Inc.,United States,A-V Design Studio,12,12/16/15,12/21/15,0,1,N10,SO204,4800,78,Aurender N10 - Silver,1,shipped,66212
+1462,6480,6480,Aurender America Inc.,United States,Audio Advisor Inc.,12,12/13/15,12/17/15,0,1,N100,SO201,1620,76,Aurender N100H,4,shipped,49512
+1463,4860,4860,Aurender America Inc.,United States,Ultra Fidelis,12,12/16/15,12/18/15,0,1,N100,SO205,1620,76,Aurender N100H,3,shipped,53213
+1464,50,50,Aurender America Inc.,United States,Arctic Audio,12,12/9/15,12/16/15,0,1,Etc,SO196,50,88,Shipping & Other Charges,1,shipped,58103
+1465,9680,9680,Aurender America Inc.,United States,Rhapsody Music and Cinema,12,12/17/15,12/18/15,0,1,W20,SO206,9680,69,Aurender W20-B,1,shipped,10010
+1466,50,50,Aurender America Inc.,United States,"Command Performance AV, LLC",12,12/22/15,12/28/15,0,1,Etc,SO209,50,88,Shipping & Other Charges,1,shipped,22046
+1467,1620,1620,Aurender America Inc.,United States,Ultra Fidelis,12,12/20/15,12/29/15,0,1,N100,SO208,1620,76,Aurender N100H,1,shipped,53213
+1468,50,50,Aurender America Inc.,United States,Ultra Fidelis,12,12/20/15,12/29/15,0,1,Etc,SO208,50,88,Shipping & Other Charges,1,shipped,53213
+1469,4800,4800,Aurender America Inc.,United States,Liquid HiFi,12,12/17/15,12/18/15,0,1,N10,SO207,4800,78,Aurender N10 - Silver,1,shipped,28277
+1470,4800,4800,Aurender America Inc.,United States,Galen Carol Audio,12,12/23/15,12/23/15,0,1,N10,SO214,4800,78,Aurender N10 - Silver,1,shipped,78217-0562
+1471,4800,4800,Aurender America Inc.,United States,Atlantic Home Entertainment & Stereo,12,12/7/15,12/14/15,0,1,N10,SO190,4800,78,Aurender N10 - Silver,1,shipped,92627
+1472,1500,1500,Aurender America Inc.,United States,Ultra Fidelis,12,12/16/15,12/18/15,0,1,Etc,SO205,300,98,UC100,5,shipped,53213
+1473,640,640,Aurender America Inc.,United States,Amazon Vendor,12,12/22/15,12/21/15,0,1,Cast-Fi 7,SO210,320,65,Aurender Cast-Fi 7,2,shipped,
+1474,1620,1620,Aurender America Inc.,United States,Aurris LLC,12,12/14/15,12/22/15,0,1,N100,SO202,1620,76,Aurender N100H,1,shipped,87544
+1475,50,50,Aurender America Inc.,United States,Aurris LLC,12,12/14/15,12/22/15,0,1,Etc,SO202,50,88,Shipping & Other Charges,1,shipped,87544
+1476,1750,1750,Aurender America Inc.,United States,"Sound by Singer, Ltd",12,12/28/15,12/28/15,0,1,X100,SO219,1750,70,Aurender X100L,1,shipped,10001
+1477,350,350,Aurender America Inc.,United States,"Sound by Singer, Ltd",12,12/28/15,12/28/15,0,1,Etc,SO219,350,98,UC100,1,shipped,10001
+1478,150,150,Aurender America Inc.,United States,"Sound by Singer, Ltd",12,12/28/15,12/28/15,0,1,Etc,SO219,150,88,Shipping & Other Charges,1,shipped,10001
+1479,4200,4200,Aurender America Inc.,United States,Audio Advisor Inc.,12,12/22/15,12/22/15,0,1,X100,SO212,2100,70,Aurender X100L,2,shipped,49512
+1480,1620,1620,Aurender America Inc.,United States,"Command Performance AV, LLC",12,12/22/15,12/28/15,0,1,N100,SO209,1620,76,Aurender N100H,1,shipped,22046
+1481,1620,1620,Aurender America Inc.,United States,Sonare Coeli,12,12/24/15,12/29/15,0,1,N100,SO216,1620,76,Aurender N100H,1,shipped,54981
+1482,50,50,Aurender America Inc.,United States,Sonare Coeli,12,12/24/15,12/29/15,0,1,Etc,SO216,50,88,Shipping & Other Charges,1,shipped,54981
+1483,1620,1620,Aurender America Inc.,United States,Pearl Audio Video,12,12/23/15,12/23/15,0,1,N100,SO215,1620,76,Aurender N100H,1,shipped,97209
+1484,4800,4800,Aurender America Inc.,United States,David Michael Audio,12,12/29/15,12/29/15,0,1,N10,SO224,4800,78,Aurender N10 - Silver,1,shipped,48073
+1485,1500,1500,Aurender America Inc.,United States,Overture L.L.C,12,12/14/15,12/30/15,0,1,N100,SO203,1500,75,Aurender N100,1,shipped,19803
+1486,150,150,Aurender America Inc.,United States,Suncoast Audio,12,12/28/15,12/29/15,0,1,Etc,SO223,150,88,Shipping & Other Charges,1,shipped,34202
+1487,4800,4800,Aurender America Inc.,United States,Suncoast Audio,12,12/28/15,12/29/15,0,1,N10,SO223,4800,78,Aurender N10 - Silver,1,shipped,34202
+1488,0,0,Aurender America Inc.,United States,Audio Stream,12,12/28/15,12/28/15,0,1,N100,SO220,0,76,Aurender N100H,1,shipped,7830
+1489,0,0,Aurender America Inc.,United States,Audeze,12,12/18/15,12/18/15,0,1,N10,SO232,0,78,Aurender N10 - Silver,1,shipped,
