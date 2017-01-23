@@ -42,6 +42,7 @@ namespace CsvParser
         public string status;
         public string zip;
     }
+
     class StatisticalData
     {
         public double amountUsd;
@@ -57,8 +58,8 @@ namespace CsvParser
     }
     interface Calculatable
     {
-        SortedDictionary<int, SortedDictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList);
-        void PrintStatisticalDataMap(SortedDictionary<int, SortedDictionary<string, StatisticalData>> statisticalDataMap);
+        SortedDictionary<int, Dictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList);
+        void PrintStatisticalDataMap(SortedDictionary<int, Dictionary<string, StatisticalData>> statisticalDataMap);
     }
     class SowrenderCSVParser : Readable, Calculatable
     {
@@ -148,16 +149,16 @@ namespace CsvParser
             }
             return salesRowDataList;
         }
-        public SortedDictionary<int, SortedDictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList)
+        public SortedDictionary<int, Dictionary<string, StatisticalData>> StatisticsDataByYear(List<SalesRowData> salesRowDataList)
         {
-            var statisticalDataMap = new SortedDictionary<int, SortedDictionary<string, StatisticalData>>();
+            var statisticalDataMap = new SortedDictionary<int, Dictionary<string, StatisticalData>>();
 
             for (int i = 0; i < salesRowDataList.Count; i++)
             {
                 SalesRowData rowData = salesRowDataList[i];
                 if (!statisticalDataMap.ContainsKey(rowData.dateShipped.Year))
                 {
-                    var data = new SortedDictionary<string, StatisticalData>();
+                    var data = new Dictionary<string, StatisticalData>();
                     statisticalDataMap.Add(rowData.dateShipped.Year, data);
                 }
             }
@@ -181,43 +182,38 @@ namespace CsvParser
 
             return statisticalDataMap;
         }
-        public void PrintStatisticalDataMap(SortedDictionary<int, SortedDictionary<string, StatisticalData>> statisticalDataMap)
+        public void PrintStatisticalDataMap(SortedDictionary<int, Dictionary<string, StatisticalData>> statisticalDataMap)
         {
-            string etcHandler = "";
+            string name, quatity, amountUsd, average;
+            string[] title = {"Product_Id","Amount_Usd","Quantity","Average"};
+
             foreach (var year in statisticalDataMap)
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine(year.Key);
-                foreach (var data in year.Value)
+                Console.ResetColor();
+
+                PrintBolder();
+                Console.WriteLine(string.Format("{0,-10}",title[0]) + string.Format("{0,13}", title[1]) + string.Format("{0,10}", title[2]) + string.Format("{0,10}",title[3]));
+                PrintBolder();
+
+                foreach (KeyValuePair<string, StatisticalData> data in year.Value.OrderByDescending(key => key.Value.amountUsd))
                 {
-                    if(data.Key == "Etc")
-                        etcHandler = data.Key + " : " + data.Value.quantity + " / " + AddCommas(data.Value.amountUsd) + " => " + AddCommas(data.Value.amountUsd / data.Value.quantity);
-                    else
-                        Console.WriteLine(data.Key + " : " + data.Value.quantity + " / " + AddCommas(data.Value.amountUsd) + " => " + AddCommas(data.Value.amountUsd/data.Value.quantity));
+                    name = string.Format("{0,-10}", data.Key);
+                    quatity = string.Format("{0,10:#,##0}", data.Value.quantity);
+                    amountUsd = string.Format("{0,13:#,##0}", data.Value.amountUsd);
+                    average = string.Format("{0,10:#,##0}", (data.Value.amountUsd / data.Value.quantity));
+                    Console.WriteLine(name + amountUsd + quatity + average);
                 }
-                Console.WriteLine(etcHandler);
-                Console.WriteLine("\n-----------------\n");
+                PrintBolder();
+                Console.WriteLine();
             }
         }
-        public string AddCommas(double number)
+        private void PrintBolder()
         {
-            string rawNumber = number.ToString();
-            string[] splitedByDot = rawNumber.Split('.');
-            string result = splitedByDot[0];
-            int commaPlace = splitedByDot[0].Length % 3;
-
-            for (int i = 0; i < splitedByDot[0].Length / 3; i++)
-            {
-                if(commaPlace != 0)
-                {
-                    result = result.Insert(commaPlace, ",");
-                    commaPlace++;
-                }
-                commaPlace += 3;
-            }
-            if(splitedByDot.Length != 1)
-                result = result.Insert(result.Length, "." + splitedByDot[1]);
-
-            return result;
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("--------------------------------------------");
+            Console.ResetColor();
         }
     }
 }
