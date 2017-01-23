@@ -37,6 +37,7 @@ namespace CSVParser
                 }
 
                 SalesRowData salesRowData = new SalesRowData();
+
                 /* 값 저장하기 */
                 try
                 {
@@ -69,35 +70,54 @@ namespace CSVParser
 
             }
 
-            var map = new Dictionary<string, double>();
+            SumResult[] sumResultArray = new SumResult[20];
 
-            for (int index = 0; index < salesRowDataList.Count; index++)
+            /* sumResultArray 초기화 */
+            for (int i = 0; i < sumResultArray.Length; i++)
             {
-                if (!map.ContainsKey(salesRowDataList[index].model + " - 14"))
-                {
-                    map.Add(salesRowDataList[index].model + " - 14", 0);
-                }
-                if (!map.ContainsKey(salesRowDataList[index].model + " - 15"))
-                {
-                    map.Add(salesRowDataList[index].model + " - 15", 0);
-                }
-
-                if (salesRowDataList[index].dateShipped.getYear() == 14)
-                {
-                    map[salesRowDataList[index].model + " - 14"] += salesRowDataList[index].amountUsd;
-                }
-                else if (salesRowDataList[index].dateShipped.getYear() == 15)
-                {
-                    map[salesRowDataList[index].model + " - 15"] += salesRowDataList[index].amountUsd;
-                }
-
+                sumResultArray[i] = new SumResult();
             }
 
-            foreach (KeyValuePair<string, double> entry in map)
+            for (int i = 0; i < salesRowDataList.Count; i++)
             {
-                Console.WriteLine(entry.Key + " : " + addCommas(entry.Value));
+                int arrayIndex = 0;
+                /* sumResultArray에 모델 명과 일치하는 데이터일 경우와 아예 추가되지 않은 경우까지 인덱스 증가 */
+                for (; !sumResultArray[arrayIndex].model.Equals(""); arrayIndex++)
+                {
+                    if (sumResultArray[arrayIndex].model.Equals(salesRowDataList[i].model))
+                        break;
+                }
+
+                sumResultArray[arrayIndex].model = salesRowDataList[i].model;
+                sumResultArray[arrayIndex].amountUsd += salesRowDataList[i].amountUsd;
+                sumResultArray[arrayIndex].qty += salesRowDataList[i].qty;
+
+                /* 2014년도에 판매한 제품일 경우 */
+                if (salesRowDataList[i].dateShipped.getYear() == 14)
+                {
+                    sumResultArray[arrayIndex]._14Sales += salesRowDataList[i].amountUsd;
+                }
+                /* 2015년도에 판매한 제품일 경우 */
+                else if (salesRowDataList[i].dateShipped.getYear() == 15)
+                {
+                    sumResultArray[arrayIndex]._15Sales += salesRowDataList[i].amountUsd;
+                }
             }
 
+            /* print문 */
+            for (int i = 0; sumResultArray[i].model != ""; i++)
+            {
+                Console.WriteLine(sumResultArray[i].model + "\n");
+                Console.WriteLine("총 매출\t\t: " + "$" + String.Format("{0:0,0}", sumResultArray[i].amountUsd));
+                if (sumResultArray[i]._14Sales == 0)
+                    Console.WriteLine("14년도 매출\t: -");
+                else
+                    Console.WriteLine("14년도 매출\t: " + "$" + String.Format("{0:0,0}", sumResultArray[i]._14Sales));
+                Console.WriteLine("15년도 매출\t: " + "$" + String.Format("{0:0,0}", sumResultArray[i]._15Sales));
+                Console.WriteLine("평균 단가\t: " + "$" + String.Format("{0:0,0}", sumResultArray[i].amountUsd / sumResultArray[i].qty));
+                Console.WriteLine("판매 수량\t: " + sumResultArray[i].qty + "\n");
+            }
+            
         }
 
         private static string addCommas(double data)
@@ -137,5 +157,7 @@ namespace CSVParser
 
             return result;
         }
+
+
     }
 }
