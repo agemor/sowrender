@@ -10,3 +10,9 @@ C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\obj\Debug
 C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\bin\Debug\CsvParser-Camille.exe
 C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\bin\Debug\CsvParser-Camille.pdb
 C:\Users\dsm\Documents\sowrender\week1\sales\camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.csprojResolveAssemblyReference.cache
+C:\Users\dsm\Documents\sowrender\week1\sales\sales-camille\CsvParser-Camille\bin\Debug\CsvParser-Camille.exe.config
+C:\Users\dsm\Documents\sowrender\week1\sales\sales-camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.exe
+C:\Users\dsm\Documents\sowrender\week1\sales\sales-camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.pdb
+C:\Users\dsm\Documents\sowrender\week1\sales\sales-camille\CsvParser-Camille\bin\Debug\CsvParser-Camille.exe
+C:\Users\dsm\Documents\sowrender\week1\sales\sales-camille\CsvParser-Camille\bin\Debug\CsvParser-Camille.pdb
+C:\Users\dsm\Documents\sowrender\week1\sales\sales-camille\CsvParser-Camille\obj\Debug\CsvParser-Camille.csprojResolveAssemblyReference.cache
