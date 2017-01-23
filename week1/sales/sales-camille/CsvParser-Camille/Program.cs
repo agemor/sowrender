@@ -21,7 +21,7 @@ namespace CsvParser_Camille
             salesRowData = Collect.ReadFromCsv(text);
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("   Model  :     Price    :Account:  Average  ");
+            Console.WriteLine("   Model   :    Price   :Account:  Average   ");
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("---------------------------------------------");
@@ -90,9 +90,9 @@ namespace CsvParser_Camille
             Console.WriteLine(year + "\n");
             foreach (KeyValuePair<string, PriceAccount> entry in map.OrderByDescending(num => num.Value.price))
             {
-                Console.WriteLine("{0,9} : {1,12} : {2,5} : {3,10}",
-               entry.Key, AddThousandCommas(Math.Round(entry.Value.price, 2)), AddThousandCommas(entry.Value.account),
-               Math.Round((entry.Value.price / entry.Value.account), 2));
+                Console.WriteLine("{0,10} : {1,10} : {2,5} : {3,10}",
+               entry.Key, AddThousandCommas(Math.Round(entry.Value.price)), AddThousandCommas(entry.Value.account),
+               Math.Round(entry.Value.price / entry.Value.account));
             }
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkCyan;
