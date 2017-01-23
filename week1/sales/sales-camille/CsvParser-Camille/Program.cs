@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Drawing;
 
 namespace CsvParser_Camille
 {
@@ -18,8 +19,13 @@ namespace CsvParser_Camille
             string text = File.ReadAllText(@"C:\Users\dsm\Downloads\sample_revenue.csv", Encoding.UTF8);
 
             salesRowData = Collect.ReadFromCsv(text);
-            Console.WriteLine("  Model  :     Price     : Account :  Average");
-            Console.WriteLine("-----------------------------------------------");
+            Console.BackgroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("   Model   :    Price   :Account:  Average   ");
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine("---------------------------------------------");
+            Console.ResetColor();
             yearOfDate.YearSaperated(salesRowData);
 
         }
@@ -62,10 +68,11 @@ namespace CsvParser_Camille
                 counting = false;
             }
         }
+        /* descending order */
         /* make statistics */
         public void MapExtract(List<SalesRowData> salesRowDataList, string year)
         {
-            var map = new SortedDictionary<string, PriceAccount>();
+            var map = new Dictionary<string, PriceAccount>();
 
             for (int i = 1; i < salesRowDataList.Count; i++)
             {
@@ -80,14 +87,19 @@ namespace CsvParser_Camille
                     map[rowData.model].account += rowData.quantity;
                 }
             }
-            Console.WriteLine(year);
-            foreach (KeyValuePair<string, PriceAccount> entry in map)
+            Console.WriteLine(year + "\n");
+            foreach (KeyValuePair<string, PriceAccount> entry in map.OrderByDescending(num => num.Value.price))
             {
-                Console.WriteLine("{0,-9} : {1,-12} : {2,-5} : {3,-10}", 
-               entry.Key, AddThousandCommas(Math.Round(entry.Value.price,3)), AddThousandCommas(entry.Value.account), Math.Round((entry.Value.price / entry.Value.account),3));//string.Format("{0:n0}",entry.Value));
+                Console.WriteLine("{0,10} : {1,10} : {2,5} : {3,10}",
+               entry.Key, AddThousandCommas(Math.Round(entry.Value.price)), AddThousandCommas(entry.Value.account),
+               Math.Round(entry.Value.price / entry.Value.account));
             }
-            Console.WriteLine("-----------------------------------------------");
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.Write("---------------------------------------------",Console.ForegroundColor);
+            Console.ResetColor();
         }
+
         /* add commas */
         public string AddThousandCommas(double number)
         {
@@ -99,7 +111,7 @@ namespace CsvParser_Camille
             }
             rawNumber = decimalNum[0];
             if (decimalNum.Length == 2)
-                rawNumber += "."+decimalNum[1];
+                rawNumber += "." + decimalNum[1];
             return rawNumber;
         }
     }
