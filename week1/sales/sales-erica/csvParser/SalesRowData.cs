@@ -225,7 +225,7 @@ namespace csvParser
             for (int i = 0; i < map.Count; i++)
             {
                 Console.Write("{0,15}", map.ElementAt(i).Key + " : ");
-                Console.WriteLine("{0,5} \t  $ {1,-13:F0} $ {2,-13:F0}", map.ElementAt(i).Value.qty,
+                Console.WriteLine("{0,5} \t  $ {1,-13:0,0} $ {2,-13:0,0}", map.ElementAt(i).Value.qty,
                                   map.ElementAt(i).Value.amountUsd,
                                   map.ElementAt(i).Value.unitPriceAverage);
             }
