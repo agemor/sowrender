@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Drawing;
 
 namespace CsvParser_Camille
 {
@@ -18,8 +19,13 @@ namespace CsvParser_Camille
             string text = File.ReadAllText(@"C:\Users\dsm\Downloads\sample_revenue.csv", Encoding.UTF8);
 
             salesRowData = Collect.ReadFromCsv(text);
-            Console.WriteLine("   Model  :     Price    :Account:  Average");
+            Console.BackgroundColor = ConsoleColor.DarkCyan;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("   Model  :     Price    :Account:  Average  ");
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("---------------------------------------------");
+            Console.ResetColor();
             yearOfDate.YearSaperated(salesRowData);
 
         }
@@ -63,7 +69,6 @@ namespace CsvParser_Camille
             }
         }
         /* descending order */
-
         /* make statistics */
         public void MapExtract(List<SalesRowData> salesRowDataList, string year)
         {
@@ -89,8 +94,12 @@ namespace CsvParser_Camille
                entry.Key, AddThousandCommas(Math.Round(entry.Value.price, 2)), AddThousandCommas(entry.Value.account),
                Math.Round((entry.Value.price / entry.Value.account), 2));
             }
-            Console.Write("---------------------------------------------");
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.Write("---------------------------------------------",Console.ForegroundColor);
+            Console.ResetColor();
         }
+
         /* add commas */
         public string AddThousandCommas(double number)
         {
