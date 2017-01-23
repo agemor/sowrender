@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Globalization;
 using System.Threading.Tasks;
+using static System.Linq.Enumerable;
 
 namespace csvParser
 {
@@ -37,7 +38,8 @@ namespace csvParser
         public string status;
         public string zip;
 
-        /* 멤버변수를 초기화해주는 함수 */
+        /* 멤버변수를 초기화해주는 함수
+         * 성공하면 true, 실패하면 false를 반환 */
         public bool SetData(string[] input)
         {
             try
@@ -49,6 +51,7 @@ namespace csvParser
                 countryName = input[4];
                 customerName = input[5];
                 dateMonth = int.Parse(input[6]);
+
                 if (!DateTime.TryParseExact(input[7], "M/d/yy", null,
                                       DateTimeStyles.None, out dateOrder))
                 {
@@ -80,13 +83,37 @@ namespace csvParser
             }
         }
 
-        /* List<SalesRowData>을 정렬한 후, year에 맞는 데이터만 뽑음*/
-        //public List<SalesRowData> CsvSort(int year, List<SalesRowData> salesRowData, bool DesCendingOrder = true)
-        //{
-        //    List<SalesRowData> result = new List<SalesRowData>();
-        //    result = CsvSort(sale)
+        static public List<SalesRowData> SaveCSVData(string[] lines)
+        {
+            /* csv모든 데이터를 저장하는 변수 */
+            List<SalesRowData> salesRowData = new List<SalesRowData>();
 
-        //}
+            /* csv파일을 정리하여 salesRowData에 저장 */
+            for (int i = 1; i < lines.Length; i++)
+            {
+                string[] tmp = lines[i].Split(',');
+                if (tmp.Length > 19)
+                {
+                    tmp[5] = tmp[5] + ',' + tmp[6];
+                    for (int j = 6; j < tmp.Length - 1; j++)
+                    {
+                        tmp[j] = tmp[j + 1];
+                    }
+                    tmp[tmp.Length - 1] = null;
+                    tmp[5] = tmp[5].Substring(1, tmp[5].Length - 2);
+                }
+
+                SalesRowData newRowData = new SalesRowData();
+
+                /* setData가 성공할 때만 추가*/
+                if (newRowData.SetData(tmp))
+                {
+                    salesRowData.Add(newRowData);
+                }
+
+            }
+            return salesRowData;
+        }
 
         /* List<SalesRowData>를 정렬해주는 함수 
            desCendingOrder은 내림차순이면 true, 오름차순이면 false */
@@ -106,6 +133,25 @@ namespace csvParser
             return salesRowData;
         }
 
+        public Dictionary<string, Statistics> mapSort(Dictionary<string, Statistics> input, bool desCendingOrder = true)
+        {
+            int deCendingOrderCheck = 1;
+            if (desCendingOrder)
+            {
+                deCendingOrderCheck = -1;
+            }
+
+            List<KeyValuePair<string, Statistics>> myList = new List<KeyValuePair<string, Statistics>>(input);
+            myList.Sort(
+                delegate (KeyValuePair<string, Statistics> pair1,
+                KeyValuePair<string, Statistics> pair2)
+                {
+                    return pair1.Value.amountUsd.CompareTo(pair2.Value.amountUsd);
+                }
+            );
+            return input;
+        }
+
 
         static public bool YearCheck(int year, SalesRowData s)
         {
@@ -113,21 +159,34 @@ namespace csvParser
         }
 
         /* 모델별 통계 */
-        static public Dictionary<String, double> Bind(List<SalesRowData> s, int year = -1)
+        static public Dictionary<String, Statistics> Bind(List<SalesRowData> s, int year = -1)
         {
-            var map = new Dictionary<String, double>();
+            var map = new Dictionary<String, Statistics>();
+            Statistics statistics = new Statistics();
             for (int i = 0; i < s.Count; i++)
             {
                 if (year == -1 || year == s[i].dateShipped.Year)
                 {
                     if (!map.ContainsKey(s[i].model))
                     {
-                        map.Add(s[i].model, 0);
+                        map.Add(s[i].model, new Statistics());
                     }
-                    map[s[i].model] += s[i].amountUsd;
+                    map[s[i].model].qty += s[i].qty;
+                    map[s[i].model].amountUsd += s[i].amountUsd;
+
+                    //statistics.qty = s[i].qty;
+                    //statistics.amountUsd = s[i].amountUsd;
+                    //map[s[i].model] += statistics; 왜 안되지??????????
                 }
 
             }
+
+            /* 평균 단가 */
+            for (int i = 0; i < map.Count; i++)
+            {
+                map.ElementAt(i).Value.unitPriceAverage = map.ElementAt(i).Value.amountUsd / (double)map.ElementAt(i).Value.qty;
+            }
+
             return map;
         }
 
@@ -155,6 +214,24 @@ namespace csvParser
 
             return sInteger + sDecimal;
 
+
+        }
+
+        static public void PrintMap(Dictionary<string, Statistics> map, string explanation = "")
+        {
+            Console.WriteLine(explanation);
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("{0,18} {1,10} {2,10}", "수량", "총 매출액", "평균단가");
+            for (int i = 0; i < map.Count; i++)
+            {
+                Console.Write("{0,15}", map.ElementAt(i).Key + " : ");
+                Console.WriteLine("{0,5} \t  $ {1,-13:F0} $ {2,-13:F0}", map.ElementAt(i).Value.qty,
+                                  map.ElementAt(i).Value.amountUsd,
+                                  map.ElementAt(i).Value.unitPriceAverage);
+            }
+            Console.WriteLine("---------------------------------------------------");
+
+            Console.WriteLine("Enter을 누르면 메뉴로 넘어갑니다.");
 
         }
 

@@ -8,7 +8,11 @@ namespace csvParser
 {
     class Statistics
     {
-        public int qty;
-        public int amountUsd;
+        /*총 수량*/
+        public int qty = 0;
+        /*총 매출*/
+        public double amountUsd = 0;
+        /*평균 단가*/
+        public double unitPriceAverage = 0;
     }
 }
