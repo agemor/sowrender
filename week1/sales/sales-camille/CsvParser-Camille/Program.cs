@@ -18,8 +18,8 @@ namespace CsvParser_Camille
             string text = File.ReadAllText(@"C:\Users\dsm\Downloads\sample_revenue.csv", Encoding.UTF8);
 
             salesRowData = Collect.ReadFromCsv(text);
-            Console.WriteLine("Model : Prise : Account : Average");
-            Console.WriteLine("--------------------------------");
+            Console.WriteLine("  Model  :     Price     : Account :  Average");
+            Console.WriteLine("-----------------------------------------------");
             yearOfDate.YearSaperated(salesRowData);
 
         }
@@ -27,9 +27,9 @@ namespace CsvParser_Camille
     /**
      * This class is article of Dictionary
      */
-    class PriseAccount
+    class PriceAccount
     {
-        public double prise;
+        public double price;
         public double account;
     }
 
@@ -65,7 +65,7 @@ namespace CsvParser_Camille
         /* make statistics */
         public void MapExtract(List<SalesRowData> salesRowDataList, string year)
         {
-            var map = new Dictionary<string, PriseAccount>();
+            var map = new SortedDictionary<string, PriceAccount>();
 
             for (int i = 1; i < salesRowDataList.Count; i++)
             {
@@ -74,19 +74,19 @@ namespace CsvParser_Camille
                     SalesRowData rowData = salesRowDataList[i];
                     if (!map.ContainsKey(rowData.model))
                     {
-                        map.Add(rowData.model, new PriseAccount());
+                        map.Add(rowData.model, new PriceAccount());
                     }
-                    map[rowData.model].prise += rowData.amountUsd;
+                    map[rowData.model].price += rowData.amountUsd;
                     map[rowData.model].account += rowData.quantity;
                 }
             }
             Console.WriteLine(year);
-            foreach (KeyValuePair<string, PriseAccount> entry in map)
+            foreach (KeyValuePair<string, PriceAccount> entry in map)
             {
-                Console.WriteLine(entry.Key + " : " + AddThousandCommas(entry.Value.prise)+" : "+ AddThousandCommas(entry.Value.account)+" : "+ 
-                                 (entry.Value.prise/entry.Value.account));//string.Format("{0:n0}",entry.Value));
+                Console.WriteLine("{0,-9} : {1,-12} : {2,-5} : {3,-10}", 
+               entry.Key, AddThousandCommas(Math.Round(entry.Value.price,3)), AddThousandCommas(entry.Value.account), Math.Round((entry.Value.price / entry.Value.account),3));//string.Format("{0:n0}",entry.Value));
             }
-            Console.WriteLine("--------------------------------");
+            Console.WriteLine("-----------------------------------------------");
         }
         /* add commas */
         public string AddThousandCommas(double number)
