@@ -16,7 +16,39 @@ OOP의 모든 것
 
 ### Aurender Tycoon
 
-1. 제품 등록 및 관리
+
+
+ProductDataManager.class
+
+​    ProductData.class
+
+​    ProductDataLoader.class
+
+​    ProductDataExporter.class    
+
+
+
+ClientDataManager.class
+
+​    ClientData.class
+
+​    ClientDataLoader.class
+
+​    ClientDataExporter.class
+
+
+
+SalesManager.class
+
+​    Invoice.class
+
+
+
+SalesStatistics.class
+
+
+
+1. 제품 등록 및 관리 
 
    - 모델명
    - 속성
@@ -57,7 +89,7 @@ OOP의 모든 것
 - 총 몇명이 다녀갈건지
 
 
-- 구매 요청 -> (이름, 구매하고 싶은 기기, 수량, 배송지, 연락처)
+- 구매 요청 -> (이름, 구매하고 싶은 기기(색깔, 용량), 수량, 배송지, 연락처)
   ​
 
 ------
