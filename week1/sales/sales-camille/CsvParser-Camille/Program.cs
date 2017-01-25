@@ -21,7 +21,7 @@ namespace CsvParser_Camille
             salesRowData = Collect.ReadFromCsv(text);
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("   Model   :    Price   :Account:  Average   ");
+            Console.WriteLine("   Model   :  Average   :Account:    Price   ");
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("---------------------------------------------");
@@ -70,7 +70,7 @@ namespace CsvParser_Camille
         }
         /* descending order */
         /* make statistics */
-        public void MapExtract(List<SalesRowData> salesRowDataList, string year)
+        public void MapExtract (List<SalesRowData> salesRowDataList, string year)
         {
             var map = new Dictionary<string, PriceAccount>();
 
@@ -91,8 +91,8 @@ namespace CsvParser_Camille
             foreach (KeyValuePair<string, PriceAccount> entry in map.OrderByDescending(num => num.Value.price))
             {
                 Console.WriteLine("{0,10} : {1,10} : {2,5} : {3,10}",
-               entry.Key, AddThousandCommas(Math.Round(entry.Value.price)), AddThousandCommas(entry.Value.account),
-               Math.Round(entry.Value.price / entry.Value.account));
+               entry.Key, Math.Round(entry.Value.price / entry.Value.account), AddThousandCommas(entry.Value.account), AddThousandCommas(Math.Round(entry.Value.price))
+               );
             }
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkCyan;
