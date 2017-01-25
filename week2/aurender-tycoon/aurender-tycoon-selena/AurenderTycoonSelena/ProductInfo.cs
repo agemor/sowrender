@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonSelena
 {
-    class Program
+    class ProductInfo
     {
-        static void Main(string[] args)
-        {
-
-        }
+        private int price;
+        private int stock;
+        private string color;
+        private string storage;
     }
 }
