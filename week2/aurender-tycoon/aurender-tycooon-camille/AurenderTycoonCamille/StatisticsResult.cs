@@ -6,7 +6,38 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonCamille
 {
-    class StatisticsResult
+    /**
+     * This class make statistics with history
+     * 
+     * @date 2017/01/25
+     */
+    class SalesStatistics
     {
+        /* make statistics with transaction history */
+    void ExtractSalesStatistics(Dictionary<string, PurchaseData> history)
+        {
+
+        }
     }
+
+    /**
+     * This class export statistics csv file
+     * 
+     * @date 2017/01/25
+     */
+    class ExportWithCsv
+    {
+        /* make statistics to csv file */
+        void MakeCsv()
+        {
+
+        }
+
+        /* export file */
+        void ExportCsv()
+        {
+
+        }
+    }
+
 }
