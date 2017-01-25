@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonSelena
 {
-    class Program
+    class productManager
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }

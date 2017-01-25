@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonSelena
 {
-    class Program
+    class ReceiptManager
     {
-        static void Main(string[] args)
-        {
+        ReceiptData[] receipt;
 
-        }
+        //구매한 경우, 환불한 경우 처리
     }
 }

@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonSelena
 {
-    class Program
+    class ClientManager
     {
-        static void Main(string[] args)
-        {
-
-        }
+        //Todo: 고객 관리, 
     }
 }
