@@ -8,8 +8,8 @@ namespace AurenderTycoonSelena
 {
     class ReceiptManager
     {
-        ReceiptData[] receipt;
+        public void addReceiptFromDb() { }
 
-        //구매한 경우, 환불한 경우 처리
+        public void deleteReceiptFromDb() { }
     }
 }

@@ -8,5 +8,9 @@ namespace AurenderTycoonSelena
 {
     class productManager
     {
+        public void addStock(string model, ProductInfo product)
+        {
+
+        }
     }
 }

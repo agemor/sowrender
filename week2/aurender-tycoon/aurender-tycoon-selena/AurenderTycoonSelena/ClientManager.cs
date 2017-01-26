@@ -8,6 +8,17 @@ namespace AurenderTycoonSelena
 {
     class ClientManager
     {
-        //Todo: 고객 관리, 
+        // dbmanager 불러와서 고객 정보 저장
+        private DBManager dbManager = new DBManager();
+        //dbManager.createDb(parameter);
+
+        public void saveClientInfo()
+        {
+
+        }
+
+        public void getClientInfo(string clientName)
+        {
+        }
     }
 }
