@@ -8,9 +8,23 @@ namespace AurenderTycoonSelena
 {
     class ProductInfo
     {
-        private int price;
-        private int stock;
-        private string color;
-        private string storage;
+        private string model;
+        private string shortSubstance;
+
+        class Product
+        {
+            private int price;
+            private int stock;
+            private string color;
+            private string storage;
+
+            public Product(int price, int stock, string color, string storage)
+            {
+                this.price = price;
+                this.stock = stock;
+                this.color = color;
+                this.storage = storage;
+            }
+        }
     }
 }

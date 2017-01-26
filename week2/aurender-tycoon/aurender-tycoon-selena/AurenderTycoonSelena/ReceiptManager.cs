@@ -10,6 +10,10 @@ namespace AurenderTycoonSelena
     {
         ReceiptData[] receipt;
 
-        //구매한 경우, 환불한 경우 처리
+        public void addReceiptFromDb( ) {
+            //모든 구매가 끝났을 경우, db로 전송
+        }
+
+        public void deleteReceiptFromDb() { }
     }
 }

@@ -13,6 +13,8 @@ namespace AurenderTycoonSelena
         private string phoneNumber;
         private string shippingAddress;
 
+        private string[] orderNumber;
+
         public ClientInfo(string name, string phoneNumber, string shippingAddress)
         {
             this.name = name;

@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonSelena
 {
-    class productManager
+    class ProductManager
     {
+        //재고 관리
+
+        public void addStock(string model, ProductInfo product)
+        {
+ 
+        }
+
     }
 }
