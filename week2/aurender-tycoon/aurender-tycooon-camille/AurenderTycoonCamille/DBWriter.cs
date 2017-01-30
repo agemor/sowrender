@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace AurenderTycoonCamille
 {
     /**
-     * This class catch exceptions
-     * 
-     * @date 2017/01/25
+     * This interface write data on DB
      */
-    class CatchException
+    public interface DBWriter
     {
+        /* write data on DB */
+        void WriteOnDB();
     }
 }
