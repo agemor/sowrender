@@ -19,7 +19,7 @@ namespace aurenderTycoonErica
 
             /* DB connect */
             DBManager mDBManager = DBManager.GetInstance();
-            mDBManager.Connect("localhost", "sowrender", "root", "");
+            mDBManager.Connect("localhost", "sowrender", "erica", "1234");
 
             /* Read input number */
             string num = Console.ReadLine();
