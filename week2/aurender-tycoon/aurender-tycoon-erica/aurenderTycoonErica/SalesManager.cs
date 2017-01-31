@@ -40,6 +40,7 @@ namespace aurenderTycoonErica
             customerManager.ManageCount(c, actualQuantity);
             if (actualQuantity != 0)
             {
+                Console.WriteLine("Add Reciept");
                 AddReciept(p, c);
             }
         }
@@ -103,6 +104,11 @@ namespace aurenderTycoonErica
         {
             DateTime now = System.DateTime.Now;
             Reciept r = new Reciept(p.ModelName,p.Color, p.Capacity,p.Price,p.Stock,now,c);
+            Console.WriteLine(p.ModelName);
+            Console.WriteLine(p.Color);
+            Console.WriteLine(p.Capacity);
+            Console.WriteLine(p.Price);
+            Console.WriteLine(p.Stock);
             reciept.Add(r);
         }
 

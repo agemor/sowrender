@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 
 namespace aurenderTycoonErica
 {
     class ProductManager
     {
         /* 모든 제품을 저장 */
-        private Dictionary<string, Product> productInfo;
+        private Dictionary<string, Product> productInfo = new Dictionary<string, Product>();
         static protected ProductManager _instance;
 
         /* 캡슐화 */
@@ -21,6 +22,7 @@ namespace aurenderTycoonErica
             if (_instance == null)
             {
                 _instance = new ProductManager();
+                _instance.SetProductInfo();
             }
             return _instance;
         }
@@ -32,6 +34,15 @@ namespace aurenderTycoonErica
             mDBManager.Connect("localhost", "sowrender", "root", "");
 
             string query = "SELECT model_name, model_color, model_capacity, price, stock  FROM sowrender_product";
+
+            DataSet ds = mDBManager.Select(query, "sowrender_product");
+
+            foreach (DataRow r in ds.Tables[0].Rows)
+            {
+                Product p = new Product(r["model_name"].ToString(), "", Convert.ToInt32( r["price"]),Convert.ToInt32( r["stock"]),r["model_color"].ToString(), r["model_capacity"].ToString());
+                ProductInfo[r["model_name"].ToString() + r["model_color"] + r["model_capacity"]] = p;
+                Console.WriteLine("Key: " + r["model_name"].ToString() + r["model_color"] + r["model_capacity"]+"\t price"+p.Price); ;
+            }
 
         }
 
@@ -48,10 +59,12 @@ namespace aurenderTycoonErica
             /* 재고가 떨어졌을 때 */
             if(productDB.Stock < p.Stock)
             {
+                Console.WriteLine("재고가 떨이지지않았는데 왜 일로왔니?");
                 productDB.Stock = 0;
                 return productDB.Stock;
             }
 
+            Console.WriteLine("??????"+p.Stock+"");
             productDB.Stock -= p.Stock;
             return p.Stock;
         }

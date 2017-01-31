@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace aurenderTycoonErica
 {
@@ -26,7 +27,7 @@ namespace aurenderTycoonErica
         }
 
         /* DB 연결 */
-        public void Connect(string server, string database, string uid, string pwd)
+        public bool Connect(string server, string database, string uid, string pwd)
         {
             if (conn == null)
             {
@@ -40,14 +41,27 @@ namespace aurenderTycoonErica
                 catch (Exception e)
                 {
                     Console.WriteLine("DB Error : " + e);
+                    return false;
                 }
             }
+            return true;
 
         }
 
-        /* 제품 추가 (Row 추가) */
-        public void Insert(Product p)
+        /* DB가 connect이 됐는지 체크 */
+        public bool IsConnected()
         {
+            if (conn == null)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        /* 제품 추가 (Row 추가) */
+        public bool Insert(Product p)
+        {
+            if (!IsConnected()) { return false; }
             string query = "INSERT INTO sowrender_product VALUES ";
 
             query += "(NULL,";
@@ -59,10 +73,22 @@ namespace aurenderTycoonErica
 
             Console.WriteLine(query);
 
-
             /* INSERT */
             ExcuteQuery(query);
 
+            return true;
+
+        }
+
+        public DataSet Select(string query, string table)
+        {
+            DataSet ds = new DataSet();
+
+            //MySqlDataAdapter 클래스를 이용하여 비연결 모드로 데이타 가져오기
+            MySqlDataAdapter adpt = new MySqlDataAdapter(query, conn);
+            adpt.Fill(ds, table);
+
+            return ds;
         }
 
         //Todo: 
@@ -74,9 +100,9 @@ namespace aurenderTycoonErica
         }
 
         /* 제품 삭제 (Row 삭제) */
-        public void Delete(Product p)
+        public bool Delete(Product p)
         {
-
+            if (!IsConnected()) { return false; }
             string query = "DELETE FROM sowrender_product WHERE (";
             query += "model_name=" + "'" + p.ModelName + "', ";
             query += "model_color=" + "'" + p.Color + "',";
@@ -86,6 +112,7 @@ namespace aurenderTycoonErica
             query += "'" + p.Capacity + "',)";
 
             ExcuteQuery(query);
+            return true;
 
         }
 

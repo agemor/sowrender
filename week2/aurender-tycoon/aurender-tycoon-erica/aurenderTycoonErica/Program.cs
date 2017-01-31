@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.IO;
+using System.Text.RegularExpressions;
+
 
 namespace aurenderTycoonErica
 {
@@ -21,6 +23,11 @@ namespace aurenderTycoonErica
             DBManager mDBManager = DBManager.GetInstance();
             mDBManager.Connect("localhost", "sowrender", "erica", "1234");
 
+            ProductManager productManager = ProductManager.GetInstance();
+            CustomerManager customerManager = CustomerManager.GetInstance();
+            SalesManager salesManager = SalesManager.GetInstance();
+            ProductStatistics productStatistics = ProductStatistics.GetInstance();
+
             /* Read input number */
             string num = Console.ReadLine();
             int n = int.Parse(num);
@@ -29,21 +36,23 @@ namespace aurenderTycoonErica
             for (int i = 1; i < DB_DATA.Length; i++)
             {
                 string[] data = DB_DATA[i].Split(',');
-                Product p = new Product(data[0], "", int.Parse(data[1]), STOCK[i], data[2], data[3]);
+                for(int j=0; j<data.Length; j++)
+                {
+                    Console.Write("**"+data[j] + " ");
+                }
+                Console.WriteLine();
+                Product p = new Product(data[1], "", int.Parse(data[2]), STOCK[i], data[3], data[4]);
 
-               // mDBManager.Insert(p);
+              //  mDBManager.Insert(p);
             }
-
-            ProductManager productManager = ProductManager.GetInstance();
-            CustomerManager customerManager = CustomerManager.GetInstance();
-            SalesManager salesManager = SalesManager.GetInstance();
-            ProductStatistics productStatistics = ProductStatistics.GetInstance();
+            
 
             /* execute */
             for (int i = 0; i < n; i++)
             {
                 string read = Console.ReadLine();
-                string[] input = read.Split('/');
+
+                string[] input = read.Split(new string[] { "), ", ", ", " (" }, StringSplitOptions.RemoveEmptyEntries);
                 int stock;
 
                 /* data filter */
@@ -52,17 +61,25 @@ namespace aurenderTycoonErica
                     stock = 0;
                 }
 
+                for(int j=0; j<input.Length; j++)
+                {
+                    Console.Write("*"+input[j] + "*");
+                }
+                Console.WriteLine();
+
                 /* 이름, 구매하고 싶은 기기(색깔, 용량), 수량, 배송지, 연락처) */
                 Customer customer = new Customer(input[0], input[6], input[5]);
                 Product product = new Product(input[1], input[2], input[3], stock);
-
+                
                 /* 구매 */
-                if(product.Stock>0)
+                if (product.Stock > 0)
                 {
+                    Console.WriteLine("구매");
                     salesManager.Purchase(product, customer);
                 }
                 else/* 환불 */
                 {
+                    Console.WriteLine("환불");
                     salesManager.Refund(product, customer);
                 }
             }

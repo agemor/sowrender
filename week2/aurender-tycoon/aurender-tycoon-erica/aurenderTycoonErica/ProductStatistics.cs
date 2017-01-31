@@ -44,6 +44,7 @@ namespace aurenderTycoonErica
                 file.WriteLine(line);
                 line = "";
 
+                Console.WriteLine("count : " + reciept.Count().ToString());
                 for (int i = 0; i < reciept.Count(); i++)
                 {
                     line += AddQuotationMark(reciept[i].Date.ToString()) + ",";
