@@ -38,15 +38,15 @@ namespace aurenderTycoonErica
         {
             List<Reciept> reciept = SalesManager.GetInstance().Reciept;
             using (System.IO.StreamWriter file =
-    new System.IO.StreamWriter(@"C:\Users\dsm2015\Desktop\소렌더\sowrender\week2\aurender-tycoon\aurender-tycoon-erica\reciept.csv", true))
+    new System.IO.StreamWriter(@"C:\Users\dsm2015\Desktop\소렌더\sowrender\week2\aurender-tycoon\aurender-tycoon-erica\reciept.csv",false,Encoding.UTF8))
             {
                 string line = "Date,model,color,capacity,price,amount,\"customerName\", \"customerPhoneNumber\"";
                 file.WriteLine(line);
                 line = "";
-
-                Console.WriteLine("count : " + reciept.Count().ToString());
+                
                 for (int i = 0; i < reciept.Count(); i++)
                 {
+                    Console.WriteLine(reciept[i].Date.ToString());
                     line += AddQuotationMark(reciept[i].Date.ToString()) + ",";
                     line += AddQuotationMark(reciept[i].ModelName) + ",";
                     line += AddQuotationMark(reciept[i].ModelColor) + ",";
@@ -54,10 +54,10 @@ namespace aurenderTycoonErica
                     line += AddQuotationMark(reciept[i].Price.ToString()) + ",";
                     line += AddQuotationMark(reciept[i].Amount.ToString()) + ",";
                     line += AddQuotationMark(reciept[i].CustomerData.Name) + ",";
-                    line += AddQuotationMark(reciept[i].CustomerData.PhoneNumber) + ",";
+                    line += AddQuotationMark(reciept[i].CustomerData.PhoneNumber) + ",\n";
 
-                    file.WriteLine(line);
                 }
+                file.Write(line);
             }
         }
 
