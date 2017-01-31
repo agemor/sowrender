@@ -70,8 +70,7 @@ namespace aurenderTycoonErica
             query += "'" + p.Capacity + "',";
             query += "" + p.Price + ",";
             query += "" + p.Stock + ");";
-
-            Console.WriteLine(query);
+            
 
             /* INSERT */
             ExcuteQuery(query);
@@ -127,7 +126,6 @@ namespace aurenderTycoonErica
         {
             if (conn == null)
             {
-                Console.WriteLine("DB not connect");
                 return;
             }
 
