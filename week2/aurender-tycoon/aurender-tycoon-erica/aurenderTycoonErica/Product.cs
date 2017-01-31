@@ -25,7 +25,7 @@ namespace aurenderTycoonErica
         public int Stock
         {
             get { return this.stock; }
-            set { if (value >= 0) { this.stock = value; } }
+            set { { this.stock = value; } }
         }
         public string Color { get { return this.color; } }
         public string Capacity { get { return this.capacity; } }

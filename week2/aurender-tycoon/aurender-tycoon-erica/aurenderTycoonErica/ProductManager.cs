@@ -41,32 +41,41 @@ namespace aurenderTycoonErica
             {
                 Product p = new Product(r["model_name"].ToString(), "", Convert.ToInt32( r["price"]),Convert.ToInt32( r["stock"]),r["model_color"].ToString(), r["model_capacity"].ToString());
                 ProductInfo[r["model_name"].ToString() + r["model_color"] + r["model_capacity"]] = p;
-                Console.WriteLine("Key: " + r["model_name"].ToString() + r["model_color"] + r["model_capacity"]+"\t price"+p.Price); ;
+                
             }
 
         }
 
         /* 재고 관리
          * int는 재고에서 살 수 있는 수를 반환(재고가 모자른 경우)
-         * p.stock이 -일 땐 구매
-         * p.stock이 +일 땐 환불 */
+         * p.stock이 +일 땐 구매
+         * p.stock이 -일 땐 환불 */
         public int ManageStock(Product p)
         {
             string key = p.ModelName + p.Color + p.Capacity;
             Product productDB = new Product();
             productInfo.TryGetValue(key, out productDB);
 
-            /* 재고가 떨어졌을 때 */
-            if(productDB.Stock < p.Stock)
+            /* 구매 */
+            if (p.Stock > 0)
             {
-                Console.WriteLine("재고가 떨이지지않았는데 왜 일로왔니?");
-                productDB.Stock = 0;
-                return productDB.Stock;
+                /* 재고가 떨어졌을 때 */
+                if(productDB.Stock < p.Stock)
+                {
+                    int n = productDB.Stock;
+                    productDB.Stock = 0;
+                    return n;
+                }
+            
+                productDB.Stock -= p.Stock;
+                return p.Stock;
             }
-
-            Console.WriteLine("??????"+p.Stock+"");
-            productDB.Stock -= p.Stock;
-            return p.Stock;
+            else /* 환불 */
+            {
+                productDB.Stock += (p.Stock*-1);
+                return 0;
+            }
+            
         }
 
 
