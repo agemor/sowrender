@@ -9,15 +9,15 @@ namespace aurenderTycoonErica
     class SalesManager
     {
         /* 매출 */
-        private int sales=0;
-        private ProductManager product = ProductManager.GetInstance();
-        private CustomerManager customer = CustomerManager.GetInstance();
+        private int sales = 0;
+        private ProductManager productManager = ProductManager.GetInstance();
+        private CustomerManager customerManager = CustomerManager.GetInstance();
 
         /* 싱글톤 */
         static protected SalesManager _instance;
 
         /* 영수증 */
-        private List<Reciept> reciept;
+        private List<Reciept> reciept = new List<aurenderTycoonErica.Reciept>();
         public List<Reciept> Reciept { get { return this.reciept; } }
 
         /* 싱글톤 */
@@ -32,23 +32,27 @@ namespace aurenderTycoonErica
         }
 
         /* 구매가 됐으면 true, 되지 않으면 false 반환 */
-        public Boolean Purchase(Product p, Customer c)
+        public void Purchase(Product p, Customer c)
         {
-            product.
-            //재고가 남아있는지 확인 후
-            //+매출
-            //stock- (산 수량만큼)
-            //손님 판매 수 +
+            /* 실제 살 수 있는 수량 */
+            int actualQuantity = productManager.ManageStock(p);
+            sales += actualQuantity * p.Price;
+            customerManager.ManageCount(c, actualQuantity);
+            if (actualQuantity != 0)
+            {
+                AddReciept(p, c);
+            }
         }
 
         /* 환불이 됐으면 true, 되지 않으면 false 반환 */
         public bool Refund(Product p, Customer c)
         {
-            if (PurchaseCheck(p,c))
+            if (PurchaseCheck(p, c))
             {
-                sales -= p.AttributeList[0].Price;
-                product.ManageStock(p);
-                c.Count += p.AttributeList[0].Stock;
+                sales -= p.Price;
+                int amount = productManager.ManageStock(p);
+                customerManager.ManageCount(c, amount);
+                AddReciept(p, c);
                 return true;
             }
             return false;
@@ -59,7 +63,47 @@ namespace aurenderTycoonErica
          (예전에 구매내역이 있는지 체크)*/
         private bool PurchaseCheck(Product p, Customer c)
         {
+            Customer storedCustomerData = new Customer();
 
+            /* 새로 온 손님인 경우 false*/
+            if (!customerManager.CustomerData.TryGetValue(c.PhoneNumber, out storedCustomerData))
+            {
+                return false;
+            }
+
+            /* 손님이 산 물품갯수보다 환불내역이 더 적으면 구매할 수 없음*/
+            if (storedCustomerData.Count > p.Stock)
+            {
+                return false;
+            }
+
+            int totalCustomerPurchases = 0;
+
+            /* 영수증에서 기록이 있나 살펴봄 */
+            for (int i = reciept.Count - 1; i >= 0; i--)
+            {
+                if (reciept[i].CustomerData.PhoneNumber == storedCustomerData.PhoneNumber
+                    && reciept[i].ModelName == p.ModelName
+                    && reciept[i].ModelColor == p.Color
+                    && reciept[i].Capacity == p.Capacity)
+                {
+                    totalCustomerPurchases += reciept[i].Amount;
+                }
+
+                if (totalCustomerPurchases >= p.Stock)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /* 영수증에 내용 추가 */
+        public void AddReciept(Product p, Customer c)
+        {
+            DateTime now = System.DateTime.Now;
+            Reciept r = new Reciept(p.ModelName,p.Color, p.Capacity,p.Price,p.Stock,now,c);
+            reciept.Add(r);
         }
 
     }

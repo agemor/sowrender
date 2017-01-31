@@ -34,8 +34,8 @@ namespace aurenderTycoonErica
         }
 
         /* 생성자 */
-        Customer() { }
-        Customer(string name, string phoneNumber, string shippingAddress, int count = 0)
+        public Customer() { }
+        public Customer(string name, string phoneNumber, string shippingAddress, int count = 0)
         {
             this.name = name;
             this.phoneNumber = phoneNumber;

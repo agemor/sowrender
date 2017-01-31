@@ -29,5 +29,21 @@ namespace aurenderTycoonErica
         public int Amount { get { return this.amount; } }
         public DateTime Date { get { return this.date; } }
         public Customer CustomerData { get { return this.customerData; } }
+
+        public Reciept()
+        {
+
+        }
+        public Reciept(string modelName, string modelColor, string capacity, int price,
+            int amount, DateTime date, Customer customer)
+        {
+            this.modelName = modelName;
+            this.modelColor = ModelColor;
+            this.capacity = capacity;
+            this.price = price;
+            this.amount = amount;
+            this.date = date;
+            this.customerData = customer;
+        }
     }
 }

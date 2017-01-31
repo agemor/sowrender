@@ -12,7 +12,7 @@ namespace aurenderTycoonErica
         private MySqlConnection conn;
 
         /* 싱글톤 */
-        static  protected DBManager _instance;
+        static protected DBManager _instance;
         protected DBManager() { }
 
         /* 싱글톤에서 객체 생성 */
@@ -26,49 +26,48 @@ namespace aurenderTycoonErica
         }
 
         /* DB 연결 */
-        public void DBConnect(string server, string database, string uid, string pwd)
+        public void Connect(string server, string database, string uid, string pwd)
         {
-            string strConn = "Server=" + server + "Database=" + database + "Uid=" + uid + "Pwd=" + pwd;
-            conn = new MySqlConnection(strConn);
-
-            try
+            if (conn == null)
             {
-                conn.Open();
-            }
-            catch
-            {
-                Console.WriteLine("DB Error : Not Connect");
-            }
-        }
+                string strConn = "Server=" + server + ";Database=" + database + ";Uid=" + uid + ";Pwd=" + pwd + ";";
+                conn = new MySqlConnection(strConn);
 
-        /* 제품 추가 (Row 추가) */
-        public void Add(Product p)
-        {
-            string query = "INSERT INTO sowrender_product VALUES ";
-            for (int i = 0; i < p.AttributeList.Count(); i++)
-            {
-                query += "( null,";
-                query += "'" + p.ModelName + "', ";
-                query += "'" + p.AttributeList[i].Color + "',";
-                query += "'" + p.AttributeList[i].Capacity + "'";
-                query += "'" + p.AttributeList[i].Price + "',";
-                query += "'" + p.AttributeList[i].Stock + "',)";
-
-                /* 여러 value를 insert하기 위해 ,를 붙임 */
-                if (i != p.AttributeList.Count())
+                try
                 {
-                    query += ",";
+                    conn.Open();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("DB Error : " + e);
                 }
             }
 
+        }
+
+        /* 제품 추가 (Row 추가) */
+        public void Insert(Product p)
+        {
+            string query = "INSERT INTO sowrender_product VALUES ";
+
+            query += "(NULL,";
+            query += "'" + p.ModelName + "', ";
+            query += "'" + p.Color + "',";
+            query += "'" + p.Capacity + "',";
+            query += "" + p.Price + ",";
+            query += "" + p.Stock + ");";
+
+            Console.WriteLine(query);
+
+
             /* INSERT */
-            ExcuteQuery("INSERT INTO sowrender_product VALUES" + query);
+            ExcuteQuery(query);
 
         }
 
         //Todo: 
         /* Row 수정 */
-        public void Modify(Product p)
+        public void Update(Product p)
         {
             string query = "UPDATE sowrender_product SET Name='Tim' WHERE Id=2";
             ExcuteQuery(query);
@@ -77,34 +76,21 @@ namespace aurenderTycoonErica
         /* 제품 삭제 (Row 삭제) */
         public void Delete(Product p)
         {
-            /* 속성값이 넘어오지 않을 경우, 모든 제품을 삭제 */
-            if (p.AttributeList.Count() == 0)
-            {
-                string query = "DELETE FROM sowrender_product WHERE ";
-                  query += "model_name=" + p.ModelName;
 
-                ExcuteQuery(query);
-            }
-            else
-            {
-                for (int i = 0; i < p.AttributeList.Count(); i++)
-                {
-                    string query = "DELETE FROM sowrender_product WHERE (";
-                    query += "model_name=" + "'" + p.ModelName + "', ";
-                    query += "model_color=" + "'" + p.AttributeList[i].Color + "',";
-                    query += "model_capacity=" + "'" + p.AttributeList[i].Capacity + "',";
-                    query += "price=" + "'" + p.AttributeList[i].Price + "',";
-                    query += "stock=" + "'" + p.AttributeList[i].Stock + "',";
-                    query += "'" + p.AttributeList[i].Capacity + "',)";
+            string query = "DELETE FROM sowrender_product WHERE (";
+            query += "model_name=" + "'" + p.ModelName + "', ";
+            query += "model_color=" + "'" + p.Color + "',";
+            query += "model_capacity=" + "'" + p.Capacity + "',";
+            query += "price=" + "'" + p.Price + "',";
+            query += "stock=" + "'" + p.Stock + "',";
+            query += "'" + p.Capacity + "',)";
 
-                    ExcuteQuery(query);
-                }
-            }
-          
+            ExcuteQuery(query);
+
         }
 
         /* DB 연결 해제 */
-        public void DBclose()
+        public void close()
         {
             conn.Close();
         }
@@ -129,6 +115,5 @@ namespace aurenderTycoonErica
                 Console.WriteLine("ProductManager.ExcuteQuery Error : " + e);
             }
         }
-
     }
 }

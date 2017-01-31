@@ -14,11 +14,11 @@ namespace aurenderTycoonErica
         /* 자본금 */
         private int capital = 1000000000;
 
-        /* 모델별 통계 */
-        private Dictionary<string, SalesManager> salesAmoungByModel;
+        ///* 모델별 통계 */
+        //private Dictionary<string, SalesManager> salesAmoungByModel;
 
-        /* 전체 판매량 */
-        private List<> toalSalesAmount;
+        ///* 전체 판매량 */
+        //private List<> toalSalesAmount;
 
         /*싱글톤이므로 생성자 보호*/
         protected ProductStatistics() { }

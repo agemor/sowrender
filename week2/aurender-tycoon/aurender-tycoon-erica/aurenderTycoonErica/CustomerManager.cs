@@ -42,6 +42,10 @@ namespace aurenderTycoonErica
             {
                 customerData[phone] = c;
             }
+            else
+            {
+                AddCustomerData(c);
+            }
         }
 
         /* 손님 정보 삭제 */
@@ -52,6 +56,15 @@ namespace aurenderTycoonErica
             {
                 customerData.Remove(phone);
             }
+        }
+
+        /*  */
+        public void ManageCount(Customer c, int calculation)
+        {
+            Customer customerDB = new Customer();
+            CustomerData.TryGetValue(c.PhoneNumber, out customerDB);
+            customerDB.Count += calculation;
+            Modify(c.PhoneNumber, customerDB);
         }
     }
 }
