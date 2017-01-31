@@ -6,25 +6,15 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonSelena
 {
-    class ProductInfo
+    struct ProductInfo
     {
-        private string model;
-        private string shortSubstance;
+        public string model;
+        public uint price;
+        public int stock;
+        public string color;
+        public string storage;
 
-        class Product
-        {
-            private int price;
-            private int stock;
-            private string color;
-            private string storage;
-
-            public Product(int price, int stock, string color, string storage)
-            {
-                this.price = price;
-                this.stock = stock;
-                this.color = color;
-                this.storage = storage;
-            }
-        }
+        /* 안쓰는 데이터.. */
+        public string explain;
     }
 }
