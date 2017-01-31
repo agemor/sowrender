@@ -16,7 +16,8 @@ namespace AurenderTycoonDuke
         }
         private void PrepareAurenderProduct()
         {
-
+            ProductManager productManager = new ProductManager();
+            productManager.MakeProductList();
         }
         private void StartTycoonRoutine()
         {

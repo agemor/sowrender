@@ -28,5 +28,9 @@ namespace AurenderTycoonDuke
                 productList.Add(product.productData, product.productValue);
             }
         }
+        public void SetProductStock()
+        {
+
+        }
     }
 }
