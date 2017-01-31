@@ -30,6 +30,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\..\Downloads\mysql-connector-net-6.9.9-noinstall\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
