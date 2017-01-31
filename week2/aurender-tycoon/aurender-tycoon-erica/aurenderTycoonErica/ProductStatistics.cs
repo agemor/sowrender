@@ -14,10 +14,10 @@ namespace aurenderTycoonErica
         /* 자본금 */
         private int capital = 1000000000;
 
-        ///* 모델별 통계 */
-        //private Dictionary<string, SalesManager> salesAmoungByModel;
+        //* 모델별 통계 */
+        private Dictionary<string, SalesManager> salesAmoungByModel;
 
-        ///* 전체 판매량 */
+        //* 전체 판매량 */
         //private List<> toalSalesAmount;
 
         /*싱글톤이므로 생성자 보호*/
@@ -69,6 +69,36 @@ namespace aurenderTycoonErica
                 return "\"" + str + "\"";
             }
             return str;
+        }
+
+        /* 모델별 통계 */
+        public Dictionary<String, Statistics> Bind(List<Reciept> s, int year = -1)
+        {
+            var map = new Dictionary<String, Statistics>();
+            Statistics statistics = new Statistics();
+            for (int i = 0; i < s.Count; i++)
+            {
+                string key = s[i].ModelName + s[i].ModelColor + s[i].Capacity;
+                if (year == -1 || year == s[i].Date.Year)
+                {
+                    if (!map.ContainsKey(key))
+                    {
+                        map.Add(key, new Statistics(s[i].ModelName,s[i].ModelColor,s[i].Capacity));
+                    }
+                    map[key].amount += s[i].Amount;
+
+                }
+
+            }
+
+            ProductManager pm = ProductManager.GetInstance();
+            /* 매출(sales) 구함 */
+            for (int i = 0; i < map.Count; i++)
+            {
+                string key = map.ElementAt(i).Value.modelName + map.ElementAt(i).Value.color + map.ElementAt(i).Value.capacity;
+                map.ElementAt(i).Value.sales = map.ElementAt(i).Value.amount * pm.ProductInfo[key].Price;
+            }
+            return map;
         }
     }
 }

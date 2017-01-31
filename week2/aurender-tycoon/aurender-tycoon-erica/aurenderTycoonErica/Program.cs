@@ -72,7 +72,27 @@ namespace aurenderTycoonErica
             }
             
             productStatistics.ExportRecieptAsCSV();
+            Dictionary < String, Statistics> bindModel = productStatistics.Bind(salesManager.Reciept);
+            PrintMap(bindModel);
+
             mDBManager.close();
+        }
+
+        static public void PrintMap(Dictionary<string, Statistics> map, string explanation = "")
+        {
+            Console.WriteLine(explanation);
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("{0,25} {1,10}", "수량", "총 매출액");
+            for (int i = 0; i < map.Count; i++)
+            {
+                Console.Write("{0,15}", map.ElementAt(i).Value.modelName+"("+ map.ElementAt(i).Value.color+", "+ map.ElementAt(i).Value.capacity + ") : ");
+                Console.WriteLine("{0,5} \t    {1,-13:0,0} ", map.ElementAt(i).Value.amount,
+                                  map.ElementAt(i).Value.sales);
+            }
+            Console.WriteLine("---------------------------------------------------");
+
+            Console.WriteLine("Enter을 누르면 메뉴로 넘어갑니다.");
+
         }
     }
 }
