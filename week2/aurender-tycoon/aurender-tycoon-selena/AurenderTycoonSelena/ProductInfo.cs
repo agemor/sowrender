@@ -29,7 +29,7 @@ namespace AurenderTycoonSelena
             this.price = uint.Parse(data[2]);
             this.color = data[3];
             this.storage = data[4];
-            this.stock = 0; // stock에 N/A값 들어가있음
+            this.stock = int.Parse(data[5]); // stock에 N/A값 들어가있음
         }
     }
 }
