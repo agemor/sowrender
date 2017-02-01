@@ -39,9 +39,9 @@ namespace aurenderTycoonErica
 
             foreach (DataRow r in ds.Tables[0].Rows)
             {
-                Product p = new Product(r["model_name"].ToString(), "", Convert.ToInt32( r["price"]),Convert.ToInt32( r["stock"]),r["model_color"].ToString(), r["model_capacity"].ToString());
+                Product p = new Product(r["model_name"].ToString(), "", Convert.ToInt32(r["price"]), Convert.ToInt32(r["stock"]), r["model_color"].ToString(), r["model_capacity"].ToString());
                 ProductInfo[r["model_name"].ToString() + r["model_color"] + r["model_capacity"]] = p;
-                
+
             }
 
         }
@@ -54,30 +54,28 @@ namespace aurenderTycoonErica
         {
             string key = p.ModelName + p.Color + p.Capacity;
             Product productDB = new Product();
-            productInfo.TryGetValue(key, out productDB);
-
-            /* 구매 */
-            if (p.Stock > 0)
-            {
-                /* 재고가 떨어졌을 때 */
-                if(productDB.Stock < p.Stock)
+            if (productInfo.TryGetValue(key, out productDB))
+            {   /* 구매 */
+                if (p.Stock > 0)
                 {
-                    int n = productDB.Stock;
-                    productDB.Stock = 0;
-                    return n;
+                    /* 재고가 떨어졌을 때 */
+                    if (productDB.Stock < p.Stock)
+                    {
+                        int n = productDB.Stock;
+                        productDB.Stock = 0;
+                        return n;
+                    }
+
+                    productDB.Stock -= p.Stock;
+                    return p.Stock;
                 }
-            
-                productDB.Stock -= p.Stock;
-                return p.Stock;
+                else /* 환불 */
+                {
+                    productDB.Stock += (p.Stock * -1);
+                    return 0;
+                }
             }
-            else /* 환불 */
-            {
-                productDB.Stock += (p.Stock*-1);
-                return 0;
-            }
-            
+            return 0;
         }
-
-
     }
 }

@@ -34,21 +34,17 @@ namespace aurenderTycoonErica
         /* 구매가 됐으면 true, 되지 않으면 false 반환 */
         public void Purchase(Product p, Customer c)
         {
-            Console.WriteLine("구매");
             /* 실제 살 수 있는 수량 */
             int actualQuantity = productManager.ManageStock(p);
             sales += actualQuantity * p.Price;
             customerManager.ManageCount(c, actualQuantity);
-            if (actualQuantity != 0)
-            {
-                AddReciept(p, c);
-            }
+            p.Stock = actualQuantity;
+            AddReciept(p, c);
         }
 
         /* 환불이 됐으면 true, 되지 않으면 false 반환 */
         public void Refund(Product p, Customer c)
         {
-            Console.WriteLine("환불");
             /* 환불할 수 있는 수량 반환 */
             p.Stock = PossibelRefundAmount(p, c);
                    sales += p.Price * p.Stock;

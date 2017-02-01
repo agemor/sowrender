@@ -39,7 +39,13 @@ namespace aurenderTycoonErica
             this.color = color;
             this.capacity = capacity;
             this.stock = stock;
-            this.price = ProductManager.GetInstance().ProductInfo[modelName + color + capacity].price;
+
+            string key = modelName + color + capacity;
+
+            if (ProductManager.GetInstance().ProductInfo.ContainsKey(key))
+            {
+                this.price = ProductManager.GetInstance().ProductInfo[key].price;
+            }
 
         }
 
