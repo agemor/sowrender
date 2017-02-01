@@ -8,14 +8,14 @@ namespace AurenderTycoonDuke
 {
     class Client
     {
-        public string clientName { get; }
-        public string contactInformation { get; }
-        public string destination { get; }
+        public string ClientName { get; }
+        public string ContactInformation { get; }
+        public string Destination { get; }
         public Client(string clientName, string contactInformation, string destination)
         {
-            this.clientName = clientName;
-            this.contactInformation = contactInformation;
-            this.destination = destination;
+            ClientName = clientName;
+            ContactInformation = contactInformation;
+            Destination = destination;
         }
     }
 }

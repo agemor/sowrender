@@ -6,34 +6,39 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonDuke
 {
-    class Invoice : ChangeAble
+    class Invoice : Changeable
     {
-        public int quantity { get; }
-        public int discountRate { get; }
-        public ProductData productData { get; }
-        public Client customerData { get; }
+        ProductManager productManager = ProductManager.GetInstance();
+        public int Quantity { get; }
+        public int DiscountRate { get; }
+        public ProductData ProductData { get; }
+        public Client Client { get; }
         private Invoice() { }
         public Invoice(string invoiceData)
         {
-            ChangeAble changeAble = new Invoice();
+            Changeable changeable = new Invoice();
             try
             {
                 string[] splitResult = BindInvoiceData(invoiceData);
-                string[] productData = BindInvoiceProductData(splitResult[1]);
-                this.quantity = changeAble.StringToInt(splitResult[2]);
-                this.productData = new ProductData(productData[0], productData[1], productData[2]);
-                this.customerData = new Client(splitResult[0], splitResult[3], splitResult[4]);
+                Quantity = changeable.StringToInt(splitResult[4]);
+                ProductData = new ProductData(splitResult[1].Trim(), splitResult[2].Trim(), splitResult[3].Trim());
+                Client = new Client(splitResult[0].Trim(), splitResult[5].Trim(), splitResult[6].Trim());
             }
             catch
             {
-                Console.WriteLine("Split Invoice Data Error");
-
+                Console.WriteLine("Invoice Data Error ");
+                Quantity = -1;
+                ProductData = new ProductData("-", "-", "-");
+                Client = new Client("-","-","-");
             }
 
         }
         private string[] BindInvoiceData(string invoiceData)
         {
-            string[] splitResult = invoiceData.Split('|');
+            invoiceData = invoiceData.Replace("(", ",");
+            invoiceData = invoiceData.Replace(")", "");
+            //Console.WriteLine(invoiceData);
+            string[] splitResult = invoiceData.Split(',');
             return splitResult;
         }
         private string[] BindInvoiceProductData(string invoiceProductData)
@@ -46,7 +51,7 @@ namespace AurenderTycoonDuke
             splitResult[2] = _secondSplitResult[1].Substring(0, _secondSplitResult[1].Length - 1);
             return splitResult;
         }
-        int ChangeAble.StringToInt(string data)
+        int Changeable.StringToInt(string data)
         {
             int result;
             if (int.TryParse(data, out result))

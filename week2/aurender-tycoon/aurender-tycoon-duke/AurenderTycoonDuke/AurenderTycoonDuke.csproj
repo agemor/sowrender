@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChangeAble.cs" />
+    <Compile Include="Changeable.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="ClientManager.cs" />
     <Compile Include="Invoice.cs" />
@@ -58,8 +58,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Receipt.cs" />
+    <Compile Include="ReceiptManager.cs" />
     <Compile Include="SalesManager.cs" />
-    <Compile Include="SalesStatisticGenerator.cs" />
+    <Compile Include="SalesStatisticsGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

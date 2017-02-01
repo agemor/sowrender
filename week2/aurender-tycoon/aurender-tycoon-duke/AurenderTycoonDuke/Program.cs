@@ -5,36 +5,63 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Data;
+using System.IO;
 
 namespace AurenderTycoonDuke
 {
-    class Program : ChangeAble
+    class Program : Changeable
     {
         static void Main(string[] args)
         {
-           
+            PrepareAurenderProduct();
+            StartTycoonRoutine();
+            Statisics();
+            // A|N10(Black,4TB)|2|B|C
         }
-        private void PrepareAurenderProduct()
+        static void PrepareAurenderProduct()
         {
-            ProductManager productManager = new ProductManager();
+            ProductManager productManager = ProductManager.GetInstance();
             productManager.MakeProductList();
+            
         }
-        private void StartTycoonRoutine()
+        static void StartTycoonRoutine()
         {
-            ChangeAble changeAble = new Program();
+            Changeable changeable = new Program();
+            SalesManager salesManager = new SalesManager();
 
-            int clientCount = changeAble.StringToInt(Console.ReadLine());
-            if(clientCount > 0)
+            string text = File.ReadAllText("output.txt");
+            string[] data = text.Split('\n');
+            int clientCount = changeable.StringToInt(data[0]);
+            for(int i = 0; i < clientCount; i++)
             {
-                SalesManager salesManager = new SalesManager();
-                
-                for (int i = 0; i < clientCount; i++)
+                Console.Write("{0} : ", i + 1);
+                salesManager.ConductInvoice(data[i+1]);
+            }
+            
+            Console.ReadLine();
+          
+        }
+        static void Statisics()
+        {
+            Changeable changeable = new Program();
+            SalesStatisticsGenerator salesStatisticsGenerator = SalesStatisticsGenerator.GetInstance();
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("1.View Statistics By Sales      2.View Sales Volume");
+                Console.WriteLine("3.View Sales Volume By Product  4.Exit");
+                int answer = changeable.StringToInt(Console.ReadLine());
+                switch (answer)
                 {
-                    salesManager.AddInovoice(Console.ReadLine());
+                    case 1:
+                        salesStatisticsGenerator.ViewReceiptBySale();
+                        Console.ReadLine();
+                        break;
+
                 }
             }
         }
-        int ChangeAble.StringToInt(string value)
+        int Changeable.StringToInt(string value)
         {
             int result;
             if (int.TryParse(value, out result))

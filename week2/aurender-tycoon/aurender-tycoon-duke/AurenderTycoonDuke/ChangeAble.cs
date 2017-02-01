@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonDuke
 {
-    interface ChangeAble
+    interface Changeable
     {
         int StringToInt(string value);
     }

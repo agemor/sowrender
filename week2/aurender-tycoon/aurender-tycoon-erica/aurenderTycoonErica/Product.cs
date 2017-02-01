@@ -13,19 +13,19 @@ namespace aurenderTycoonErica
         private string explanation;
 
         /* 제품 가격, 재고, 색깔, 용량 */
-        private int price { get; }
-        private int stock { get; }
-        private string color { get; }
-        private string capacity { get; }
+        private int price;
+        private int stock;
+        private string color;
+        private string capacity;
 
         /* 캡슐화 */
         public string ModelName { get { return this.modelName; } }
-        public string Explanation { get { return this.explanation; } }            /* 캡슐화 */
+        public string Explanation { get { return this.explanation; } }            
         public int Price { get { return this.price; } }
         public int Stock
         {
             get { return this.stock; }
-            set { if (value >= 0) { this.Stock = value; } }
+            set { { this.stock = value; } }
         }
         public string Color { get { return this.color; } }
         public string Capacity { get { return this.capacity; } }
@@ -38,7 +38,15 @@ namespace aurenderTycoonErica
             this.modelName = modelName;
             this.color = color;
             this.capacity = capacity;
-            this.price = ProductManager.GetInstance().ProductInfo[modelName + color + capacity].price;
+            this.stock = stock;
+
+            string key = modelName + color + capacity;
+
+            if (ProductManager.GetInstance().ProductInfo.ContainsKey(key))
+            {
+                this.price = ProductManager.GetInstance().ProductInfo[key].price;
+            }
+
         }
 
         public Product(string modelName, string explanation, int price, int stock, string color, string capacity)

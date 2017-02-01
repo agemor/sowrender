@@ -11,7 +11,7 @@ namespace aurenderTycoonErica
         private static CustomerManager _instance;
 
         /* 전체 손님 정보 */
-        private Dictionary<string, Customer> customerData;
+        private Dictionary<string, Customer> customerData = new Dictionary<string, Customer>();
         public Dictionary<string, Customer> CustomerData { get { return this.customerData; } }
 
         /* 싱글톤은 생성자로 생성하지 않음 */
@@ -58,11 +58,16 @@ namespace aurenderTycoonErica
             }
         }
 
-        /*  */
+        /* 주문횟수 관리 */
         public void ManageCount(Customer c, int calculation)
         {
             Customer customerDB = new Customer();
-            CustomerData.TryGetValue(c.PhoneNumber, out customerDB);
+            if(!CustomerData.TryGetValue(c.PhoneNumber, out customerDB))
+            {
+                AddCustomerData(c);
+                customerDB = c;
+            }
+            
             customerDB.Count += calculation;
             Modify(c.PhoneNumber, customerDB);
         }

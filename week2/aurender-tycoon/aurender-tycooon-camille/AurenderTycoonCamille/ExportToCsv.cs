@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 namespace AurenderTycoon
 {
     /**
-     * This class makes statistics of product amount
+     * This class export statistics with csv file
+     * 
+     * @author  Wonjung Jeong
+     * @date    2017/01/31
      */
-    class Statistics
+    class ExportToCsv
     {
     }
 }

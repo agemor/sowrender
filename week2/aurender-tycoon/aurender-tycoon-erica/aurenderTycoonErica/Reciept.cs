@@ -38,7 +38,7 @@ namespace aurenderTycoonErica
             int amount, DateTime date, Customer customer)
         {
             this.modelName = modelName;
-            this.modelColor = ModelColor;
+            this.modelColor = modelColor;
             this.capacity = capacity;
             this.price = price;
             this.amount = amount;

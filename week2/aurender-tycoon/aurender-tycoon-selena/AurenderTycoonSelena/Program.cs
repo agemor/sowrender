@@ -14,17 +14,48 @@ namespace AurenderTycoonSelena
          * db에 업데이트 되지 않는 에러가 발생하게 된다.
          * 
          */
- 
+
         static void Main(string[] args)
         {
-            DBConnector dbConnector = new DBConnector();
-            dbConnector.Connect();
+            DBManager mDBManager = DBManager.GetInstance();
+            ClientManager mClientManager = ClientManager.GetInstance();
+            ReceiptManager mReceiptManager = ReceiptManager.GetInstance();
+            ProductManager mProductManager = ProductManager.GetInstance();
+            SellingProduct sellingProduct = new SellingProduct();
 
-            DBManager dbManager = new DBManager();
-            //dbManager.SelectFromTable("select * from sowrender_client;");
-           
+            mDBManager.Connect("localhost", "sowrender", "selena", "selena");
 
-            //dbManager.SelectFromTable("sowrender_client", "");
+            mClientManager.StoreClientDataFromDB();
+            mReceiptManager.StoreReceiptDataFromDB();
+
+            mProductManager.SetData();
+
+            //mDBManager.ExecuteQuery("insert into sowrender_client values('c4', 'aa', '01', '1a');");
+            //mClientManager.StoreClientDataFromDB();
+
+            /* clientCount : 구매 고객의 수 */
+            int clientCount = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < clientCount; i++)
+            {
+                /* count : 고객이 입력한 데이터에서 수량을 반환*/
+                int count = sellingProduct.ManufactureInputData(Console.ReadLine());
+
+
+                /* count가 1 이상인 경우, 고객이 구매를 요청했을 때 */
+                if (count > 0)
+                {
+                    sellingProduct.checkAvailableData(mProductManager.GetProductData());
+                }
+
+                /* count가 -1 이하인 경우, 고객이 환불을 요청했을 때 */
+                else if (count < 0)
+                {
+                    sellingProduct.refundProduct();
+                }
+
+            }
+
         }
     }
 }
