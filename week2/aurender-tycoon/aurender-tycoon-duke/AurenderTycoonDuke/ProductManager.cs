@@ -72,11 +72,10 @@ namespace AurenderTycoonDuke
                     productData.Capacity.Equals(data.Key.Capacity, StringComparison.Ordinal))
                 {
                     data.Value.Stock -= quantity;
-
-                    Console.WriteLine(data.Value.Stock);
                 }
-                    
             }
+
+            Console.WriteLine("OK");
         }        
         int Changeable.StringToInt(string value)
         {

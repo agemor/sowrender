@@ -37,8 +37,8 @@ namespace AurenderTycoonDuke
                 Console.Write("{0} : ", i + 1);
                 salesManager.ConductInvoice(data[i+1]);
             }
-
-            System.Threading.Thread.Sleep(1000);
+            
+            Console.ReadLine();
           
         }
         static void Statisics()
@@ -55,7 +55,7 @@ namespace AurenderTycoonDuke
                 {
                     case 1:
                         salesStatisticsGenerator.ViewReceiptBySale();
-                        System.Threading.Thread.Sleep(3000);
+                        Console.ReadLine();
                         break;
 
                 }

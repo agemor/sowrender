@@ -23,18 +23,24 @@ namespace AurenderTycoonDuke
 
         public void AddReceipt(Invoice invoice,int Quantity)
         {
-            if(receiptList.Keys.Count != 0)
+            int check = 0;
+            if (receiptList.Keys.Count != 0)
             {
                 foreach (var data in receiptList.Keys.ToList())
                 {
                     //  Console.WriteLine(invoice.ProductData.ModelName + "|" + data.ProductData.ModelName);
                     if (data.Equal(invoice))
+                    {
                         receiptList[data] += Quantity;
+                        check = 1;
+                    }
                     else
-                        receiptList.Add(new Receipt(invoice), invoice.Quantity);
+                        check = 0;
                 }
             }
             else
+                check = 0;
+            if(check == 0)
                 receiptList.Add(new Receipt(invoice), invoice.Quantity);
         }
         public int CheckReceiptAndStock(Invoice invoice)
@@ -44,8 +50,6 @@ namespace AurenderTycoonDuke
             {
                 if(data.Key.Equal(invoice))
                     result = data.Value;
-
-                Console.WriteLine(result);
             }
             return result;
         }
