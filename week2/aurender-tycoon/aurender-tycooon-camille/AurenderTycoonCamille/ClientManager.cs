@@ -4,38 +4,43 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
+using System.Data;
 
-namespace AurenderTycoonCamille
+namespace AurenderTycoon
 {
     /**
-     * This class manage client data
+     * This class manage client info
+     * check the client history exist or not
+     * if not, add new client data in dictionary
+     * 
+     * @date    2017/01/31
      */
-    class ClientManager //: DBReader, DBWriter
+    class ClientManager : DBManager
     {
-        /* check whether entered client is exist or not */
-        bool ListCheck()//bool DBReader.ListCheck()
-        {
-            bool isClientExist = true;
-            return isClientExist;
-        }
+        Dictionary<ClientData, string> clientMap = new Dictionary<ClientData, string>();
 
-        /* add new client data on DB */
-        /*void DBWriter.WriteOnDB()
+        /* read client data at DB */
+        new public static void ReadDB()
         {
-        }*/
+            string strConn = "Server = localhost;Database = sowrender;uid=camille'Pwd=9210wonwjd;";
+            MySqlConnection scon;
 
-        /* read data in DB & return client_id and discount */
-        public ReturnData ReadDB(string table)//ReturnData DBReader.ReadDB(string table)
-        {
-            ReturnData clientData = new ReturnData();
-            string strConn = "Server = localhost;Database=test;uid=camille'Pwd=9210wonwjd;";
-
-            using (MySqlConnection conn = new MySqlConnection(strConn))
+            using (scon = new MySqlConnection(strConn))
             {
-                conn.Open();
-                Console.WriteLine("실화냐?....;");
+                scon.Open();
+                string sql = "SELECT * FROM client";
+
+                MySqlCommand cmd = new MySqlCommand(sql, scon);
+                MySqlDataReader dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    ClientData clientData = new ClientData(dr);
+                    clientMap.Add(clientData, Convert.ToString(dr["client_address"]));
+                }
+
+                dr.Close();
             }
-            return clientData;
         }
     }
 }

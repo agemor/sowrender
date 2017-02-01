@@ -4,17 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AurenderTycoonCamille
+namespace AurenderTycoon
 {
     /**
-     * This class write data at Receipt table
+     * This class is get list of receipt
      */
-    class Receipt : DBWriter
+    class Receipt
     {
-        /* write data at receipt */
-        void DBWriter.WriteOnDB()
-        {
-
-        }
     }
 }
