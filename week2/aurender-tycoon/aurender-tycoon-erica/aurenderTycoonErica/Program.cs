@@ -75,6 +75,14 @@ namespace aurenderTycoonErica
             Dictionary < String, Statistics> bindModel = productStatistics.Bind(salesManager.Reciept);
             PrintMap(bindModel);
 
+            /* DB update */
+         /*   for(int i=0; i< productManager.ProductInfo.Count; i++)
+            {
+                Product p = productManager.ProductInfo.ElementAt(i).Value;
+                string where = "model_name='" + p.ModelName + "' " + "model_color='" + p.Color + "'" + "model_capacity='" + p.Capacity+"'";
+                mDBManager.Update("sowrender_product", "stock=" + p.Stock,where);
+            }*/
+
             mDBManager.close();
         }
 

@@ -92,9 +92,10 @@ namespace aurenderTycoonErica
 
         //Todo: 
         /* Row 수정 */
-        public void Update(Product p)
+        public void Update(string table, string set, string where)
         {
-            string query = "UPDATE sowrender_product SET Name='Tim' WHERE Id=2";
+            string query = "UPDATE "+table+" SET "+set+" WHERE "+ where;
+
             ExcuteQuery(query);
         }
 

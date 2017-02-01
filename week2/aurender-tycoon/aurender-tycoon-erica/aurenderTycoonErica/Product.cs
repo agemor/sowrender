@@ -20,7 +20,7 @@ namespace aurenderTycoonErica
 
         /* 캡슐화 */
         public string ModelName { get { return this.modelName; } }
-        public string Explanation { get { return this.explanation; } }            /* 캡슐화 */
+        public string Explanation { get { return this.explanation; } }            
         public int Price { get { return this.price; } }
         public int Stock
         {
