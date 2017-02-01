@@ -34,6 +34,7 @@ namespace aurenderTycoonErica
         /* 구매가 됐으면 true, 되지 않으면 false 반환 */
         public void Purchase(Product p, Customer c)
         {
+            Console.WriteLine("구매");
             /* 실제 살 수 있는 수량 */
             int actualQuantity = productManager.ManageStock(p);
             sales += actualQuantity * p.Price;
@@ -45,36 +46,28 @@ namespace aurenderTycoonErica
         }
 
         /* 환불이 됐으면 true, 되지 않으면 false 반환 */
-        public bool Refund(Product p, Customer c)
+        public void Refund(Product p, Customer c)
         {
-            if (PurchaseCheck(p, c))
-            {
-                sales -= p.Price;
-                int amount = productManager.ManageStock(p);
-                customerManager.ManageCount(c, amount);
-                AddReciept(p, c);
-                return true;
-            }
-            return false;
+            Console.WriteLine("환불");
+            /* 환불할 수 있는 수량 반환 */
+            p.Stock = PossibelRefundAmount(p, c);
+                   sales += p.Price * p.Stock;
+            int amount = productManager.ManageStock(p);
+            customerManager.ManageCount(c, amount);
+            AddReciept(p, c);
 
         }
 
-        /* 환불할 수 있는 대상인지 체크 
+        /* 환불할 수 있는 수량을 리턴
          (예전에 구매내역이 있는지 체크)*/
-        private bool PurchaseCheck(Product p, Customer c)
+        private int PossibelRefundAmount(Product p, Customer c)
         {
             Customer storedCustomerData = new Customer();
 
             /* 새로 온 손님인 경우 false*/
             if (!customerManager.CustomerData.TryGetValue(c.PhoneNumber, out storedCustomerData))
             {
-                return false;
-            }
-
-            /* 손님이 산 물품갯수보다 환불내역이 더 적으면 구매할 수 없음*/
-            if (storedCustomerData.Count > p.Stock)
-            {
-                return false;
+                return 0;
             }
 
             int totalCustomerPurchases = 0;
@@ -90,19 +83,20 @@ namespace aurenderTycoonErica
                     totalCustomerPurchases += reciept[i].Amount;
                 }
 
-                if (totalCustomerPurchases >= p.Stock)
+                if (totalCustomerPurchases >= (p.Stock*-1))
                 {
-                    return true;
+                    return p.Stock;
                 }
             }
-            return false;
+            return totalCustomerPurchases * -1;
         }
 
         /* 영수증에 내용 추가 */
         public void AddReciept(Product p, Customer c)
         {
             DateTime now = System.DateTime.Now;
-            Reciept r = new Reciept(p.ModelName,p.Color, p.Capacity,p.Price,p.Stock,now,c);
+            Reciept r = new Reciept(p.ModelName, p.Color, p.Capacity, p.Price, p.Stock, now, c);
+
             reciept.Add(r);
         }
 
