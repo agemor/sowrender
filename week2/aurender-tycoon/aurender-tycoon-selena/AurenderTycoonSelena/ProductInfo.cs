@@ -6,15 +6,30 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonSelena
 {
-    struct ProductInfo
+    class ProductInfo
     {
-        public string model;
-        public uint price;
-        public int stock;
-        public string color;
-        public string storage;
+        private string model;
+        private uint price;
+        private int stock;
+        private string color;
+        private string storage;
 
-        /* 안쓰는 데이터.. */
-        public string explain;
+        public string Model { get { return this.model; } }
+        public uint Price { get { return this.price; } }
+        public int Stock { get { return this.stock; } set { stock = value; } }
+        public string Color { get { return this.color; } }
+        public string Storage { get { return this.storage; } }
+
+        public ProductInfo(string lines)
+        /* example lines data = "no,model_name,price,finish,storage,stock" */
+        {
+            string[] data = lines.Split(',');
+
+            this.model = data[1];
+            this.price = uint.Parse(data[2]);
+            this.color = data[3];
+            this.storage = data[4];
+            this.stock = 0; // stock에 N/A값 들어가있음
+        }
     }
 }
