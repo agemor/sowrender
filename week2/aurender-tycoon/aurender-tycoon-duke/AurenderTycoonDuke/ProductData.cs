@@ -8,14 +8,14 @@ namespace AurenderTycoonDuke
 {
     class ProductData
     {
-        public string modelName { get; }
-        public string color { get; }
-        public string capacity { get; }
+        public string ModelName { get; }
+        public string Color { get; }
+        public string Capacity { get; }
         public ProductData(string modelName, string color, string capacity)
         {
-            this.modelName = modelName;
-            this.color = color;
-            this.capacity = capacity;
+            ModelName = modelName;
+            Color = color;
+            Capacity = capacity;
         }
     }
 }

@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace AurenderTycoonDuke 
 {
-    class Product : ChangeAble
+    class Product : Changeable
     {
         public ProductData productData { get; }
         public ProductValue productValue { get; }
         public Product(DataRow r)
         {
-            this.productData = new ProductData(Convert.ToString(r["name"]), Convert.ToString(r["name"]), Convert.ToString(r["name"]));
-            this.productValue = new ProductValue(Convert.ToInt32(r["price"]), Convert.ToInt32(r["stock"]),"N/A");
+            this.productData = new ProductData(Convert.ToString(r["name"]), Convert.ToString(r["color"]), Convert.ToString(r["capacity"]));
+            this.productValue = new ProductValue(Convert.ToInt32(r["price"]), Convert.ToInt32(r["stock"]));
         }
-        int ChangeAble.StringToInt(string value)
+        int Changeable.StringToInt(string value)
         {
             int result;
             if (int.TryParse(value, out result))
