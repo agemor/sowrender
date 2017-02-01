@@ -45,13 +45,13 @@ namespace AurenderTycoonSelena
                 /* count가 1 이상인 경우, 고객이 구매를 요청했을 때 */
                 if (count > 0)
                 {
-                    sellingProduct.checkAvailableData(mProductManager.GetProductData());
+                    sellingProduct.CheckAvailableData(mProductManager.GetProductData());
                 }
 
                 /* count가 -1 이하인 경우, 고객이 환불을 요청했을 때 */
                 else if (count < 0)
                 {
-                    sellingProduct.refundProduct();
+                    sellingProduct.RefundProduct();
                 }
 
             }

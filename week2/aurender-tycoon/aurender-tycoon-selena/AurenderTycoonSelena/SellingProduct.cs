@@ -29,7 +29,7 @@ namespace AurenderTycoonSelena
     
         /* 판매 과정 1번 - 실제로 데이터가 있는지 있다면 재고가 있는지 검사 */
         /* data parameter input example : model,color,storage */
-        public void checkAvailableData(ProductInfo[] p)
+        public void CheckAvailableData(ProductInfo[] p)
         {
             int index = 0;
             for(; index < data.Length; index++)
@@ -42,11 +42,11 @@ namespace AurenderTycoonSelena
             }
 
             if(p[index].Stock > int.Parse(data[4]))
-                sellProduct();
+                SellProduct();
         }
 
         /* 환불 */
-        public void refundProduct()
+        public void RefundProduct()
         {
             /**
              * 고객의 정보(핸드폰 번호로 검색)해서 있는지 확인 (F -> return;)
@@ -60,7 +60,7 @@ namespace AurenderTycoonSelena
              */
         }
 
-        public void sellProduct()
+        public void SellProduct()
         {
             bool isSuccess = false;
 

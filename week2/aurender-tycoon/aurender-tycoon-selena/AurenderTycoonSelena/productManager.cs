@@ -29,7 +29,7 @@ namespace AurenderTycoonSelena
 
         private ProductInfo[] product = new ProductInfo[12];
 
-        //사용 용도 : 판매 후, 초반 재고 채워넣기
+       
         public bool ManageStock(string model, string color, string storage, int stock)
         {
             for (int i = 0; i < product.Length; i++)
