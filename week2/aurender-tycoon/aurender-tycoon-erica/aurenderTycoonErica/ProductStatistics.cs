@@ -14,12 +14,6 @@ namespace aurenderTycoonErica
         /* 자본금 */
         private int capital = 1000000000;
 
-        //* 모델별 통계 */
-        private Dictionary<string, SalesManager> salesAmoungByModel;
-
-        //* 전체 판매량 */
-        //private List<> toalSalesAmount;
-
         /*싱글톤이므로 생성자 보호*/
         protected ProductStatistics() { }
 
@@ -38,15 +32,14 @@ namespace aurenderTycoonErica
         {
             List<Reciept> reciept = SalesManager.GetInstance().Reciept;
             using (System.IO.StreamWriter file =
-    new System.IO.StreamWriter(@"C:\Users\dsm2015\Desktop\소렌더\sowrender\week2\aurender-tycoon\aurender-tycoon-erica\reciept.csv",false,Encoding.UTF8))
+    new System.IO.StreamWriter(@"C:\Users\dsm2015\Desktop\소렌더\sowrender\week2\aurender-tycoon\aurender-tycoon-erica\reciept.csv", false, Encoding.UTF8))
             {
                 string line = "Date,model,color,capacity,price,amount,\"customerName\", \"customerPhoneNumber\"";
                 file.WriteLine(line);
                 line = "";
-                
+
                 for (int i = 0; i < reciept.Count(); i++)
                 {
-                    Console.WriteLine(reciept[i].Date.ToString());
                     line += AddQuotationMark(reciept[i].Date.ToString()) + ",";
                     line += AddQuotationMark(reciept[i].ModelName) + ",";
                     line += AddQuotationMark(reciept[i].ModelColor) + ",";
@@ -83,7 +76,7 @@ namespace aurenderTycoonErica
                 {
                     if (!map.ContainsKey(key))
                     {
-                        map.Add(key, new Statistics(s[i].ModelName,s[i].ModelColor,s[i].Capacity));
+                        map.Add(key, new Statistics(s[i].ModelName, s[i].ModelColor, s[i].Capacity));
                     }
                     map[key].amount += s[i].Amount;
 
@@ -96,9 +89,19 @@ namespace aurenderTycoonErica
             for (int i = 0; i < map.Count; i++)
             {
                 string key = map.ElementAt(i).Value.modelName + map.ElementAt(i).Value.color + map.ElementAt(i).Value.capacity;
-                map.ElementAt(i).Value.sales = map.ElementAt(i).Value.amount * pm.ProductInfo[key].Price;
+                if (pm.ProductInfo.ContainsKey(key))
+                {
+                    map.ElementAt(i).Value.sales = map.ElementAt(i).Value.amount * pm.ProductInfo[key].Price;
+                }
+
             }
             return map;
         }
     }
+
+    /* 단골손님 리스트 */
+    /*public List<Customer> RegularCustomerList()
+    {
+
+    }*/
 }
