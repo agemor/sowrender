@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Data;
+using System.IO;
 
 namespace AurenderTycoonDuke
 {
@@ -26,20 +27,19 @@ namespace AurenderTycoonDuke
         static void StartTycoonRoutine()
         {
             Changeable changeable = new Program();
+            SalesManager salesManager = new SalesManager();
 
-            Console.WriteLine("Input today client count");
-            int clientCount = changeable.StringToInt(Console.ReadLine());
-            if(clientCount > 0)
+            string text = File.ReadAllText("output.txt");
+            string[] data = text.Split('\n');
+            int clientCount = changeable.StringToInt(data[0]);
+            for(int i = 0; i < clientCount; i++)
             {
-                SalesManager salesManager = new SalesManager();
-                
-                for (int i = 0; i < clientCount; i++)
-                {
-                    Console.Write("{0} : ", i + 1);
-                    salesManager.ConductInvoice(Console.ReadLine());
-                }
+                Console.Write("{0} : ", i + 1);
+                salesManager.ConductInvoice(data[i+1]);
             }
+
             System.Threading.Thread.Sleep(1000);
+          
         }
         static void Statisics()
         {

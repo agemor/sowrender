@@ -27,7 +27,7 @@ namespace AurenderTycoonDuke
             {
                 foreach (var data in receiptList.Keys.ToList())
                 {
-                    Console.WriteLine(invoice.ProductData.ModelName + "|" + data.ProductData.ModelName);
+                    //  Console.WriteLine(invoice.ProductData.ModelName + "|" + data.ProductData.ModelName);
                     if (data.Equal(invoice))
                         receiptList[data] += Quantity;
                     else
