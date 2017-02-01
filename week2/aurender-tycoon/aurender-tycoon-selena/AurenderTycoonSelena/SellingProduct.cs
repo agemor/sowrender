@@ -17,14 +17,14 @@ namespace AurenderTycoonSelena
         /* Data parameter example : 이름,구매하고 싶은 기기(색깔, 용량), 수량, 배송지, 연락처 */
         public int ManufactureInputData(string inputData)
         {
-            data = inputData.Split(new string[] { "), ", ", ", "(" }, StringSplitOptions.RemoveEmptyEntries);
+            data = inputData.Split(new string[] { "), ", ", ", " (" }, StringSplitOptions.RemoveEmptyEntries);
             //0-고객 이름, 1-모델, 2-색깔, 3-용량, 4-재고, 5-배송지, 6-연락처
 
             client = new ClientInfo(data[0], data[6], data[5]);
             receipt = new ReceiptData();
 
             /* 재고 반환 */
-            return int.Parse(data[5]);
+            return int.Parse(data[4]);
         }
     
         /* 판매 과정 1번 - 실제로 데이터가 있는지 있다면 재고가 있는지 검사 */
@@ -32,7 +32,7 @@ namespace AurenderTycoonSelena
         public void checkAvailableData(ProductInfo[] p)
         {
             int index = 0;
-            for(; index < p.Length; index++)
+            for(; index < data.Length; index++)
             {
                 if(p[index].Model.Equals(data[1]) && p[index].Color.Equals(data[2]) 
                     && p[index].Storage.Equals(data[3]))

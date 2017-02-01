@@ -75,6 +75,7 @@ namespace AurenderTycoonSelena
             for (int i = 1; i < lines.Length; i++)
             {
                 product[i - 1] = new ProductInfo(lines[i]);
+                Console.WriteLine(product[i - 1].Model); // test
             }
 
             /* query문 작성*/
