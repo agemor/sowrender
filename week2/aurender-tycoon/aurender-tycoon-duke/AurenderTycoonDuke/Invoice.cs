@@ -20,10 +20,9 @@ namespace AurenderTycoonDuke
             try
             {
                 string[] splitResult = BindInvoiceData(invoiceData);
-                string[] productData = BindInvoiceProductData(splitResult[1]);
-                Quantity = changeable.StringToInt(splitResult[2]);
-                ProductData = new ProductData(productData[0].Trim(), productData[1].Trim(), productData[2].Trim());
-                Client = new Client(splitResult[0].Trim(), splitResult[3].Trim(), splitResult[4].Trim());
+                Quantity = changeable.StringToInt(splitResult[4]);
+                ProductData = new ProductData(splitResult[1].Trim(), splitResult[2].Trim(), splitResult[3].Trim());
+                Client = new Client(splitResult[0].Trim(), splitResult[5].Trim(), splitResult[6].Trim());
             }
             catch
             {
@@ -36,7 +35,10 @@ namespace AurenderTycoonDuke
         }
         private string[] BindInvoiceData(string invoiceData)
         {
-            string[] splitResult = invoiceData.Split('|');
+            invoiceData = invoiceData.Replace("(", ",");
+            invoiceData = invoiceData.Replace(")", "");
+            //Console.WriteLine(invoiceData);
+            string[] splitResult = invoiceData.Split(',');
             return splitResult;
         }
         private string[] BindInvoiceProductData(string invoiceProductData)
