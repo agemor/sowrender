@@ -5,24 +5,66 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace AurenderTycoonSelena
 {
     class DBManager
     {
-        MySqlCommand cmd;
-        DBConnector connector = new DBConnector();
+        /* 싱글톤 */
+        //-------------------------------------------------------
+
+        private static DBManager _instance;
+
+        protected DBManager() { }
+
+        public static DBManager GetInstance()
+        {
+            /* 한 번도 생성 안된 경우 생성 */
+            if(_instance == null)
+            {
+                _instance = new DBManager();
+            }
+
+            return _instance;
+        }
+
+        //-------------------------------------------------------
+
+        private MySqlConnection connection;
+        private MySqlCommand cmd;
+
+        /* DB와 프로그램 연결 */
+        public void Connect(string server, string databaseName, string userId, string password)
+        {
+            string connectionString = "Server=" + server + ";Database=" + databaseName + ";Uid=" + userId + ";Pwd=" + password + ";";
+            connection = new MySqlConnection(connectionString);
+            try
+            {
+                connection.Open();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
+
+        /* connection close */
+        public void CloseConnect()
+        {
+            if (connection.State == ConnectionState.Open)
+            {
+                connection.Close();
+            }
+        }
 
         /* (tableName) 테이블에  있는 row 개수 가져오기 */
-        public int getRowCount(string tableName)
+        public int GetRowCount(string tableName)
         {
-            string countQuery = "SELECT COUNT(*) FROM" + tableName + ";";
+            string countQuery = "SELECT COUNT(*) FROM " + tableName + ";";
 
-            cmd = new MySqlCommand(countQuery, connector.GetConnect());
+            cmd = new MySqlCommand(countQuery, connection);
             Int32 count = Convert.ToInt32(cmd.ExecuteScalar());
-            // error : row의 개수가 정상적으로 받아와지지 않음
-
-            Console.WriteLine(count); // 확인용, 나중에 삭제해야 함
 
             return count;
         }
@@ -30,24 +72,27 @@ namespace AurenderTycoonSelena
         public string[] SelectFromTable(string tableName, string query, string[] columns)
         {
             /* 모든 row를 저장하기 위한 배열 따라서 row의 개수 받아옴*/
-            int rowCount = getRowCount(tableName);
+            int rowCount = GetRowCount(tableName);
+            Console.WriteLine(rowCount.ToString());
+
             string[] chunks = new string[rowCount]; 
 
-            cmd = new MySqlCommand(query, connector.GetConnect());
+            cmd = new MySqlCommand(query, connection);
             MySqlDataReader reader = cmd.ExecuteReader();
 
-            /* 더이상 read할게 없을 때까지 반복 */
+            /* 더이상 read할 데이터가 없을 때까지 반복 */
             int index = 0;
             while (reader.Read())
             {
-                // Console.WriteLine(reader["client_number"]); // 정상적으로 select 되는지 테스팅 코드
 
                 string test = ""; // 나중에 변수명 바꿀 것
-                for(int i = 0; i < rowCount; i++)
+                for(int i = 0; i < columns.Length - 1; i++)
                 {
                     test += reader[columns[i]] + ", ";
-                    //예외사항 미처리 : 이럴 경우에는 마지막 컬럼에도 ,가 들어가는데 어떻게 해야할까?
                 }
+                test += reader[columns[columns.Length - 1]];
+
+                Console.WriteLine(test); // 테스팅 코드
 
                 chunks[index] = test;
                 index++;
@@ -56,11 +101,12 @@ namespace AurenderTycoonSelena
             reader.Close();
 
             return chunks;
-        } // 이렇게 짰을 경우의 문제점 : 컬럼에 대한 정보를 다 알고있어야함 ;;
+        }
 
+        /* insert, update, delete 처리 가능 */
         public void ExecuteQuery(string query)
         {
-            cmd = new MySqlCommand(query, connector.GetConnect());
+            cmd = new MySqlCommand(query, connection);
             cmd.ExecuteNonQuery();
         }
     }

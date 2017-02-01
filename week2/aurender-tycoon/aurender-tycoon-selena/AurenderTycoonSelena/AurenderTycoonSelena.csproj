@@ -49,7 +49,6 @@
   <ItemGroup>
     <Compile Include="ClientInfo.cs" />
     <Compile Include="ClientManager.cs" />
-    <Compile Include="DBConnector.cs" />
     <Compile Include="DBManager.cs" />
     <Compile Include="ProductInfo.cs" />
     <Compile Include="ProductManager.cs" />

@@ -9,35 +9,44 @@ namespace AurenderTycoonSelena
 {
     class ProductManager
     {
-        private ProductInfo[] product = new ProductInfo[11];
+        /* 싱글톤 */
+        //-------------------------------------------------------
+        private static ProductManager _instance;
 
+        protected ProductManager() { }
 
-        /* ProductInfo product 배열 초기화 */
-        public void Init()
+        public static ProductManager GetInstance()
         {
-            for (int i = 0; i < product.Length; i++)
-                product[i] = new ProductInfo();
+            /* 한 번도 생성 안된 경우 생성 */
+            if (_instance == null)
+            {
+                _instance = new ProductManager();
+            }
+
+            return _instance;
         }
+        //-------------------------------------------------------
 
-        //사용 용도 : 판매 후, 초반 재고 채워넣기 
-        //재고 관리 (data parameter input example : model,color,storage)
-        public void ManageStock(string data, int stock)
+        private ProductInfo[] product = new ProductInfo[12];
+
+        //사용 용도 : 판매 후, 초반 재고 채워넣기
+        public bool ManageStock(string model, string color, string storage, int stock)
         {
-            string[] tmp_data = data.Split(',');
-
             for (int i = 0; i < product.Length; i++)
             {
                 /* 일치한지 검사 */
-                if(product[i].model.Equals(tmp_data[0]) && product[i].color.Equals(tmp_data[0]) 
-                    && product[i].storage.Equals(tmp_data[0]))
+                if (product[i].Model.Equals(model) && product[i].Color.Equals(color)
+                    && product[i].Storage.Equals(storage))
                 {
                     /* stock이 마이너스가 되는 경우 처리 */
-                    if (product[i].stock + stock < 0)
-                        Console.WriteLine("Stock value is minus!");
-                    else
-                        product[i].stock += stock;
+                    if (product[i].Stock - stock < 0)
+                        break;
+
+                    product[i].Stock -= stock;
+                    return true; // 성공
                 }
             }
+            return false;
         }
 
         public void SetData()
@@ -47,10 +56,17 @@ namespace AurenderTycoonSelena
              * 프로그램 최초 실행시 (sowrender - sowrender_product에 데이터가 하나도 존재하지 않을 경우)
              * row 개수를 받아와서 0일 경우 실행
              */
+            DBManager mDBManager = DBManager.GetInstance();
+            int rowDataCount = mDBManager.GetRowCount("sowrender_product");
 
+            /* row의 개수가 0이 아닌 경우 -> 즉, 데이터가 있는 경우 바로 종료*/
+            if (rowDataCount != 0)
+            {
+                return;
+            }
 
             /* 해당 위치에 존재하는 csv 파일 읽어와서 text라는 string 변수에 저장 */
-            string text = File.ReadAllText(@"csv파일 절대 경로", Encoding.UTF8);
+            string text = File.ReadAllText("../../initialData.csv", Encoding.UTF8);
 
             /* 개행문자로 자르기 */
             string[] lines = text.Split('\n');
@@ -58,14 +74,15 @@ namespace AurenderTycoonSelena
             /* 1부터 시작하는 이유 : 0번째 줄에는 컬럼 데이터가 들어가있음 */
             for (int i = 1; i < lines.Length; i++)
             {
-                /* 잘린 데이터 : no,model_name,price,finish,storage,stock */
-                string[] data = lines[i].Split(',');
+                product[i - 1] = new ProductInfo(lines[i]);
+            }
 
-                product[i - 1].model = data[1];
-                product[i - 1].price = uint.Parse(data[2]);
-                product[i - 1].color = data[3];
-                product[i - 1].storage = data[4];
-                product[i - 1].stock = 0; // stock에 N/A값 들어가있음
+            /* query문 작성*/
+            for (int i = 0; i < product.Length; i++)
+            {
+                mDBManager.ExecuteQuery("insert into sowrender_product values('" + product[i].Model + "','"
+                    + product[i].Color + "','" + product[i].Storage + "'," + product[i].Price + ",'"
+                    + product[i].Stock + "');");
             }
         }
 

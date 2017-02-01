@@ -7,39 +7,39 @@ using System.Threading.Tasks;
 namespace AurenderTycoonSelena
 {
     /* 고객 정보 저장 */
-    struct ClientInfo
+    class ClientInfo
     {
-        public string clientNumber;
-        public string name;
-        public string phoneNumber;
-        public string shippingAddress;
+        public string ClientNumber;
+        public string Name;
+        public string PhoneNumber;
+        public string ShippingAddress;
 
+        /* 생성자 */
+        public ClientInfo() { }
         public ClientInfo(string[] data)
         {
-            this.clientNumber = data[0];
-            this.name = data[1];
-            this.phoneNumber = data[2];
-            this.shippingAddress = data[3];
+            this.ClientNumber = data[0];
+            this.Name = data[1];
+            this.PhoneNumber = data[2];
+            this.ShippingAddress = data[3];
         }
 
-        /*public ClientInfo(string name, string phoneNumber, string shippingAddress)
+        public ClientInfo(string dbData)
         {
-            this.name = name;
-            this.phoneNumber = phoneNumber;
-            this.shippingAddress = shippingAddress;
-        }*/
+            string[] data = dbData.Split(',');
 
-        //--------------------------------------------------------------------------------
+            this.ClientNumber = data[0];
+            this.Name = data[1];
+            this.PhoneNumber = data[2];
+            this.ShippingAddress = data[3];
+        }
 
-        /**
-         * 모든 고객 데이터 저장
-         * 이 클래스가 호출 될 때 db에서 모든 고객 데이터를 읽어와 해당 배열에 저장
-         */
-
-        /*private string[] client_number; // unique key
-
-        private string[] name;
-        private string[] phone;
-        private string[] address;*/
+        public ClientInfo(string name, string phone, string address)
+        {
+            this.ClientNumber = "C" + ClientManager.ClientNumber;
+            this.Name = name;
+            this.PhoneNumber = phone;
+            this.ShippingAddress = address;
+        }
     }
 }
