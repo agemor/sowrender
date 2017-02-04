@@ -29,7 +29,7 @@ namespace AurenderTycoonDuke
             Changeable changeable = new Program();
             SalesManager salesManager = new SalesManager();
 
-            string text = File.ReadAllText("output.txt");
+            string text = File.ReadAllText("output_4.txt");
             string[] data = text.Split('\n');
             int clientCount = changeable.StringToInt(data[0]);
             for(int i = 0; i < clientCount; i++)
