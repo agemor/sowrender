@@ -15,11 +15,10 @@ namespace AurenderTycoon
         {
             string purchaseOrder;
             int num;
-            Console.Write("다녀갈 손님의 수를 입력하세요 : ");
-            num = Console.Read();
+            //Console.Write("다녀갈 손님의 수를 입력하세요 : ");
+            //num = Console.ReadLine();
             DBManager dbmanager = new DBManager();
-            
-            for (int i = 0; i < num; i++)
+            while (true)
             {
                 /*이름, 구매하고 싶은 기기, 수량, 배송지, 연락처*/
                 Console.WriteLine("\"이름, 구매할 기기, 색상, 용량, 수량, 배송지, 연락처\"를 입력하세요");
@@ -43,6 +42,8 @@ namespace AurenderTycoon
             else
             {
                 //match each keyword
+                ProductManager product = new ProductManager();
+                product.ReadProduct();
             }
         }
     }

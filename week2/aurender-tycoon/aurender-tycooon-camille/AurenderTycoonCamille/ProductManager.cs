@@ -25,9 +25,9 @@ namespace AurenderTycoon
         }*/
 
         /* read client data at DB */
-        void ReadProduct()
+        public void ReadProduct()
         {
-            string strConn = "Server = localhost;Database = sowrender;uid=camille'Pwd=9210wonwjd;";
+            string strConn = "Server = localhost;Database = sowrender;uid = camille'Pwd = 9210wonwjd;";
             MySqlConnection scon;
 
             using (scon = new MySqlConnection(strConn))
@@ -42,6 +42,7 @@ namespace AurenderTycoon
                 {
                     ProductData productData = new ProductData(dr);
                     productMap.Add(Convert.ToUInt32(dr["model_id"]), productData);
+                    Console.WriteLine(dr);
                 }
 
                 dr.Close();
