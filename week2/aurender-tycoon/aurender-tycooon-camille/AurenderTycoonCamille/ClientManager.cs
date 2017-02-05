@@ -36,7 +36,7 @@ namespace AurenderTycoon
                 while (dr.Read())
                 {
                     ClientData clientData = new ClientData(dr);
-                    clientMap.Add(clientData, Convert.ToString(dr["client_address"]));
+                    //clientMap.Add(clientData, Convert.ToString(dr["client_address"]));
                 }
 
                 dr.Close();

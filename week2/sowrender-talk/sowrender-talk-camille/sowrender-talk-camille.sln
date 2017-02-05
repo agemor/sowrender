@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sowrender-talk-camille", "sowrender-talk-camille\sowrender-talk-camille.csproj", "{84BC06EE-EA37-45CC-9CF5-2559ACCA6A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sowrender-talk-camille-server", "sowrender-talk-camille-server\sowrender-talk-camille-server.csproj", "{6D0EA2D7-32A5-46F1-8710-5FE12632FEFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84BC06EE-EA37-45CC-9CF5-2559ACCA6A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BC06EE-EA37-45CC-9CF5-2559ACCA6A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BC06EE-EA37-45CC-9CF5-2559ACCA6A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BC06EE-EA37-45CC-9CF5-2559ACCA6A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0EA2D7-32A5-46F1-8710-5FE12632FEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0EA2D7-32A5-46F1-8710-5FE12632FEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0EA2D7-32A5-46F1-8710-5FE12632FEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0EA2D7-32A5-46F1-8710-5FE12632FEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
