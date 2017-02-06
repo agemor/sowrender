@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AurenderTycoonCamille
+namespace AurenderTycoon
 {
     /**
-     * This class catch exceptions
-     * 
-     * @date 2017/01/25
+     * This class makes statistics of product amount
      */
-    class CatchException
+    class Statistics
     {
     }
 }

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F02F3248-DE14-4E8E-B7D7-58049A4F5BE0}</ProjectGuid>
+    <ProjectGuid>{E99AA15E-FD65-4F15-965C-4B16FFC39163}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AurenderTycoonCamille</RootNamespace>
-    <AssemblyName>AurenderTycoonCamille</AssemblyName>
+    <RootNamespace>AurenderTycoon</RootNamespace>
+    <AssemblyName>AurenderTycoon</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,12 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CatchException.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="DataHandler.cs" />
+    <Compile Include="ClientData.cs" />
+    <Compile Include="ClientManager.cs" />
+    <Compile Include="DBManager.cs" />
+    <Compile Include="ExportToCsv.cs" />
+    <Compile Include="ProductData.cs" />
+    <Compile Include="ProductManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Purchase.cs" />
+    <Compile Include="Receipt.cs" />
+    <Compile Include="Statistics.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
