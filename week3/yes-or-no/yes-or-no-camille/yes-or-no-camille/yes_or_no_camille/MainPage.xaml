@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:yes_or_no_camille"
              x:Class="yes_or_no_camille.MainPage">
 
-  <StackLayout VerticalOptions="StartAndExpand"
+  <!--StackLayout VerticalOptions="StartAndExpand"
              HorizontalOptions="CenterAndExpand"
              Orientation="Vertical"
              Spacing="15">
@@ -41,6 +41,6 @@
            HorizontalOptions="CenterAndExpand"
            WidthRequest="300"/>
 
-  </StackLayout>
+  </StackLayout-->
   
 </ContentPage>

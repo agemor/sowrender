@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Xamarin.Forms;
+
 
 namespace yes_or_no_camille
 {
@@ -12,8 +12,8 @@ namespace yes_or_no_camille
         public App()
         {
             InitializeComponent();
-
-            MainPage = new yes_or_no_camille.MainPage();
+            MainPage = new NavigationPage(new HomePage());
+            //MainPage = new yes_or_no_camille.MainPage();
             //MainPage = new yes_or_no_camille.SplashPage();
         }
 
