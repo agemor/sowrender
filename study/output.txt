@@ -1,0 +1,1501 @@
+1500
+DONNA, A10 (Silver, 8TB), -2, Mauritania, 65230358
+KAREN, N10 (Black, 2TB), -3, Cook Islands, 71281509
+JESSICA, X100L (Black, 4TB), 2, Suriname, 3305371564
+SARAH, Cast-Fi 7 (Black, 4TB), -1, United Arab Emirates, 78669547
+CAROL, FLOW (Silver, 2TB), -3, New Caledonia, 63893649
+RUTH, Cast-Fi 7 (Silver, 8TB), 2, New Caledonia, 2527223
+DONNA, N100H (Black, 4TB), 1, French Polynesia, 65230358
+MICHELLE, N100H (Silver, 12TB), -3, Togo, 892520735
+MELISSA, N100H (Silver, 2TB), 0, Switzerland, 1666162860
+SANDRA, FLOW (Black, 6TB), -2, Uganda, 1856327245
+PATRICIA, X100L (Silver, 4TB), 2, China, 2026889313
+PATRICIA, X100L (Black, 6TB), -1, Iraq, 2026889313
+MICHELLE, Cast-Fi 7 (Black, 8TB), 4, Paraguay, 892520735
+PATRICIA, W20 (Silver, 12TB), 2, Swaziland, 2026889313
+KIMBERLY, FLOW (Black, 12TB), 2, French West Indies, 197582061
+RY, N100H (Black, 12TB), 4, Denmark, 2631
+RY, X100L (Silver, 12TB), 1, Nicaragua, 2631
+DEBORAH, N100H (Black, 12TB), 4, Czech Republic, 2035460949
+MARIA, A10 (Silver, 12TB), -1, Papua New Guinea, 73128662
+SARAH, X100L (Black, 6TB), 4, Chad, 78669547
+ELIZABETH, X100L (Silver, 4TB), -2, Netherlands Antilles, 2143727456
+SANDRA, A10 (Silver, 12TB), 1, Switzerland, 1856327245
+DOROTHY, W20 (Black, 8TB), 3, Iraq, 1734390947
+DONNA, N100H (Silver, 4TB), 0, Chad, 65230358
+ELIZABETH, W20 (Black, 12TB), -1, Hong Kong, 2143727456
+DONNA, N100H (Black, 2TB), 3, Rwanda, 65230358
+HELEN, FLOW (Black, 6TB), -2, Monaco, 68624344
+PATRICIA, A10 (Silver, 2TB), 0, Seychelles, 2026889313
+CYNTHIA, N10 (Silver, 4TB), -3, St Lucia, 2339159772
+SUSAN, N100H (Black, 4TB), 1, Costa Rica, 79266334
+PATRICIA, X100L (Silver, 6TB), 1, Nigeria, 2026889313
+DONNA, X100L (Black, 12TB), -3, Guernsey, 65230358
+SUSAN, N100H (Black, 8TB), -2, Luxembourg, 79266334
+LAURA, X100L (Black, 12TB), 4, Malaysia, 72208303
+BETTY, X100L (Silver, 8TB), 2, Croatia, 63091382
+RY, FLOW (Silver, 4TB), -3, Gabon, 2631
+HELEN, FLOW (Silver, 12TB), -3, Fiji, 68624344
+SHIRLEY, W20 (Black, 8TB), -3, Aruba, 2779595522
+HELEN, N100H (Silver, 12TB), 4, Montserrat, 68624344
+MICHELLE, X100L (Silver, 4TB), -3, St. Lucia, 892520735
+SHIRLEY, FLOW (Black, 12TB), 1, Turkmenistan, 2779595522
+HELEN, Cast-Fi 7 (Silver, 4TB), 3, Seychelles, 68624344
+JENNIFER, A10 (Black, 6TB), -3, Turkey, 5055424187
+BRENDA, X100L (Black, 12TB), -3, Aruba, 1967385398
+JESSICA, W20 (Black, 8TB), -2, Seychelles, 3305371564
+KIMBERLY, N10 (Black, 8TB), -2, Mauritania, 197582061
+MELISSA, Cast-Fi 7 (Black, 4TB), 3, Moldova, 1666162860
+ELIZABETH, N100H (Black, 6TB), -2, Serbia, 2143727456
+LINDA, FLOW (Black, 2TB), 1, Norway, 72439470
+CAROL, N10 (Black, 6TB), -2, Liberia, 63893649
+PATRICIA, Cast-Fi 7 (Black, 4TB), 0, Switzerland, 2026889313
+LINDA, N100H (Silver, 6TB), 3, Laos, 72439470
+PATRICIA, Cast-Fi 7 (Black, 4TB), -3, Papua New Guinea, 2026889313
+MICHELLE, N100H (Black, 8TB), 2, Bahrain, 892520735
+JENNIFER, Cast-Fi 7 (Black, 6TB), 3, Suriname, 5055424187
+BETTY, N10 (Black, 4TB), 1, Libya, 63091382
+RUTH, FLOW (Black, 2TB), 4, Brazil, 2527223
+RUTH, N10 (Black, 6TB), 1, Estonia, 2527223
+RY, W20 (Black, 4TB), 3, El Salvador, 2631
+MELISSA, A10 (Black, 12TB), -3, Guernsey, 1666162860
+PATRICIA, A10 (Silver, 8TB), 2, Hungary, 2026889313
+KAREN, X100L (Black, 12TB), -3, Panama, 71281509
+JESSICA, W20 (Silver, 2TB), 3, Hungary, 3305371564
+MICHELLE, N100H (Silver, 12TB), 1, Turkmenistan, 892520735
+JESSICA, X100L (Black, 12TB), -2, Morocco, 3305371564
+DONNA, N100H (Silver, 6TB), -1, Turkey, 65230358
+RY, N100H (Silver, 4TB), -2, Lesotho, 2631
+AMY, FLOW (Silver, 6TB), 1, Cuba, 64941
+MICHELLE, W20 (Black, 2TB), 2, France, 892520735
+LAURA, X100L (Silver, 2TB), 3, Madagascar, 72208303
+KIMBERLY, X100L (Black, 2TB), 2, Tanzania, 197582061
+ANGELA, N10 (Black, 4TB), 2, Barbados, 1935113344
+SHIRLEY, Cast-Fi 7 (Black, 6TB), 3, Malta, 2779595522
+MARIA, N10 (Silver, 6TB), -3, Aruba, 73128662
+SHIRLEY, FLOW (Black, 4TB), -1, Costa Rica, 2779595522
+BRENDA, N100H (Silver, 8TB), 0, Cook Islands, 1967385398
+MELISSA, X100L (Silver, 6TB), 1, Estonia, 1666162860
+DONNA, W20 (Black, 2TB), -3, Azerbaijan, 65230358
+MICHELLE, A10 (Silver, 4TB), -3, St Kitts &amp; Nevis, 892520735
+BETTY, W20 (Silver, 4TB), 0, Maldives, 63091382
+MICHELLE, Cast-Fi 7 (Black, 6TB), 1, El Salvador, 892520735
+BETTY, Cast-Fi 7 (Black, 6TB), -3, Morocco, 63091382
+BETTY, FLOW (Black, 12TB), -2, Hungary, 63091382
+LISA, W20 (Black, 8TB), 1, Albania, 2336907
+BETTY, Cast-Fi 7 (Silver, 12TB), 1, Zambia, 63091382
+SANDRA, X100L (Black, 12TB), 4, Tajikistan, 1856327245
+MARIA, FLOW (Silver, 8TB), -3, Syria, 73128662
+SUSAN, Cast-Fi 7 (Black, 8TB), 0, Nigeria, 79266334
+MICHELLE, W20 (Silver, 2TB), 1, Burundi, 892520735
+BRENDA, A10 (Black, 2TB), 1, Saint Pierre &amp; Miquelon, 1967385398
+CAROL, W20 (Silver, 12TB), 0, Suriname, 63893649
+BETTY, FLOW (Silver, 8TB), 4, Cuba, 63091382
+SARAH, W20 (Silver, 8TB), 0, El Salvador, 78669547
+LINDA, Cast-Fi 7 (Silver, 4TB), 3, Cambodia, 72439470
+AMY, A10 (Black, 8TB), -1, Cayman Islands, 64941
+SHARON, A10 (Silver, 4TB), -1, South Africa, 1850236507
+SARAH, FLOW (Black, 8TB), 1, Sweden, 78669547
+BETTY, FLOW (Black, 6TB), -2, Singapore, 63091382
+KAREN, N100H (Black, 6TB), -2, Syria, 71281509
+DEBORAH, W20 (Silver, 8TB), 1, Macau, 2035460949
+MARGARET, Cast-Fi 7 (Black, 2TB), -3, Sudan, 3269182743
+DOROTHY, FLOW (Black, 4TB), 1, Bosnia &amp; Herzegovina, 1734390947
+RUTH, A10 (Black, 6TB), 0, Albania, 2527223
+ANGELA, N10 (Black, 12TB), 0, Finland, 1935113344
+SARAH, N10 (Black, 2TB), 3, Botswana, 78669547
+HELEN, FLOW (Silver, 12TB), -2, Laos, 68624344
+SANDRA, X100L (Black, 2TB), -1, Afghanistan, 1856327245
+PATRICIA, N10 (Silver, 8TB), 1, Zimbabwe, 2026889313
+CAROL, W20 (Black, 2TB), -2, Brunei, 63893649
+HELEN, X100L (Silver, 4TB), 3, Paraguay, 68624344
+DOROTHY, X100L (Silver, 4TB), -2, Liechtenstein, 1734390947
+JENNIFER, A10 (Silver, 4TB), 2, Syria, 5055424187
+JESSICA, N10 (Black, 4TB), 3, Spain, 3305371564
+DONNA, X100L (Black, 12TB), 1, Barbados, 65230358
+CAROL, Cast-Fi 7 (Black, 4TB), 0, Bahrain, 63893649
+JESSICA, X100L (Black, 2TB), -3, Iraq, 3305371564
+MELISSA, W20 (Silver, 12TB), 2, Bosnia &amp; Herzegovina, 1666162860
+KAREN, N100H (Black, 12TB), 2, New Zealand, 71281509
+MARIA, W20 (Silver, 6TB), -3, Zimbabwe, 73128662
+DEBORAH, N10 (Silver, 2TB), -3, Bulgaria, 2035460949
+MICHELLE, N10 (Silver, 12TB), 2, Philippines, 892520735
+DOROTHY, Cast-Fi 7 (Black, 12TB), 0, Montserrat, 1734390947
+BETTY, X100L (Black, 8TB), 1, Kenya, 63091382
+SUSAN, N10 (Silver, 8TB), -2, Papua New Guinea, 79266334
+MICHELLE, N100H (Silver, 6TB), 0, Moldova, 892520735
+LINDA, N100H (Silver, 6TB), -3, Cuba, 72439470
+RY, X100L (Black, 6TB), -3, St Vincent, 2631
+BRENDA, N10 (Black, 6TB), 1, Kazakhstan, 1967385398
+KIMBERLY, X100L (Black, 6TB), -3, Guinea, 197582061
+KAREN, Cast-Fi 7 (Silver, 4TB), 0, Cambodia, 71281509
+SHIRLEY, N100H (Silver, 2TB), 1, Suriname, 2779595522
+DOROTHY, FLOW (Black, 4TB), 4, Turkey, 1734390947
+CAROL, N10 (Black, 4TB), 4, Uruguay, 63893649
+PATRICIA, N10 (Black, 4TB), 4, Samoa, 2026889313
+RY, N100H (Silver, 4TB), 4, Greece, 2631
+NANCY, W20 (Black, 6TB), 0, British Virgin Islands, 74048177
+BETTY, A10 (Silver, 4TB), 0, Greece, 63091382
+PATRICIA, A10 (Silver, 12TB), 3, Brunei, 2026889313
+MARIA, X100L (Black, 2TB), 3, Monaco, 73128662
+PATRICIA, Cast-Fi 7 (Silver, 12TB), -2, Romania, 2026889313
+CAROL, Cast-Fi 7 (Black, 2TB), -3, Ethiopia, 63893649
+DOROTHY, W20 (Silver, 2TB), 4, Anguilla, 1734390947
+MELISSA, A10 (Black, 2TB), -2, Tonga, 1666162860
+SHIRLEY, N100H (Silver, 4TB), 2, Burundi, 2779595522
+DEBORAH, N100H (Black, 8TB), 0, Uruguay, 2035460949
+JENNIFER, W20 (Black, 12TB), -3, Suriname, 5055424187
+BETTY, Cast-Fi 7 (Black, 4TB), 1, Armenia, 63091382
+LAURA, Cast-Fi 7 (Black, 6TB), 4, St Lucia, 72208303
+SANDRA, X100L (Silver, 4TB), 2, Tanzania, 1856327245
+DEBORAH, A10 (Silver, 2TB), 2, Argentina, 2035460949
+NANCY, N100H (Silver, 12TB), 3, Papua New Guinea, 74048177
+KIMBERLY, X100L (Silver, 6TB), -1, Qatar, 197582061
+MELISSA, N10 (Black, 2TB), 3, Anguilla, 1666162860
+SANDRA, N10 (Black, 8TB), -2, Egypt, 1856327245
+CYNTHIA, N10 (Silver, 2TB), -1, Estonia, 2339159772
+MELISSA, X100L (Silver, 8TB), -1, Germany, 1666162860
+JENNIFER, A10 (Silver, 6TB), 4, Turkmenistan, 5055424187
+LISA, FLOW (Black, 8TB), 4, Congo, 2336907
+SUSAN, Cast-Fi 7 (Black, 8TB), 1, Angola, 79266334
+LINDA, Cast-Fi 7 (Black, 2TB), -1, Uruguay, 72439470
+CAROL, Cast-Fi 7 (Silver, 6TB), 0, Zimbabwe, 63893649
+RUTH, N100H (Black, 12TB), 4, Cambodia, 2527223
+ELIZABETH, FLOW (Black, 8TB), 3, Malta, 2143727456
+MARIA, W20 (Black, 2TB), -1, Australia, 73128662
+SANDRA, FLOW (Black, 6TB), 1, Portugal, 1856327245
+JESSICA, Cast-Fi 7 (Silver, 4TB), 1, Jamaica, 3305371564
+ANGELA, X100L (Silver, 4TB), -1, Netherlands, 1935113344
+SHIRLEY, X100L (Silver, 8TB), -3, Faroe Islands, 2779595522
+RY, W20 (Silver, 4TB), 0, Ukraine, 2631
+CAROL, W20 (Black, 6TB), -2, Philippines, 63893649
+LISA, FLOW (Silver, 4TB), 2, Peru, 2336907
+DONNA, A10 (Silver, 6TB), -1, Swaziland, 65230358
+MELISSA, X100L (Silver, 4TB), 1, Ecuador, 1666162860
+SHIRLEY, N100H (Silver, 12TB), -3, United Kingdom, 2779595522
+BRENDA, A10 (Black, 12TB), 2, Morocco, 1967385398
+LINDA, A10 (Silver, 6TB), -1, Malawi, 72439470
+MARIA, N100H (Black, 12TB), -1, Guernsey, 73128662
+KIMBERLY, W20 (Silver, 8TB), 0, South Korea, 197582061
+RY, Cast-Fi 7 (Silver, 6TB), 0, Serbia, 2631
+SANDRA, Cast-Fi 7 (Silver, 12TB), 4, Yemen, 1856327245
+BARBARA, W20 (Silver, 8TB), -3, Chile, 3910611679
+LISA, W20 (Silver, 2TB), 0, Papua New Guinea, 2336907
+SANDRA, W20 (Silver, 6TB), -1, Portugal, 1856327245
+CAROL, A10 (Silver, 4TB), 3, Bulgaria, 63893649
+SANDRA, X100L (Black, 12TB), 2, Japan, 1856327245
+JENNIFER, X100L (Silver, 2TB), -3, Timor L'Este, 5055424187
+LAURA, Cast-Fi 7 (Black, 2TB), 1, Slovenia, 72208303
+SARAH, N100H (Silver, 2TB), 1, Maldives, 78669547
+MELISSA, N10 (Black, 8TB), 2, South Africa, 1666162860
+SHIRLEY, X100L (Black, 2TB), -1, Trinidad &amp; Tobago, 2779595522
+RUTH, Cast-Fi 7 (Silver, 12TB), -3, Madagascar, 2527223
+BETTY, Cast-Fi 7 (Silver, 4TB), -2, Tanzania, 63091382
+HELEN, Cast-Fi 7 (Silver, 2TB), -3, Mauritania, 68624344
+CYNTHIA, N10 (Silver, 2TB), -3, Botswana, 2339159772
+MICHELLE, N100H (Black, 2TB), 2, Moldova, 892520735
+RY, W20 (Black, 2TB), 0, Sri Lanka, 2631
+BARBARA, Cast-Fi 7 (Silver, 2TB), 3, Costa Rica, 3910611679
+AMY, X100L (Black, 4TB), 4, Fiji, 64941
+DONNA, N100H (Black, 8TB), 0, Nicaragua, 65230358
+BRENDA, FLOW (Silver, 12TB), 0, Brazil, 1967385398
+JESSICA, X100L (Silver, 2TB), -2, Chad, 3305371564
+MARIA, Cast-Fi 7 (Black, 6TB), 4, Austria, 73128662
+DONNA, FLOW (Silver, 6TB), 0, Reunion, 65230358
+MICHELLE, X100L (Silver, 12TB), 2, Gabon, 892520735
+ELIZABETH, W20 (Black, 6TB), 1, Serbia, 2143727456
+MELISSA, A10 (Black, 8TB), 1, India, 1666162860
+SUSAN, X100L (Silver, 4TB), -2, France, 79266334
+RY, N10 (Silver, 6TB), 0, Taiwan, 2631
+MELISSA, A10 (Black, 8TB), -2, Finland, 1666162860
+MARIA, X100L (Black, 8TB), 0, Bosnia &amp; Herzegovina, 73128662
+PATRICIA, W20 (Silver, 2TB), 2, Antigua &amp; Barbuda, 2026889313
+SUSAN, A10 (Black, 6TB), 2, St Lucia, 79266334
+SUSAN, FLOW (Black, 2TB), 4, Indonesia, 79266334
+LISA, X100L (Silver, 12TB), -3, Togo, 2336907
+BRENDA, N10 (Silver, 12TB), -3, Cuba, 1967385398
+SARAH, N10 (Silver, 6TB), -1, Bangladesh, 78669547
+MELISSA, N100H (Black, 12TB), -1, Laos, 1666162860
+ELIZABETH, FLOW (Black, 4TB), -1, Armenia, 2143727456
+CAROL, A10 (Black, 8TB), 0, Papua New Guinea, 63893649
+MARGARET, Cast-Fi 7 (Black, 12TB), -2, Cuba, 3269182743
+CAROL, X100L (Black, 12TB), 3, Afghanistan, 63893649
+AMY, N10 (Black, 12TB), -3, Saudi Arabia, 64941
+SANDRA, N100H (Black, 4TB), -1, Austria, 1856327245
+SANDRA, A10 (Silver, 12TB), 0, Congo, 1856327245
+BETTY, Cast-Fi 7 (Silver, 12TB), 0, Niger, 63091382
+ANGELA, W20 (Silver, 4TB), 2, Hungary, 1935113344
+SANDRA, N100H (Silver, 6TB), -1, Georgia, 1856327245
+JESSICA, FLOW (Black, 4TB), 1, Djibouti, 3305371564
+DOROTHY, Cast-Fi 7 (Black, 4TB), -2, Slovakia, 1734390947
+HELEN, N100H (Black, 6TB), -1, Syria, 68624344
+HELEN, A10 (Black, 2TB), -3, Guyana, 68624344
+BRENDA, W20 (Black, 6TB), 3, Jamaica, 1967385398
+ELIZABETH, W20 (Black, 6TB), -2, Moldova, 2143727456
+KIMBERLY, X100L (Black, 6TB), 0, Colombia, 197582061
+HELEN, W20 (Black, 12TB), -1, Colombia, 68624344
+SANDRA, A10 (Silver, 8TB), -3, Armenia, 1856327245
+SANDRA, N100H (Silver, 8TB), 3, Namibia, 1856327245
+DOROTHY, FLOW (Black, 12TB), -1, Slovakia, 1734390947
+SANDRA, A10 (Silver, 12TB), 0, Tajikistan, 1856327245
+ELIZABETH, N100H (Silver, 4TB), -2, Guinea Bissau, 2143727456
+JESSICA, W20 (Silver, 2TB), -3, Belgium, 3305371564
+MARGARET, N10 (Black, 2TB), 4, Netherlands, 3269182743
+BRENDA, FLOW (Black, 4TB), -3, Australia, 1967385398
+RY, N10 (Silver, 6TB), 3, French Polynesia, 2631
+KIMBERLY, X100L (Black, 4TB), 2, Puerto Rico, 197582061
+SUSAN, A10 (Silver, 6TB), 2, Mongolia, 79266334
+HELEN, X100L (Black, 12TB), -2, Honduras, 68624344
+CYNTHIA, N10 (Silver, 4TB), -1, Norway, 2339159772
+JENNIFER, FLOW (Black, 8TB), -2, Ukraine, 5055424187
+JENNIFER, N10 (Black, 6TB), -3, Afghanistan, 5055424187
+SHARON, N100H (Black, 4TB), 3, Qatar, 1850236507
+LINDA, Cast-Fi 7 (Silver, 8TB), -3, Lesotho, 72439470
+CYNTHIA, X100L (Black, 2TB), 4, Georgia, 2339159772
+RY, X100L (Black, 6TB), 2, Isle of Man, 2631
+SHARON, X100L (Black, 2TB), -3, Satellite, 1850236507
+NANCY, W20 (Black, 2TB), 0, Ecuador, 74048177
+SHIRLEY, N100H (Black, 12TB), -1, Netherlands Antilles, 2779595522
+DOROTHY, FLOW (Silver, 2TB), 2, Reunion, 1734390947
+MICHELLE, X100L (Silver, 4TB), -2, Belize, 892520735
+DONNA, N100H (Black, 6TB), 0, Guinea Bissau, 65230358
+NANCY, FLOW (Silver, 2TB), 2, Samoa, 74048177
+DEBORAH, A10 (Silver, 4TB), 1, Luxembourg, 2035460949
+RY, A10 (Black, 8TB), 3, Guam, 2631
+ELIZABETH, FLOW (Black, 2TB), -3, Afghanistan, 2143727456
+MARGARET, X100L (Black, 12TB), -1, Nepal, 3269182743
+RUTH, N10 (Silver, 6TB), 0, Armenia, 2527223
+RY, W20 (Black, 12TB), 0, South Africa, 2631
+MARGARET, N10 (Silver, 12TB), 0, Congo, 3269182743
+SHARON, A10 (Silver, 6TB), 0, Turkey, 1850236507
+SHARON, Cast-Fi 7 (Black, 6TB), 1, Japan, 1850236507
+BARBARA, X100L (Black, 2TB), 0, Palestine, 3910611679
+KAREN, FLOW (Silver, 12TB), -3, China, 71281509
+DOROTHY, W20 (Silver, 12TB), 2, Ghana, 1734390947
+MARGARET, X100L (Silver, 12TB), -3, Chad, 3269182743
+AMY, A10 (Silver, 2TB), 0, Reunion, 64941
+SHIRLEY, N10 (Silver, 6TB), 0, Chad, 2779595522
+BARBARA, FLOW (Black, 6TB), 0, Brunei, 3910611679
+KIMBERLY, W20 (Black, 12TB), 0, Cruise Ship, 197582061
+PATRICIA, N10 (Silver, 6TB), -3, Mexico, 2026889313
+CAROL, W20 (Black, 6TB), -2, Madagascar, 63893649
+DOROTHY, N10 (Silver, 4TB), -2, Cuba, 1734390947
+BRENDA, W20 (Black, 12TB), -2, Mauritania, 1967385398
+SARAH, N10 (Silver, 6TB), -1, Guernsey, 78669547
+KAREN, Cast-Fi 7 (Black, 4TB), 3, Pakistan, 71281509
+KIMBERLY, X100L (Black, 4TB), -3, Brazil, 197582061
+SHARON, N10 (Silver, 8TB), 1, Bulgaria, 1850236507
+LAURA, W20 (Black, 4TB), 3, Seychelles, 72208303
+MELISSA, N10 (Black, 12TB), 3, Cyprus, 1666162860
+LISA, FLOW (Black, 6TB), 0, Cook Islands, 2336907
+RUTH, A10 (Silver, 4TB), -1, Turks &amp; Caicos, 2527223
+RUTH, W20 (Silver, 12TB), 2, Anguilla, 2527223
+LISA, N10 (Black, 8TB), 3, Nicaragua, 2336907
+NANCY, N100H (Black, 4TB), -1, Djibouti, 74048177
+ANGELA, W20 (Silver, 2TB), 1, Liberia, 1935113344
+LINDA, FLOW (Black, 2TB), 4, Nigeria, 72439470
+RY, X100L (Silver, 8TB), 0, Qatar, 2631
+SUSAN, FLOW (Black, 12TB), 0, Greenland, 79266334
+SHIRLEY, W20 (Black, 6TB), 1, Jersey, 2779595522
+ELIZABETH, N100H (Black, 2TB), 2, Kenya, 2143727456
+RUTH, X100L (Silver, 12TB), 1, Brazil, 2527223
+SANDRA, N100H (Black, 12TB), 1, Cameroon, 1856327245
+SHIRLEY, X100L (Black, 12TB), -2, New Caledonia, 2779595522
+KIMBERLY, FLOW (Black, 8TB), 4, St Vincent, 197582061
+MELISSA, X100L (Black, 2TB), 1, Bosnia &amp; Herzegovina, 1666162860
+SANDRA, W20 (Silver, 12TB), 0, Austria, 1856327245
+DEBORAH, X100L (Silver, 6TB), 3, Namibia, 2035460949
+KAREN, Cast-Fi 7 (Black, 4TB), 0, Jamaica, 71281509
+AMY, Cast-Fi 7 (Silver, 12TB), 0, New Caledonia, 64941
+PATRICIA, W20 (Black, 2TB), 4, Georgia, 2026889313
+BRENDA, Cast-Fi 7 (Silver, 2TB), 3, Malta, 1967385398
+CAROL, FLOW (Silver, 8TB), -3, Slovenia, 63893649
+KAREN, W20 (Black, 12TB), 4, Andorra, 71281509
+CAROL, N10 (Silver, 8TB), 3, Australia, 63893649
+SARAH, Cast-Fi 7 (Black, 2TB), -3, Puerto Rico, 78669547
+LAURA, Cast-Fi 7 (Black, 12TB), 3, Puerto Rico, 72208303
+MICHELLE, N100H (Silver, 4TB), -3, Cuba, 892520735
+JENNIFER, A10 (Silver, 6TB), 0, Serbia, 5055424187
+DONNA, FLOW (Silver, 2TB), -2, Singapore, 65230358
+KIMBERLY, Cast-Fi 7 (Black, 8TB), 4, Sierra Leone, 197582061
+BRENDA, X100L (Silver, 2TB), -1, Lesotho, 1967385398
+LISA, A10 (Silver, 6TB), 0, Cape Verde, 2336907
+AMY, Cast-Fi 7 (Black, 8TB), 1, Satellite, 64941
+RUTH, N100H (Silver, 6TB), -2, Chile, 2527223
+JENNIFER, FLOW (Black, 8TB), 2, Tanzania, 5055424187
+ELIZABETH, Cast-Fi 7 (Silver, 4TB), -2, Montenegro, 2143727456
+AMY, X100L (Silver, 8TB), -2, Andorra, 64941
+SHARON, W20 (Black, 12TB), 0, Lebanon, 1850236507
+KIMBERLY, Cast-Fi 7 (Silver, 8TB), 4, Faroe Islands, 197582061
+BRENDA, FLOW (Black, 2TB), -1, Barbados, 1967385398
+BRENDA, FLOW (Black, 12TB), 2, China, 1967385398
+PATRICIA, A10 (Black, 12TB), -3, Burkina Faso, 2026889313
+HELEN, X100L (Black, 4TB), 0, South Africa, 68624344
+KIMBERLY, N10 (Black, 2TB), 4, Burundi, 197582061
+LINDA, W20 (Silver, 8TB), 1, Jordan, 72439470
+ANGELA, FLOW (Black, 6TB), 4, United Kingdom, 1935113344
+ELIZABETH, N10 (Black, 12TB), 2, Chad, 2143727456
+LISA, W20 (Silver, 8TB), 2, Madagascar, 2336907
+BETTY, A10 (Black, 12TB), 0, Slovakia, 63091382
+ANGELA, A10 (Black, 8TB), 0, Kyrgyz Republic, 1935113344
+LISA, Cast-Fi 7 (Black, 8TB), -1, Antigua &amp; Barbuda, 2336907
+ELIZABETH, N100H (Black, 4TB), -2, Madagascar, 2143727456
+BARBARA, A10 (Black, 12TB), 2, Finland, 3910611679
+SHARON, Cast-Fi 7 (Silver, 2TB), 2, Equatorial Guinea, 1850236507
+ANGELA, N10 (Black, 12TB), -1, Philippines, 1935113344
+BARBARA, N100H (Silver, 6TB), 3, San Marino, 3910611679
+BRENDA, X100L (Silver, 4TB), 2, United Arab Emirates, 1967385398
+LAURA, W20 (Black, 4TB), -2, Luxembourg, 72208303
+ANGELA, N100H (Silver, 4TB), -3, Fiji, 1935113344
+LISA, X100L (Black, 4TB), 0, Colombia, 2336907
+DEBORAH, N100H (Black, 8TB), -2, Azerbaijan, 2035460949
+SHARON, X100L (Black, 6TB), -2, Netherlands Antilles, 1850236507
+SHIRLEY, N100H (Silver, 12TB), 0, Saint Pierre &amp; Miquelon, 2779595522
+LINDA, Cast-Fi 7 (Silver, 12TB), 1, Montenegro, 72439470
+MICHELLE, Cast-Fi 7 (Silver, 6TB), 2, Colombia, 892520735
+SUSAN, N100H (Black, 12TB), 0, Morocco, 79266334
+JENNIFER, N10 (Black, 6TB), 0, Czech Republic, 5055424187
+DEBORAH, W20 (Black, 4TB), -3, Hong Kong, 2035460949
+RY, A10 (Silver, 4TB), 3, El Salvador, 2631
+KIMBERLY, N100H (Black, 8TB), 0, Laos, 197582061
+RY, FLOW (Black, 8TB), 0, Australia, 2631
+MICHELLE, Cast-Fi 7 (Silver, 6TB), -1, Belize, 892520735
+AMY, N100H (Black, 12TB), 0, Dominica, 64941
+HELEN, N100H (Silver, 2TB), -1, St Lucia, 68624344
+MARGARET, X100L (Silver, 2TB), 3, Uzbekistan, 3269182743
+RY, Cast-Fi 7 (Black, 8TB), 4, Belarus, 2631
+KIMBERLY, W20 (Silver, 12TB), 0, El Salvador, 197582061
+DOROTHY, N10 (Black, 8TB), 1, Albania, 1734390947
+JESSICA, W20 (Black, 12TB), 4, Timor L'Este, 3305371564
+RY, N100H (Silver, 8TB), 2, Nigeria, 2631
+LISA, W20 (Black, 2TB), 3, Morocco, 2336907
+DONNA, N100H (Black, 12TB), 3, Ukraine, 65230358
+SARAH, N10 (Silver, 8TB), -2, Dominican Republic, 78669547
+SARAH, Cast-Fi 7 (Black, 6TB), 2, Reunion, 78669547
+JESSICA, W20 (Silver, 2TB), 0, Puerto Rico, 3305371564
+SHIRLEY, A10 (Black, 12TB), -1, Belgium, 2779595522
+RY, X100L (Black, 2TB), 2, Australia, 2631
+SANDRA, X100L (Black, 2TB), 4, Gibraltar, 1856327245
+SHARON, N10 (Black, 4TB), 0, Yemen, 1850236507
+BARBARA, A10 (Black, 12TB), 0, Bosnia &amp; Herzegovina, 3910611679
+PATRICIA, FLOW (Silver, 8TB), 0, Ecuador, 2026889313
+MICHELLE, N10 (Silver, 12TB), -1, Burundi, 892520735
+SHARON, A10 (Silver, 12TB), 2, China, 1850236507
+CAROL, A10 (Black, 4TB), -2, Laos, 63893649
+CAROL, Cast-Fi 7 (Silver, 6TB), 3, Italy, 63893649
+SHIRLEY, W20 (Black, 4TB), -2, Liechtenstein, 2779595522
+BARBARA, W20 (Black, 8TB), 1, Malawi, 3910611679
+HELEN, A10 (Black, 4TB), 2, British Virgin Islands, 68624344
+KIMBERLY, FLOW (Silver, 4TB), -3, Malta, 197582061
+KAREN, A10 (Silver, 2TB), 1, Guernsey, 71281509
+MARIA, FLOW (Black, 6TB), -3, St Kitts &amp; Nevis, 73128662
+LAURA, Cast-Fi 7 (Black, 12TB), -2, Suriname, 72208303
+SHARON, FLOW (Black, 8TB), 0, Papua New Guinea, 1850236507
+RUTH, W20 (Black, 4TB), -1, Egypt, 2527223
+BETTY, N10 (Black, 12TB), 3, Poland, 63091382
+SHARON, N100H (Black, 2TB), 4, Netherlands Antilles, 1850236507
+LINDA, W20 (Silver, 4TB), 2, Germany, 72439470
+SHIRLEY, Cast-Fi 7 (Silver, 6TB), 1, Mongolia, 2779595522
+JENNIFER, N100H (Silver, 12TB), -2, Taiwan, 5055424187
+NANCY, W20 (Black, 2TB), 4, Equatorial Guinea, 74048177
+SARAH, X100L (Black, 4TB), 3, Iran, 78669547
+MELISSA, N100H (Black, 8TB), -3, Satellite, 1666162860
+RUTH, A10 (Silver, 4TB), -2, Lesotho, 2527223
+LISA, Cast-Fi 7 (Silver, 8TB), -1, Vietnam, 2336907
+KIMBERLY, N10 (Black, 8TB), -2, Papua New Guinea, 197582061
+LAURA, X100L (Silver, 12TB), 0, Turkmenistan, 72208303
+CAROL, X100L (Black, 4TB), 1, Faroe Islands, 63893649
+MARGARET, N10 (Silver, 12TB), -1, Netherlands, 3269182743
+JENNIFER, FLOW (Silver, 6TB), 3, Suriname, 5055424187
+LINDA, A10 (Black, 4TB), 1, Yemen, 72439470
+RUTH, FLOW (Silver, 12TB), -3, Bulgaria, 2527223
+ELIZABETH, Cast-Fi 7 (Silver, 8TB), 4, Montserrat, 2143727456
+KAREN, A10 (Silver, 4TB), 4, Tonga, 71281509
+CYNTHIA, FLOW (Silver, 2TB), 0, Anguilla, 2339159772
+LINDA, FLOW (Silver, 6TB), -1, Norway, 72439470
+BRENDA, X100L (Black, 12TB), 4, Ethiopia, 1967385398
+LISA, Cast-Fi 7 (Black, 2TB), 4, Norway, 2336907
+LISA, Cast-Fi 7 (Silver, 6TB), -2, Malaysia, 2336907
+SANDRA, Cast-Fi 7 (Black, 12TB), 1, Hong Kong, 1856327245
+DEBORAH, W20 (Silver, 2TB), 2, Guinea Bissau, 2035460949
+SUSAN, W20 (Silver, 4TB), -3, Tonga, 79266334
+DOROTHY, Cast-Fi 7 (Black, 12TB), -3, Ghana, 1734390947
+SHIRLEY, A10 (Black, 6TB), -1, Guatemala, 2779595522
+PATRICIA, N10 (Black, 12TB), 1, Tonga, 2026889313
+BRENDA, N10 (Silver, 6TB), 1, India, 1967385398
+SUSAN, A10 (Silver, 4TB), -3, Hong Kong, 79266334
+KIMBERLY, N100H (Black, 8TB), 0, Macau, 197582061
+SUSAN, N10 (Black, 6TB), 1, Albania, 79266334
+KAREN, N100H (Black, 4TB), 1, Germany, 71281509
+ANGELA, Cast-Fi 7 (Black, 2TB), -2, Thailand, 1935113344
+AMY, N100H (Silver, 8TB), 1, Turks &amp; Caicos, 64941
+KIMBERLY, N100H (Black, 8TB), 1, Ireland, 197582061
+KIMBERLY, W20 (Silver, 6TB), 4, Russia, 197582061
+DEBORAH, Cast-Fi 7 (Silver, 2TB), 3, Niger, 2035460949
+LAURA, Cast-Fi 7 (Black, 6TB), 0, Bahamas, 72208303
+CYNTHIA, A10 (Black, 6TB), 0, Taiwan, 2339159772
+CYNTHIA, Cast-Fi 7 (Black, 2TB), 3, French West Indies, 2339159772
+AMY, N100H (Black, 4TB), 2, Uzbekistan, 64941
+DONNA, Cast-Fi 7 (Silver, 6TB), 0, Gibraltar, 65230358
+CYNTHIA, W20 (Silver, 6TB), -2, Cape Verde, 2339159772
+PATRICIA, X100L (Black, 6TB), 2, Portugal, 2026889313
+ANGELA, A10 (Silver, 12TB), 4, Kenya, 1935113344
+CAROL, N100H (Silver, 6TB), 1, Chile, 63893649
+SHIRLEY, Cast-Fi 7 (Black, 2TB), 0, Finland, 2779595522
+SHIRLEY, Cast-Fi 7 (Black, 2TB), -1, Colombia, 2779595522
+BRENDA, N100H (Silver, 6TB), -3, Malaysia, 1967385398
+AMY, N10 (Black, 4TB), 1, South Korea, 64941
+KIMBERLY, A10 (Black, 6TB), 1, Ireland, 197582061
+BARBARA, W20 (Black, 4TB), 1, Gabon, 3910611679
+MARIA, N10 (Black, 8TB), 0, Netherlands, 73128662
+DONNA, N10 (Black, 8TB), -3, Djibouti, 65230358
+SARAH, A10 (Black, 12TB), 4, South Korea, 78669547
+RY, FLOW (Silver, 8TB), -3, Kenya, 2631
+MELISSA, W20 (Silver, 6TB), -1, Kazakhstan, 1666162860
+NANCY, A10 (Silver, 8TB), -2, Netherlands, 74048177
+KAREN, A10 (Silver, 6TB), -1, Cook Islands, 71281509
+SHIRLEY, Cast-Fi 7 (Black, 4TB), 3, Seychelles, 2779595522
+SUSAN, FLOW (Silver, 2TB), -1, Japan, 79266334
+CYNTHIA, A10 (Silver, 4TB), -1, Netherlands, 2339159772
+SANDRA, N100H (Silver, 6TB), 2, Isle of Man, 1856327245
+LISA, W20 (Black, 4TB), -2, Kyrgyz Republic, 2336907
+LINDA, Cast-Fi 7 (Silver, 8TB), 0, Syria, 72439470
+ELIZABETH, W20 (Black, 8TB), 2, Switzerland, 2143727456
+SUSAN, W20 (Black, 2TB), 4, St. Lucia, 79266334
+RY, FLOW (Silver, 2TB), 0, Turkey, 2631
+PATRICIA, A10 (Black, 2TB), 1, Belgium, 2026889313
+SHARON, A10 (Black, 4TB), 3, Bulgaria, 1850236507
+DONNA, N10 (Silver, 6TB), -1, Samoa, 65230358
+BARBARA, N10 (Silver, 4TB), 0, Dominican Republic, 3910611679
+RY, W20 (Black, 4TB), -1, Switzerland, 2631
+BETTY, X100L (Black, 2TB), 3, United Kingdom, 63091382
+SUSAN, W20 (Silver, 12TB), 3, Russia, 79266334
+JESSICA, N100H (Silver, 2TB), -1, Libya, 3305371564
+SANDRA, W20 (Black, 6TB), -3, Egypt, 1856327245
+ANGELA, FLOW (Black, 4TB), 1, Mali, 1935113344
+NANCY, Cast-Fi 7 (Silver, 12TB), -3, Pakistan, 74048177
+SARAH, A10 (Silver, 12TB), 1, Papua New Guinea, 78669547
+RUTH, A10 (Black, 6TB), 2, Serbia, 2527223
+PATRICIA, Cast-Fi 7 (Black, 6TB), -1, Denmark, 2026889313
+MARIA, X100L (Black, 4TB), 0, Panama, 73128662
+SUSAN, N10 (Silver, 8TB), -2, Spain, 79266334
+MARIA, FLOW (Black, 4TB), 1, Uruguay, 73128662
+SHARON, N100H (Black, 12TB), -1, Equatorial Guinea, 1850236507
+MELISSA, Cast-Fi 7 (Silver, 2TB), 4, Vietnam, 1666162860
+SARAH, N10 (Silver, 12TB), -2, Turks &amp; Caicos, 78669547
+ELIZABETH, N100H (Silver, 4TB), 2, Belarus, 2143727456
+SARAH, FLOW (Black, 2TB), 4, Turkmenistan, 78669547
+KAREN, X100L (Silver, 4TB), -3, Rwanda, 71281509
+HELEN, X100L (Silver, 6TB), 0, Uruguay, 68624344
+MICHELLE, Cast-Fi 7 (Black, 8TB), -2, Indonesia, 892520735
+CYNTHIA, X100L (Silver, 2TB), -3, Benin, 2339159772
+SHIRLEY, N10 (Silver, 6TB), 1, Maldives, 2779595522
+HELEN, W20 (Silver, 4TB), 2, Uzbekistan, 68624344
+RY, FLOW (Black, 12TB), 3, Afghanistan, 2631
+KAREN, FLOW (Black, 2TB), 2, Romania, 71281509
+DOROTHY, FLOW (Silver, 6TB), -2, Gambia, 1734390947
+BARBARA, W20 (Silver, 4TB), 0, Montserrat, 3910611679
+BETTY, W20 (Silver, 12TB), 4, Mongolia, 63091382
+MELISSA, N100H (Black, 8TB), -3, Russia, 1666162860
+MELISSA, FLOW (Silver, 8TB), 3, Indonesia, 1666162860
+AMY, FLOW (Black, 2TB), -3, Japan, 64941
+NANCY, W20 (Black, 12TB), 4, Cambodia, 74048177
+DONNA, N10 (Black, 8TB), -2, French West Indies, 65230358
+RY, N10 (Silver, 2TB), 0, Sri Lanka, 2631
+NANCY, A10 (Black, 8TB), 0, Peru, 74048177
+MARIA, FLOW (Silver, 4TB), -1, Russia, 73128662
+KAREN, N10 (Black, 2TB), -3, French West Indies, 71281509
+MICHELLE, N10 (Black, 6TB), 3, Brazil, 892520735
+SARAH, W20 (Black, 4TB), 1, Lebanon, 78669547
+KIMBERLY, A10 (Black, 12TB), 0, French West Indies, 197582061
+DEBORAH, X100L (Black, 6TB), -3, Afghanistan, 2035460949
+PATRICIA, FLOW (Silver, 8TB), -2, Rwanda, 2026889313
+BETTY, W20 (Silver, 2TB), -3, Andorra, 63091382
+SANDRA, Cast-Fi 7 (Black, 4TB), 1, Kenya, 1856327245
+JESSICA, W20 (Black, 6TB), 4, Cook Islands, 3305371564
+JENNIFER, FLOW (Silver, 6TB), 3, Sri Lanka, 5055424187
+ELIZABETH, W20 (Silver, 8TB), -2, Jordan, 2143727456
+LISA, N10 (Black, 4TB), -1, Poland, 2336907
+PATRICIA, N100H (Black, 2TB), -1, Jersey, 2026889313
+AMY, X100L (Silver, 6TB), 0, Malaysia, 64941
+RY, N10 (Silver, 8TB), 4, Mauritania, 2631
+SARAH, Cast-Fi 7 (Black, 2TB), 0, Mexico, 78669547
+NANCY, X100L (Black, 12TB), -2, Haiti, 74048177
+BRENDA, X100L (Black, 2TB), -1, United Arab Emirates, 1967385398
+MELISSA, W20 (Silver, 2TB), -1, Andorra, 1666162860
+NANCY, Cast-Fi 7 (Black, 8TB), -1, Singapore, 74048177
+MELISSA, N10 (Silver, 2TB), -3, Guernsey, 1666162860
+PATRICIA, Cast-Fi 7 (Silver, 4TB), 2, Andorra, 2026889313
+MARGARET, X100L (Silver, 6TB), 0, Greenland, 3269182743
+MELISSA, N10 (Black, 6TB), 4, Yemen, 1666162860
+ANGELA, N100H (Black, 8TB), -2, Bahamas, 1935113344
+SANDRA, FLOW (Black, 6TB), 1, St Lucia, 1856327245
+SANDRA, A10 (Silver, 6TB), 4, Sweden, 1856327245
+LISA, FLOW (Silver, 8TB), 2, Brunei, 2336907
+ANGELA, Cast-Fi 7 (Silver, 4TB), 0, Cote D Ivoire, 1935113344
+MARGARET, A10 (Silver, 6TB), 3, Guam, 3269182743
+LAURA, X100L (Black, 4TB), 1, Bangladesh, 72208303
+LISA, X100L (Silver, 12TB), 0, Togo, 2336907
+BARBARA, A10 (Silver, 6TB), 3, Belarus, 3910611679
+AMY, A10 (Black, 6TB), -2, Equatorial Guinea, 64941
+SARAH, N100H (Black, 4TB), -1, Oman, 78669547
+CYNTHIA, N100H (Black, 4TB), 1, Hungary, 2339159772
+RY, FLOW (Silver, 8TB), 2, Syria, 2631
+SUSAN, A10 (Black, 12TB), -3, Maldives, 79266334
+DONNA, X100L (Silver, 12TB), 4, Guinea, 65230358
+MICHELLE, X100L (Silver, 4TB), -2, Namibia, 892520735
+SHIRLEY, N100H (Black, 6TB), -2, Cuba, 2779595522
+CAROL, N100H (Silver, 2TB), -1, Mozambique, 63893649
+SUSAN, Cast-Fi 7 (Black, 4TB), -2, Anguilla, 79266334
+BRENDA, A10 (Silver, 8TB), 2, New Zealand, 1967385398
+MARGARET, N100H (Black, 2TB), -3, Tunisia, 3269182743
+SARAH, FLOW (Silver, 6TB), -3, Slovenia, 78669547
+LAURA, A10 (Silver, 12TB), 2, Congo, 72208303
+JESSICA, Cast-Fi 7 (Black, 6TB), 0, India, 3305371564
+BETTY, X100L (Black, 2TB), 3, United Arab Emirates, 63091382
+KIMBERLY, A10 (Black, 4TB), -2, Montenegro, 197582061
+MELISSA, Cast-Fi 7 (Silver, 2TB), 1, Panama, 1666162860
+HELEN, N10 (Silver, 6TB), 2, St Kitts &amp; Nevis, 68624344
+KAREN, X100L (Black, 2TB), -1, Romania, 71281509
+JENNIFER, Cast-Fi 7 (Silver, 2TB), 1, Mauritania, 5055424187
+KIMBERLY, Cast-Fi 7 (Silver, 12TB), 0, Montserrat, 197582061
+HELEN, A10 (Silver, 4TB), -3, Uruguay, 68624344
+SUSAN, FLOW (Silver, 4TB), 2, Cote D Ivoire, 79266334
+BRENDA, W20 (Black, 2TB), 4, Romania, 1967385398
+DOROTHY, X100L (Black, 6TB), 4, Palestine, 1734390947
+PATRICIA, A10 (Black, 4TB), -1, Andorra, 2026889313
+LINDA, W20 (Silver, 6TB), 1, Spain, 72439470
+SARAH, FLOW (Black, 4TB), -2, Guatemala, 78669547
+RY, N10 (Black, 2TB), -2, Netherlands, 2631
+BARBARA, W20 (Black, 2TB), -1, Uruguay, 3910611679
+BETTY, FLOW (Silver, 2TB), 2, Slovenia, 63091382
+MICHELLE, W20 (Silver, 12TB), -3, Armenia, 892520735
+ELIZABETH, N10 (Black, 2TB), 1, Niger, 2143727456
+SANDRA, W20 (Black, 2TB), 2, Namibia, 1856327245
+PATRICIA, Cast-Fi 7 (Black, 12TB), 0, Bahrain, 2026889313
+AMY, X100L (Black, 12TB), 0, Seychelles, 64941
+ELIZABETH, FLOW (Black, 2TB), 1, Costa Rica, 2143727456
+BETTY, A10 (Black, 12TB), 0, Switzerland, 63091382
+MARGARET, N10 (Silver, 8TB), 4, Georgia, 3269182743
+KIMBERLY, A10 (Black, 6TB), 4, Dominican Republic, 197582061
+PATRICIA, N10 (Black, 6TB), 0, Libya, 2026889313
+DEBORAH, X100L (Black, 4TB), -2, Cote D Ivoire, 2035460949
+DONNA, N100H (Black, 6TB), -1, Morocco, 65230358
+SUSAN, W20 (Silver, 2TB), 4, Bermuda, 79266334
+KIMBERLY, N10 (Silver, 4TB), 2, Norway, 197582061
+BARBARA, Cast-Fi 7 (Silver, 8TB), 4, Mauritius, 3910611679
+JESSICA, N100H (Silver, 4TB), 4, Croatia, 3305371564
+ANGELA, W20 (Silver, 2TB), 2, Zambia, 1935113344
+BARBARA, Cast-Fi 7 (Black, 8TB), 2, Belgium, 3910611679
+SHARON, A10 (Black, 4TB), 4, Jordan, 1850236507
+DONNA, N100H (Black, 2TB), 4, Gambia, 65230358
+RUTH, N100H (Silver, 2TB), 1, Japan, 2527223
+RUTH, Cast-Fi 7 (Black, 2TB), 2, Samoa, 2527223
+DEBORAH, Cast-Fi 7 (Black, 4TB), 4, Pakistan, 2035460949
+HELEN, A10 (Black, 12TB), 1, Andorra, 68624344
+BARBARA, A10 (Silver, 4TB), 0, Guam, 3910611679
+ELIZABETH, Cast-Fi 7 (Black, 2TB), 4, Iceland, 2143727456
+AMY, W20 (Silver, 12TB), -2, Timor L'Este, 64941
+MARGARET, N10 (Black, 12TB), 4, Virgin Islands (US), 3269182743
+BARBARA, N10 (Black, 6TB), 4, Antigua &amp; Barbuda, 3910611679
+DOROTHY, N100H (Black, 8TB), -2, Cambodia, 1734390947
+RY, FLOW (Black, 8TB), 4, Cook Islands, 2631
+KIMBERLY, N100H (Black, 4TB), 0, Ukraine, 197582061
+BARBARA, N100H (Black, 8TB), 2, Montenegro, 3910611679
+SARAH, X100L (Black, 8TB), -3, Suriname, 78669547
+PATRICIA, FLOW (Silver, 12TB), -3, Serbia, 2026889313
+BARBARA, FLOW (Silver, 12TB), 0, Barbados, 3910611679
+SANDRA, N100H (Silver, 12TB), 1, Russia, 1856327245
+CAROL, X100L (Black, 6TB), -2, Ukraine, 63893649
+JESSICA, N100H (Black, 8TB), 4, Jordan, 3305371564
+ANGELA, N10 (Silver, 12TB), 3, Falkland Islands, 1935113344
+DOROTHY, W20 (Black, 8TB), 1, San Marino, 1734390947
+DOROTHY, FLOW (Silver, 8TB), -2, Portugal, 1734390947
+BARBARA, N10 (Black, 2TB), -3, Uzbekistan, 3910611679
+JENNIFER, X100L (Black, 12TB), 0, Turkey, 5055424187
+RUTH, W20 (Black, 8TB), -2, Bhutan, 2527223
+SARAH, Cast-Fi 7 (Silver, 4TB), -1, Yemen, 78669547
+JENNIFER, Cast-Fi 7 (Black, 6TB), -3, British Virgin Islands, 5055424187
+KAREN, FLOW (Silver, 2TB), 3, St Vincent, 71281509
+SARAH, FLOW (Silver, 8TB), -2, Satellite, 78669547
+LAURA, A10 (Black, 8TB), 1, Estonia, 72208303
+LAURA, A10 (Silver, 4TB), 2, Montenegro, 72208303
+MICHELLE, X100L (Silver, 6TB), -3, Bahrain, 892520735
+SARAH, FLOW (Black, 4TB), 0, Libya, 78669547
+LINDA, Cast-Fi 7 (Silver, 4TB), -1, Cuba, 72439470
+PATRICIA, N100H (Black, 6TB), -1, Turkey, 2026889313
+JESSICA, N10 (Black, 12TB), 3, Vietnam, 3305371564
+DOROTHY, X100L (Black, 6TB), 0, Iceland, 1734390947
+RY, Cast-Fi 7 (Silver, 4TB), -2, Guinea Bissau, 2631
+MELISSA, W20 (Silver, 4TB), 0, New Zealand, 1666162860
+SHARON, W20 (Silver, 6TB), -1, Guinea Bissau, 1850236507
+ANGELA, FLOW (Silver, 6TB), -1, Ecuador, 1935113344
+LINDA, N10 (Silver, 2TB), 1, Luxembourg, 72439470
+KIMBERLY, FLOW (Black, 4TB), -1, Sweden, 197582061
+AMY, A10 (Black, 2TB), 3, Namibia, 64941
+MARIA, A10 (Silver, 6TB), 2, Nicaragua, 73128662
+KIMBERLY, X100L (Silver, 4TB), -1, Venezuela, 197582061
+JESSICA, X100L (Black, 4TB), 3, Mozambique, 3305371564
+LAURA, W20 (Silver, 12TB), 4, Saudi Arabia, 72208303
+RY, X100L (Black, 12TB), 0, Mauritius, 2631
+AMY, N100H (Black, 12TB), 0, Singapore, 64941
+HELEN, Cast-Fi 7 (Black, 8TB), -1, Mali, 68624344
+LAURA, N100H (Black, 12TB), -1, Spain, 72208303
+KIMBERLY, N10 (Silver, 2TB), -1, Brunei, 197582061
+CYNTHIA, W20 (Silver, 4TB), -2, Belize, 2339159772
+NANCY, X100L (Black, 4TB), 4, Sri Lanka, 74048177
+MICHELLE, N10 (Silver, 2TB), 3, Nigeria, 892520735
+LINDA, Cast-Fi 7 (Black, 6TB), 1, Pakistan, 72439470
+LINDA, FLOW (Black, 2TB), 0, Japan, 72439470
+BETTY, A10 (Silver, 8TB), -3, Monaco, 63091382
+PATRICIA, A10 (Silver, 12TB), 4, Bahamas, 2026889313
+NANCY, FLOW (Black, 6TB), 1, Gambia, 74048177
+KAREN, N10 (Black, 12TB), 1, Colombia, 71281509
+BARBARA, Cast-Fi 7 (Black, 6TB), -1, Guatemala, 3910611679
+LISA, Cast-Fi 7 (Black, 2TB), 3, St Kitts &amp; Nevis, 2336907
+PATRICIA, Cast-Fi 7 (Black, 4TB), 2, Antigua &amp; Barbuda, 2026889313
+MICHELLE, Cast-Fi 7 (Black, 4TB), -3, Namibia, 892520735
+MICHELLE, FLOW (Silver, 4TB), 0, Bosnia &amp; Herzegovina, 892520735
+RUTH, W20 (Silver, 6TB), 1, Serbia, 2527223
+MARIA, Cast-Fi 7 (Black, 4TB), -2, Sierra Leone, 73128662
+KIMBERLY, W20 (Black, 6TB), -3, Philippines, 197582061
+LAURA, N100H (Silver, 2TB), 2, Bahrain, 72208303
+KAREN, N100H (Silver, 6TB), 0, St Vincent, 71281509
+LAURA, FLOW (Silver, 6TB), 4, Uruguay, 72208303
+PATRICIA, W20 (Black, 12TB), 4, Gibraltar, 2026889313
+BETTY, X100L (Black, 4TB), 2, Barbados, 63091382
+MICHELLE, N100H (Silver, 6TB), 4, Cambodia, 892520735
+LISA, FLOW (Silver, 6TB), 3, Brunei, 2336907
+LISA, W20 (Black, 8TB), 2, France, 2336907
+DEBORAH, X100L (Black, 4TB), 2, Mongolia, 2035460949
+RY, N100H (Silver, 6TB), -3, Japan, 2631
+BRENDA, N10 (Black, 8TB), 1, New Caledonia, 1967385398
+KAREN, A10 (Silver, 2TB), 3, Mozambique, 71281509
+AMY, A10 (Black, 4TB), -3, Saint Pierre &amp; Miquelon, 64941
+CYNTHIA, N10 (Silver, 4TB), 3, Benin, 2339159772
+BRENDA, A10 (Black, 6TB), -3, Monaco, 1967385398
+ELIZABETH, X100L (Black, 2TB), 0, Madagascar, 2143727456
+LINDA, N100H (Silver, 4TB), 0, Uzbekistan, 72439470
+SHIRLEY, X100L (Black, 12TB), -1, St. Lucia, 2779595522
+RUTH, Cast-Fi 7 (Silver, 8TB), 0, Czech Republic, 2527223
+AMY, N10 (Silver, 6TB), -3, Tanzania, 64941
+AMY, FLOW (Silver, 2TB), 4, Italy, 64941
+SANDRA, X100L (Black, 2TB), -2, Laos, 1856327245
+DONNA, N100H (Black, 2TB), -3, Senegal, 65230358
+CYNTHIA, N10 (Silver, 4TB), 2, Niger, 2339159772
+MICHELLE, FLOW (Black, 4TB), -2, Iraq, 892520735
+ANGELA, FLOW (Silver, 8TB), 3, Pakistan, 1935113344
+LISA, N100H (Black, 12TB), 0, India, 2336907
+BARBARA, X100L (Silver, 4TB), 0, Argentina, 3910611679
+AMY, X100L (Silver, 8TB), 1, Bangladesh, 64941
+DEBORAH, W20 (Silver, 4TB), -3, Guinea Bissau, 2035460949
+SANDRA, X100L (Black, 12TB), 4, Palestine, 1856327245
+SUSAN, X100L (Silver, 2TB), 1, Papua New Guinea, 79266334
+MELISSA, Cast-Fi 7 (Black, 6TB), 1, Cambodia, 1666162860
+CAROL, X100L (Black, 8TB), 2, Congo, 63893649
+DONNA, W20 (Silver, 4TB), -3, Kuwait, 65230358
+PATRICIA, FLOW (Black, 8TB), 4, Bahamas, 2026889313
+MELISSA, A10 (Silver, 6TB), -2, Uganda, 1666162860
+JENNIFER, N100H (Silver, 4TB), -2, British Virgin Islands, 5055424187
+DOROTHY, W20 (Silver, 12TB), -1, Cote D Ivoire, 1734390947
+DOROTHY, N100H (Black, 8TB), -2, French West Indies, 1734390947
+RY, W20 (Silver, 8TB), 4, Romania, 2631
+SHIRLEY, N100H (Black, 4TB), 1, Papua New Guinea, 2779595522
+DONNA, FLOW (Silver, 8TB), -3, Luxembourg, 65230358
+SUSAN, A10 (Silver, 8TB), -3, Turks &amp; Caicos, 79266334
+JENNIFER, Cast-Fi 7 (Silver, 8TB), -2, Algeria, 5055424187
+DEBORAH, N100H (Black, 12TB), -2, Colombia, 2035460949
+SHIRLEY, Cast-Fi 7 (Black, 12TB), -3, Gabon, 2779595522
+BRENDA, Cast-Fi 7 (Silver, 12TB), 4, India, 1967385398
+ANGELA, N100H (Silver, 4TB), 3, Cyprus, 1935113344
+SHIRLEY, X100L (Silver, 2TB), -3, Monaco, 2779595522
+NANCY, N10 (Black, 8TB), -3, Congo, 74048177
+RUTH, A10 (Black, 4TB), 2, Tajikistan, 2527223
+DOROTHY, Cast-Fi 7 (Black, 2TB), -3, Australia, 1734390947
+DEBORAH, N10 (Black, 2TB), 0, Italy, 2035460949
+RY, W20 (Silver, 6TB), 0, Nepal, 2631
+KAREN, FLOW (Black, 4TB), 1, Switzerland, 71281509
+MELISSA, A10 (Silver, 2TB), -1, Belarus, 1666162860
+AMY, W20 (Silver, 8TB), -1, South Korea, 64941
+PATRICIA, FLOW (Silver, 8TB), -2, Costa Rica, 2026889313
+MELISSA, N100H (Black, 2TB), 4, Slovenia, 1666162860
+CYNTHIA, W20 (Silver, 8TB), 3, El Salvador, 2339159772
+SANDRA, N100H (Silver, 4TB), -3, United Arab Emirates, 1856327245
+DONNA, N100H (Silver, 12TB), -3, Greece, 65230358
+DEBORAH, X100L (Silver, 8TB), -1, Burkina Faso, 2035460949
+AMY, N100H (Black, 6TB), 3, Croatia, 64941
+DONNA, FLOW (Silver, 8TB), 4, Lesotho, 65230358
+SHIRLEY, Cast-Fi 7 (Black, 4TB), -2, Falkland Islands, 2779595522
+ANGELA, A10 (Silver, 6TB), 0, Montserrat, 1935113344
+CYNTHIA, X100L (Silver, 8TB), -3, Iceland, 2339159772
+MARIA, W20 (Silver, 8TB), -2, Greenland, 73128662
+KAREN, X100L (Silver, 2TB), -3, Zimbabwe, 71281509
+SANDRA, Cast-Fi 7 (Black, 12TB), 2, Argentina, 1856327245
+BARBARA, N10 (Black, 6TB), -3, Burkina Faso, 3910611679
+ANGELA, N10 (Silver, 2TB), -3, Afghanistan, 1935113344
+BARBARA, N10 (Silver, 6TB), 3, Guinea, 3910611679
+ANGELA, Cast-Fi 7 (Black, 8TB), 4, Greece, 1935113344
+KAREN, A10 (Silver, 12TB), 2, Satellite, 71281509
+SHIRLEY, N100H (Silver, 4TB), 2, Cambodia, 2779595522
+DONNA, N10 (Silver, 2TB), 1, Guatemala, 65230358
+ELIZABETH, A10 (Silver, 8TB), 1, Liechtenstein, 2143727456
+DONNA, Cast-Fi 7 (Black, 4TB), -2, Grenada, 65230358
+BETTY, X100L (Black, 2TB), 4, Romania, 63091382
+RY, Cast-Fi 7 (Silver, 6TB), -2, St Lucia, 2631
+JESSICA, FLOW (Silver, 12TB), 1, Reunion, 3305371564
+JESSICA, X100L (Silver, 2TB), 1, Montenegro, 3305371564
+LISA, X100L (Silver, 6TB), -3, Dominican Republic, 2336907
+AMY, X100L (Black, 8TB), 3, Isle of Man, 64941
+CAROL, Cast-Fi 7 (Silver, 8TB), 1, Bangladesh, 63893649
+SANDRA, A10 (Black, 4TB), -1, Iceland, 1856327245
+DEBORAH, FLOW (Black, 4TB), -2, Ecuador, 2035460949
+SHARON, Cast-Fi 7 (Silver, 6TB), 3, St Kitts &amp; Nevis, 1850236507
+JENNIFER, W20 (Silver, 8TB), 3, Azerbaijan, 5055424187
+RUTH, X100L (Black, 8TB), -1, Peru, 2527223
+NANCY, W20 (Silver, 6TB), 3, Jersey, 74048177
+HELEN, FLOW (Black, 2TB), 3, Djibouti, 68624344
+SUSAN, W20 (Black, 8TB), 4, Ghana, 79266334
+SUSAN, Cast-Fi 7 (Black, 2TB), -1, Antigua &amp; Barbuda, 79266334
+SANDRA, A10 (Silver, 2TB), 4, Kenya, 1856327245
+HELEN, FLOW (Silver, 6TB), 1, Ireland, 68624344
+KIMBERLY, N10 (Black, 12TB), -1, Guinea Bissau, 197582061
+MARIA, N100H (Silver, 2TB), 4, Ukraine, 73128662
+HELEN, N10 (Silver, 12TB), 1, New Caledonia, 68624344
+BRENDA, FLOW (Black, 12TB), -3, Lithuania, 1967385398
+KAREN, X100L (Silver, 8TB), -3, Pakistan, 71281509
+JESSICA, N100H (Silver, 12TB), 3, Georgia, 3305371564
+KAREN, Cast-Fi 7 (Silver, 6TB), -1, Malaysia, 71281509
+SUSAN, N10 (Silver, 6TB), -2, Tajikistan, 79266334
+SANDRA, N100H (Black, 12TB), 3, Liechtenstein, 1856327245
+SHIRLEY, N100H (Silver, 6TB), 1, Iraq, 2779595522
+BARBARA, A10 (Silver, 8TB), -3, Nepal, 3910611679
+CAROL, FLOW (Silver, 8TB), -3, St. Lucia, 63893649
+MARIA, Cast-Fi 7 (Silver, 12TB), 3, Liechtenstein, 73128662
+ELIZABETH, Cast-Fi 7 (Silver, 12TB), 1, Cyprus, 2143727456
+MELISSA, N100H (Black, 8TB), -1, Cuba, 1666162860
+SUSAN, X100L (Black, 12TB), 1, Hungary, 79266334
+ELIZABETH, Cast-Fi 7 (Black, 8TB), 0, Ecuador, 2143727456
+KAREN, X100L (Silver, 2TB), 3, Maldives, 71281509
+BRENDA, A10 (Silver, 4TB), 0, Denmark, 1967385398
+JENNIFER, Cast-Fi 7 (Silver, 2TB), 2, Laos, 5055424187
+BRENDA, X100L (Black, 12TB), 4, Nepal, 1967385398
+DEBORAH, X100L (Silver, 6TB), -2, Argentina, 2035460949
+MARIA, N100H (Black, 12TB), 4, Bangladesh, 73128662
+SARAH, A10 (Silver, 8TB), -1, Montserrat, 78669547
+JESSICA, A10 (Silver, 2TB), 1, Egypt, 3305371564
+KAREN, W20 (Black, 2TB), -2, Zimbabwe, 71281509
+JENNIFER, A10 (Black, 2TB), -1, Argentina, 5055424187
+SANDRA, X100L (Black, 12TB), 1, Belize, 1856327245
+DEBORAH, N10 (Black, 12TB), 1, New Caledonia, 2035460949
+MARGARET, N100H (Silver, 6TB), 1, Tanzania, 3269182743
+MELISSA, W20 (Silver, 12TB), -2, Yemen, 1666162860
+ELIZABETH, N10 (Black, 12TB), -1, Malta, 2143727456
+DONNA, FLOW (Silver, 2TB), 2, Faroe Islands, 65230358
+JENNIFER, FLOW (Black, 12TB), 3, Guatemala, 5055424187
+MARGARET, X100L (Black, 4TB), -1, Mozambique, 3269182743
+LISA, X100L (Black, 2TB), 1, Suriname, 2336907
+HELEN, N100H (Black, 2TB), -1, Colombia, 68624344
+CYNTHIA, N100H (Silver, 4TB), 2, Djibouti, 2339159772
+RUTH, N10 (Black, 12TB), 1, Cape Verde, 2527223
+BETTY, X100L (Silver, 4TB), -1, Norway, 63091382
+DONNA, Cast-Fi 7 (Black, 12TB), -1, Hungary, 65230358
+MARIA, FLOW (Silver, 4TB), 4, San Marino, 73128662
+JENNIFER, Cast-Fi 7 (Silver, 6TB), -2, Albania, 5055424187
+CAROL, N100H (Black, 12TB), -2, Thailand, 63893649
+MARIA, N10 (Silver, 6TB), 3, Burkina Faso, 73128662
+SUSAN, N10 (Silver, 12TB), 3, Virgin Islands (US), 79266334
+CAROL, A10 (Black, 4TB), 3, Belarus, 63893649
+SARAH, N100H (Silver, 6TB), -1, Poland, 78669547
+SHIRLEY, W20 (Black, 8TB), 3, Cayman Islands, 2779595522
+PATRICIA, X100L (Silver, 8TB), -3, St Vincent, 2026889313
+MELISSA, N100H (Silver, 4TB), 0, Malawi, 1666162860
+KAREN, FLOW (Silver, 2TB), -2, Djibouti, 71281509
+LISA, Cast-Fi 7 (Silver, 6TB), 3, Spain, 2336907
+MARIA, A10 (Silver, 8TB), 2, Monaco, 73128662
+BRENDA, N10 (Silver, 12TB), 0, Switzerland, 1967385398
+CAROL, W20 (Silver, 2TB), -1, Gambia, 63893649
+PATRICIA, A10 (Black, 8TB), 1, Trinidad &amp; Tobago, 2026889313
+LINDA, X100L (Black, 2TB), 0, Liberia, 72439470
+BETTY, W20 (Black, 2TB), -2, Australia, 63091382
+HELEN, N10 (Silver, 2TB), 3, Suriname, 68624344
+KAREN, X100L (Silver, 6TB), 4, Faroe Islands, 71281509
+SHARON, N100H (Silver, 12TB), -1, Oman, 1850236507
+BARBARA, FLOW (Silver, 4TB), 0, Yemen, 3910611679
+MARIA, Cast-Fi 7 (Black, 8TB), 4, Isle of Man, 73128662
+CAROL, W20 (Silver, 2TB), 4, Satellite, 63893649
+SHARON, W20 (Silver, 2TB), 1, Sweden, 1850236507
+CYNTHIA, W20 (Black, 6TB), 2, Gabon, 2339159772
+HELEN, X100L (Black, 8TB), -1, Timor L'Este, 68624344
+RUTH, W20 (Silver, 2TB), -2, New Caledonia, 2527223
+HELEN, N10 (Black, 6TB), -2, Tonga, 68624344
+SANDRA, N100H (Silver, 2TB), -2, Greenland, 1856327245
+MICHELLE, FLOW (Silver, 4TB), -2, Hungary, 892520735
+MARIA, X100L (Black, 6TB), 2, Hungary, 73128662
+SHIRLEY, X100L (Black, 4TB), 1, Malaysia, 2779595522
+MELISSA, W20 (Black, 2TB), -2, Botswana, 1666162860
+LISA, W20 (Silver, 4TB), -1, Oman, 2336907
+CAROL, N100H (Silver, 12TB), 0, Zambia, 63893649
+LISA, N10 (Black, 6TB), -1, Gabon, 2336907
+DONNA, Cast-Fi 7 (Black, 2TB), 1, Cruise Ship, 65230358
+SHIRLEY, Cast-Fi 7 (Silver, 12TB), 3, Trinidad &amp; Tobago, 2779595522
+JESSICA, A10 (Silver, 12TB), 4, Kuwait, 3305371564
+RY, A10 (Silver, 2TB), 3, Nigeria, 2631
+NANCY, X100L (Black, 6TB), 3, Guernsey, 74048177
+DOROTHY, X100L (Black, 2TB), 4, Macau, 1734390947
+DEBORAH, W20 (Silver, 8TB), 0, Colombia, 2035460949
+DEBORAH, N100H (Black, 8TB), 0, Puerto Rico, 2035460949
+DEBORAH, X100L (Silver, 8TB), 1, Mauritius, 2035460949
+DONNA, N100H (Black, 6TB), -1, Fiji, 65230358
+CAROL, Cast-Fi 7 (Silver, 2TB), 0, Syria, 63893649
+MARIA, A10 (Silver, 6TB), -3, Montenegro, 73128662
+LISA, FLOW (Black, 8TB), 1, Angola, 2336907
+NANCY, Cast-Fi 7 (Black, 12TB), -2, Russia, 74048177
+ELIZABETH, X100L (Black, 6TB), 1, Luxembourg, 2143727456
+BRENDA, N100H (Black, 2TB), 0, Niger, 1967385398
+JESSICA, A10 (Black, 2TB), -2, Kenya, 3305371564
+CAROL, X100L (Silver, 2TB), -3, Tanzania, 63893649
+KIMBERLY, Cast-Fi 7 (Silver, 2TB), 4, Malawi, 197582061
+MARIA, FLOW (Silver, 4TB), -3, Aruba, 73128662
+MELISSA, W20 (Silver, 4TB), -1, Bhutan, 1666162860
+RUTH, FLOW (Silver, 6TB), -3, Uruguay, 2527223
+MICHELLE, A10 (Black, 4TB), -1, Argentina, 892520735
+ANGELA, N10 (Black, 8TB), 1, Andorra, 1935113344
+BETTY, X100L (Silver, 8TB), -1, Niger, 63091382
+DONNA, A10 (Black, 8TB), -3, Czech Republic, 65230358
+MARIA, A10 (Black, 4TB), 0, Niger, 73128662
+HELEN, Cast-Fi 7 (Silver, 8TB), 2, Papua New Guinea, 68624344
+BARBARA, FLOW (Silver, 2TB), 4, Mexico, 3910611679
+KIMBERLY, X100L (Silver, 8TB), 3, Estonia, 197582061
+LISA, FLOW (Black, 2TB), 4, Albania, 2336907
+SANDRA, W20 (Silver, 6TB), 4, Hungary, 1856327245
+DONNA, N100H (Silver, 12TB), -1, Aruba, 65230358
+BETTY, W20 (Silver, 12TB), 0, Taiwan, 63091382
+KIMBERLY, A10 (Black, 4TB), 0, Djibouti, 197582061
+ANGELA, W20 (Black, 4TB), -1, Afghanistan, 1935113344
+RY, Cast-Fi 7 (Silver, 4TB), 2, Puerto Rico, 2631
+MARIA, W20 (Black, 2TB), 4, Honduras, 73128662
+SHARON, A10 (Black, 12TB), 1, Lebanon, 1850236507
+DONNA, Cast-Fi 7 (Silver, 6TB), -3, St Lucia, 65230358
+BRENDA, W20 (Silver, 6TB), -1, Portugal, 1967385398
+CAROL, W20 (Silver, 12TB), -1, United Arab Emirates, 63893649
+LAURA, Cast-Fi 7 (Black, 6TB), 0, Zambia, 72208303
+DONNA, A10 (Black, 6TB), 3, Trinidad &amp; Tobago, 65230358
+SHARON, N100H (Silver, 6TB), -2, Seychelles, 1850236507
+BRENDA, X100L (Silver, 2TB), 0, Nicaragua, 1967385398
+JESSICA, A10 (Black, 2TB), -2, Cameroon, 3305371564
+SANDRA, N100H (Black, 6TB), -2, Falkland Islands, 1856327245
+PATRICIA, FLOW (Black, 8TB), -3, Nicaragua, 2026889313
+CAROL, W20 (Silver, 2TB), -3, Macau, 63893649
+AMY, X100L (Silver, 2TB), 1, Croatia, 64941
+BARBARA, W20 (Black, 6TB), 2, Haiti, 3910611679
+NANCY, N100H (Silver, 2TB), 4, Oman, 74048177
+BRENDA, W20 (Black, 12TB), -2, Netherlands, 1967385398
+ELIZABETH, A10 (Black, 12TB), 0, Yemen, 2143727456
+ELIZABETH, A10 (Silver, 4TB), -2, Guatemala, 2143727456
+RUTH, W20 (Black, 6TB), 2, Lithuania, 2527223
+SUSAN, Cast-Fi 7 (Silver, 2TB), 3, Bahamas, 79266334
+HELEN, A10 (Black, 6TB), 4, Ghana, 68624344
+MARGARET, W20 (Silver, 6TB), 4, Thailand, 3269182743
+NANCY, N10 (Black, 2TB), 1, Sri Lanka, 74048177
+CYNTHIA, X100L (Black, 2TB), 3, Cayman Islands, 2339159772
+BRENDA, Cast-Fi 7 (Silver, 8TB), 1, Mongolia, 1967385398
+HELEN, Cast-Fi 7 (Silver, 2TB), 0, Luxembourg, 68624344
+NANCY, A10 (Black, 6TB), -3, Bhutan, 74048177
+KIMBERLY, W20 (Silver, 12TB), 1, Serbia, 197582061
+BRENDA, FLOW (Black, 8TB), 1, Saudi Arabia, 1967385398
+DEBORAH, Cast-Fi 7 (Black, 4TB), 4, Russia, 2035460949
+KAREN, X100L (Silver, 2TB), 1, Zambia, 71281509
+JENNIFER, X100L (Black, 4TB), -2, Nicaragua, 5055424187
+SHARON, N100H (Black, 2TB), 2, Latvia, 1850236507
+ANGELA, N10 (Black, 4TB), 0, Nicaragua, 1935113344
+PATRICIA, W20 (Silver, 4TB), 3, Jamaica, 2026889313
+RUTH, FLOW (Silver, 12TB), 0, Bahamas, 2527223
+AMY, FLOW (Silver, 6TB), -3, Algeria, 64941
+SHARON, A10 (Silver, 2TB), 4, Chad, 1850236507
+LAURA, X100L (Silver, 6TB), -1, Equatorial Guinea, 72208303
+SUSAN, Cast-Fi 7 (Silver, 6TB), -1, Malaysia, 79266334
+DEBORAH, W20 (Silver, 2TB), 4, Virgin Islands (US), 2035460949
+LINDA, A10 (Silver, 4TB), -2, Cameroon, 72439470
+LAURA, W20 (Silver, 4TB), 4, Lebanon, 72208303
+BETTY, N10 (Silver, 6TB), 1, Malta, 63091382
+BRENDA, FLOW (Silver, 8TB), 1, Israel, 1967385398
+BARBARA, N100H (Black, 8TB), 1, Denmark, 3910611679
+KIMBERLY, A10 (Black, 2TB), 1, Ghana, 197582061
+JESSICA, Cast-Fi 7 (Black, 6TB), -3, Cuba, 3305371564
+BETTY, W20 (Silver, 6TB), 1, Ireland, 63091382
+RY, N100H (Silver, 8TB), -3, Russia, 2631
+KAREN, N100H (Black, 8TB), -2, Japan, 71281509
+MELISSA, N100H (Silver, 2TB), -2, Japan, 1666162860
+DOROTHY, Cast-Fi 7 (Black, 6TB), -3, Oman, 1734390947
+DONNA, FLOW (Silver, 8TB), 1, Tunisia, 65230358
+CAROL, W20 (Silver, 2TB), -2, Ireland, 63893649
+SHARON, N10 (Black, 4TB), 2, Ethiopia, 1850236507
+BRENDA, FLOW (Black, 6TB), 0, Zimbabwe, 1967385398
+MARIA, A10 (Silver, 4TB), -1, Hong Kong, 73128662
+MARGARET, N100H (Black, 8TB), 4, St Kitts &amp; Nevis, 3269182743
+MICHELLE, N10 (Black, 4TB), 0, Azerbaijan, 892520735
+AMY, Cast-Fi 7 (Silver, 12TB), 1, Morocco, 64941
+SHARON, W20 (Black, 8TB), -1, Kyrgyz Republic, 1850236507
+LAURA, Cast-Fi 7 (Silver, 12TB), 0, Honduras, 72208303
+BETTY, Cast-Fi 7 (Black, 6TB), 4, Falkland Islands, 63091382
+BRENDA, W20 (Silver, 2TB), 4, Benin, 1967385398
+DONNA, W20 (Silver, 4TB), -3, Germany, 65230358
+AMY, A10 (Silver, 2TB), 3, Serbia, 64941
+LISA, W20 (Black, 6TB), -3, Dominican Republic, 2336907
+RUTH, N10 (Silver, 12TB), 1, Ghana, 2527223
+KAREN, W20 (Silver, 8TB), -2, Denmark, 71281509
+BARBARA, A10 (Silver, 6TB), 2, Romania, 3910611679
+NANCY, A10 (Silver, 4TB), 1, Latvia, 74048177
+SANDRA, N10 (Silver, 12TB), 3, South Africa, 1856327245
+SHIRLEY, W20 (Black, 12TB), -3, Bahamas, 2779595522
+CAROL, FLOW (Black, 12TB), -3, Burkina Faso, 63893649
+KAREN, X100L (Silver, 4TB), 3, Albania, 71281509
+CYNTHIA, N10 (Black, 6TB), 4, Malta, 2339159772
+PATRICIA, FLOW (Silver, 2TB), 1, Colombia, 2026889313
+LINDA, A10 (Black, 8TB), 3, British Virgin Islands, 72439470
+SHARON, A10 (Black, 4TB), 1, Bahrain, 1850236507
+SARAH, W20 (Silver, 4TB), 3, Belarus, 78669547
+SHARON, FLOW (Black, 4TB), 0, San Marino, 1850236507
+JESSICA, N10 (Silver, 2TB), -3, Antigua &amp; Barbuda, 3305371564
+LINDA, Cast-Fi 7 (Silver, 4TB), 4, Serbia, 72439470
+CYNTHIA, W20 (Silver, 2TB), -3, Ghana, 2339159772
+MARGARET, FLOW (Silver, 6TB), -2, Poland, 3269182743
+ELIZABETH, A10 (Black, 6TB), 0, Belgium, 2143727456
+BETTY, Cast-Fi 7 (Black, 12TB), 4, Antigua &amp; Barbuda, 63091382
+MARGARET, W20 (Silver, 4TB), 1, Lebanon, 3269182743
+BARBARA, A10 (Silver, 4TB), 1, Algeria, 3910611679
+MARIA, Cast-Fi 7 (Black, 8TB), -1, United Kingdom, 73128662
+BRENDA, X100L (Silver, 2TB), 3, Anguilla, 1967385398
+PATRICIA, N10 (Black, 2TB), 4, Vietnam, 2026889313
+ANGELA, N10 (Silver, 2TB), 3, Nicaragua, 1935113344
+DOROTHY, N100H (Silver, 6TB), 2, Zimbabwe, 1734390947
+AMY, W20 (Silver, 8TB), 0, Israel, 64941
+LINDA, FLOW (Silver, 12TB), -2, Germany, 72439470
+SANDRA, X100L (Silver, 6TB), -1, Cook Islands, 1856327245
+MARGARET, W20 (Black, 8TB), 1, Sri Lanka, 3269182743
+AMY, X100L (Silver, 2TB), 1, United Kingdom, 64941
+BETTY, A10 (Silver, 12TB), 1, Kazakhstan, 63091382
+KAREN, W20 (Black, 6TB), 2, Croatia, 71281509
+JESSICA, A10 (Silver, 4TB), -1, Turkmenistan, 3305371564
+BARBARA, Cast-Fi 7 (Black, 2TB), 2, Fiji, 3910611679
+LINDA, Cast-Fi 7 (Black, 4TB), 0, Paraguay, 72439470
+SHIRLEY, N100H (Silver, 6TB), -1, Papua New Guinea, 2779595522
+MICHELLE, N10 (Silver, 6TB), 1, Afghanistan, 892520735
+AMY, W20 (Silver, 6TB), 4, Zambia, 64941
+MARGARET, X100L (Silver, 8TB), 3, Trinidad &amp; Tobago, 3269182743
+BARBARA, N100H (Black, 8TB), 4, Iraq, 3910611679
+RUTH, FLOW (Black, 2TB), -3, China, 2527223
+PATRICIA, N10 (Silver, 4TB), 3, Cape Verde, 2026889313
+CYNTHIA, X100L (Black, 2TB), 1, Samoa, 2339159772
+DEBORAH, N10 (Silver, 12TB), 2, Bangladesh, 2035460949
+KIMBERLY, X100L (Silver, 12TB), 1, Philippines, 197582061
+DONNA, N100H (Silver, 6TB), -2, Gabon, 65230358
+MICHELLE, Cast-Fi 7 (Black, 12TB), 2, Qatar, 892520735
+HELEN, FLOW (Silver, 8TB), -2, Cruise Ship, 68624344
+DOROTHY, FLOW (Black, 6TB), 1, Liechtenstein, 1734390947
+LINDA, FLOW (Silver, 4TB), 0, Slovenia, 72439470
+SARAH, W20 (Silver, 12TB), -2, Palestine, 78669547
+MICHELLE, N10 (Black, 12TB), -2, Kenya, 892520735
+RUTH, Cast-Fi 7 (Black, 6TB), 4, Indonesia, 2527223
+MICHELLE, A10 (Black, 12TB), -2, Samoa, 892520735
+LINDA, W20 (Silver, 6TB), -2, United Arab Emirates, 72439470
+RUTH, X100L (Silver, 12TB), 0, Slovakia, 2527223
+ELIZABETH, A10 (Black, 12TB), 3, Saint Pierre &amp; Miquelon, 2143727456
+SUSAN, W20 (Black, 2TB), 4, Austria, 79266334
+ANGELA, X100L (Black, 4TB), -2, Rwanda, 1935113344
+MELISSA, W20 (Black, 6TB), 2, Slovenia, 1666162860
+RY, Cast-Fi 7 (Black, 8TB), 2, Denmark, 2631
+DEBORAH, Cast-Fi 7 (Black, 2TB), 3, United Kingdom, 2035460949
+ANGELA, N10 (Silver, 12TB), 2, Iceland, 1935113344
+DOROTHY, N100H (Silver, 4TB), 4, Egypt, 1734390947
+HELEN, N100H (Black, 8TB), 1, Kenya, 68624344
+DONNA, N10 (Silver, 12TB), 0, Bhutan, 65230358
+DEBORAH, N10 (Black, 4TB), 4, Spain, 2035460949
+HELEN, A10 (Black, 6TB), -3, France, 68624344
+MICHELLE, W20 (Silver, 2TB), 4, French West Indies, 892520735
+LINDA, X100L (Black, 12TB), -2, Tanzania, 72439470
+ELIZABETH, X100L (Silver, 8TB), 0, United Kingdom, 2143727456
+LAURA, Cast-Fi 7 (Black, 6TB), 4, Romania, 72208303
+LAURA, W20 (Silver, 8TB), -3, Jersey, 72208303
+SANDRA, N10 (Black, 6TB), 1, Ukraine, 1856327245
+JENNIFER, FLOW (Black, 6TB), -2, Gabon, 5055424187
+DEBORAH, N100H (Black, 6TB), 4, Uruguay, 2035460949
+SHIRLEY, N100H (Black, 4TB), 3, Tonga, 2779595522
+NANCY, W20 (Black, 8TB), -3, Congo, 74048177
+RY, FLOW (Black, 6TB), 3, Angola, 2631
+MARGARET, W20 (Silver, 6TB), 4, Tunisia, 3269182743
+JESSICA, FLOW (Black, 2TB), -2, Tajikistan, 3305371564
+NANCY, FLOW (Black, 12TB), 0, Angola, 74048177
+CYNTHIA, A10 (Black, 8TB), 1, Austria, 2339159772
+HELEN, A10 (Black, 8TB), -3, Cayman Islands, 68624344
+ELIZABETH, A10 (Silver, 12TB), -3, Kenya, 2143727456
+SUSAN, A10 (Black, 6TB), -3, Austria, 79266334
+SHIRLEY, N10 (Silver, 6TB), 2, Honduras, 2779595522
+SHIRLEY, W20 (Black, 2TB), 3, Turkmenistan, 2779595522
+RY, FLOW (Silver, 6TB), 0, Indonesia, 2631
+SHARON, X100L (Silver, 12TB), 3, Uzbekistan, 1850236507
+DEBORAH, A10 (Silver, 12TB), 0, Bulgaria, 2035460949
+MARGARET, Cast-Fi 7 (Silver, 12TB), -1, Aruba, 3269182743
+JENNIFER, Cast-Fi 7 (Black, 2TB), 1, Israel, 5055424187
+CAROL, N10 (Silver, 6TB), -2, Poland, 63893649
+SUSAN, N10 (Silver, 4TB), -2, Italy, 79266334
+LISA, N100H (Silver, 4TB), -1, Iran, 2336907
+SHARON, A10 (Black, 6TB), 4, El Salvador, 1850236507
+ANGELA, N10 (Silver, 2TB), 4, Uzbekistan, 1935113344
+DONNA, A10 (Black, 12TB), 1, French Polynesia, 65230358
+LAURA, X100L (Silver, 6TB), -2, Ecuador, 72208303
+AMY, A10 (Silver, 4TB), 2, Cruise Ship, 64941
+MICHELLE, Cast-Fi 7 (Black, 2TB), 1, New Caledonia, 892520735
+ELIZABETH, Cast-Fi 7 (Black, 12TB), 1, Barbados, 2143727456
+BETTY, FLOW (Black, 6TB), 1, Georgia, 63091382
+MELISSA, A10 (Silver, 2TB), 2, Iraq, 1666162860
+LINDA, FLOW (Black, 2TB), -3, Georgia, 72439470
+MARIA, N100H (Silver, 4TB), -1, Chad, 73128662
+SUSAN, FLOW (Silver, 2TB), 4, Egypt, 79266334
+DEBORAH, N10 (Black, 2TB), 4, Bhutan, 2035460949
+LISA, N100H (Silver, 12TB), -3, Tajikistan, 2336907
+SHIRLEY, X100L (Black, 4TB), -2, Bangladesh, 2779595522
+LAURA, N10 (Silver, 12TB), 3, Sri Lanka, 72208303
+MARGARET, FLOW (Black, 8TB), 3, Benin, 3269182743
+SARAH, X100L (Silver, 8TB), -2, Liberia, 78669547
+RY, N10 (Silver, 2TB), 3, Montserrat, 2631
+KAREN, W20 (Black, 2TB), 1, Japan, 71281509
+DEBORAH, N100H (Silver, 4TB), 1, Israel, 2035460949
+KIMBERLY, W20 (Black, 12TB), 2, Finland, 197582061
+RY, X100L (Black, 4TB), -2, Jersey, 2631
+JESSICA, A10 (Silver, 12TB), 0, Netherlands, 3305371564
+SUSAN, W20 (Silver, 12TB), -1, Namibia, 79266334
+RUTH, FLOW (Black, 2TB), 0, Australia, 2527223
+KIMBERLY, A10 (Silver, 12TB), 3, Belgium, 197582061
+CAROL, N10 (Black, 8TB), 0, Germany, 63893649
+LAURA, FLOW (Black, 8TB), -3, Tajikistan, 72208303
+SHARON, A10 (Silver, 6TB), 2, Portugal, 1850236507
+PATRICIA, N10 (Silver, 12TB), 4, Liechtenstein, 2026889313
+SANDRA, W20 (Black, 12TB), 0, Latvia, 1856327245
+SARAH, FLOW (Black, 12TB), 2, Australia, 78669547
+MARIA, Cast-Fi 7 (Black, 6TB), 3, Zambia, 73128662
+KIMBERLY, FLOW (Black, 12TB), -1, Denmark, 197582061
+MARGARET, FLOW (Silver, 2TB), 1, Pakistan, 3269182743
+RY, N100H (Black, 8TB), 0, Finland, 2631
+KAREN, N100H (Black, 4TB), 1, Bhutan, 71281509
+AMY, FLOW (Silver, 4TB), 3, Armenia, 64941
+LISA, X100L (Black, 6TB), 4, Bermuda, 2336907
+KAREN, W20 (Black, 2TB), -1, Vietnam, 71281509
+ELIZABETH, N10 (Silver, 12TB), -1, St Kitts &amp; Nevis, 2143727456
+LISA, N10 (Silver, 6TB), 2, Jersey, 2336907
+SARAH, N100H (Silver, 8TB), -2, Zimbabwe, 78669547
+LISA, X100L (Black, 8TB), 4, Guam, 2336907
+BRENDA, A10 (Black, 2TB), -3, Venezuela, 1967385398
+RY, A10 (Silver, 6TB), 4, Uruguay, 2631
+SANDRA, W20 (Silver, 4TB), -3, Gambia, 1856327245
+KAREN, W20 (Silver, 12TB), 3, Mongolia, 71281509
+MARIA, A10 (Silver, 12TB), 0, Tanzania, 73128662
+DONNA, A10 (Silver, 6TB), 4, Serbia, 65230358
+BRENDA, N10 (Silver, 8TB), -1, Gambia, 1967385398
+DONNA, W20 (Silver, 12TB), 0, Barbados, 65230358
+SHARON, X100L (Black, 12TB), -2, Ethiopia, 1850236507
+DONNA, Cast-Fi 7 (Silver, 8TB), -2, Slovenia, 65230358
+LAURA, X100L (Black, 2TB), -1, Tunisia, 72208303
+SHARON, A10 (Black, 12TB), -3, Nigeria, 1850236507
+MARGARET, N10 (Silver, 12TB), -3, Guinea, 3269182743
+BETTY, FLOW (Black, 4TB), -2, Sweden, 63091382
+DEBORAH, N100H (Silver, 6TB), 0, Suriname, 2035460949
+HELEN, N10 (Silver, 2TB), -2, St Kitts &amp; Nevis, 68624344
+BRENDA, Cast-Fi 7 (Silver, 12TB), -3, Estonia, 1967385398
+MARIA, FLOW (Black, 4TB), 1, Mongolia, 73128662
+LAURA, A10 (Silver, 6TB), 3, Angola, 72208303
+SHARON, X100L (Black, 2TB), -1, Azerbaijan, 1850236507
+DONNA, A10 (Black, 2TB), 0, Jersey, 65230358
+MELISSA, Cast-Fi 7 (Black, 4TB), 3, Greece, 1666162860
+MELISSA, Cast-Fi 7 (Silver, 12TB), 3, Mauritania, 1666162860
+BRENDA, W20 (Black, 8TB), -1, Uganda, 1967385398
+CYNTHIA, FLOW (Black, 4TB), -1, Bosnia &amp; Herzegovina, 2339159772
+LAURA, N10 (Silver, 12TB), -3, Antigua &amp; Barbuda, 72208303
+DONNA, FLOW (Silver, 8TB), 3, Poland, 65230358
+DONNA, W20 (Black, 6TB), 0, Faroe Islands, 65230358
+SARAH, FLOW (Silver, 12TB), -1, Monaco, 78669547
+SUSAN, N10 (Silver, 12TB), 1, Mongolia, 79266334
+JENNIFER, W20 (Black, 6TB), -3, Lesotho, 5055424187
+BRENDA, X100L (Black, 12TB), -2, Seychelles, 1967385398
+JESSICA, N100H (Silver, 8TB), 3, Macau, 3305371564
+CYNTHIA, Cast-Fi 7 (Black, 6TB), 0, Bhutan, 2339159772
+KAREN, X100L (Black, 6TB), 1, Japan, 71281509
+ANGELA, Cast-Fi 7 (Black, 4TB), -1, Austria, 1935113344
+LINDA, FLOW (Silver, 6TB), -1, Slovakia, 72439470
+KIMBERLY, N100H (Silver, 12TB), -3, Antigua &amp; Barbuda, 197582061
+BARBARA, W20 (Black, 12TB), -3, Bulgaria, 3910611679
+JESSICA, N10 (Silver, 4TB), 4, Aruba, 3305371564
+RY, Cast-Fi 7 (Silver, 12TB), -2, Burkina Faso, 2631
+DEBORAH, X100L (Black, 4TB), -1, Angola, 2035460949
+AMY, Cast-Fi 7 (Silver, 4TB), 1, Niger, 64941
+DONNA, N100H (Silver, 12TB), 1, Guinea Bissau, 65230358
+LAURA, FLOW (Black, 4TB), -1, Turks &amp; Caicos, 72208303
+LINDA, A10 (Silver, 6TB), 2, Armenia, 72439470
+SUSAN, X100L (Black, 8TB), -3, Equatorial Guinea, 79266334
+CYNTHIA, W20 (Black, 6TB), -1, Ecuador, 2339159772
+BARBARA, N100H (Black, 12TB), -3, Tonga, 3910611679
+LISA, N100H (Silver, 4TB), 0, Kuwait, 2336907
+RUTH, N100H (Black, 6TB), 1, Mali, 2527223
+PATRICIA, X100L (Silver, 6TB), 4, Australia, 2026889313
+AMY, N10 (Black, 12TB), -2, Uzbekistan, 64941
+LISA, W20 (Black, 4TB), 0, Lebanon, 2336907
+SHARON, A10 (Black, 12TB), -1, Mali, 1850236507
+PATRICIA, N10 (Silver, 4TB), -1, Hong Kong, 2026889313
+SHIRLEY, W20 (Black, 12TB), 0, Indonesia, 2779595522
+NANCY, N100H (Black, 4TB), 2, Papua New Guinea, 74048177
+BRENDA, A10 (Silver, 12TB), 3, Togo, 1967385398
+JESSICA, A10 (Black, 8TB), 1, Ghana, 3305371564
+MICHELLE, W20 (Black, 6TB), 0, Cuba, 892520735
+RUTH, FLOW (Black, 4TB), -1, Congo, 2527223
+SANDRA, N100H (Black, 12TB), 0, Gambia, 1856327245
+MICHELLE, Cast-Fi 7 (Black, 6TB), -2, Iceland, 892520735
+DONNA, FLOW (Silver, 4TB), -2, Albania, 65230358
+LAURA, A10 (Silver, 2TB), -2, French West Indies, 72208303
+HELEN, W20 (Black, 12TB), 4, Greece, 68624344
+MARIA, W20 (Black, 12TB), 4, Syria, 73128662
+JENNIFER, N100H (Black, 6TB), 4, Macau, 5055424187
+MARIA, N10 (Black, 4TB), 3, Trinidad &amp; Tobago, 73128662
+RUTH, A10 (Black, 6TB), 3, Slovakia, 2527223
+RUTH, N100H (Silver, 12TB), 3, Philippines, 2527223
+JENNIFER, N10 (Silver, 8TB), 3, United Arab Emirates, 5055424187
+DOROTHY, X100L (Silver, 4TB), 1, Aruba, 1734390947
+SARAH, N100H (Black, 8TB), -2, Guam, 78669547
+JESSICA, N100H (Black, 12TB), -3, Italy, 3305371564
+MELISSA, FLOW (Black, 4TB), 3, Uzbekistan, 1666162860
+JESSICA, X100L (Black, 2TB), 1, French Polynesia, 3305371564
+DOROTHY, FLOW (Black, 4TB), -1, Burkina Faso, 1734390947
+NANCY, A10 (Silver, 4TB), 1, Saudi Arabia, 74048177
+BETTY, FLOW (Silver, 2TB), 2, Chile, 63091382
+CAROL, W20 (Silver, 12TB), 1, Ghana, 63893649
+BARBARA, N10 (Silver, 2TB), 2, South Korea, 3910611679
+BRENDA, N100H (Silver, 4TB), 3, Faroe Islands, 1967385398
+JENNIFER, N10 (Black, 4TB), -1, Libya, 5055424187
+AMY, FLOW (Black, 4TB), 4, Dominican Republic, 64941
+ANGELA, N100H (Black, 8TB), -2, Rwanda, 1935113344
+DONNA, N10 (Black, 2TB), -3, St. Lucia, 65230358
+CYNTHIA, W20 (Black, 8TB), -2, Brazil, 2339159772
+LISA, A10 (Silver, 2TB), 3, Romania, 2336907
+DEBORAH, W20 (Silver, 6TB), 1, New Zealand, 2035460949
+KIMBERLY, N10 (Silver, 2TB), 4, Bermuda, 197582061
+MELISSA, X100L (Black, 12TB), 3, Jersey, 1666162860
+AMY, N100H (Silver, 2TB), 0, Yemen, 64941
+NANCY, A10 (Silver, 12TB), 2, Greenland, 74048177
+MICHELLE, Cast-Fi 7 (Silver, 8TB), 2, Tajikistan, 892520735
+DOROTHY, X100L (Silver, 4TB), -3, St Lucia, 1734390947
+SHARON, W20 (Black, 4TB), 2, Slovenia, 1850236507
+JESSICA, FLOW (Black, 6TB), 1, Sweden, 3305371564
+SARAH, X100L (Silver, 4TB), -1, New Zealand, 78669547
+KIMBERLY, W20 (Silver, 8TB), -2, Papua New Guinea, 197582061
+RY, X100L (Silver, 2TB), 2, Czech Republic, 2631
+HELEN, X100L (Black, 8TB), -3, Afghanistan, 68624344
+DONNA, W20 (Silver, 6TB), 4, South Africa, 65230358
+MARGARET, W20 (Silver, 6TB), 4, Venezuela, 3269182743
+KIMBERLY, Cast-Fi 7 (Black, 4TB), 3, Costa Rica, 197582061
+BRENDA, X100L (Black, 2TB), -1, Niger, 1967385398
+SARAH, X100L (Black, 4TB), -2, Bosnia &amp; Herzegovina, 78669547
+MICHELLE, N100H (Black, 8TB), -1, Pakistan, 892520735
+NANCY, FLOW (Silver, 6TB), 3, Brunei, 74048177
+SUSAN, A10 (Silver, 8TB), 3, Panama, 79266334
+CYNTHIA, N100H (Black, 2TB), -1, South Korea, 2339159772
+BETTY, X100L (Silver, 2TB), 2, Barbados, 63091382
+LISA, N100H (Black, 6TB), 1, Cuba, 2336907
+SARAH, X100L (Black, 4TB), 2, Bolivia, 78669547
+RY, N10 (Silver, 8TB), 4, Zambia, 2631
+NANCY, W20 (Silver, 12TB), 3, Poland, 74048177
+BETTY, N10 (Black, 6TB), 3, Gabon, 63091382
+MELISSA, W20 (Black, 8TB), 1, Bulgaria, 1666162860
+JESSICA, Cast-Fi 7 (Black, 12TB), -3, Algeria, 3305371564
+SHIRLEY, N10 (Silver, 6TB), -3, Mexico, 2779595522
+LISA, N100H (Silver, 2TB), -3, Ecuador, 2336907
+HELEN, W20 (Black, 6TB), 4, Namibia, 68624344
+SHARON, X100L (Black, 8TB), 3, Macedonia, 1850236507
+SHARON, FLOW (Silver, 6TB), 0, Trinidad &amp; Tobago, 1850236507
+LINDA, X100L (Black, 6TB), 1, Mauritania, 72439470
+RY, N10 (Silver, 4TB), 1, United Arab Emirates, 2631
+DEBORAH, N100H (Silver, 4TB), 4, Isle of Man, 2035460949
+NANCY, X100L (Black, 6TB), 1, Burkina Faso, 74048177
+ANGELA, W20 (Black, 6TB), 4, Bermuda, 1935113344
+RUTH, A10 (Silver, 2TB), 4, Spain, 2527223
+SANDRA, FLOW (Silver, 12TB), 2, South Korea, 1856327245
+JENNIFER, W20 (Black, 12TB), 2, Greenland, 5055424187
+MARGARET, N100H (Black, 4TB), 3, Belgium, 3269182743
+MARIA, N100H (Silver, 12TB), 3, Paraguay, 73128662
+NANCY, FLOW (Silver, 12TB), 2, Madagascar, 74048177
+CAROL, A10 (Black, 6TB), -3, Morocco, 63893649
+SARAH, N10 (Silver, 8TB), 4, Madagascar, 78669547
+CYNTHIA, Cast-Fi 7 (Silver, 2TB), 2, Liberia, 2339159772
+JENNIFER, N10 (Black, 6TB), -3, Mozambique, 5055424187
+CAROL, FLOW (Silver, 8TB), 3, Taiwan, 63893649
+LISA, N10 (Black, 6TB), 4, Singapore, 2336907
+SHIRLEY, X100L (Black, 4TB), 1, Kenya, 2779595522
+MICHELLE, N100H (Silver, 4TB), -2, Spain, 892520735
+DEBORAH, A10 (Black, 2TB), -1, Tonga, 2035460949
+MELISSA, FLOW (Silver, 6TB), -3, Seychelles, 1666162860
+KAREN, W20 (Black, 2TB), 3, Greece, 71281509
+CAROL, N10 (Black, 4TB), -1, Equatorial Guinea, 63893649
+LINDA, FLOW (Silver, 12TB), 0, Mauritania, 72439470
+MARGARET, W20 (Silver, 2TB), 0, Armenia, 3269182743
+MARGARET, N100H (Silver, 6TB), 3, Albania, 3269182743
+BRENDA, FLOW (Black, 8TB), 2, Isle of Man, 1967385398
+DEBORAH, Cast-Fi 7 (Black, 2TB), 1, Turkey, 2035460949
+AMY, Cast-Fi 7 (Silver, 2TB), -1, Liberia, 64941
+AMY, N100H (Black, 8TB), -1, South Africa, 64941
+PATRICIA, X100L (Black, 12TB), 3, Kuwait, 2026889313
+MELISSA, X100L (Black, 2TB), -2, Australia, 1666162860
+ANGELA, X100L (Silver, 12TB), -2, Morocco, 1935113344
+MICHELLE, FLOW (Silver, 6TB), 1, Saudi Arabia, 892520735
+KIMBERLY, X100L (Black, 2TB), 2, Russia, 197582061
+PATRICIA, Cast-Fi 7 (Black, 8TB), -3, St Vincent, 2026889313
+RUTH, W20 (Black, 2TB), 4, Aruba, 2527223
+LAURA, N100H (Black, 4TB), -2, Burkina Faso, 72208303
+JESSICA, W20 (Silver, 6TB), -2, Tunisia, 3305371564
+MARIA, Cast-Fi 7 (Black, 8TB), -2, Gambia, 73128662
+ELIZABETH, Cast-Fi 7 (Silver, 2TB), -2, Latvia, 2143727456
+LISA, Cast-Fi 7 (Silver, 6TB), -1, Uzbekistan, 2336907
+AMY, Cast-Fi 7 (Black, 2TB), -2, Liechtenstein, 64941
+DEBORAH, N100H (Black, 4TB), 0, Ghana, 2035460949
+RY, N10 (Black, 6TB), -3, Tunisia, 2631
+MELISSA, Cast-Fi 7 (Black, 8TB), 1, Brunei, 1666162860
+NANCY, X100L (Silver, 12TB), 4, St. Lucia, 74048177
+PATRICIA, W20 (Silver, 8TB), 3, Argentina, 2026889313
+MARIA, W20 (Silver, 4TB), -1, Peru, 73128662
+DEBORAH, FLOW (Black, 6TB), -1, Serbia, 2035460949
+DONNA, N10 (Black, 2TB), 0, St Vincent, 65230358
+BARBARA, N10 (Black, 6TB), 0, Montenegro, 3910611679
+BARBARA, A10 (Black, 8TB), 2, Libya, 3910611679
+LINDA, W20 (Black, 4TB), -1, Gabon, 72439470
+RUTH, W20 (Black, 4TB), 3, Cuba, 2527223
+BARBARA, N100H (Silver, 12TB), 0, Poland, 3910611679
+SHARON, Cast-Fi 7 (Black, 6TB), 1, Iceland, 1850236507
+CAROL, FLOW (Black, 2TB), 2, Faroe Islands, 63893649
+AMY, FLOW (Silver, 6TB), 0, Brazil, 64941
+SHIRLEY, FLOW (Silver, 8TB), -2, Nicaragua, 2779595522
+AMY, X100L (Silver, 2TB), 1, Hong Kong, 64941
+ANGELA, N10 (Black, 8TB), -2, India, 1935113344
+BRENDA, N10 (Black, 2TB), -3, Finland, 1967385398
+LISA, N100H (Silver, 2TB), 3, Malaysia, 2336907
+CAROL, N100H (Silver, 6TB), -3, Iraq, 63893649
+DOROTHY, X100L (Black, 4TB), 1, Taiwan, 1734390947
+SARAH, N100H (Silver, 6TB), -3, Liberia, 78669547
+MARIA, W20 (Black, 2TB), 3, Austria, 73128662
+SHARON, W20 (Black, 8TB), -1, Turkmenistan, 1850236507
+MARIA, FLOW (Black, 12TB), 2, Estonia, 73128662
+AMY, X100L (Black, 8TB), 4, Cape Verde, 64941
+CYNTHIA, W20 (Silver, 12TB), 0, Pakistan, 2339159772
+SARAH, Cast-Fi 7 (Black, 4TB), -3, Albania, 78669547
+RY, N10 (Black, 4TB), 2, Equatorial Guinea, 2631
+NANCY, N100H (Black, 4TB), 0, Paraguay, 74048177
+NANCY, W20 (Silver, 4TB), 4, Nigeria, 74048177
+RY, FLOW (Silver, 12TB), 4, Brunei, 2631
+JENNIFER, A10 (Silver, 4TB), 1, Ireland, 5055424187
+ELIZABETH, X100L (Black, 4TB), 2, Bhutan, 2143727456
+CYNTHIA, X100L (Black, 4TB), 4, Bangladesh, 2339159772
+CAROL, W20 (Silver, 4TB), 0, Cote D Ivoire, 63893649
+BARBARA, N100H (Black, 12TB), 3, Jamaica, 3910611679
+DEBORAH, N100H (Black, 2TB), -3, Guernsey, 2035460949
+CAROL, N10 (Black, 8TB), 1, Cook Islands, 63893649
+JENNIFER, N100H (Silver, 12TB), 4, Sudan, 5055424187
+BRENDA, X100L (Silver, 12TB), 0, Fiji, 1967385398
+RY, Cast-Fi 7 (Silver, 12TB), -3, Puerto Rico, 2631
+BETTY, N100H (Silver, 4TB), 1, Oman, 63091382
+DEBORAH, N10 (Silver, 8TB), -2, Dominica, 2035460949
+BARBARA, FLOW (Black, 2TB), 1, Ghana, 3910611679
+SANDRA, W20 (Silver, 12TB), 1, Italy, 1856327245
+SARAH, A10 (Silver, 4TB), 1, Ecuador, 78669547
+BARBARA, Cast-Fi 7 (Silver, 6TB), 3, Papua New Guinea, 3910611679
+CAROL, Cast-Fi 7 (Black, 8TB), -2, Angola, 63893649
+SUSAN, N100H (Silver, 8TB), 4, Denmark, 79266334
+SARAH, A10 (Black, 6TB), 4, New Zealand, 78669547
+RUTH, W20 (Silver, 8TB), 1, Zambia, 2527223
+SHIRLEY, A10 (Black, 4TB), -3, Montserrat, 2779595522
+BARBARA, W20 (Black, 8TB), 2, Turkey, 3910611679
+SHARON, W20 (Silver, 6TB), -1, Chad, 1850236507
+SUSAN, W20 (Silver, 2TB), -2, Lebanon, 79266334
+BETTY, N100H (Black, 12TB), 2, Falkland Islands, 63091382
+CAROL, N10 (Silver, 2TB), -3, Jersey, 63893649
+MELISSA, FLOW (Black, 8TB), -1, Brunei, 1666162860
+MARGARET, N100H (Silver, 8TB), -1, South Korea, 3269182743
+DOROTHY, N10 (Silver, 2TB), -3, Guernsey, 1734390947
+MELISSA, X100L (Black, 4TB), -1, Aruba, 1666162860
+ANGELA, Cast-Fi 7 (Silver, 8TB), 0, Nigeria, 1935113344
+BARBARA, W20 (Silver, 2TB), -1, Mauritania, 3910611679
+NANCY, X100L (Silver, 4TB), -1, China, 74048177
+KAREN, X100L (Black, 12TB), 0, Azerbaijan, 71281509
+RY, FLOW (Black, 2TB), 3, Brazil, 2631
+CAROL, N10 (Silver, 8TB), 3, Thailand, 63893649
+RUTH, Cast-Fi 7 (Silver, 6TB), 1, Malawi, 2527223
+JENNIFER, N10 (Black, 6TB), 1, Guinea Bissau, 5055424187
+SUSAN, N10 (Silver, 6TB), 1, Poland, 79266334
+BRENDA, Cast-Fi 7 (Silver, 2TB), -2, Ethiopia, 1967385398
+LISA, W20 (Black, 2TB), -2, Hungary, 2336907
+DEBORAH, Cast-Fi 7 (Black, 2TB), 3, Bermuda, 2035460949
+PATRICIA, A10 (Silver, 4TB), -2, Seychelles, 2026889313
+BETTY, FLOW (Black, 6TB), 0, Ireland, 63091382
+SHIRLEY, Cast-Fi 7 (Silver, 8TB), 3, Cameroon, 2779595522
+NANCY, A10 (Silver, 12TB), 4, Algeria, 74048177
+PATRICIA, W20 (Black, 6TB), 2, Qatar, 2026889313
+DEBORAH, N10 (Silver, 4TB), 0, Guinea, 2035460949
+MELISSA, Cast-Fi 7 (Black, 2TB), 0, Dominican Republic, 1666162860
+AMY, N100H (Black, 6TB), 4, Ghana, 64941
+MELISSA, N100H (Black, 6TB), -3, Bulgaria, 1666162860
+MICHELLE, Cast-Fi 7 (Silver, 6TB), 0, Afghanistan, 892520735
+KAREN, X100L (Black, 2TB), 0, Slovenia, 71281509
+KAREN, W20 (Silver, 2TB), -2, Indonesia, 71281509
+LAURA, N100H (Black, 4TB), 0, Sudan, 72208303
+MELISSA, N10 (Black, 8TB), -1, St Vincent, 1666162860
+CYNTHIA, N10 (Silver, 2TB), 3, Brazil, 2339159772
+CYNTHIA, N10 (Silver, 4TB), 4, French Polynesia, 2339159772
+ELIZABETH, FLOW (Black, 8TB), -1, Afghanistan, 2143727456
+CYNTHIA, N100H (Black, 8TB), -3, Finland, 2339159772
+KIMBERLY, W20 (Silver, 12TB), -3, El Salvador, 197582061
+NANCY, Cast-Fi 7 (Silver, 8TB), -2, Hong Kong, 74048177
+KAREN, X100L (Black, 6TB), -1, Senegal, 71281509
+SUSAN, N100H (Black, 8TB), 0, Belgium, 79266334
+SHIRLEY, FLOW (Silver, 12TB), 4, Barbados, 2779595522
+RY, W20 (Black, 4TB), 4, French Polynesia, 2631
+BRENDA, N10 (Silver, 12TB), -3, Anguilla, 1967385398
+BETTY, A10 (Black, 4TB), 0, Timor L'Este, 63091382
+LAURA, Cast-Fi 7 (Silver, 8TB), 4, Kyrgyz Republic, 72208303
+CYNTHIA, Cast-Fi 7 (Silver, 6TB), 0, Liberia, 2339159772
+SHIRLEY, FLOW (Silver, 6TB), 4, France, 2779595522
+SUSAN, W20 (Silver, 12TB), -1, Cyprus, 79266334
+KIMBERLY, N100H (Black, 4TB), 1, Aruba, 197582061
+DONNA, N100H (Silver, 8TB), 2, Kazakhstan, 65230358
+KAREN, FLOW (Black, 6TB), 2, Mexico, 71281509
+KAREN, FLOW (Silver, 2TB), -2, Maldives, 71281509
+DOROTHY, W20 (Silver, 8TB), -1, Guinea Bissau, 1734390947
+KIMBERLY, FLOW (Silver, 12TB), -1, South Africa, 197582061
+KIMBERLY, N100H (Silver, 8TB), -2, Latvia, 197582061
+RY, A10 (Black, 4TB), -3, Egypt, 2631
+KIMBERLY, N10 (Silver, 6TB), -1, Brazil, 197582061
+MARGARET, X100L (Black, 8TB), -3, Luxembourg, 3269182743
+BETTY, N100H (Silver, 6TB), 3, Tunisia, 63091382
+CYNTHIA, N100H (Black, 4TB), -2, Pakistan, 2339159772
+JESSICA, W20 (Silver, 2TB), 1, Greece, 3305371564
+AMY, Cast-Fi 7 (Black, 8TB), -3, Swaziland, 64941
+CYNTHIA, Cast-Fi 7 (Silver, 12TB), 4, Malaysia, 2339159772
+ANGELA, N100H (Black, 4TB), -1, Antigua &amp; Barbuda, 1935113344
+MARGARET, A10 (Black, 6TB), 1, Colombia, 3269182743
+DOROTHY, N10 (Silver, 2TB), 1, Guyana, 1734390947
+ELIZABETH, A10 (Silver, 12TB), 2, Saint Pierre &amp; Miquelon, 2143727456
+MARGARET, N100H (Black, 4TB), 0, South Africa, 3269182743
+ELIZABETH, FLOW (Silver, 2TB), -3, Spain, 2143727456
+MELISSA, X100L (Silver, 4TB), -2, New Zealand, 1666162860
+KIMBERLY, N10 (Silver, 6TB), 1, China, 197582061
+AMY, A10 (Silver, 12TB), 2, Angola, 64941
+KAREN, N10 (Silver, 2TB), -2, Libya, 71281509
+RUTH, A10 (Black, 2TB), -2, Niger, 2527223
+LISA, N100H (Black, 12TB), -3, Sweden, 2336907
+NANCY, N10 (Silver, 2TB), 4, Cruise Ship, 74048177
+KAREN, Cast-Fi 7 (Silver, 8TB), 4, French Polynesia, 71281509
+DOROTHY, Cast-Fi 7 (Silver, 6TB), 4, St Kitts &amp; Nevis, 1734390947
+MICHELLE, A10 (Silver, 12TB), -2, Rwanda, 892520735
+LISA, W20 (Black, 6TB), -2, Macau, 2336907
+BRENDA, N10 (Silver, 4TB), 1, Botswana, 1967385398
+CYNTHIA, N100H (Black, 4TB), 4, Uruguay, 2339159772
+DONNA, Cast-Fi 7 (Black, 2TB), 3, Bulgaria, 65230358
+DEBORAH, W20 (Silver, 12TB), 1, Mozambique, 2035460949
+HELEN, Cast-Fi 7 (Black, 6TB), 1, St. Lucia, 68624344
+DONNA, X100L (Silver, 2TB), 1, Namibia, 65230358
+KIMBERLY, N100H (Black, 4TB), -1, Georgia, 197582061
+BRENDA, Cast-Fi 7 (Silver, 4TB), 2, Guinea Bissau, 1967385398
+RY, A10 (Silver, 2TB), 2, Tunisia, 2631
+LINDA, W20 (Silver, 12TB), -1, El Salvador, 72439470
+LISA, N100H (Black, 6TB), -2, Serbia, 2336907
+RY, N10 (Silver, 4TB), 4, Mozambique, 2631
+KIMBERLY, W20 (Black, 2TB), -2, St Vincent, 197582061
+CAROL, N10 (Silver, 2TB), 4, Macau, 63893649
+PATRICIA, A10 (Silver, 4TB), 1, Netherlands, 2026889313
+DONNA, X100L (Silver, 2TB), -2, Zimbabwe, 65230358
+ELIZABETH, X100L (Silver, 4TB), 2, Greenland, 2143727456
+DOROTHY, FLOW (Silver, 12TB), 4, Guinea, 1734390947
+HELEN, FLOW (Silver, 12TB), -3, French Polynesia, 68624344
+CYNTHIA, N100H (Black, 6TB), -2, Senegal, 2339159772
+MARIA, N100H (Silver, 8TB), -1, St. Lucia, 73128662
+SUSAN, A10 (Black, 6TB), -2, Isle of Man, 79266334
+MARIA, X100L (Black, 6TB), 3, Guernsey, 73128662
+ELIZABETH, W20 (Silver, 6TB), -2, Algeria, 2143727456
+CYNTHIA, W20 (Silver, 2TB), 0, Armenia, 2339159772
+PATRICIA, FLOW (Silver, 2TB), 2, Czech Republic, 2026889313
+SARAH, FLOW (Silver, 12TB), 1, Malta, 78669547
+KAREN, A10 (Black, 2TB), 4, Dominican Republic, 71281509
+MELISSA, A10 (Black, 4TB), 4, Ireland, 1666162860
+LISA, Cast-Fi 7 (Black, 12TB), -1, Cuba, 2336907
+MICHELLE, W20 (Silver, 8TB), 3, Anguilla, 892520735
+LISA, N10 (Silver, 8TB), 3, Israel, 2336907
+DOROTHY, A10 (Black, 4TB), 1, Bolivia, 1734390947
+SHARON, W20 (Silver, 8TB), 0, Lithuania, 1850236507
+AMY, X100L (Black, 2TB), 3, Cape Verde, 64941
+CYNTHIA, N100H (Black, 2TB), -1, Colombia, 2339159772
+BETTY, N10 (Silver, 6TB), 4, Jamaica, 63091382
+SANDRA, A10 (Silver, 4TB), 3, St Lucia, 1856327245
+JESSICA, A10 (Silver, 12TB), 1, Trinidad &amp; Tobago, 3305371564
+BARBARA, N100H (Black, 2TB), -2, Suriname, 3910611679
+LISA, W20 (Black, 2TB), 1, Grenada, 2336907
+LISA, X100L (Black, 8TB), 1, Montenegro, 2336907
+SHIRLEY, A10 (Black, 6TB), 1, India, 2779595522
+ELIZABETH, N10 (Silver, 4TB), -3, Italy, 2143727456
+DOROTHY, A10 (Black, 4TB), 3, Afghanistan, 1734390947
+ELIZABETH, N10 (Black, 6TB), 0, Turkey, 2143727456
+AMY, A10 (Silver, 2TB), 1, Saint Pierre &amp; Miquelon, 64941
+ELIZABETH, FLOW (Silver, 2TB), -3, San Marino, 2143727456
+MICHELLE, W20 (Silver, 12TB), 4, Gambia, 892520735
+SHARON, W20 (Black, 8TB), -3, Cameroon, 1850236507
+RUTH, X100L (Silver, 6TB), 0, Dominica, 2527223
+RUTH, FLOW (Black, 4TB), 3, San Marino, 2527223
+MARIA, W20 (Silver, 2TB), -1, Saint Pierre &amp; Miquelon, 73128662
+DEBORAH, W20 (Silver, 6TB), 3, Bangladesh, 2035460949
+PATRICIA, A10 (Black, 4TB), -1, Zambia, 2026889313
+BETTY, X100L (Silver, 8TB), -2, Iceland, 63091382
+KAREN, W20 (Black, 2TB), -3, Sudan, 71281509
+RY, X100L (Silver, 6TB), -3, Zambia, 2631
+CYNTHIA, W20 (Silver, 2TB), 1, Italy, 2339159772
+JESSICA, Cast-Fi 7 (Black, 6TB), 0, St Kitts &amp; Nevis, 3305371564
+CYNTHIA, A10 (Black, 2TB), 2, Netherlands Antilles, 2339159772
+HELEN, FLOW (Silver, 2TB), -2, Thailand, 68624344
+DONNA, Cast-Fi 7 (Black, 12TB), 2, Grenada, 65230358
+RY, N100H (Black, 4TB), 1, Gibraltar, 2631
+MARIA, N100H (Silver, 6TB), 0, Malta, 73128662
+KIMBERLY, N100H (Black, 4TB), -2, Chad, 197582061
+KAREN, N100H (Silver, 8TB), 4, New Zealand, 71281509
+MELISSA, W20 (Silver, 12TB), 4, Dominica, 1666162860
+ANGELA, N10 (Black, 8TB), -2, Germany, 1935113344
+SHARON, FLOW (Black, 2TB), -1, Ireland, 1850236507
+SUSAN, FLOW (Silver, 6TB), -2, Mali, 79266334
+MELISSA, Cast-Fi 7 (Black, 2TB), 2, Norway, 1666162860
+MARGARET, X100L (Silver, 6TB), -1, Ethiopia, 3269182743
+ELIZABETH, A10 (Silver, 2TB), 1, United Kingdom, 2143727456
+BARBARA, X100L (Silver, 8TB), -2, Uzbekistan, 3910611679
+LISA, N10 (Silver, 2TB), 4, Sudan, 2336907
+DEBORAH, W20 (Black, 4TB), 0, Uganda, 2035460949
+HELEN, X100L (Black, 8TB), 4, San Marino, 68624344
+SHARON, X100L (Black, 8TB), 0, Sweden, 1850236507
+SARAH, N100H (Black, 8TB), -1, Cambodia, 78669547
+LAURA, Cast-Fi 7 (Black, 2TB), 0, Pakistan, 72208303
+BRENDA, N100H (Black, 8TB), -1, Qatar, 1967385398
+HELEN, N100H (Black, 8TB), 4, Israel, 68624344
+ANGELA, A10 (Black, 4TB), -2, Macau, 1935113344
+MICHELLE, FLOW (Black, 12TB), 1, Burkina Faso, 892520735
+DEBORAH, N10 (Silver, 8TB), -1, Portugal, 2035460949
+MELISSA, N10 (Silver, 12TB), 0, Netherlands, 1666162860
+DEBORAH, W20 (Silver, 8TB), 3, Zimbabwe, 2035460949
+JENNIFER, N10 (Black, 8TB), 4, Mongolia, 5055424187
+LISA, X100L (Black, 4TB), -3, Malta, 2336907
+PATRICIA, X100L (Silver, 6TB), -3, United Arab Emirates, 2026889313
+SANDRA, FLOW (Silver, 12TB), 4, Colombia, 1856327245
+HELEN, N100H (Silver, 8TB), 0, French Polynesia, 68624344
+BRENDA, W20 (Silver, 2TB), -2, Hong Kong, 1967385398
+MELISSA, Cast-Fi 7 (Silver, 6TB), 4, Lesotho, 1666162860
+DEBORAH, N10 (Silver, 4TB), -2, Cuba, 2035460949
+BARBARA, W20 (Black, 6TB), 2, Cruise Ship, 3910611679
+KAREN, X100L (Black, 6TB), 4, Mongolia, 71281509
+CAROL, A10 (Silver, 4TB), -2, Guyana, 63893649
+SHIRLEY, A10 (Black, 4TB), -1, Liechtenstein, 2779595522
+PATRICIA, FLOW (Black, 6TB), 1, Kyrgyz Republic, 2026889313
+LISA, N100H (Silver, 2TB), 2, French Polynesia, 2336907
+KAREN, X100L (Black, 8TB), -3, Peru, 71281509
+ANGELA, N10 (Black, 6TB), 4, Belgium, 1935113344
+PATRICIA, A10 (Silver, 6TB), -2, Iceland, 2026889313
+JENNIFER, Cast-Fi 7 (Silver, 6TB), 3, Croatia, 5055424187
+RY, Cast-Fi 7 (Black, 2TB), 3, Namibia, 2631
+DEBORAH, A10 (Black, 8TB), -2, Nepal, 2035460949
