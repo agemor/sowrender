@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:yes_or_no_camille"
+             x:Class="yes_or_no_camille.MainPage">
+  
+  <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+    <Button
+        android:text="Unstyled Button"
+        android:layout_width="fill_parent"
+        android:layout_height="StartAndExpand"
+        android:id="@+id/button2" />
+    <Button
+        android:background="@drawable/red_button"
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="StartAndExpand"
+        android:text="Styled Button"
+        style="@style/button_text" />
+    
+    <Label Text="insert new Nickname"
+           VerticalOptions="FillAndExpand"
+           HorizontalOptions="CenterAndExpand" />
+  </AbsoluteLayout>
+</ContentPage>
