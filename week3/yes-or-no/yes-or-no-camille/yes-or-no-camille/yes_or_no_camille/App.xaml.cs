@@ -13,7 +13,8 @@ namespace yes_or_no_camille
         {
             InitializeComponent();
 
-            MainPage = new yes_or_no_camille.SplashPage();
+            MainPage = new yes_or_no_camille.MainPage();
+            //MainPage = new yes_or_no_camille.SplashPage();
         }
 
         protected override void OnStart()
