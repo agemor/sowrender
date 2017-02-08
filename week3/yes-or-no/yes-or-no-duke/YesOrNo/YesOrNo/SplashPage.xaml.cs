@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
 namespace YesOrNo
 {
-    public partial class MainPage : ContentPage
+    public partial class SplashPage : ContentPage
     {
-        public MainPage()
+        public SplashPage()
         {
             InitializeComponent();
+
+            Image D = new Image();
+            D.Source = ImageSource.FromFile("D.png");
+
+            Content = D;
         }
     }
 }
