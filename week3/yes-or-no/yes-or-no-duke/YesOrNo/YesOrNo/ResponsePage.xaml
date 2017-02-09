@@ -10,7 +10,7 @@
               HorizontalOptions ="StartAndExpand"
               BackgroundColor="#D3D3D3"
               BorderColor="Black"
-              Margin="20,0,0,0"/>
+              Clicked="ExitClicked"/>
       <Label x:Name="header"
             Text="YES or NO"
             FontSize="Large"
@@ -21,13 +21,12 @@
               HorizontalOptions ="EndAndExpand"
               BackgroundColor="#D3D3D3"
               BorderColor="Black"
-              Margin="0,0,20,0"/>
+              Clicked="SettingClicked"/>
     </StackLayout>
     <Grid VerticalOptions="CenterAndExpand"
           HorizontalOptions="FillAndExpand"
           Padding="0"
           ColumnSpacing="0"
-          RowSpacing="0"
           >
       <Grid.RowDefinitions>
         <RowDefinition Height="150"></RowDefinition>
@@ -38,8 +37,22 @@
         <ColumnDefinition Width="*"></ColumnDefinition>
         <ColumnDefinition Width="20"></ColumnDefinition>
       </Grid.ColumnDefinitions>
-      <Button x:Name="YesButton" Grid.Row="0" Grid.Column="1" Text="Yes" FontSize="Large" BackgroundColor="Green" Clicked="YesClicked"></Button>
-      <Button x:Name="NoButton" Grid.Row="0" Grid.Column="2" Text="No" FontSize="Large" BackgroundColor="Red" Clicked="NoClicked"></Button>
+      <Button x:Name="YesButton" 
+              Grid.Row="0" 
+              Grid.Column="1" 
+              Text="Yes" 
+              FontSize="Large"
+              BackgroundColor="Green" 
+              Clicked="YesClicked">
+       </Button>
+      <Button x:Name="NoButton" 
+              Grid.Row="0" 
+              Grid.Column="2" 
+              Text="No" 
+              FontSize="Large"
+              BackgroundColor="Red" 
+              Clicked="NoClicked">  
+      </Button>
     </Grid>
   </StackLayout>
 </ContentPage>

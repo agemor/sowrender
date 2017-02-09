@@ -13,6 +13,14 @@ namespace YesOrNo
         {
             InitializeComponent();
         }
+        async void ExitClicked(object sender, EventArgs args)
+        {
+            await Navigation.PopAsync();
+        }
+        async void SettingClicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new SettingPage());
+        }
         void NoClicked(object sender, EventArgs args)
         {
             YesButton.BackgroundColor = Color.White;

@@ -14,6 +14,7 @@
            WidthRequest ="200"/>
     <Button x:Name ="EntryButton"
             Text="입장하기"
-            WidthRequest ="300"/>
+            WidthRequest ="300"
+            Clicked="JoinClicked"/>
   </StackLayout>  
 </ContentPage>
