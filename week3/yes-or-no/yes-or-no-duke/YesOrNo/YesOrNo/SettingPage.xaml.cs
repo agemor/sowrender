@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
 namespace YesOrNo
 {
-    public partial class JoinPage : ContentPage
+    public partial class SettingPage : ContentPage
     {
-        public JoinPage()
+        public SettingPage()
         {
             InitializeComponent();
         }
-        async void JoinClicked(object sender, EventArgs args)
+        async void ExitClicked(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new ResponsePage());
+            await Navigation.PopAsync();
         }
     }
 }

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YesOrNo.SettingPage">
+  <StackLayout Orientation="Vertical">
+    <StackLayout HorizontalOptions="FillAndExpand"
+                       Orientation="Horizontal">
+      <Button x:name="exit"
+              Text="Exit"
+              HorizontalOptions ="StartAndExpand"
+              BackgroundColor="#D3D3D3"
+              BorderColor="Black"
+              Clicked="ExitClicked"/>
+
+      <Label x:name="pageName"
+             Text="Setting"
+            FontSize="Large"
+            HorizontalOptions="CenterAndExpand"
+            Margin="0,10,0,0"/>
+
+      <Button x:name="check"
+              Text="Check"
+              HorizontalOptions ="EndAndExpand"
+              BackgroundColor="#D3D3D3"
+              BorderColor="Black"/>
+    </StackLayout>
+    <TableView Intent="Settings">
+      <TableRoot>
+        <TableSection Title="Setting">
+          <EntryCell Label="Nickname : "
+                     Placeholder="Insert new nickname"
+                     XAlign="Start"/>
+        </TableSection>
+      </TableRoot>
+    </TableView>    
+  </StackLayout>
+</ContentPage>

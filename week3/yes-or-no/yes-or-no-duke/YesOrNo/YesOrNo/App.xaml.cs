@@ -14,7 +14,7 @@ namespace YesOrNo
             InitializeComponent();
 
             //MainPage = new YesOrNo.MainPage();
-            MainPage = new YesOrNo.ResponsePage();
+            MainPage = new NavigationPage(new JoinPage());
         }
 
         protected override void OnStart()
