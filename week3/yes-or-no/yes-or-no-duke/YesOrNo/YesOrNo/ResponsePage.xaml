@@ -1,28 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:YesOrNo"
-             x:Class="YesOrNo.MainPage">
-
+             x:Class="YesOrNo.ResponsePage">
   <StackLayout Orientation="Vertical">
     <StackLayout Orientation="Horizontal"
                  HorizontalOptions ="FillAndExpand">
       <Button x:Name="exit"
               Text="Exit"
-              HorizontalOptions ="StartAndExpand"/>
+              HorizontalOptions ="StartAndExpand"
+              BackgroundColor="#D3D3D3"
+              BorderColor="Black"
+              Margin="20,0,0,0"/>
       <Label x:Name="header"
             Text="YES or NO"
             FontSize="Large"
-            HorizontalOptions="CenterAndExpand"/>
+            HorizontalOptions="CenterAndExpand"
+            Margin="0,10,0,0"/>
       <Button x:Name="setting"
               Text="Setting"
-              HorizontalOptions ="EndAndExpand"/>
+              HorizontalOptions ="EndAndExpand"
+              BackgroundColor="#D3D3D3"
+              BorderColor="Black"
+              Margin="0,0,20,0"/>
     </StackLayout>
-    <Grid VerticalOptions="CenterAndExpand" 
+    <Grid VerticalOptions="CenterAndExpand"
           HorizontalOptions="FillAndExpand"
           Padding="0"
           ColumnSpacing="0"
-          RowSpacing="0">
+          RowSpacing="0"
+          >
       <Grid.RowDefinitions>
         <RowDefinition Height="150"></RowDefinition>
       </Grid.RowDefinitions>
@@ -32,8 +38,8 @@
         <ColumnDefinition Width="*"></ColumnDefinition>
         <ColumnDefinition Width="20"></ColumnDefinition>
       </Grid.ColumnDefinitions>
-      <Button Grid.Row="0" Grid.Column="1" Text="1" BackgroundColor="Red"></Button>
-      <Button Grid.Row="0" Grid.Column="2" Text="2" BackgroundColor="Green"></Button>
+      <Button x:Name="YesButton" Grid.Row="0" Grid.Column="1" Text="Yes" FontSize="Large" BackgroundColor="Green" Clicked="YesClicked"></Button>
+      <Button x:Name="NoButton" Grid.Row="0" Grid.Column="2" Text="No" FontSize="Large" BackgroundColor="Red" Clicked="NoClicked"></Button>
     </Grid>
   </StackLayout>
 </ContentPage>

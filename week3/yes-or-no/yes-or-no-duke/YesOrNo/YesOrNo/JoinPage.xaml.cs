@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 
 namespace YesOrNo
 {
-    public partial class MainPage : ContentPage
+    public partial class JoinPage : ContentPage
     {
-        public MainPage()
+        public JoinPage()
         {
             InitializeComponent();
         }
