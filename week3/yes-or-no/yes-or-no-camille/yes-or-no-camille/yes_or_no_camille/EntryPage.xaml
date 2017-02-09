@@ -1,24 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:yes_or_no_camille"
              x:Class="yes_or_no_camille.EntryPage">
-  
   <StackLayout VerticalOptions="CenterAndExpand"
                HorizontalOptions="CenterAndExpand"
                Orientation="Vertical"
                Spacing="15">
-    
+
     <Label Text="insert roon name"
            Font="Large"
            XAlign="Center"/>
-    
+
     <Entry x:name="RoomKey"
            WidthRequest="200"/>
-    
+
     <Button x:Name="EntryButton"
             Text="Enter"
-            WidthRequest="300"/>
+            WidthRequest="300"
+            Clicked="EnterClicked"/>
   </StackLayout>
-  
 </ContentPage>

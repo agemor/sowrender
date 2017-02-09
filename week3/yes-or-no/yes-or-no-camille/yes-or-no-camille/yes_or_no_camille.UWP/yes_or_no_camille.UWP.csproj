@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{4E3CFA3C-702E-4B60-A9FB-1DDECBA1FB44}</ProjectGuid>
+    <ProjectGuid>{96BF78A3-CF0C-4B2D-B8A1-6E2215234C54}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>yes_or_no_camille.UWP</RootNamespace>
@@ -129,7 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\yes_or_no_camille\yes_or_no_camille.csproj">
-      <Project>{9ba6adc1-43cb-4c50-bc0b-651f52d40a97}</Project>
+      <Project>{90ebb4bb-9b94-44d7-8290-5e0d31fc02e3}</Project>
       <Name>yes_or_no_camille</Name>
     </ProjectReference>
   </ItemGroup>

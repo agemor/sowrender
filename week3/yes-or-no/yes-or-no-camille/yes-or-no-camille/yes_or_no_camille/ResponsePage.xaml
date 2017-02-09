@@ -3,4 +3,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="yes_or_no_camille.ResponsePage">
   <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Horizontal"
+                 HorizontalOptions ="FillAndExpand">
+      <Button x:Name="exit"
+              Text="Exit"
+              HorizontalOptions ="StartAndExpand" 
+              Clicked="ExitClicked"/>
+      <Label x:Name="header"
+            Text="YES or NO"
+            FontSize="Large"
+            HorizontalOptions="CenterAndExpand"
+            Margin="0,10,0,0"/>
+      <Button x:Name="setting"
+              Text="Setting"
+              HorizontalOptions ="EndAndExpand"
+              Clicked="SettingClicked"/>
+    </StackLayout>
+    <Grid VerticalOptions="CenterAndExpand"
+          HorizontalOptions="FillAndExpand"
+          Padding="0"
+          ColumnSpacing="0"
+         >
+      <Grid.RowDefinitions>
+        <RowDefinition Height="150"></RowDefinition>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="20"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="20"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <Button x:Name="YesButton"
+              Grid.Row="0"
+              Grid.Column="1"
+              Text="Yes"
+              FontSize="Large"
+              BackgroundColor="Green"
+              Clicked="YesClicked">
+      </Button>
+      <Button x:Name="NoButton"
+              Grid.Row="0"
+              Grid.Column="2"
+              Text="No"
+              FontSize="Large"
+              BackgroundColor="Red"
+              Clicked="NoClicked">
+      </Button>
+    </Grid>
+  </StackLayout>
 </ContentPage>

@@ -4,43 +4,8 @@
              xmlns:local="clr-namespace:yes_or_no_camille"
              x:Class="yes_or_no_camille.MainPage">
 
-  <!--StackLayout VerticalOptions="StartAndExpand"
-             HorizontalOptions="CenterAndExpand"
-             Orientation="Vertical"
-             Spacing="15">
-    
-    <StackLayout VerticalOptions="StartAndExpand"
-             HorizontalOptions="CenterAndExpand"
-             Orientation="Horizontal"
-             Spacing="15">
-      
-      <Button x:Name="exit"
-              Text="exit"
-              VerticalOptions="CenterAndExpand"
-              HorizontalOptions="CenterAndExpand"/>
+  <Label Text="Welcome to Xamarin Forms!"
+           VerticalOptions="Center"
+           HorizontalOptions="Center" />
 
-      <Label Text="Setting Page"
-             VerticalOptions="CenterAndExpand"
-             HorizontalOptions="CenterAndExpand"
-             Font="Large"/>
-      
-      <Button x:Name="check"
-        Text="check"
-        VerticalOptions="CenterAndExpand"
-        HorizontalOptions="CenterAndExpand"/>
-      
-    </StackLayout>
-
-    <Label Text="insert new Nickname"
-           Font="Large"
-           VerticalOptions="EndAndExpand"
-           HorizontalOptions="CenterAndExpand"/>
-
-    <Entry x:name="Nicname"
-           VerticalOptions="CenterAndExpand"
-           HorizontalOptions="CenterAndExpand"
-           WidthRequest="300"/>
-
-  </StackLayout-->
-  
 </ContentPage>
