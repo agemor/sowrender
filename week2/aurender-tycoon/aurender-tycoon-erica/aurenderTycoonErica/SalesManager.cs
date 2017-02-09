@@ -47,7 +47,7 @@ namespace aurenderTycoonErica
         {
             /* 환불할 수 있는 수량 반환 */
             p.Stock = PossibelRefundAmount(p, c);
-                   sales += p.Price * p.Stock;
+            sales += p.Price * p.Stock;
             int amount = productManager.ManageStock(p);
             customerManager.ManageCount(c, amount);
             AddReciept(p, c);

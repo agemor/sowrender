@@ -2,7 +2,7 @@
 Product(string modelName, string color, string capacity)
 Product(string modelName, string explanation, int price, int inventory, string color, string capacity)
 private string modelName {get}
-private string explanation {get}
+private string explanation {get}   
 
 #### attribute{
   private int price {get}
@@ -14,7 +14,6 @@ private string explanation {get}
 ## ProductManager
 private List<Product> productInfo {get}
 
-public void Refound(Product p)
 getInstance()
 
 
@@ -24,7 +23,7 @@ private Dictionary<string, Customer> customerData
 getInstance()
 
 public void AddCustomerData(Customer c)
-private void Modify(string phone, Customer customer)
+private void Modify(string phone, Custo mer customer)
 public void DeleteCustomerData(string phone)
 
 ## Customer
@@ -37,11 +36,17 @@ private shippingAddress
 private int count // 주문 횟수
 
 ## SalesManager
-ProductManager product
-CustomerManager customer
+private ProductManager product = getInstance()
+private CustomerManager customer = getInstance()
+
+
+
+public bool Purchase(Product p, Customer c)
+
+
 
 public bool Refund() //환불
-private bool PerchaseCheck()
+private bool PurchaseCheck()
 
 getInstance()
 
@@ -49,12 +54,12 @@ getInstance()
 ## static ProductStatistics
 private List<SalesManager> reciept {get;}
 
-private Dictionary<string, SalesManager> salesAmountByModel
+private Dictionary<string, SalesManager> salesAmountModel
 
 private List totalSalesAmount
 
 
 
-exportAsCsv() // CSV로 내보내기
+public void exportAsCsv() // CSV로 내보내기
 
 
