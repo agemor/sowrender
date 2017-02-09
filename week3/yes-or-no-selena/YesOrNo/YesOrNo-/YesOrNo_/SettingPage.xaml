@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:YesOrNo_"
+             x:Class="YesOrNo_.SettingPage">
+  
+  <TableView Intent="Settings">
+    <TableRoot>
+      <TableSection Title="Setting page">
+        <ViewCell>
+          <StackLayout VerticalOptions="StartAndExpand"
+             HorizontalOptions="CenterAndExpand"
+             Orientation="Horizontal"
+             Spacing="15">
+
+            <Button x:name="exit"
+                     Text="Exit"
+                     Font="Large"
+                    Clicked="ExitClicked"/>
+
+            <Label x:name="pageName"
+                    Text="Setting"
+                    FontSize="Large"/>
+
+            <Button x:name="check"
+                     Text="Check"
+                     Font="Large"/>
+
+          </StackLayout>
+        </ViewCell>
+
+        <EntryCell Label="Nickname : "
+                    Placeholder="Insert new nicname"
+                    XAlign="Start"/>
+
+      </TableSection>
+    </TableRoot>
+  </TableView>
+</ContentPage>
