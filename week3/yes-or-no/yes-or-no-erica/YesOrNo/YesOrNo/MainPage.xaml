@@ -4,13 +4,14 @@
              xmlns:local="clr-namespace:YesOrNo"
              x:Class="YesOrNo.MainPage">
 
-  <StackLayout VerticalOptions="CenterAndExpand"
-             HorizontalOptions="CenterAndExpand"
+  <StackLayout VerticalOptions="Center"
+             HorizontalOptions="End"
              Orientation="Vertical"
              Spacing="15">
 
-    <Label Text="방 키를 입력하세요"
-           Font="Large"/>
+    <Label Text="방 이름을 입력하세요"
+           Font="Large"
+           XAlign="Center"/>
     
     <Entry x:Name="RoomKey"
            WidthRequest = "200"/>
