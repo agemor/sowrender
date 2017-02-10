@@ -9,13 +9,10 @@ namespace YesOrNo
 {
     public partial class ResponsePage : ContentPage
     {
-        public ResponsePage()
+        public ResponsePage(string RoomKey)
         {
             InitializeComponent();
-        }
-        async void ExitClicked(object sender, EventArgs args)
-        {
-            await Navigation.PopAsync();
+            Title = RoomKey;            
         }
         async void SettingClicked(object sender, EventArgs args)
         {
@@ -29,7 +26,8 @@ namespace YesOrNo
         void YesClicked(object sender, EventArgs args)
         {
             NoButton.BackgroundColor = Color.White;
-            YesButton.BackgroundColor = Color.Green;
+            YesButton.BackgroundColor = Color.FromHex("#00a53c");
         }
+        
     }
 }

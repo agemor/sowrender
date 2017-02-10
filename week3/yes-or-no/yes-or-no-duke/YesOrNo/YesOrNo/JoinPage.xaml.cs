@@ -12,10 +12,14 @@ namespace YesOrNo
         public JoinPage()
         {
             InitializeComponent();
+
         }
         async void JoinClicked(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new ResponsePage());
+            if (String.IsNullOrWhiteSpace(RoomKey.Text))
+                DisplayAlert("Room Name", "You have to Insert Room Name", "OK");
+            else
+                await Navigation.PushAsync(new ResponsePage(RoomKey.Text));
         }
     }
 }

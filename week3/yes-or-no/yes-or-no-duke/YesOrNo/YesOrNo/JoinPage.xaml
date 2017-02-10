@@ -3,17 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:YesOrNo"
              x:Class="YesOrNo.JoinPage">
+  <ContentPage.Title>
+    Join
+  </ContentPage.Title>
   <StackLayout VerticalOptions ="CenterAndExpand"
                HorizontalOptions ="CenterAndExpand"
                Orientation="Vertical"
                Spacing="15">
-    <Label Text="방 이름을 입력하세요"
+    <Label Text="Insert Your Room Name"
            Font="Large"
            XAlign="Center"/>
     <Entry x:Name="RoomKey"
            WidthRequest ="200"/>
     <Button x:Name ="EntryButton"
-            Text="입장하기"
+            Text="Join"
             WidthRequest ="300"
             Clicked="JoinClicked"/>
   </StackLayout>  
