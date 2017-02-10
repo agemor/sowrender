@@ -8,16 +8,11 @@ using Xamarin.Forms;
 
 namespace yes_or_no_camille
 {
-    public partial class SplashPage : ContentPage
+    public partial class SettingPage : ContentPage
     {
-        public SplashPage()
+        public SettingPage()
         {
             InitializeComponent();
-
-            Image wow = new Image();
-            wow.Source = ImageSource.FromFile("wow.jpg");
-
-            Content = wow;
         }
     }
 }

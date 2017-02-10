@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E38046E-0FEF-4CF2-B82B-B86210BB1E15}</ProjectGuid>
+    <ProjectGuid>{07191711-B7F6-4726-8609-D29A274C0411}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>yes_or_no_camille.WinPhone</RootNamespace>
@@ -114,7 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\yes_or_no_camille\yes_or_no_camille.csproj">
-      <Project>{9ba6adc1-43cb-4c50-bc0b-651f52d40a97}</Project>
+      <Project>{90ebb4bb-9b94-44d7-8290-5e0d31fc02e3}</Project>
       <Name>yes_or_no_camille</Name>
     </ProjectReference>
   </ItemGroup>

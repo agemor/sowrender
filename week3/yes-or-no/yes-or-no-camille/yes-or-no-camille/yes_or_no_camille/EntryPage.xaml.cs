@@ -14,5 +14,9 @@ namespace yes_or_no_camille
         {
             InitializeComponent();
         }
+        async void EnterClicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new ResponsePage());
+        }
     }
 }

@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{635D62B5-20F8-4265-ACED-302273BCFEDF}</ProjectGuid>
+    <ProjectGuid>{6385EE93-2D62-42D7-B43D-9B9FD2D3B80A}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>yes_or_no_camille.iOS</RootNamespace>
@@ -139,7 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\yes_or_no_camille\yes_or_no_camille.csproj">
-      <Project>{9ba6adc1-43cb-4c50-bc0b-651f52d40a97}</Project>
+      <Project>{90ebb4bb-9b94-44d7-8290-5e0d31fc02e3}</Project>
       <Name>yes_or_no_camille</Name>
     </ProjectReference>
   </ItemGroup>

@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="0f69edea-b224-4613-a180-a85d1a44b26b"
+    Name="effc9e5d-1bcf-46b6-868e-46a1173beb56"
     Publisher="CN=dsm"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="0f69edea-b224-4613-a180-a85d1a44b26b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="effc9e5d-1bcf-46b6-868e-46a1173beb56" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>yes_or_no_camille.UWP</DisplayName>
