@@ -14,9 +14,8 @@ namespace YesOrNo
         {
             InitializeComponent();
         }
-        async void ExitClicked(object sender, EventArgs args)
+        void SubmitClicked(object sender, EventArgs args)
         {
-            await Navigation.PopAsync();
         }
     }
 }
